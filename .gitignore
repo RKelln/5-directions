@@ -1,0 +1,16 @@
+# reveal-vite
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+# large files
+public
+
+# utils and notes
+deploy.sh
+NOTES.md
+
+# vscode
+*.code-workspace

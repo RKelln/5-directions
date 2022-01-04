@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test slideshow</title>
+  </head>
+  <body>
+      <div class="reveal">
+        <div class="slides">
+          <section data-audio-advance=-1>
+            <h3>Press spacebar to begin...</h3>
+          </section>
+  
+          <section>
+    
+            <section data-background-image="images/test_pattern.png" 
+              data-background-opacity="0.4"
+              data-audio-advance=1500>                  
+              <h1 class="r-fit-text">Fundamentals</h1>
+              <aside class="notes">
+                Before I can talk about why I make things, it's important to cover some basics.
+                Things that I learned from my own research, since my own education and culture often
+                left many stones unturned.
+              </aside>
+            </section>
+  
+            <section data-background-image="images/digital-signal-noise.svg">
+              <h1>Digital</h1>
+              <p>Digitalization is a tool to overcome noise</p>
+              <aside class="notes">
+                <p>We are told we live a digital world. And we gotten used to living there, 
+                and in many ways, forgotten how strange it really is.</p>
+                <p>Whatever our digital world is, it cannot escape reality. And reality, at least
+                at the level of electricity, is analog.</p>
+                <p>So at it's lowest level a digital signal is still analog - a messy or noisy signal.</p>
+                <p>The blue line in the image represents this signal. You can see
+                it alternating between a 1 and a 0, the two possible digital values, but
+                still is affected by noise - the squiggly bits. But a digital signal is designed 
+                to overcome this noise, not to let it affect the signal.</p> 
+              </aside>
+            </section>
+  
+            <section data-background-video="video/zoom_microchip.mp4"
+            data-background-video-loop data-background-video-muted data-background-opacity="0.4">
+  
+              <h3>0 - 1</h3>
+              <p>The most reliably detectable of differences that 
+                allow analog signalling machines to shrink to the tiniest of scales while best
+                avoiding problems of <strong>noise</strong>.</p>
+              
+              <aside class="notes">
+                <span class="attribution"><a href="https://www.youtube.com/watch?v=Fxv3JoS1uY8">
+                  Zoom Into a Microchip</a> by NISENet [CC-NC-SA]</span>
+    
+                <p>Digital technology is designed to create a perfect fantasy world where noise 
+                doesn't exist. If you want to pevent noise from messing up your signal, it's 
+                easiest to distinguish between only two noisy values. If you can do this perfectly, 
+                every time, then you can have perfect lossless information storage and transfer.</p>
+                <p>This lossless information then can be copied infinitely and stored without
+                changing or degrading in any way.</p>
+              </aside>
+            </section>
+  
+            <section data-background-video="video/Life_in_life-xP5-iIeKXE8.mp4"
+            data-background-video-loop data-background-video-muted data-background-opacity="0.2">
+              
+              <p>Digital technologies are useful and strange:</p>
+              <ol>
+                <li class="fragment fade-right"><strong>Everything is copied.</strong>
+                  Movement is done by copying and then deleting.
+                  <span class="detail">(Or more often copying and then marking the original as available to be 
+                  overwritten by something else - because deleting by writing zeros is unnecessarily wasteful.)</span></li>
+                <li class="fragment fade-right"><strong>Copies are perfect</strong> and 
+                  indistinguishable from the original. <span class="detail">Making the very concept of original 
+                  and copy very suspect, especially if that is the only way digital things 
+                  can move.</span></li>
+                <li class="fragment fade-right"><strong>Software is deterministic</strong>
+                  and thus repeatable by default, true randomness is difficult.</li>
+              </ol>
+              
+              <aside class="notes">
+                <span class="attribution"><a href="https://www.youtube.com/watch?v=xP5-iIeKXE8">
+                  Life in life</a> by Phillip Bradbury [CC]</span>
+              </aside>
+            </section>
+          </section>
+  
+          <section data-audio-advance=1500>
+            <p>Testing embeded websites and interactivity </p>
+          </section>
+
+          <section data-background-iframe="https://pair.withgoogle.com/explorables/hidden-bias/" 
+           data-background-interactive data-audio-advance=-1>
+          </section>
+
+          <section data-audio-advance=1500>
+            <p>Testing a video</p>
+          </section>
+
+          <section data-background-video="video/Computer Orchestra (1968)-gw-8lyZROIo.mp4"
+          data-audio-advance=-1>
+          </section>
+
+          <section data-audio-advance=-1>
+            <video data-autoplay src="video/Computer Orchestra (1968)-gw-8lyZROIo.mp4"></video>
+          </section>
+
+          <section>
+            <p>Thanks for checking it out!</p>
+          </section>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

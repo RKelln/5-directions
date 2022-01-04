@@ -1,0 +1,68 @@
+/* custom overrides for theme*/
+:root {
+  --r-heading-color: #fff;
+}
+
+ .reveal h1 {
+  font-size: 3em;
+}
+.reveal section.video-background {
+  border-radius: 1rem;
+  backdrop-filter: blur(20px) brightness(90%);
+  padding: 1rem 0 1rem 0;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+.reveal section.darken {
+  backdrop-filter: blur(20px) brightness(90%);
+}
+.reveal h2,
+.reveal h3 {
+  text-transform: capitalize;
+}
+.reveal p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.reveal li {
+  font-weight: 300;
+  text-shadow: 1px 1px var(--r-background-color);
+}
+.reveal .justify-evenly {
+  justify-content: space-evenly;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.reveal .justify-evenly * {
+  margin-left: var(--r-block-margin);
+  margin-right: var(--r-block-margin);
+}
+.reveal .detail {
+  font-size: 66%;
+}
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    background-size: 300% 300%;
+    opacity: 1;
+  }
+}
+@keyframes glow {
+  30% {
+    text-shadow: 0 0 10px #fff;
+  }
+  33% {
+    text-shadow: 0 0 8px #fff;
+  }
+  80% {
+    text-shadow: 0 0 1px #fff;
+  }
+}
+.reveal .glow.visible {
+  animation: glow 3s linear infinite 1s;
+}
+
+.reveal .instruction {
+  color: darkred;
+}
