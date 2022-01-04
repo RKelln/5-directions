@@ -8,10 +8,11 @@ import './style.css'
 
 
 import Reveal from 'reveal.js'
+import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js'
 import Notes from 'reveal.js/plugin/notes/notes.esm.js';
 import Search from 'reveal.js/plugin/search/search.esm.js';
-import RevealAudioSlideshow from 'reveal.js-plugins/audio-slideshow/plugin.js'
-import RevealAudioRecorder from 'reveal.js-plugins/audio-slideshow/recorder.js'
+import AudioSlideshow from 'reveal.js-plugins/audio-slideshow/plugin.js'
+import AudioRecorder from 'reveal.js-plugins/audio-slideshow/recorder.js'
 
 const deck = new Reveal()
 
@@ -19,7 +20,7 @@ deck.initialize({
   hash: true,
 
   // Learn about plugins: https://revealjs.com/plugins/
-  plugins: [ Notes, Search, RevealAudioSlideshow, RevealAudioRecorder ],
+  plugins: [ Notes, Markdown, Search, AudioSlideshow, AudioRecorder ],
 
   // audio slideshow/recorder init options
   audio: {
@@ -28,9 +29,9 @@ deck.initialize({
     textToSpeechURL: null,  // the URL to the text to speech converter
     defaultNotes: false, 	// use slide notes as default for the text to speech converter
     defaultText: false, 	// use slide text as default for the text to speech converter
-    advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+    advance: 500, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
     autoplay: true,	// automatically start slideshow
-    defaultDuration: 1,	// default duration in seconds if no audio is available
+    defaultDuration: 3,	// default duration in seconds if no audio is available
     defaultAudios: true,	// try to play audios with names such as audio/1.2.ogg
     playerOpacity: 0.05,	// opacity value of audio player if unfocused
     playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls

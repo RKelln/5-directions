@@ -7,10 +7,10 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "reveal.js": "^4.2.1",
-    "vite": "^2.6.4",
-    "reveal.js-plugins": "^4.1.5",
     "jszip": "^3.7.1",
-    "recordrtc": "^5.6.2"
+    "recordrtc": "^5.6.2",
+    "reveal.js": "^4.2.1",
+    "reveal.js-plugins": "github:RKelln/reveal.js-plugins",
+    "vite": "^2.6.4"
   }
 }
