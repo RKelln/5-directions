@@ -66,3 +66,16 @@
 .reveal .instruction {
   color: darkred;
 }
+
+.reveal li {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.reveal thead {
+  font-weight: bold;
+}
+
+.reveal tbody td {
+  border-bottom: none;
+}
