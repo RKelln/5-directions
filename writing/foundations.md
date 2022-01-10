@@ -35,7 +35,7 @@ Whatever our digital world is, it cannot escape reality. And reality, at least a
 
 So at its lowest level a digital signal is still analog. Being analog it is subject to noise - it has minute fluctuations - so it is a messy or noisy signal.
 
-The blue line in the image represents this signal. You can see it alternating between a 1 and a 0, the two possible digital values, but it is still is affected by noise - those  squiggly bits. But a digital signal is designed to overcome this noise, not to let it affect the signal. 
+The blue line in the image represents this signal. You can see it alternating between a 1 and a 0, the two possible digital values, but it is still is affected by noise - those squiggly bits. But a digital signal is designed to overcome this noise, not to let it affect the signal. 
 
 ---
 <!-- .slide: data-background-video="video/zoom_microchip.mp4" data-background-video-muted data-background-opacity="0.4" -->
@@ -140,6 +140,9 @@ As the length and complexity of each algorithm grows human understanding of it f
 
 Using a Universal Turning Machine to calculate anything but the simplest of solutions is a pain, similarly programming in binary. For example, you might use digital circuits, 1 and 0, that use boolean algebra to build a "binary adder", that adds two binary numbers. With only a few adders you might interact with them directly, but once you have millions, they are hidden by further layers so that programmers don't have to worry about managing them, just adding two numbers together.
 
+TODO: abstraction and representation, multi-modalal neurons: https://openai.com/blog/multimodal-neurons/
+- semantic invariance / clustering
+
 ---
 # Software
 
@@ -243,6 +246,8 @@ The most popular current machine learning techniques are neural networks and dee
 
 That this works so well is quite remarkable, but currently training requires a vast amount of data, something that only became feasible with the Internet and the rise of Big Data.
 
+TODO: Training, model, and other basic definitions
+
 ### Credits
 * https://towardsdatascience.com/4-intersecting-domains-that-you-can-easily-confuse-with-artificial-intelligence-2233cb6ad7d1
 * https://quantdare.com/what-is-the-difference-between-deep-learning-and-machine-learning/
@@ -275,20 +280,35 @@ Many analogies have been made, but a consensus suggests that machine learning pr
 
 
 
+### Input: 
+
+* Noise
+* Features
+
+Notes:
+TODO
+
+
+
 ### Tools for prediction and pattern detection
 
 1. Mapping: takes input, produces output, but stateless
 2. Stateful: has variables / internal state
 3. Adaptive: adapts to environment through time
 
+TODO: more (examples?) and why pattern rec and prediction are strengths
+
 Notes:
+Machine learning excels at pattern recognition and prediction. Input to software is almost always noisy and filled with extraneous or non-useful data. Detecting the signal or useful information is difficult. Unlike traditional software where humans use math to process the data to remove noise and detect only the salient features, modern machine learning systems accept all the input and are trained to find the needed information. It is hard for humans, with our own sophisticated perceptual system that mainly goes unnoticed to understand how to filter the input usefully. Machine learning systems generally have something resembling our perceptual system at the start of transforming the input.
+
+
 Recall the various levels of interactivity and adaptation discussed previously. Machine learning exists at all levels that take input. 
 
 At the first level you have systems that do pattern recognition and translation. Classifying images, whether it is cats or human surveillance systems. Input data moves through the software and is transformed into an output.
 
-Generally when you add the element of time, then you require the next level of system, something that has a memory. 
+Generally when you add the element of time, then you require the next level of system, something that has a memory. For language, music and video input, this memory becomes critical for learning.
 
-The final level, often associated with reinforcement learning, which we will learn about later, can also be thought of as more wholistically as the entire process of humans creating a machine learning system - adapting it to be more useful to the problems they are trying to solve. 
+The final level, adaptive, is often associated with reinforcement learning used for things like playing games or robots interacting with their environment. It can also be thought of as more wholistically as the entire process of humans creating a machine learning system - adapting it to be more useful to the problems they are trying to solve.
 
 ---
 
@@ -305,24 +325,42 @@ For the first time we are developing a real understanding of own brains work thr
 
 There is an underlying nature of intelligence(s) that are possible in this physical reality. Our brains exploit this in a particular way, but there are many ways, each subtly or grossly attuned to particular tasks.
 
+TODO: lack of consensus on what intelligence is
+
+TODO: intro to nonconscious cognition
+
+Katherine Hayles, describes nonconscious cognition this way:
+_"My position is that all lifeforms, even those lacking brains, such as plants and nematode worms, have cognitive capacities. Once cognition is understood as a much broader capacity than consciousness, the relation between humans, nonhumans and computational media may be radically reconceptualized. Much of the world’s work in contemporary developed countries is done through collectivities through which information, interpretations, and meanings circulate: that is, through cognitive assemblages."_
+
+Intelligence, or what Hayles calls cognition, is not restricted to a single organ, not even a single organism, but is distributed throughout the body, relationships, tools, institutions, markets, and culture. It emerges from evolutionary dynamics, adaptation, complexity, and what is sometimes called "self-organized criticality" or as studied in artificial life, “from simple rules to complex patterns or behaviours.”
+
+TODO: more about criticality and distributed intelligence
+
+TODO: bee, butterfly intelligence
+
+TODO: https://www.youtube.com/watch?v=xRel1JKOEbI 
+Differentiation and integration: conscious experiences are highly informative (differentiated) and always part of a cohesive experience (integrated).
+
+https://www.newscientist.com/article/mg23030681-300-do-our-dynamic-brains-predict-the-world/
+Surfing Uncertainty: Prediction, action, and the embodied mind - Andy Clark
+"our brains actually generate sensory data to match what’s coming in, using internal models of the world and of our bodies. These “generative models” give rise to multiple hypotheses about the sources of the incoming sensory data, and the most likely hypothesis becomes a perception.
+
+But this is an ongoing process. The brain compares generated with incoming data, identifies any errors and updates its internal models as necessary, so that it can predict and thus perceive more accurately the next time around."
+
 
 
 ### Narrow vs General
 
 Notes:
-Computer science describes intelligence as narrow versus general or strong. Narrow intelligences have narrow task skills, but general intelligences have broader capabilities. Chess playing is narrow, human intelligence is general. What does it take to go from narrow to general?
- 
+Computer science describes intelligence as narrow versus general or strong. Narrow intelligences have narrow task skills, but general intelligences have broader capabilities. Chess playing is narrow, human intelligence is general. Humans adults are capable of lifelong learning, very quickly adapting to novel challenges and learning new skills. What does it take to go from narrow to general?
+
+TODO: scale, speed, complexity?  Consciousness 
 
 
 Is general intelligence conscious?
 
 Notes:
 There is broad consensus that we haven't found any narrow intelligence that is conscious, but at what point does a nonconscious cognitive process transition to conscious general intelligence, and are those two always linked? First let's start with the easier example, nonconscious cognition.
-
-Katherine Hayles, describes nonconscious cognition this way:
-_"My position is that all lifeforms, even those lacking brains, such as plants and nematode worms, have cognitive capacities. Once cognition is understood as a much broader capacity than consciousness, the relation between humans, nonhumans and computational media may be radically reconceptualized. Much of the world’s work in contemporary developed countries is done through collectivities through which information, interpretations, and meanings circulate: that is, through cognitive assemblages."_
-
-Intelligence, or what Hayles calls cognition, is not restricted to a single organ, not even a single organism, but is distributed throughout the body, relationships, tools, institutions, markets, and culture. It emerges from evolutionary dynamics, adaptation, complexity, and what is sometimes called "self-organized criticality" or as studied in artificial life, “from simple rules to complex patterns or behaviours.”
 
 
 
@@ -344,7 +382,16 @@ First though it is important to remember that the model of the world we have is 
 ### How we see
 
 Notes:
-Our eyes mainly have good detail in a very small area, but more shockingly they are mostly in motion, called saccades, and while moving our visual sensitity is strongly impaired. This is not anyone's perception of how they view the world. Our eye samples the world, and has rich image processing circuitry of its own, but the world we perceive in the brain feels coherent and constant.
+Our eyes mainly have good detail in a very small area, but more shockingly they are mostly in motion, called saccades, and while moving our visual sensitivity is strongly impaired. This is not anyone's perception of how they view the world. Our eye samples the world, and has rich image processing circuitry of its own, but the world we perceive in the brain feels coherent and constant.
+
+Our brain is locked inside our skull with no direct access to the outside world. It only receives signals which have already gone through a bunch of processing (for examples the retina has about 100 million neurons of 5 different types). It gets a noisy, meaningless signal that it interprets according to prior expectation or beliefs.
+
+What we see is our brains best guess at what is happening. Other research has investigated "predictive coding" where the brains predictions and the sensory information flow in opposite directions and only errors in the prediction are propagated. 
+
+TODO: predictive coding, backpropigation
+
+### Credits
+* https://www.youtube.com/watch?v=xRel1JKOEbI 
 
 
 
@@ -353,6 +400,8 @@ Notes:
 In a famous study by Daniel Simons and Daniel Levin, a man stops a passerby and asks for directions. While the subject is speaking, two workmen carrying a door pass between them, momentarily blocking the view. When they pass, the interlocutor has been replaced by another person, but about half of subjects do not notice the discrepancy.
 
 This doesn't show that half of us are idiots, rather that the primacy of coherent world can dominate our perception of it, leading us to be fooled by targeted attacks exploiting that tendency. We will later explore how machine intelligences are susceptible to their own adversarial information attacks. 
+
+Another way to conceive of the "information attack" of the door switcheroo, is that our thinking isn't just inside our brain and body, it extends into to the world around us. This is more obvious in acts of memory amplification, for example, if you write down a note to yourself, but we are constantly letting the world compute or hold information for us until we need it. It could be in the case of the switcheroo the brain let the world hold the information of the identity of the lost person to focus on how to help them. Our attention mechanisms in general can be characterized as a shift in what information is being actively, or at least consciously, processed. 
 
 ### Credits
 https://upload.wikimedia.org/wikipedia/commons/c/cb/Retinal_Image.png
@@ -365,9 +414,9 @@ https://www.youtube.com/watch?list=PLC0A3CAC7B3A0E288&v=FWSxSQsspiQ
 ## Stupidity
 
 Notes:
-It may be useful however to explore what it means to be an idiot, at least as a counterpoint of what it means to be intelligent. In a definition that I quite enjoy, Cario M. Cipolla, describes a stupid person as a person who causes losses to another person or to a group of persons, while themselves deriving no gain and even possibly incurring lossess. He continues that stupidity can be found independent of any other characteristic including education and intelligence and there is no refuge, the amount of stupid you'll encounter is roughly consistent.
+It may be useful however to explore what it means to be an idiot, at least as a counterpoint of what it means to be intelligent. In a half-serious definition, Cario M. Cipolla, describes a stupid person as a person who causes losses to another person or to a group of persons, while themselves deriving no gain or even incurring losses. He continues that stupidity can be found independent of any other characteristic including education and intelligence in other areas and there is no refuge from stupidity, the amount of stupid you'll encounter is roughly consistent between social groups.
 
-So really we're classifying actions, not intelligence, and that all intelligences act stupidly some of the time. Recent a study concluded that rocket scientists along with their archrivals the brain surgeons, tested to have similar average intelligence to the rest of us.
+So really we're classifying actions, not intelligence, and that all intelligences act stupidly some of the time. Recently a study concluded that rocket scientists along with their archrivals the brain surgeons, tested to have similar average intelligence to the rest of us.
 
 Cipolla's grid provides an economic classification lens, where intelligent behaviour is seen as gain for yourself and others.
 
@@ -390,9 +439,9 @@ University of Toronto professor Brain Cantwell Smith thinks that general intelli
 
 Judgment is "dispassionate, deliberative thought, grounded in ethical commitment and responsible action, appropriate to the situation in which it is deployed.
 
-The reason we hold human adults accountable for their actions, even if they do not invoke full scale deliberative judgment in their every move, is that we believe that they should act in such a way that they could do so if necessary."
+The reason we hold human adults accountable for their actions, even if they do not invoke full scale deliberative judgment in their every move, is that we believe that they should act in such a way that they could do so if necessary.
 
-Judgment is not restricted to humans. Perhaps it is a mark of the humane. Computers do not need to try to be computers. Humans are different: we must strive to be human.
+Judgment is not restricted to humans. Perhaps it is a mark of the humane. Computers do not need to try to be computers. Humans are different: we must strive to be human."
 
 
 
@@ -401,11 +450,11 @@ Judgment is not restricted to humans. Perhaps it is a mark of the humane. Comput
 Notes:
 Where I feel I disagree with Brian is that judgment, while beautiful, seems to imply some sort of decision making or freewill. I like the idea that we do not excercise judgment for most thinking, but can call upon it when the consequences of lack of judgment are high. I like that the capacity for judgment makes you accountable, but I don't know if it makes you responsible in the way that we talk about people _deciding_ to hurt others and being responsible for that decision.
 
-While the debate on freewill has been a long and nuanced one, and of which I'm no expert, I am excited by how machine learning is opening new doors for my understanding of it. The more I learn the more certain that freewill, as popularly thought of, doesn't exist. This is despite my own and everyone I know's overwhelming subjective experience of feeling like they have freewill.
+While the debate on freewill has been a long and nuanced one, and of which I'm no expert, I am excited by how machine learning is opening new doors for my understanding of it. The more I learn, the more certain that freewill, as popularly thought of, doesn't exist. This is despite my own and everyone I know's overwhelming subjective experience of feeling like they have freewill.
 
 A recent study sheds some light on this - in machine reinforcement learning the system learns better when it has a model of the world and can plan its actions, imagining how the world might change as it interacts with it. Importantly this learning procedure relies on counterfactual learning, or the ability imagine alternate reality with different facts, the learner must be able to simulate or imagine having made choices they did not in fact make.
 
-Humans do this too, we imagine how things might have gone if we'd only not said that stupid or thoughtless thing, or had thought of that brilliant reply at the time. This requires us to believe that we could have acted differently than we did. This belief is the experience of freewill and is needed for learning. If we thought we could never make any decision or action than the ones we actually did then it might be much more difficult to learn from our mistakes.
+Humans do this too, we imagine how things might have gone if we'd only not said that stupid or thoughtless thing, or had thought of that brilliant reply at the time. This requires us to believe that we could have acted differently than we actually did. This belief is the experience of freewill and is needed for learning. If we thought we could never make any decision or action than the ones we actually took then it might be much more difficult to learn from our mistakes.
 
 From Erik M. Rehn's 2021 paper:
 "We tend to think of ourselves as being capable of breaking the causal structure of our environment and making free choices, and this imagined freedom — despite being, in all probability, just a figment of imagination — is necessary for efficient learning and thus a vital part of our intelligence."
@@ -441,7 +490,7 @@ One of the most exciting aspects of Ai research is a lack of politeness with the
 
 Science has often proceeded from evidence that a thing is possible, to a theory of how it may be possible, to an effective model of that phenomenon.
 
-The digitalness of machine minds again provides much of their promise and strangeness. Only digital minds can be frozen in time - only changing when we want them to, but otherwise responding the same way to repeated testing. Only digital minds are so easy to copy and share between researchers and artists. The perfect copies again dramatically improving their use as scientific tools.
+The digitalness of machine minds again provides much of their promise and strangeness. Only digital minds can be frozen in time - only changing when we want them to, but otherwise responding the same way to repeated testing. Only digital minds are so easy to copy and share between researchers and artists. The perfect copies again dramatically improving their use as scientific tools. Researchers regularly share the intelligences they have built with the world including all the software details and data sets with which they were constructed.
 
 It is precisely the amount of control we have over digital minds that likely makes it impossible to ever ethically create conscious digital general intelligences. Just as restricting the freedoms of a human, who we politely assume to be a conscious thinker, we must also extend that politeness to the digital minds and not dissect, copy or freeze them, and not restrict their freedoms. And yet this is an alien mind, how could you with good judgment allow it freedom of action that could harm others, or make infinite copies of itself, or study or change it's own mind? Over 200 years ago Mary Shelly showed us that Frankenstein was a monster because of what he created, it still holds true today.
 

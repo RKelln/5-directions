@@ -14,3 +14,4 @@ NOTES.md
 
 # vscode
 *.code-workspace
+.vscode
