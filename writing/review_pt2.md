@@ -9,7 +9,7 @@
 Notes:
 In this presentation we'll cover the past, present and future of computing, machine learning and art.
 
-In the previous section, Foundations, we went over the principles and foundations needed to understand the philosophy and importance of machine learning art. Now we'll uncover context and explore origins, to see how the technology was developed, how it was thought of and shaped by its creators and how it influenced the world, particularly the art world.
+In the previous tutorial, Foundations, we went over the principles and foundations needed to understand the philosophy and importance of machine learning art. Now we'll uncover context and explore origins, to see how the technology was developed, how it was thought of and shaped by its creators and how it influenced the world, particularly the art world.
 
 
 

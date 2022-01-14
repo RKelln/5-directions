@@ -14,9 +14,9 @@
 
 Notes:
 
-Humans tend to think linearly, so our intuition gets exponential wrong. That's why we use math, a technology that allows us to transcend our natural biases. If you started walking somewhere at exponential speed, the shocking result is your first step might be a millimeter in length, but your last step is half the total distance. So if say, you’re creating an general intelligence, and it's going to take 20 years, at year 19 you’ll still only be half done, and at year 10 you'll only be 0.01% towards your goal and people will think it will take another 10000 years.
+Humans tend to think linearly, so our intuition gets exponential wrong. That's why we use math, a technology that allows us to transcend our natural biases. If you started walking somewhere at exponential speed, the shocking result is your first step might be a millimeter in length, but your last step is half the total distance. So if say, you’re creating a general intelligence, and it's going to take 20 years, at year 19 you’ll still only be half done, and at year 10 you'll only be 0.01% towards your goal and people will think it will take another 10000 years.
 
-Technological development see some of these exponential effects. Technologies for better tools, especially those for learning, like writing and educational institutions and the practice of science dramatically increase the speed of development. A couple thousand years ago we might see inventions every few hundred years and often then would be lost and rediscovered, then after about 1700 we started seeing significant inventions every year or two. Two hundred years later its every couple of months, twenty years ago its every month, and now, there is interesting, potentially important research being released every day. 
+Technological development see some of these exponential effects. Technologies for better tools, especially those for learning, like writing and educational institutions and the practice of science dramatically increase the speed of development. A couple of thousand years ago we might see inventions every few hundred years and often then would be lost and rediscovered, then after about 1700 we started seeing significant inventions every year or two. Two hundred years later its every couple of months, twenty years ago its every month, and now, there is interesting, potentially important research being released every day. 
 
 Culture plays a big role in technology development as well, for example, women, minorities and the poor were often excluded from participating from technology development, arts and/or science. The directions of development have been further constrained in some cultures, where power, personal wealth, and fear drove investment in technology and culture limiting the scope of other areas. These historical limits mean there is even more room for development to increase in speed as accessibility and inclusivity are enhanced.
 
@@ -31,7 +31,7 @@ Interlude E: NNNAAAMMM
 # Past
 
 Notes:
-I'm not a historian, and this subset of historical timings is not meant to be exhaustive, but rather illustrative of the role that science, mathematics, mechanical and digital computers, influenced the development of machine learning and art. This material was drawn from a number of great books and papers as well as Wikipedia. The dates and attribution should be taken as approximate, due to errors and vagueness of who did what, when?
+I'm not a historian, and the following subset of historical events is not meant to be exhaustive, but rather illustrative of the role that science, mathematics, mechanical and digital computers, influenced the development of machine learning and art. This material was drawn from a number of great books and papers as well as Wikipedia. The dates and attribution should be taken as approximate, due to errors and vagueness of who did what, when?
 
 It should also be noted that there were countless developments is basic math and technology before the last 120 years, but I am focusing mainly on the 20th and 21st century.
 
@@ -345,9 +345,9 @@ Let's take a look at a few of the most popular generative models used in 2021.
 * Meta-learning, multi-task models and life long learning
 * Video generation
 * Empowering art and entertainment
+* Autonomy and non-human rights
 * Separation of data and service
 * Understanding intelligence
-* Autonomy
 
 
 
@@ -391,9 +391,12 @@ Finally, life long learning really makes machine intelligence feel human - inste
 
 Video generation
 
-Note: Much to my disappointment the ability to generate interesting or realistic video is very limited by resolution and duration of the video. Fortunately, many groups are working on this problem, in particular for video prediction as it has countless industry benefits for robotics, as it could help with action planning.
+Notes: 
+Much to my disappointment the ability to generate interesting or realistic video is very limited by resolution and duration of the video. Fortunately, many groups are working on this problem, in particular for video prediction as it has countless industry benefits for robotics, as it could help with action planning.
 
-For my own purposes I'm excited by the artistic possibilities of high resolution video of any subject but directed by a single author. Visual storytelling has been dramatically limited by the sheer amount of effort to produce it. 
+For my own purposes I'm excited by the artistic possibilities of high resolution video of any subject but directed by a single author. Visual storytelling has been dramatically limited by the sheer amount of effort to produce it. Artistic practice may focus more on curation of machine generated output than the creation of that output directly. Many artists will move up a level of abstraction and become directors and curators. Remixing will be easier and more interesting than ever as generative models are shared and combined.
+
+The downside to this will be the ease of which to create deepfakes and other false information that looks like genuine video evidence. It has been a hard societal transition to acknowledge the malleability of moving images, despite the common use of special effects in entertainment. This will likely spur investment and research into the use of blockchain technologies to try to authenticate recordings of all kinds. This in turn may dramatically improve the ease of citations of authorship and ethical remixing of content.
 
 In the next 20 years we'll see a curious juxtaposition of singular authorship and mass collaboration. As our machine learning tools grow in power and accessibility, more people will be able to express themselves regardless of their technical skill or training. More people will enjoy and suffer from a glut of creative possibilities. Single, independent voices will be able to create content that matches the quality of current day multi-million dollar projects. 
 
@@ -434,3 +437,26 @@ Kogan feels that Abraham has beautiful kinship with natural superorganisms, like
 
 
 
+Non-human rights
+
+Notes:
+It may not just be humans that have AI assistants and translators. Projects are already underway to try to allow humans and non-human species to communicate through an AI mediator, or at least help humans better understand what non-humans are expressing. 
+
+TODO: rats
+TODO: dolphins
+TODO: trees
+TODO: non-human rights? As we include machines we may include all other non-humans
+
+
+
+Separation of data and service
+
+Notes:
+TODO:
+
+
+
+Understanding intelligence
+
+Notes:
+TODO: 

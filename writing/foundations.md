@@ -290,6 +290,12 @@ TODO
 
 
 
+### Encoding, decoding and compression
+Notes:
+TODO
+
+
+
 ### Tools for prediction and pattern detection
 
 1. Mapping: takes input, produces output, but stateless
@@ -335,6 +341,8 @@ _"My position is that all lifeforms, even those lacking brains, such as plants a
 Intelligence, or what Hayles calls cognition, is not restricted to a single organ, not even a single organism, but is distributed throughout the body, relationships, tools, institutions, markets, and culture. It emerges from evolutionary dynamics, adaptation, complexity, and what is sometimes called "self-organized criticality" or as studied in artificial life, “from simple rules to complex patterns or behaviours.”
 
 TODO: more about criticality and distributed intelligence
+
+TODO: static - critical / chaotic - random
 
 TODO: bee, butterfly intelligence
 
@@ -388,7 +396,7 @@ Our brain is locked inside our skull with no direct access to the outside world.
 
 What we see is our brains best guess at what is happening. Other research has investigated "predictive coding" where the brains predictions and the sensory information flow in opposite directions and only errors in the prediction are propagated. 
 
-TODO: predictive coding, backpropigation
+TODO: predictive coding, backpropagation
 
 ### Credits
 * https://www.youtube.com/watch?v=xRel1JKOEbI 
