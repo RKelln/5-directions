@@ -11,4 +11,6 @@ I humbly welcome the shared responsibility to help all flourish in this place,
 now and into the future.
 
 Notes:
-Image by Ryan Kelln.
+### Credits
+* https://www.toronto.ca/wp-content/uploads/2019/04/974d-Indigenous-Voices.pdf
+* Image by Ryan Kelln.
