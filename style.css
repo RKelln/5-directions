@@ -26,6 +26,9 @@
 .reveal li {
   font-weight: 300;
   text-shadow: 1px 1px var(--r-background-color);
+
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 .reveal .justify-evenly {
   justify-content: space-evenly;
@@ -67,11 +70,6 @@
   color: darkred;
 }
 
-.reveal li {
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
-}
-
 .reveal thead {
   font-weight: bold;
 }
@@ -79,3 +77,61 @@
 .reveal tbody td {
   border-bottom: none;
 }
+
+.reveal .left {
+  text-align: left;
+}
+
+.reveal .left-margin {
+  margin-left: 2rem;
+}
+
+.reveal .quote {
+  display: block;
+  text-align: left;
+  font-size: 75%;
+  /*font-style: italic;*/
+  background-color: rgba(0,0,0,0.66);
+  padding: 1.5em;
+  border-radius: 0.2em;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.reveal .quote .attribution {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  margin-top: 0.75em;
+}
+
+.reveal .quote .attribution::before {
+  content: "\2053";
+  margin-right: 0.3em;
+  font-weight: normal;
+}
+
+.reveal .pushright {
+  position: relative;
+  left: 25%;
+  width: 90%;
+}
+
+/*
+.reveal .quote::first-letter {
+  font-weight: bold;
+  font-size: 300%;
+  padding: 0 .3rem;
+  margin: 0.6rem .3rem 0 0;
+
+  float: left;
+  line-height: 1;
+}
+*/
+
+/* unused */
+.slide .two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+

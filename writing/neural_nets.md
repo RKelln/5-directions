@@ -13,6 +13,7 @@
     * Reinforcement
   * Recurrent networks
   * Convolutional networks
+  * GANs
   * Features and latent spaces
 * Deep learning challenges
 * Data ethics
@@ -301,12 +302,21 @@ TODO: kernel example image, convolution animation
 
 Once features are computed by the filters then they are passed to a typical fully connected network for classification or other processing.
 
+CNNs provide a good opportunity to demonstrate some important properties of neural nets. We know that theoretically neural nets are universal approximators - able to approximate a broad class of functions - including that of finding features in images. This flexibility has a downside, because the universe of functions is so large there are (again, theoretically) many functions that would do well on the training data but not on test or real world data - i.e. we may fail to generalize. So we actually want to restrict the search for these functions to a smaller set that still contains the solution, but ruling out many bad solutions that in the context of the training data look similar. The better we can do that the less training data we need. CNNs are an example of that, by the way they are constructed they encode some prior knowledge of the data. In this case, that an image that is translated (i.e. pixel shifted) is an image of the same thing (assuming the thing doesn't shift out of view), the features that they detect remain stable, which is called equivariance. However, typical CNNs do not have the same properties for rotation, scale, shear, or other transformations, and approaches that allow for stable features despite these transformations tend to improve performance.
+
 ### Credits
 * https://en.wikipedia.org/wiki/Convolutional_neural_network
 * https://en.wikipedia.org/wiki/Kernel_(image_processing)
 * https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+* https://fabianfuchsml.github.io/equivariance1of2/
 
 --- 
+
+# GANs
+
+TODO:
+
+---
 
 # Features
 
