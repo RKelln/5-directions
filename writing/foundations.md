@@ -1,19 +1,18 @@
 <!-- .slide: data-audio-src="audio/foundations/01.ogg" data-background-video="video/2020-10-10_LakeErie_beach+waves+close_2.mp4" data-background-video-muted -->
+Welcome to
 # Foundations
+
 Notes: 
-Foundations is the first of five tutorials in the series.
+Welcome to Foundations, the first of five tutorials in the series.
 
-In approximately an hour we will cover some important material that will help you understand what machine learning and artificial intelligence are, how they came to be, and why they are important. In essence, I want you to learn how a computer scientist or neuroscientist thinks.
-
-TODO: timing (i.e. hour)
+In less than an hour we will cover some important material that will help you understand machine learning and artificial intelligence, the technologies they are built on, and why I think they are important.
 
 ---
 <!-- .slide: data-audio-src="audio/foundations/02.ogg" data-background-video="video/erie - co_ai_existence.mp4" data-background-video-muted -->
 # Foundations
 
 * Digital
-* Boolean logic
-* Algorithms
+* Boolean logic & Algorithms
 * Software
 * Intelligence
 * Digital Intelligence
@@ -50,11 +49,13 @@ The blue line in the image represents this signal. You can see it alternating be
 * [Video by Luis Quintero from Pexels](https://www.pexels.com/video/abstract-video-4990321/)
 
 ---
-<!-- .slide: data-audio-src="audio/foundations/04.ogg" data-background-video="video/zoom_microchip.mp4" data-background-video-muted data-background-opacity="0.4" -->
-### 0 & 1
+<!-- .slide: data-audio-src="audio/foundations/04a.ogg" data-background-video="video/zoom_microchip.mp4" data-background-video-muted data-background-opacity="0.4" -->
+Digital is binary (two values):
 
-The most reliably detectable of differences that allow analog signalling machines to shrink to the tiniest of scales while best avoiding problems of **noise**.
-              
+# 0 and 1
+
+No noise = perfect replication and transfer <!-- .element: class="fragment" data-audio-src="audio/foundations/04b.ogg" -->
+
 Notes:
 Digital technology is designed to create a fantasy world where noise doesn't exist. If you want to prevent noise from messing up your signal, it's easiest to distinguish between only two imperfect, noisy values. The more fluctuating values you try to distinguish from each other the more likely you are to confuse one for another. So two values is optimal and if you can do this perfectly, every time, then you can have perfect, lossless information storage and transfer.
 
@@ -64,13 +65,13 @@ This lossless information then can be copied infinitely and stored without chang
 [Zoom Into a Microchip](https://www.youtube.com/watch?v=Fxv3JoS1uY8) by NISENet [CC-NC-SA]
     
 ---
-<!-- .slide: data-audio-src="audio/foundations/05.ogg" data-background-video="video/Life_in_life-xP5-iIeKXE8.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.2" -->
+<!-- .slide: data-audio-src="audio/foundations/05a.ogg" data-background-video="video/Life_in_life-xP5-iIeKXE8.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.2" -->
               
 Digital technologies are useful and strange:
 
-* **Everything is copied.** Movement is done by copying and then deleting. 
-* **Copies are perfect** and indistinguishable. They act like _numbers_ not things.
-* **Software is deterministic** and thus repeatable by default, true randomness is difficult. 
+* <!-- .element: class="fragment" data-audio-src="audio/foundations/05b.ogg" --> <strong>Everything is copied.</strong> Movement is done by copying and then deleting. 
+* <!-- .element: class="fragment" data-audio-src="audio/foundations/05c.ogg" --> <strong>Copies are perfect</strong> and indistinguishable. They act like <em>numbers</em> not things. 
+* <!-- .element: class="fragment" data-audio-src="audio/foundations/05d.ogg" --> <strong>Software is deterministic</strong> and thus repeatable by default, true randomness is difficult.
 
 Notes:
 Digital technologies are both useful and strange.
@@ -92,13 +93,8 @@ Notes:
 * [Code Profiles by W. Bradford Paly](https://www.youtube.com/watch?v=Hs8rDvC3GZg)
   
 ---
-<!-- .slide: data-audio-src="audio/foundations/06.ogg" -->
-# Boolean logic
+<!-- .slide: data-audio-src="audio/foundations/06.ogg" data-background-image="images/boolean-algebra.jpg" data-background-size="contain" -->
 
-AND : true AND true = true, true AND false = false
-OR: true OR false = true, false OR false = false
-NOT: NOT false AND true = true
- 
 Notes:
 In the middle of the 19th century George Boole published his work that introduced an "algebra of logic" which was later called Boolean algebra. 
 
@@ -107,6 +103,9 @@ The only values in Boolean algebra are true and false, which map to binary value
 AND and OR combine values in logical ways. ANDing two values is only true if both are true, ORing two values is true if either of the values is true. NOT allows for the inversion of a value: NOT true is false, and NOT false is true.
 
 There are few other more complex operators that are important, but for now we just need to know that that Boolean logic was foundational for digital computer circuits.
+
+### Credits
+* https://simplycoding.in/boolean-algebra/
 
 ---
 <!-- .slide: data-audio-src="audio/foundations/07a.ogg" data-background-video="video/Al-Khwarizmi - Father of Algebra-CaLOYlvbF9s.mp4" -->
@@ -121,13 +120,13 @@ The other important concept to understand is that of an "algorithm". That's a fu
 * [Al-Khwarizmi - Father of Algebra](https://www.youtube.com/watch?v=CaLOYlvbF9s)
 
 
-<!-- .slide: data-audio-src="audio/foundations/07b.ogg" data-background-image="images/algorithm.png" data-background-opacity="0.2" -->
-Algorithms have been around since the beginning of time and existed well before a special word had been coined to describe them. Algorithms are not confined to mathematics. The Babylonians used them for deciding points of law, ...and they have been used in all cultures for predicting the future, for deciding medical treatment, or for preparing food._<!-- .element: class="quote" -->
+<!-- .slide: data-audio-src="audio/foundations/07b.ogg" data-background-image="images/algorithm_latent-diffusion.webp" data-background-opacity="0.7" -->
+Algorithms have been around since the beginning of time and existed well before a special word had been coined to describe them. Algorithms are not confined to mathematics. The Babylonians used them for deciding points of law, ...and they have been used in all cultures for predicting the future, for deciding medical treatment, or for preparing food. <!-- .element: class="quote" -->
 _Jean-Luc Chabert_ <!-- .element: class="attribution" -->
 
 Notes:
 [Matteo Pasquinelli's](http://matteopasquinelli.com/3000-years-of-algorithmic-rituals/) wonderful article describes it this way:
-“Algorithms have been around since the beginning of time and existed well before a special word had been coined to describe the m. Algorithms are not confined to mathematics. The Babylonians used them for deciding points of law, ...and they have been used in all cultures for predicting the future, for deciding medical treatment, or for preparing food.”
+“Algorithms have been around since the beginning of time and existed well before a special word had been coined to describe them. Algorithms are not confined to mathematics. The Babylonians used them for deciding points of law, ...and they have been used in all cultures for predicting the future, for deciding medical treatment, or for preparing food.”
 
 ### Credits
 * [Three Thousand Years of Algorithmic Rituals: The Emergence of AI from the Computation of Space](http://matteopasquinelli.com/3000-years-of-algorithmic-rituals/)
@@ -135,7 +134,7 @@ Notes:
 
 <!-- .slide: data-audio-src="audio/foundations/07c.ogg" data-background-image="images/Ramon Llull manuscript 2.jpg"-->
 Notes:
-Algorithms are ancient technology, that emerged from ritual practices and the organization of the social life. They are emergent processes that materialize out of a previous and spontaneous division of space, time and labour. Cultures speak of recipes, rules, techniques, processes, procedures, methods, and strategies. 
+Algorithms are ancient technology, that emerged from ritual practices and the organization of  social life. They are emergent processes that materialize out of a previous and spontaneous division of space, time and labour. Cultures speak of recipes, rules, techniques, processes, procedures, methods, and strategies. 
 
 Fundamentally we are talking about a systematic process of discrete steps that emerges from a repetition of the process. You want to be able to repeat the computation or the outcome, despite the participants or components being not quite the same. 
 
@@ -185,7 +184,7 @@ A simple, universal algorithm for computation. And if sensing, acting and feelin
 * [Turing Machines Explained - Computerphile](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 
 
-<!-- .slide: data-audio-src="audio/foundations/09a.ogg" data-background-image="images/computation_theory_of_mind.png" -->
+<!-- .slide: data-audio-src="audio/foundations/09a.ogg" data-background-image="images/computation_theory_of_mind_RealESRGAN-pbaylies-hr-paintings.webp" -->
 Compute and Rule 110
 
 Notes:
@@ -200,13 +199,13 @@ And what is it to compute? The transformation of inputs to outputs that follows 
 Notes:
 I'm going to set that aside and instead show you Rule 110. Rule 110 is an elementary cellular automaton explored by Stephen Wolfram in 1985 and proved to be Turing complete, or capable of universal computation in 2004 by Matthew Cook (which resulted in legal action that blocked the proof for several years).
 
-There are 88 possible unique cellular automata, which are one-dimensional patterns of 0s and 1s that evolves according to a simple algorithm. The next generation of 0s and 1s depends on that number's current value and those of its neighbours. Rule 110 has this algorithm, that when represented as a binary number is decimal value 110.
+There are 88 possible unique cellular automata, which are one-dimensional patterns of 0s and 1s that evolves according to a simple algorithm. Here the ones are black and the zeros are white. Similar to how a Turing machine functions, using Rule 110 you can iteratively create new lines of ones and zeros, the next line determined by the previous, by reading the left, current, and right positions and writing out a new value below, given the rules, which look like Tetris triangle pieces. Three values in, a new value writes to the line below, then move one step over.
 
 ### Credits
 * https://en.wikipedia.org/wiki/Rule_110 
 
 
-<!-- .slide: data-audio-src="audio/foundations/09c.ogg" data-background-video="video/Rule 110 Simple Implementation Visual-RaZinCdrwRg.mp4" data-background-video-muted data-background-opacity="0.3" -->
+<!-- .slide: data-audio-src="audio/foundations/09c.ogg" data-background-video="video/Rule 110 Simple Implementation Visual-RaZinCdrwRg.mp4" data-background-video-muted data-background-opacity="0.4" -->
 Notes:
 The patterns of 1s and 0s created by this evolution are neither completely stable nor completely chaotic. Structures appear and interact with each other in complex ways. Cook was able to prove that Rule 110 could emulate another known universal computation by use of "spaceships" and other structures. What the heck do spaceships have anything to do with this? Spaceships are just the common name for a self-contained structure that can move through the environment. In this case, the environment is a repeating stable pattern and the spaceship is a structure that can move amongst it. Once you have spaceships then you can start transmitting information. Once you can transmit then you can build read, write and compare... and universal computation.
 
@@ -231,9 +230,12 @@ How could something as simple as a Turing machine calculate something as complex
 As the length and complexity of each algorithm grows, human understanding of it fades, until we add a layer of abstraction to hide all the underlying complexity. No human has, nor ever will have, a complete understanding of the full details and interactions of the hardware and software running on a typical phone. We are similarly ignorant of the human brain and even a single neuron in the brain.
 
 
-<!-- .slide: data-audio-src="audio/foundations/10b.ogg" -->
+<!-- .slide: data-audio-src="audio/foundations/10b.ogg" data-background-video="video/2 Bit Relay Adder-m5-iaR-awzg.mp4" -->
 Notes:
 Using a Universal Turing Machine to calculate anything but the simplest of solutions is a pain, and so is programming machines in binary. For example, you might use digital circuits, 1 and 0, that use boolean algebra to build a "binary adder", that adds two binary numbers. With only a few adders you might interact with them directly, but once you have millions, they are hidden by further layers so that programmers don't have to worry about managing them, but just write a program to add two decimal numbers.
+
+### Credits
+* [2 Bit Relay Adder](https://www.youtube.com/watch?v=m5-iaR-awzg)
 
 
 <!-- .slide: data-audio-src="audio/foundations/10c.ogg" data-background-image="images/CLIP_neuron.png" data-background-size="contain" -->
@@ -255,7 +257,7 @@ Abstraction built of layers of boolean algebra and algorithms running on digital
 While all media and art can be thought of as recordings of the creators decision-making, say, a musicians decisions about how to play their instrument at each moment, there is a difference - software can very easily take input when it is experienced. It "executes" on this input, whereas other media lacks input or is quite difficult to incorporate input into the experience. Certainly many performers would say an audience's reactions affects their performance, but it is rare for the input to really drive the art. Software is algorithmic by nature.
 
 ---
-<!-- .slide: data-background-video="video/mr computer  - combiantes - life in life.mp4" -->
+<!-- .slide: data-background-video="video/mr computer  - combiantes - life in life.mp4" data-audio-advance="1000" -->
 Notes:
 ### Credits
 * Analivia Cordeiro - 'Cambiantes', 1976
@@ -277,16 +279,19 @@ Software can be classified in various categories. Sofian Audry, in his book _Art
 3. Stateful software has at least one variable, usually many more.
 4. Adaptive software adapts, which can also be considered learning, which is usually seen in machine learning or AI. Generally this learning is done before the software is used rather than the software learning as it is used.
 
+### Credits
+* https://research.adobe.com/news/image-stylization-history-and-future-part-3/
 
-<!-- .slide: data-audio-src="audio/foundations/13a.ogg" -->
-## Input and play
+
+<!-- .slide: data-audio-src="audio/foundations/13a.ogg" data-background-image="images/art_forms_RealESRGAN-pbaylies-hr-paintings.webp" -->
+## Input and play <!-- .element: class="backdrop" -->
 
 Notes:
 As an aside, one of the things I love about software-based art is the interactivity. When people spend time with art, it is often just a few minutes with a piece in a gallery, an hour or two with film, tens of hours for novels, etc. Software with enough depth can provide ten or hundreds of hours of interactivity. Games are the best example of that.
 
 
 <!-- .slide: data-audio-src="audio/foundations/13b.ogg" data-background-image="images/play.jpg"-->
-Play
+## Play
 
 Notes:
 Interactivity also means the art can respond to the user, which allows for play and I'm a big fan of play. Play is fundamentally connected to freedom, as is art making. Both require freedom to experiment and relative safety to try out new ways of acting, thinking and being. 
@@ -296,6 +301,7 @@ Interactivity also means the art can respond to the user, which allows for play 
 
 
 <!-- .slide: data-audio-src="audio/foundations/13c.ogg" -->
+## The Goldilocks Zone
 <table><tr><td width="50%">
 
 Most Advanced, 
@@ -321,26 +327,26 @@ If you're an artist who wants to help their audiences make profound positive cha
 * https://en.wikipedia.org/wiki/Zone_of_proximal_development
   
 ---
-<!-- .slide: data-audio-src="audio/foundations/14a.ogg" -->
+<!-- .slide: data-audio-src="audio/foundations/14a.ogg" data-background-video="video/American1958.mp4" data-background-opacity="0.4"-->
 # Digital ethics
+
+1. Who decides what gets made? <!-- .element: class="fragment" data-audio-src="audio/foundations/14b.ogg" -->
+2. Who gets to make it? <!-- .element: class="fragment" data-audio-src="audio/foundations/14c.ogg" -->
+3. Who gets access to what has been made? <!-- .element: class="fragment" data-audio-src="audio/foundations/14d.ogg" -->
 
 Notes:
 Let's take a step back, now that we understand the incredible power of digital technologies, abstraction and interactive software built with them, we need to ask a few questions. What are the economic, cultural and ethical implications of digitization? Anytime economics is involved, I like to boil it down to three "who" questions:
 
-
-<!-- .slide: data-audio-src="audio/foundations/14b.ogg" -->
-1. Who decides what gets made?
-2. Who gets to make it?
-3. Who gets access to what has been made?
-
-Notes:
 1. Who decides what gets made?
 2. Who gets to make it?
 3. Who gets access to what has been made?
 Those questions have had, and will continue to have, a profound effect on my life. My favourite pithy answer to all three questions is "everyone and anyone", but that is really just a guiding principle and it is actually the specific details that are important. I believe that digital things need different answers than physical things, or more correctly, "digitalness" makes it much easier to make those answers more inclusive; to make every aspect more accessible and democratic.
 
+### Credits
+* https://archive.org/details/American1958_2
 
-<!-- .slide: data-audio-src="audio/foundations/15a.ogg" data-background-image="images/Sacred_Library_Ryan_Moulton.png" data-background-size="contain" -->
+
+<!-- .slide: data-audio-src="audio/foundations/15a.ogg" data-background-image="images/Sacred_Library_Ryan_Moulton_latent-diffusion.webp" data-background-size="contain" -->
 # Digital Libraries
 
 Notes:
@@ -350,12 +356,12 @@ Some artists and many corporations, don't agree with me, particularly in regard 
 * https://moultano.wordpress.com/2021/07/20/tour-of-the-sacred-library/
 
 
-<!-- .slide: data-audio-src="audio/foundations/15b.ogg" data-background-image="images/TPB.png" data-background-size="contain" -->
+<!-- .slide: data-audio-src="audio/foundations/15b.ogg" data-background-image="images/TPB.png" data-background-size="contain" data-background-color="rgb(180,180,180)"-->
 Notes:
 We have had the technology, since at least the origin of The Pirate Bay in 2003, to distribute all the world's digital information at a cost much less than we spend on the world's libraries. But we have decided to not do this. We could make every person with access to the internet into a digital billionaire, with access to everything forever - the largest anti-poverty action in history, likely for the entirety of history, but we choose not to. 
 
 
-<!-- .slide: data-audio-src="audio/foundations/15c.ogg" data-background-image="images/Forbes_billionaires_2021.png" data-background-size="contain" -->
+<!-- .slide: data-audio-src="audio/foundations/15c.ogg" data-background-image="images/Forbes_bilionaires_headshots_2021.jpg" data-background-size="contain" -->
 Notes:
 We'd rather have only [2755 billionaires](https://en.wikipedia.org/wiki/The_World%27s_Billionaires). 
 
@@ -364,7 +370,7 @@ We'd rather have only [2755 billionaires](https://en.wikipedia.org/wiki/The_Worl
 * https://www.forbes.com/sites/kerryadolan/2021/04/06/forbes-35th-annual-worlds-billionaires-list-facts-and-figures-2021/
 
 
-<!-- .slide: data-audio-src="audio/foundations/15d.ogg" -->
+<!-- .slide: data-audio-src="audio/foundations/15d.ogg" data-background-image="images/Eben_Moglen_side_full.webp" -->
 The great moral question of the twenty-first century is this; if all knowledge, all culture, all art, all useful information can be costlessly given to everyone at the same price that it is given to anyone; if everyone can have everything, anywhere, all the time, why is it ever moral to exclude anyone? <!-- .element: class="quote" -->
 _Eben Moglen_ <!-- .element: class="attribution" -->
 
@@ -376,14 +382,12 @@ The great moral question of the twenty-first century is this; if all knowledge, 
 * re:publica from Germany, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons
 
 
-<!-- .slide: data-audio-src="audio/foundations/15e.ogg" data-background-image="images/public_domain_squandered.jpg" data-background-size="contain" -->
+<!-- .slide: data-audio-src="audio/foundations/15e.ogg" data-background-image="images/railroad_ownership.jpg" data-background-size="contain" -->
 Notes:
 I found some good answers to these questions in the free and open source software communities. I found other good answers in decolonization and anti-capitalist movements. Almost always the answers were confounded by concerns of ownership. History has demonstrated that a critical questioning of ownership is a requirement for a just and ethical society. Who and what can or should be owned are fundamental questions about how we organize our economy and culture.
 
-### Credits
 
-
-<!-- .slide: data-audio-src="audio/foundations/15f.ogg" -->
+<!-- .slide: data-audio-src="audio/foundations/15f.ogg" data-background-image="images/Ayn_rand_altruist_latent-diffusion.webp"-->
 Notes: 
 When you use digital technologies you become intrinsically linked to the great moral question: when the value others gain dwarfs the cost of your sacrifice, at what point does it become criminal not to make that sacrifice? 
 
@@ -419,10 +423,12 @@ Notes:
 Don't worry too much about the terminology. The important thing to understand is that machine learning or ML adds a training process in addition to traditional software programming. The software is trained on numerous examples or data. The collection and selection or curation of that data dramatically effects the capabilities learned by the machine. This allows the machine to learn from the data instead of having humans specify all the actions of the machine.
 
 
-<!-- .slide:  data-audio-src="audio/foundations/17b.ogg" -->
-Bias
+<!-- .slide:  data-audio-src="audio/foundations/17b.ogg" data-background-video="video/Coded Bias-jZl55PsfZJQ.mp4" -->
 Notes:
 When training data controls the output then you end up constantly running into data problems, one of which is called "bias", which is a common criticism of AI systems. However, bias is more of a data collection and curation issue, and all data driven systems, including humans, suffer from bias inherent in their input data.
+
+### Credits
+* [Coded Bias | Trailer](https://www.youtube.com/watch?v=jZl55PsfZJQ)
 
 
 <!-- .slide:  data-audio-src="audio/foundations/17c.ogg" data-background-image="images/PredPol.jpg" data-background-size="contain"-->
@@ -444,7 +450,7 @@ That this works so well is quite remarkable, but currently training requires a v
 * https://quantdare.com/what-is-the-difference-between-deep-learning-and-machine-learning/
 
 
-<!-- .slide: data-audio-src="audio/foundations/18.ogg" -->
+<!-- .slide: data-audio-src="audio/foundations/18.ogg" data-background-video="video/Transition_Toronto_small.mp4" data-background-opacity="0.6"-->
 <table>
 <thead>
 <tr><td>Traditional software</td><td>Machine learning</td></tr>
@@ -554,7 +560,7 @@ Monarch butterflies have a lifecycle that is shorter than their migration patter
 * https://www.youtube.com/watch?v=YEXhI8VQ9W4
 
 
-<!-- .slide: data-audio-src="audio/foundations/20e.ogg" data-background-image="images/cognitive assemblages.png" data-background-opacity="0.7" -->
+<!-- .slide: data-audio-src="audio/foundations/20e.ogg" data-background-image="images/cognitive assemblages_latent-diffusion.webp" data-background-opacity="0.8" -->
 My position is that all lifeforms, even those lacking brains, such as plants and nematode worms, have cognitive capacities. Once cognition is understood as a much broader capacity than consciousness, the relation between humans, nonhumans and computational media may be radically reconceptualized. Much of the world’s work in contemporary developed countries is done through collectivities through which information, interpretations, and meanings circulate: that is, through cognitive assemblages. <!-- .element: class="quote" -->
 _Katherine Hayles_ <!-- .element: class="attribution" -->
 
@@ -573,7 +579,7 @@ As we saw with Rule 110, simple rules that lead to complex patterns allow for co
 * [Self-Organization](https://www.youtube.com/watch?v=pbu80EEnh8E)
 
 
-<!-- .slide: data-audio-src="audio/foundations/21.ogg" data-background-image="images/narrow_vs_general.png" -->
+<!-- .slide: data-audio-src="audio/foundations/21.ogg" data-background-image="images/narrow_vs_general_RealESRGAN-pbaylies-hr-paintings.webp" -->
 ### Narrow vs General
 
 Notes:
@@ -584,7 +590,7 @@ There is broad consensus that we haven't yet found any narrow intelligence that 
 TODO: scale, speed, complexity?  Consciousness 
 
 
-<!-- .slide: data-audio-src="audio/foundations/22a.ogg" data-background-image="images/no_self_without_others.png" -->
+<!-- .slide: data-audio-src="audio/foundations/22a.ogg" data-background-image="images/no_self_without_others_RealESRGAN-pbaylies-hr-paintings.webp" -->
 ### So what is consciousness?
 
 There is no self without awareness of, and engagement with, others.<!-- .element: class="quote" -->
@@ -626,7 +632,7 @@ Our brain is locked inside our skull with no direct access to the outside world.
 * http://lightexhibit.org/bio_image84.html
 
 
-<!-- .slide: data-audio-src="audio/foundations/23c.ogg" data-background-image="images/Simplified-scheme-of-the-hierarchical-predictive-coding-framework-Friston-2005-2008.jpg" -->
+<!-- .slide: data-audio-src="audio/foundations/23c.ogg" data-background-image="images/Simplified-scheme-of-the-hierarchical-predictive-coding-framework-Friston-2005-2008_big.jpg" -->
 Notes:
 What we see is our brains best guess at what is happening. Other research has investigated "predictive coding" where the brains predictions and the sensory information flow in opposite directions and only errors in the prediction are propagated. 
 
@@ -679,7 +685,7 @@ So really we're classifying actions, not intelligence, and that all intelligence
 * https://commons.wikimedia.org/wiki/File:Cipolla-matrix.png
 
 
-<!-- .slide: data-audio-src="audio/foundations/26.ogg" data-background-image="images/brian_cantwell-smith.jpg" data-background-size="contain" -->
+<!-- .slide: data-audio-src="audio/foundations/26.ogg" data-background-image="images/brian_cantwell-smith_big.jpg" data-background-size="contain" -->
 ### Brian Cantwell Smith
 
 #### Judgment
@@ -698,7 +704,7 @@ The reason we hold human adults accountable for their actions, even if they do n
 Judgment is not restricted to humans. Perhaps it is a mark of the humane. Computers do not need to try to be computers. Humans are different: we must strive to be human."
 
 
-<!-- .slide: data-audio-src="audio/foundations/27a.ogg" data-background-image="images/freewill_is_a_figment_of_our_imagination.png" -->
+<!-- .slide: data-audio-src="audio/foundations/27a.ogg" data-background-image="images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" -->
 ### Decisions?
 
 Notes:
@@ -725,7 +731,7 @@ Notes:
 Humans do this too, we imagine how things might have gone if we'd only not said that stupid or thoughtless thing, or had thought of that brilliant reply at the time. This requires us to believe that we _could_ have acted differently than we _actually_ did. This belief is the experience of freewill and is needed for learning. If we thought we could never make any decision or action than the ones we actually took then it might be much more difficult to learn from our mistakes.
 
 
-<!-- .slide: data-audio-src="audio/foundations/27e.ogg" data-background-image="images/freewill_is_a_figment_of_our_imagination.png" -->
+<!-- .slide: data-audio-src="audio/foundations/27e.ogg" data-background-image="images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" -->
 We tend to think of ourselves as being capable of breaking the causal structure of our environment and making free choices, and this imagined freedom — despite being, in all probability, just a figment of imagination — is necessary for efficient learning and thus a vital part of our intelligence. <!-- .element: class="quote" -->
 _Erik M. Rehn_ <!-- .element: class="attribution" -->
 
@@ -745,38 +751,89 @@ Notes:
 * [Computer Ballet (1965) - First computer animation of human](https://www.youtube.com/watch?v=dXQIUEwEGQ)
 * [Frankenstein (1910)](https://www.youtube.com/watch?v=MowmXsMDkY)
 ---
-<!-- .slide: data-audio-src="audio/foundations/28.ogg" data-background-video="video/Through the haze of a machines mind.mp4" data-background-video-muted data-background-video-loop -->
+<!-- .slide: data-audio-src="audio/foundations/28aa.ogg" -->
 # Digital intelligence <!-- .element: class="r-fit-text" -->
 
-* Testing, inspection and interpretability <!-- class="fragment fade-up" -->
-* Freezing minds <!-- class="fragment fade-up" -->
-* Copying minds <!-- class="fragment fade-up" -->
-* Being Frankenstein <!-- class="fragment fade-up" -->
-
 Notes:
-There is a great deal of discussion and worry around testing, inspectio n and interpretability of machine learning systems. Can we trust the machine? How? 
+OK, I think we're ready to talk about digital intelligence.
+
+
+<!-- .slide: data-audio-src="audio/foundations/28a.ogg" data-background-image="images/trust_the_machine_big.webp" -->
+Testing, inspection and interpretability <!-- .element: class="backdrop" -->
+Notes:
+There is a great deal of discussion and worry around testing, inspection and interpretability of machine learning systems. Can we trust the machine? How? 
 
 How would we know when an AI system reaches general intelligence? How do we test for consciousness? On a more mundane level how do we test or know how _any_ of the output is derived from the input?
 
+
+<!-- .slide: data-audio-src="audio/foundations/28b.ogg" data-background-video="video/Memories of Passersby I by Mario Klingemann-298000366.mp4"-->
+The Imitation Game <!-- .element: class="backdrop" -->
+
+Notes:
 I would pose the same question about humans and other animals. In 1950 Alan Turing devised a famous test called the Imitation Game, now called the Turing Test, a three-person game in which an interrogator asks questions of a man and a woman in another room in order to determine the correct sex of the two players. If an AI is substituted for the man, could it succeed as well as the man?
 
+
+<!-- .slide: data-audio-src="audio/foundations/28c.ogg" data-background-image="images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_cfg_diffusion_1_latent-diffusion.webp" -->
+Where is the mutual benefit and judgment? <!-- .element: class="backdrop" -->
+
+Notes:
 The test may be more geared towards good simulations of human communication rather than general intelligence, and a successful AI would have to mimic human stupidity realistically as well. Importantly, it fails to test for Cipolla's mutual benefit or Cantwell-Smith's judgment. 
 
+
+<!-- .slide: data-audio-src="audio/foundations/28d.ogg" data-background-image="images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_0_RealESRGAN-pbaylies-hr-paintings.webp" -->
+A polite convention that everyone thinks <!-- .element: class="backdrop" -->
+
+Notes:
 The Turing Test isn't used in institutional AI research, as the goal of a human-passing general intelligence is only a tiny subset of the possible general intelligences, but it does highlight that it is difficult to decide if, and especially how, anyone possesses general intelligence. Turing wrote, "it is usual to have a polite convention that everyone thinks."
 
+
+<!-- .slide: data-audio-src="audio/foundations/28e.ogg" data-background-image="images/1024px-Saltatory_Conduction.gif" data-background-size="contain" data-background-color="black"-->
+Brain to neural net and back again <!-- .element: class="backdrop" -->
+
+Notes:
 One of the most exciting aspects of AI research is a lack of politeness with the machine. Machine minds are inspected, tested, and manipulated in every way to understand how they function. A machine intelligence may be alien, but it is the most researchable alien intelligence we've encountered. The degree to which there is back and forth transfer of knowledge between human brain research and machine learning should not be underestimated. Improvements to human brain scanning inspires experiments and theories in ML, and successes in ML that start out poorly understood but performing well inspire research until they are understood and then linked back to similar phenomenon seen in our brains. 
 
 Science has often proceeded from evidence that a thing is possible, to a theory of how it may be possible, to an effective model of that phenomenon.
 
+### Credits
+* https://commons.wikimedia.org/wiki/File:Saltatory_Conduction.gif
+  * Dr. Jana, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons
+
+
+<!-- .slide: data-audio-src="audio/foundations/28f.ogg" data-background-image="images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_1_RealESRGAN-pbaylies-hr-paintings.webp" -->
+Copying frozen digital minds <!-- .element: class="backdrop" -->
+
+Notes:
 The digitalness of machine minds provides much of their promise and strangeness. Only digital minds can be frozen in time - only changing when we want them to, but otherwise responding the same way to repeated testing. Only digital minds are so easy to copy and share between researchers and artists. The perfect copies dramatically improving their use as scientific tools. Researchers regularly share the intelligences they have built with the world, including all the software details and data sets with which they were constructed.
 
+
+<!-- .slide: data-audio-src="audio/foundations/28g.ogg" data-background-image="images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_3_RealESRGAN-pbaylies-hr-paintings.webp" -->
+Secret keeper <!-- .element: class="backdrop" -->
+Notes:
 Given open source AI that is completely inspectable and run on your own hardware, we can explore very strange and potentially powerful opportunities. These sorts of AI can be trusted more than humans, providing absolute privacy, up to and including forgetting all of your interactions with them.
 
-It is precisely the amount of control we have over digital minds that likely makes it impossible to ever ethically create conscious digital general intelligences. Restricting the basic freedoms of a human, who we politely assume to be a conscious thinker, would be unethical. We must also extend that politeness to the conscious digital minds and not dissect, copy or freeze them, as that seems to violate their freedom to have basic privacy at the very least. And yet this is an alien mind, how could you with good judgment allow it freedom of action that could harm others, or make infinite copies of itself, or study or change its own mind? Over 200 years ago Mary Shelly showed us that Frankenstein was a monster _because of what he created_, it still holds true today.
+
+<!-- .slide: data-audio-src="audio/foundations/28h.ogg" data-background-video="video/being_frankenstein.mp4" data-audio-advance="1500"-->
+Being Frankenstein <!-- .element: class="backdrop" -->
+
+Notes:
+It is precisely the amount of control we have over our digital minds that likely makes it impossible to ever ethically create conscious digital general intelligences. Restricting the basic freedoms of a human, who we politely assume to be a conscious thinker, would be unethical. We must also extend that politeness to the conscious digital minds and not dissect, copy or freeze them, as that seems to violate their freedom to have basic privacy at the very least. And yet this is an alien mind, how could you with good judgment allow it freedom of action that could harm others, or make infinite copies of itself, or study or change its own mind? Over 200 years ago Mary Shelly showed us that Frankenstein was a monster _because of what he created_, it still holds true today.
+
+### Credits
+* [Through the haze of a machine's mind we may glimpse our collective imaginations (Blade Runner) (2017) Excerpt](https://vimeo.com/213741599)
 
 ---
+<!-- .slide: data-audio-src="audio/foundations/29.ogg" -->
+# Thank you
 
-TODO: humans and aliens
-TODO: a digital mind can forget you, giving you ultimate privacy 
-TODO: bring your own model of yourself
-TODO: be in control of the shaping of your own mind
+1. **Foundations**
+2. _Past, Present, Future_
+3. Neural Nets <!-- .element: class="low-vis" -->
+4. Data in Practice <!-- .element: class="low-vis" -->
+5. Machine Learning Art <!-- .element: class="low-vis" -->
+   
+Notes:
+Well, we've made it to the end of the first tutorial. Thank you for your attention. I hope you'll check out the next in the series; Past, Present, Future, where we'll look more deeply at the history of the development of these technologies, the current state-of-the-art and my guesses about the future.
+
+See you there!
+
