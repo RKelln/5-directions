@@ -6,7 +6,9 @@ dist-ssr
 *.local
 
 # large files
-public
+public/images
+public/video
+public/audio
 
 # utils and notes
 deploy.sh
