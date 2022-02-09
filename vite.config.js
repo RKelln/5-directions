@@ -11,5 +11,5 @@ module.exports = defineConfig({
       }
     }
   },
-  assetsInclude: ['writing/*.md']
+  assetsInclude: ['writing/*.md'],
 })

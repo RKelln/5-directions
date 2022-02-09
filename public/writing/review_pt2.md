@@ -1,10 +1,10 @@
 # Review
 
-1. Foundations
-2. **Past, Present and Future**
-3. Neural Nets
-4. Data in Practice
-5. Machine Learning Art
+1. **Foundations**
+2. ***Past, Present, Future***
+3. Neural Nets <!-- .element: class="low-vis" -->
+4. Data in Practice <!-- .element: class="low-vis" -->
+5. Machine Learning Art <!-- .element: class="low-vis" -->
 
 Notes:
 In this presentation we'll cover the past, present and future of computing, machine learning and art.
@@ -12,16 +12,15 @@ In this presentation we'll cover the past, present and future of computing, mach
 In the previous tutorial, Foundations, we went over the principles and foundations needed to understand the philosophy and importance of machine learning art. Now we'll uncover context and explore origins, to see how the technology was developed, how it was thought of and shaped by its creators and how it influenced the world, particularly the art world.
 
 
-
 ### Foundations
 * Digital
-  * Resist noise
+  * Resists noise
   * Perfect, free copies
 * Boolean algebra, algorithms, Turning machines, abstraction, software
 * Interactivity and adaption
   * Recording - Mapping - Stateful - Adaptive
 * Ethics
-  * Who? Everyone and anyone
+  * Who? _Everyone and anyone_
 * Machine learning vs traditional software
 * What is intelligence?
 * Digital intelligence

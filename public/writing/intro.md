@@ -1,5 +1,5 @@
-<!-- .slide: data-audio-src="audio/intro/acknowledgement.ogg" data-background-image="images/Toronto.jpg" data-background-opacity="0.6" -->
-<div class="small">
+<!-- .slide: data-audio-src="audio/intro/acknowledgement.ogg" data-background-image="images/Toronto.jpg" data-background-opacity="0.6" data-audio-advance="1000" -->
+<div class="small tall">
 
 I acknowledge the land I live on is the traditional territory of many nations
 including the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the
@@ -16,7 +16,7 @@ Notes:
 * Image by Ryan Kelln.
 
 
-<!-- .slide: data-audio-src="audio/intro/01.ogg" data-background-video="video/SunsetWavesMediumH264_Beachfront-B-roll.mp4"-->
+<!-- .slide: data-audio-src="audio/intro/01.ogg" data-background-video="video/SunsetWavesMediumH264_Beachfront-B-roll.mp4" data-audio-advance="1500"-->
 # Five Directions Tutorials <!-- .element: class="r-fit-text" -->
 
 1. Foundations

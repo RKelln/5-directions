@@ -8,12 +8,11 @@
   },
   "devDependencies": {
     "jszip": "^3.7.1",
+    "less": "^4.1.2",
     "recordrtc": "^5.6.2",
     "reveal.js": "^4.2.1",
     "reveal.js-plugins": "github:RKelln/reveal.js-plugins",
-    "vite": "^2.6.4"
-  },
-  "dependencies": {
-    "create-silent-audio": "^0.1.1"
+    "vite": "^2.6.4",
+    "wikipedia-preview": "^1.4.4"
   }
 }

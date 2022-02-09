@@ -124,6 +124,9 @@ For example, models dealing with images tend to work well with 10 or so layers, 
 
 A model basically describes a set of weights. One way of thinking about training is encoding a representation of the training data into the weights. There are many more input values than weight values so this is a form of lossy data compression. Information that is extraneous will be lost but a model with the right capacity will be able to store or keep all of the important information.
 
+
+ TODO: activation function: https://krutikabapat.github.io/Swish-Vs-Mish-Latest-Activation-Functions/
+ 
 ---
 
 # Training
@@ -435,7 +438,9 @@ Explainability goes one step further, describing the comprehension of why the de
 
 Explainable AI is critically important when ML is used for decision-making or prediction in consequential situations like healthcare, autonomous vehicles, etc. Issues around trust, determination of causality, reliability, fairness, and privacy are dependent on explainability.
 
-Deep learning has difficult challenges dealing with this issue. Models are narrow intelligences, being able to explain themselves to humans would require something much closer to general intelligence and at minimum both an ability to understand its own thinking and then translate into language a human can understand. Considering how poorly humans fair at both of those tasks you can see the scope of this challenge. However, I would say that part of the joy of making art is exactly tackling this challenge. Explainable AI as the process of making AI artists - maybe Kogan's dream of the autonomous artist is the future of explainability.
+One of the most confounding aspects of neural nets is that they can be sensitive to slight input changes that are human-imperceptible. Adding a bit of noise, undetectable to a human, to an image classifier may change the classification completely. Better training procedures can help reduce this, but there will always be the equivalent of what we call "optical illusions" in humans, and discovering them requires additional effort.
+
+There is no easy explanation for outputs based on millions of weighted connections. Models don't understand themselves either, and can't explain their reasoning to us. Being able to explain themselves to humans would require something much closer to general intelligence and at minimum both an ability to understand its own thinking and then translate into language a human can understand. Considering how poorly humans fair at both of those tasks you can see the scope of this challenge. However, I would say that part of the joy of making art is exactly tackling this challenge. Explainable AI as the process of making AI artists - maybe Kogan's dream of the autonomous artist is the future of explainability.
 
 One thing the machines have going for them is much more transparency and easier testing. Researchers have already done good work on areas like highlighting the part of an image a neuron most strongly responds too. So while ML may not be able to explain itself well to us on its own, it may be enough that we can inspect its mind when we cannot interpret its actions intuitively.
 
@@ -445,7 +450,7 @@ TODO: https://microscope.openai.com/models
 ### Credits
 * https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
 * https://www.kdnuggets.com/2018/12/machine-learning-explainability-interpretability-ai.html 
-
+* https://ai.googleblog.com/2022/01/controlling-neural-networks-with-rule.html
 
 
 Rigid models
@@ -491,8 +496,7 @@ The symbolic AI camp continues to point out that neural nets have no common sens
 Pedro Domingos in The Master Algorithm puts it this way:
 "Take commonsense reasoning. It involves combining pieces of information that may have never been seen together before. Did Mary eat a shoe for lunch? No, because Mary is a person, people only eat edible things, and shoes are not edible. Symbolic systems have no trouble with this—they just chain the relevant rules—but multilayer perceptrons can’t do it; once they’re done learning, they just compute the same fixed function over and over again. Neural networks are not compositional, and compositionality is a big part of human cognition. Another big issue is that humans—and symbolic models like sets of rules and decision trees—can explain their reasoning, while neural networks are big piles of numbers that no one can understand."
 
-Brian Cantwell-Smith has a wonderful rebuttal, "AI systems need to be able to deal with reality as it actually is, not with the way that we think it is — not with the way that our thoughts or language represent it as being". He continues, "taking the world to consist of discrete intelligible mesoscale objects is an
-achievement of intelligence, not a premise on top of which intelligence runs." This acheivement, which he calls registration, is an active process. "Registration schemes necessarily impose non-innocent idealizations — inscribe boundaries, establish identities, privilege some regularities over others, ignore details, and in general impose idealizations and do an inevitable amount of violence to the sustaining underlying richness. This process of stewardship and accountability for registration, never imagined in the \[symbolist\] project, is of the essence of intelligence."
+Brian Cantwell-Smith has a wonderful rebuttal, "AI systems need to be able to deal with reality as it actually is, not with the way that we think it is — not with the way that our thoughts or language represent it as being". He continues, "taking the world to consist of discrete intelligible mesoscale objects is an achievement of intelligence, not a premise on top of which intelligence runs." This achievement, which he calls registration, is an active process. "Registration schemes necessarily impose non-innocent idealizations — inscribe boundaries, establish identities, privilege some regularities over others, ignore details, and in general impose idealizations and do an inevitable amount of violence to the sustaining underlying richness. This process of stewardship and accountability for registration, never imagined in the \[symbolist\] project, is of the essence of intelligence."
 
 Nonetheless, current neural nets are terrible at reasoning, but exploring how to make them more modular, composable and robust leads in the direction of allowing them to build their own registrations, not just in the training process, but on the fly in response to input. The composition of modules in turn could be viewed in a symbolic framing and the communication of the logic of the modules and how they can / are composed to be an attempt at explainability.
 

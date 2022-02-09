@@ -74,3 +74,8 @@ I found myself struggling to finish reading the rest of the line and keep listen
 - The images of the processing of "7" are a bit too long, as are the Patterns of recognizing: I'd find more useful to put your comment in writing on the screen, increasing the understanding of the concept, as also with the eye's sequence, that doesn't explain itself enough (in my opinion).
 - I think you could take away the second screen with Frankenstein images when talking about the computer ballet.
 
+
+
+# Other TODO:
+
+* digital vs analog: digital - no values between, analog - infinite values between

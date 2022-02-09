@@ -1,3 +1,6 @@
+/* wikipedia preview */
+@import 'node_modules/wikipedia-preview/dist/wikipedia-preview-style.css';
+
 /* custom overrides for theme*/
 :root {
   --r-heading-color: #fff;
@@ -86,11 +89,14 @@
   margin-left: 2rem;
 }
 
+.reveal .backdrop, .reveal .quote, .history .reveal p {
+  background-color: rgba(10,0,0,0.66);
+}
+
 .reveal .backdrop, .reveal .quote {
   display: block;
   padding: 0.25em 0;
-  background-color: rgba(10,0,0,0.66);
-  border-radius: 0.2em;
+  border-radius: 0.2rem;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
@@ -156,12 +162,12 @@
 
 .reveal .pushright {
   position: relative;
-  left: 25%;
+  left: 33%;
   width: 90%;
 }
 
 .reveal .small {
-  font-size: 14pt;
+  font-size: 0.65em;
 }
 
 .reveal .low-vis {
@@ -207,21 +213,98 @@
   padding: 0;
 }
 
-/*
-.reveal .quote::first-letter {
-  font-weight: bold;
-  font-size: 300%;
-  padding: 0 .3rem;
-  margin: 0.6rem .3rem 0 0;
-
-  float: left;
-  line-height: 1;
+.reveal .tall {
+  max-width: 26em;
+  margin: auto;
 }
-*/
 
-/* unused */
-.slide .two-column {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+/* Past Present Future */
+
+.reveal #year {
+  position: absolute;
+  top: 0;
+  left: -0.1em;
+  bottom: auto;
+  right: auto;
+  font-size: 50vmin;
+  line-height: 0.5;
+  font-weight: bolder;
+  font-stretch: condensed;
+  color: rgba(210,180,180, 0.7);
+  mix-blend-mode: difference;
+}
+
+.history .reveal p, .history .reveal .quote {
+  text-align: left;
+  font-size: 80%;
+  padding: 1rem 1.2rem;
+  margin: auto;
+  max-width: 26em;
+  backdrop-filter: blur(2px);
+}
+
+.history .reveal section.stack.present section.present {
+  position: absolute;
+  bottom: 0px;
+}
+
+.history .reveal .quote {
+  font-style: italic;
+  margin-top: 2em;
+  background-color: rgba(40, 9, 0, 0.7);
+  mix-blend-mode: difference;
+  border: 4px double rgba(210,180,180, 0.9);
+  padding: 1em 1.5em;
+}
+
+@media screen and (min-width: 1000px) {
+  .history .reveal p, .history .reveal h2, .history .reveal h3, .history .reveal h4 {
+    max-width: 30vw;
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  .history .reveal p {
+    font-size: 65%;
+    min-width: 15em;
+  }
+
+  .history .reveal h1, .history .reveal h2, .history .reveal h3 {
+    margin-left: 1rem;
+  }
+
+  .history .reveal h1 {
+    font-size: 200%;
+  }
+
+  .history .reveal h2 {
+    font-size: 120%;
+  }
+
+  .history .reveal h3 {
+    font-size: 100%;
+  }
+
+  .history .reveal h4 {
+    font-size: 80%;
+  }
+
+  .history .reveal .quote {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 50%;
+  }
+}
+
+.reveal img.background {
+  position: absolute;
+  z-index: -1;
+  filter: brightness(70%);
+}
+
+.history .reveal img.background {
+  left: 0;
+  top: 0;
 }
 

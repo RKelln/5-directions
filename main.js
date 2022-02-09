@@ -13,7 +13,10 @@ import Search from 'reveal.js/plugin/search/search.esm.js';
 import AudioSlideshow from 'reveal.js-plugins/audio-slideshow/plugin.js'
 //import AudioRecorder from 'reveal.js-plugins/audio-slideshow/recorder.js'
 
-const deck = new Reveal()
+import {init as wikiInit} from 'wikipedia-preview/src/index.js'
+
+
+export const deck = new Reveal();
 let paused = false;
 
 deck.initialize({
@@ -23,9 +26,24 @@ deck.initialize({
   // Learn about plugins: https://revealjs.com/plugins/
   plugins: [ Notes, Markdown, Search, AudioSlideshow ],
 
-  // preloading view distance
+  // turn off scaling and centering
+  //disableLayout: true,
+
+  // preloading distance
   viewDistance: 4,
   mobileViewDistance: 4,
+
+  // view config
+  width: 1280,
+  height: 720,
+
+  // Factor of the display size that should remain empty around
+  // the content
+  margin: 0.04,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 2.0,
 
   // audio slideshow/recorder init options
   audio: {
@@ -34,7 +52,7 @@ deck.initialize({
     textToSpeechURL: null,  // the URL to the text to speech converter
     defaultNotes: false, 	// use slide notes as default for the text to speech converter
     defaultText: false, 	// use slide text as default for the text to speech converter
-    advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+    advance: -1, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
     autoplay: true,	// automatically start slideshow
     defaultDuration: 0.1,	// default duration in seconds if no audio is available
     defaultAudios: false,	// try to play audios with names such as audio/1.2.ogg
@@ -42,50 +60,33 @@ deck.initialize({
     playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
     startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
   }
+}).then( () => {
+
+  // init wikipedia popups
+  wikiInit({
+    detectLinks: true, // auto detect wikipedia links
+    //debug: true
+  });
 });
+
 
 deck.addKeyBinding( { keyCode: 32, key: ' ', description: 'Pause/resume' }, () => {
   // two functionaliies: if no audio playing then advance the slide
   // if audio playing then pause/resume video and audio
 
-  // audio
-  let indices = deck.getIndices();
-	let audio_id = "audioplayer-" + indices.h + '.' + indices.v;
-	if ( indices.f != undefined && indices.f >= 0 ) audio_id = audio_id + '.' + indices.f;
-	let audio = document.getElementById( audio_id );
-  //console.log(audio, audio.duration, !audio.duration);
-  
-  let slide = deck.getCurrentSlide();
-  //console.log("space pressed", paused, slide);
-  let background_video = slide.slideBackgroundContentElement.querySelector('video');
-  let video = slide.querySelector('video'); // FIXME: only handles a single video 
+  const [background_video, video, audio] = getMedia(); 
 
   // handle next slide action:
   if (!background_video || !background_video.ended) {
-    if (!audio || audio.ended || !audio.duration) {
+    if (!audio || audio.ended || !audio.duration || audio.duration - audio.currentTime < 1) {
       deck.next();
       return;
     }
   }
   
-  // handle pause / resume action:
-  paused = !paused;
-
-
-  // video/audio may be paused independently so we check that here and override
-  if (background_video) paused = !background_video.paused;
-  if (audio) paused = !audio.paused;
-
-  if (paused) { // pause video and audio
-    if (background_video) background_video.pause();
-    if (video) video.pause();
-    if (audio) audio.pause();
-  } else { // resume video and audio
-    if (background_video) background_video.play();
-    if (video) video.play();
-    if (audio) audio.play();
-  }
+  togglePause();
 } )
+
 
 deck.on( 'slidechanged', event => {
   // event.previousSlide, event.currentSlide, event.indexh, event.indexv
@@ -111,36 +112,15 @@ deck.on( 'slidechanged', event => {
   }
 } );
 
-/*
-deck.on( 'fragmentshown', event => {
-  if (event.fragment.dataset.backgroundImage) {
-    // set the section background
-    let currentSlide = deck.getCurrentSlide();
+// deck.on( 'slidetransitionend', event => {
+// 	// add activate class to animations
+//   let slide = event.currentSlide;
+//   let animations = slide.querySelectorAll('.anim');
 
-    // store the previous background image if no base background image set
-    if (currentSlide.dataset.backgroundImage && !currentSlide.dataset.backgroundImageBase) {
-      currentSlide.setAttribute('data-background-image-base', currentSlide.dataset.backgroundImage);
-    }
-    
-    currentSlide.setAttribute('data-background-image', event.fragment.dataset.backgroundImage);
-    deck.syncSlide();
-  }
-} );
-
-deck.on( 'fragmenthidden', event => {
-  // revert the background image
-  let currentSlide = deck.getCurrentSlide();
-
-  if (currentSlide.dataset.backgroundImageBase) {
-    currentSlide.setAttribute('data-background-image', currentSlide.dataset.backgroundImageBase);
-    currentSlide.removeAttribute('data-background-image-base');
-  } else {
-    currentSlide.removeAttribute('data-background-image');
-  }
-  
-  deck.syncSlide();
-} );
-*/
+//   animations.forEach(function(e) {
+//     e.classList.add('active');
+//   });
+// });
 
 // HACK: FIXME: to allow for using the pause button on the audio player and not
 // restarting the video when starting an audio fragent we watch the stopplayback event
@@ -159,4 +139,94 @@ document.addEventListener('startplayback', function(e) {
   if (background_video) background_video.play();
 } );
 
+
+// const [background_video, video, audio] = getMedia();
+function getMedia() {
+  // audio
+  let indices = deck.getIndices();
+  let audio_id = "audioplayer-" + indices.h + '.' + indices.v;
+  if ( indices.f != undefined && indices.f >= 0 ) audio_id = audio_id + '.' + indices.f;
+  let audio = document.getElementById( audio_id );
+  //console.log(audio, audio.duration, !audio.duration);
+  
+  let slide = deck.getCurrentSlide();
+  let background_video = null;
+  let video = null;
+  if (slide) {
+    background_video = slide.slideBackgroundContentElement.querySelector('video');
+    video = slide.querySelector('video'); // FIXME: only handles a single video 
+  }
+
+  return [background_video, video, audio];
+}
+
+
+function pause() {
+  const [background_video, video, audio] = getMedia(); 
+
+  if (background_video) background_video.pause();
+  if (video) video.pause();
+  if (audio) audio.pause();
+}
+
+
+function play() {
+  const [background_video, video, audio] = getMedia(); 
+
+  if (background_video) background_video.play();
+  if (video) video.play();
+  if (audio) audio.play();
+}
+
+
+function togglePause() {
+  const [background_video, video, audio] = getMedia(); 
+
+  // handle pause / resume action:
+  paused = !paused;
+
+  // video/audio may be paused independently so we check that here and override
+  if (background_video) paused = !background_video.paused;
+  if (audio) paused = !audio.paused;
+
+  if (paused) { // pause video and audio
+    pause();
+  } else { // resume video and audio
+    play();
+  }
+}
+
+
+// pause on defocus: https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
+
+// Set the name of the hidden property and the change event for visibility
+var hidden, visibilityChange;
+if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support
+  hidden = "hidden";
+  visibilityChange = "visibilitychange";
+} else if (typeof document.msHidden !== "undefined") {
+  hidden = "msHidden";
+  visibilityChange = "msvisibilitychange";
+} else if (typeof document.webkitHidden !== "undefined") {
+  hidden = "webkitHidden";
+  visibilityChange = "webkitvisibilitychange";
+}
+
+// If the page is hidden, pause the video;
+// if the page is shown, play the video
+function handleVisibilityChange() {
+  if (document[hidden]) {
+    pause();
+  } else {
+    play();
+  }
+}
+
+// Warn if the browser doesn't support addEventListener or the Page Visibility API
+if (typeof document.addEventListener === "undefined" || hidden === undefined) {
+  console.log("This demo requires a browser, such as Google Chrome or Firefox, that supports the Page Visibility API.");
+} else {
+  // Handle page visibility change
+  document.addEventListener(visibilityChange, handleVisibilityChange, false);
+}
 
