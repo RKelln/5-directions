@@ -9,6 +9,11 @@ It is entirely possible to make art with machine learning techniques without kno
 
 To paraphrase Ken Liu, from the preface to _The Paper Menagerie and Other Stories_:
 
+
+It is the possibility of our minds touching that makes [the act of creation] a worthwhile endeavour at all. Whatever has been lost in translation in the long journey of my thoughts through the maze of civilization to your mind, I think you do understand me, and you think you do understand me. Our minds managed to touch, if but briefly and imperfectly. We live for such miracles. <!-- .element: class="quote" -->
+_Ken Liu_ <!-- .element: class="attribution" -->
+
+Notes:
 "It is the possibility of our minds touching that makes [the act of creation] a worthwhile endeavour at all. Whatever has been lost in translation in the long journey of my thoughts through the maze of civilization to your mind, I think you do understand me, and you think you do understand me. Our minds managed to touch, if but briefly and imperfectly. We live for such miracles."
 
 
@@ -46,15 +51,15 @@ Humans tend to think linearly, so our intuition gets exponential wrong. We can o
 
 We will be focusing on the exponential growth of technological development. Exponential growth as seen in computer hardware means that every 5 years a computer is about 10 times better with no increase in price.
 
-Technologies for better tools, especially those for learning, like writing, educational institutions and the practice of science, dramatically increase the speed of development. A couple of thousand years ago we might see inventions every few hundred years and often then would be lost and rediscovered, then after about 1700 we started seeing significant inventions every year or two. Two hundred years later its every couple of months, twenty years ago its every month, and now, there is interesting, potentially important research being released every day. Ray Kurzweil estimated that at the rate of development in year 2000 we'll see the equivalent of 20000 years progress in the 21st century. 
+Technologies for better tools, especially those for learning, like writing, educational institutions and the practice of science, dramatically increase the speed of development. A couple of thousand years ago we might see important inventions every few hundred years and often they would be lost and rediscovered, then after about 1700 we started seeing significant inventions every year or two. Two hundred years later its every couple of months, twenty years ago its every month, and now, there is interesting, potentially important research being released every day. Ray Kurzweil estimated that at the rate of development in year 2000 we'll see the equivalent of 20000 years progress in the 21st century. 
 
 For reference at the turn of the century, the rough draft of the humane genome project was released, Wikipedia was started, and the following consumer gadgets were released - the first camera phone, USB flash drive, Playstation 2, Bluetooth, the Segway, The Sims, the ASIMO robot, and the world's first mass-market e-book. Add we survived the Y2K bug by spending hundreds of billions of dollars and mobilizing most governments and large businesses. 
 
-How do you turn 100 actual years into 20000 years of development? Cultural changes play a big role, for example, development is constrained when women, minorities and the poor are excluded from participating in, business, arts and sciences. The directions of any development are further constrained when power, personal wealth, and fear drive investment, limiting the growth in other areas. Thus there substantial headroom for  increases in the speed of development through greater diversity, accessibility and inclusivity. 
+How do you turn 100 actual years into 20000 years of development? It's not just technology helping to create more technology. Cultural changes play a big role, for example, development is constrained when women, minorities and the poor are excluded from participating in, business, arts and sciences. The directions of any development are further constrained when power, personal wealth, and fear drive investment, limiting the growth in other areas. Thus there substantial headroom for increases in the speed of development through better living standards, greater diversity, accessibility and inclusivity. 
 
 This isn't to make a judgment about the accelerating rate of development, positive or negative, simply that it is increasing and will continue to do so, despite the numerous dangers from reckless, thoughtless or exploitative developments. Social media being a good case study. What matters is that we get a sense of, then acknowledge and plan for, exponential technological development. 
 
-In the following video excerpt, done for my 2015 concert _Creo Animam_, depicts images of technology presented the year of their invention, timed such that 1 minute of video is roughly equivalent to 100 years of historical time.
+In the following video excerpt, done for my 2015 concert _Creo Animam_, I depict images of technology ordered by the year of their invention, timed such that 1 minute of video is roughly equivalent to 100 years of historical time.
 
 ### Credits
 * https://www.kurzweilai.net/the-law-of-accelerating-returns
@@ -77,7 +82,7 @@ Notes:
 Notes:
 I'm not a historian, and the following subset of historical events is not meant to be exhaustive, but rather illustrative of the role that science, mathematics, mechanical and digital computers played in the development of machine learning and art. There were countless developments in basic math and technology before the 20th century, but I am focusing mainly on the 20th century.
 
-It is important to remember that recorded history is heavily biased. Dates and timing are approximate and the people who are commonly associated with various breakthroughs are surrounded by people whose names aren't mentioned but contributed in some way. In most cases multiple people around the world were working on and solving the same problem independently at around the same time. In Alvy Ray Smith's _A Biography of the Pixel_ book he has this great example:
+It is important to remember that recorded history is heavily biased. Dates and timing are approximate and the people who are commonly associated with various breakthroughs are surrounded by people whose names aren't mentioned but contributed in some way. In most cases multiple people around the world were working on and solving the same problem independently at around the same time. In Alvy Ray Smith's _A Biography of the Pixel_ he has this great example:
 
 "Stigler’s Law of Eponymy comes into play: “No scientific discovery is named after its original discoverer.” (This law, by the way, was not discovered by Stigler.)" 
 
@@ -127,7 +132,7 @@ In the late 17th century German polymath Gottfried Leibniz wrote 15,000 letters 
 In contrast to Descartes and Spinoza, Leibniz attempted to understand the universe by finding the principal components, which he called monads, that could not be divided into smaller parts. God was the first monad or monad of monads. He applied similar thinking to ideas:
 
 1. All our ideas are compounded from a very small number of simple ideas, which form the alphabet of human thought.
-2. Complex ideas proceed from these simple ideas by a uniform and symmetrical combination, analogous to arithmetical multiplication.
+2. Complex ideas proceed from these simple ideas by uniform and symmetrical combination, analogous to arithmetical multiplication.
 
 Leibniz wanted a universal and formal language able to express all mathematical, scientific, and metaphysical concepts. It could be used to prove the existence of God and the understanding of all things.
 
@@ -147,7 +152,7 @@ This viewpoint, partially inspired from Confucian philosophy and English sculpto
 <!-- .slide: data-state="history" data-background-image="images/1920px-Racknitz_-_The_Turk_3.webp" -->
 ## 1769 <!-- .element: class="year" -->
 ## Early automatons
-Complex mechanical devices have a long history, the earliest known analog computer being the _Antikythera mechanism_ now over 2000 thousand years old. There are even old accounts from China of a realistic human-shaped automaton that could walk and sing.
+Complex mechanical devices have a long history, the earliest known analog computer is the _Antikythera mechanism_ now over 2000 thousand years old. There are even old accounts from China of a realistic human-shaped automaton that could walk and sing.
 
 Mechanical marvels pop up repeatedly in many cultures, but at least one is actually a fraud: Wolfgang von Kempelen's 1769 chess playing Turk automaton which secretly incorporated a human inside to control the machine. 245 years later a new online "crowdworking" business was created that that hired workers to perform online tasks that were often used to compensate for machine failings or generate machine training data - Amazon's Mechanical Turk service. 
 
@@ -211,9 +216,9 @@ Notes:
 ## 1822 <!-- .element: class="year" -->
 ## Fourier transform
 ### Joseph Fourier
-A French mathematician and physicist who barely survived the revolution _and_ Napolean. Among other subjects, Fourier studied mathematical waves, particularly sine waves, which trace the position along the circumference of a circle - basically an unfurled circled.
+Joseph Fourier was a french mathematician and physicist who barely survived the revolution _and_ Napolean. Among other subjects, Fourier studied mathematical waves, particularly sine waves, which trace the position along the circumference of a circle - basically an unfurled circled.
 
-All waves have a frequency (how fast they wiggle or cycle) and an amplitude or energy (the height of the crests and troughs). Fourier’s idea was that a vast number of patterns of the world, including everything we can see or hear, can be described exactly as a sum of sine waves and nothing else. Any complex wave pattern can be decomposed into a set of simple sine waves. Fourier's insight underlies all conversion from analog to digital as well as data compression.
+All waves have a frequency (how fast they wiggle or cycle) and an amplitude or energy (the height of the crests and troughs). Fourier’s idea was that a vast number of patterns of the world, including everything we can see or hear, can be described exactly as a sum of sine waves and nothing else. Any complex wave pattern can be decomposed into a set of simple sine waves. Fourier's insight underlies all conversion from analog to digital as well as data compression. 
 
 Notes:
 A French mathematician and physicist who barely survived the revolution _and_ Napolean. Among other subjects, Fourier studied mathematical waves, particularly sine waves, which trace the position along the circumference of a circle - basically an unfurled circled.
@@ -246,7 +251,7 @@ Fourier's insight underlies all conversion from analog to digital as well as dat
 Notes:
 Machine learning and statistics are closely related, and thus rely on the same fundamental breakthroughs in probability. Statistics analyses data to get insight to the underlying distribution of probability. A probability distribution describes the frequency or count of the events or occurrences within a group or interval. In a coin flip, there are two possible outcomes and each has a 50% probability. 
 
-The statistic method of linear regression was developed for fitting a few imprecise observations of planetary movement to a mathematical function plotting the movement correctly. It is still a powerful and widely used method in machine learning today. Three basic assumptions were made:
+The statistical method of linear regression was developed for fitting a few imprecise observations of planetary movement to a mathematical function plotting the movement correctly. It is still a powerful and widely used method in machine learning today. Three basic assumptions were made:
 
 1. Small errors are more likely than large errors;
 2. Errors are balanced, just as likely to above or below the actual value; and
@@ -339,11 +344,11 @@ Notes:
 Notes:
 Building on the developments in statistics and probability theory the general theories of information, communication, computation and games began to emerge. 
 
-Quantifying the amount of information in a system requires the use of probabilities. Learning that an unlikely event has occurred is more informative than learning that a likely event has occurred. If I already know everything you can tell me, I can receive no information. "Tell me something I don't know" means I am uncertain what you are going to say. All the things you could say that I don't know constitute information.
+Quantifying the amount of information in a system requires the use of probabilities. Learning that an unlikely event has occurred is more informative than learning that a likely event has occurred. If I already know everything you can tell me, I can receive no information. "Tell me something I don't know" means I want to be uncertain what you are going to say. All the things you could say that I don't know constitute information.
 
-This also means that rare events are more uncertain or more surprising and require more information to represent them than common events. Communicating something surprising or uncommon to the receiver requires more information about it. So conveying expected information requires and transmits only little information, but it requires and transmits a lot of information to convey what you don't already know.
+This also means that rare events that are more uncertain or more surprising then require more information to represent than common events. I don't have to say much to tell you something you expected anyways, but telling you something unexpected or unfamiliar requires a longer explanation. Thus conveying expected information requires and transmits only little information, but it requires and transmits a lot of information to convey the unexpected.
 
-This is measured by what is called information entropy, or how much information is available in a system. It is related to, but separate from, entropy in other fields and can be thought of as "how many yes/no guesses would it take?" 
+This is measured by what is called information entropy, or how much information is available in a system. It is related to, but separate from, entropy in other fields and can be thought of as "how many yes/no guesses would it take?" For example to guess the outcome of a coin flip or a die roll or a word in Wordle.
 
 
 Low Probability Event: High Information (surprising).
@@ -363,7 +368,7 @@ Another related concept is mutual information which measures the dependence betw
 
 For example, once Turing broke the code, and could decrypt the German messages, he needed to hide the fact from the Germans, who would be looking for signs that their messages could be read. Thus any actions based on the information you gain from the messages must be carried out in a way that looks like it could have been random luck, rather than revealing that you know the secret information. You need to disguise the mutual information between your observed actions and the fact that you've broken the code - often by taking no action. Turing was haunted by all the people he couldn't save because it would have revealed that he had cracked the code.
 
-The final key concept that was developed was that of undecidability. To begin to unpack that, let's look at a related example of the barber paradox: In a particular village the barber only shaves everyone who does not shave themselves. Who shaves the barber? The barber cannot shave himself as he only shaves those that do not shave themselves, and if he doesn't shave himself, then the barber shaves ...himself.
+The final key concept that was developed was that of undecidability. To begin to unpack that, let's look at a related example of the barber paradox: In a particular village the barber shaves everyone, and only those, who does not shave themselves. Who shaves the barber? The barber cannot shave himself as he only shaves those that do not shave themselves, and if he doesn't shave himself, then the barber shaves ...himself.
 
 Problems that involve self-references can have serious theoretical problems about being decidable. In particular, self-reference and negation or "not"-ness is a paradoxical quagmire. It was shown that for certain problems there is no consistent, effective algorithm that can answer every question in the problem: it is undecidable. For centuries philosophers and mathematicians had been struggling to create a complete logical framework for all mathematics, but it was now proven an impossible task. So too was it impossible to create computer algorithms for these sorts of undecidable problems.
 
@@ -430,14 +435,14 @@ Notes:
 ### Analog and Digital
 
 Digital is not somehow less than analog. Taking samples seems to imply that the infinite amount of information between samples is lost — that digital is only an approximation — but it’s not so. The Sampling Theorem, if correctly applied, proves that digital discards nothing. Instead, it’s an extremely clever repackaging of infinity. <!-- .element: class="quote" -->
-Alvy Ray Smith <!-- .element: class="attribution" -->
+_Alvy Ray Smith_ <!-- .element: class="attribution" -->
 
 Notes:
-I think it is important to take a moment and talk about just how important the combination of Fourier and Kotelnikov's ideas are and what they say about the nature of digital and analog.
+I think it will be helpful to take a moment and talk about just how important the combination of Fourier and Kotelnikov's ideas are and what they say about the nature of digital and analog.
 
 As we discussed in Part 1, an analog signal can be thought of as a wave. A digital representation of a wave takes samples along the wave at particular moments in time. Between each digital sample there are no other values. But there are actually infinite values on the continuous wave between the two. Digital has nothing in between two neighbouring samples, analog has infinite values between any two values.
 
-However, using the sampling theorem it is possible to reconstruct the infinite values in the wave perfectly, essentially by multiplying each digital value by an analog wave and then adding all the waves together. Fourier shows us that waves can be decomposed and recomposed and if the digital sampling is frequent enough then you can get back the original wave. Don't worry about the details, the important point made by Alvy Ray Smith in his book, _A Biography of the Pixel_ is that:
+However, using the sampling theorem it is possible to reconstruct the infinite values in the wave perfectly, essentially by multiplying each digital value by another analog wave and then adding all the waves together. Fourier shows us that waves can be decomposed and recomposed and if the digital sampling is frequent enough then you can get back the original wave. Don't worry about the details, the important point made by Alvy Ray Smith in his book, _A Biography of the Pixel_ is that:
 
 Digital is not somehow less than analog. Taking samples seems to imply that the infinite amount of information between samples is lost — that digital is only an approximation — but it’s not so. The Sampling Theorem, if correctly applied, proves that digital discards nothing. Instead, it’s an extremely clever repackaging of infinity.
 
@@ -497,11 +502,11 @@ Notes:
 </div>
 
 Notes:
-Early work into neural models and evolutionary models of intelligence began before the first digital computers. William Grey Walter's tortoises were built with light sensor, touch sensor, propulsion motor, steering motor, and a two vacuum tube analogue computer. 
+Early work into neural models and evolutionary models of intelligence began before the first digital computers. William Grey Walter's tortoises were built with a light sensor, touch sensor, propulsion motor, steering motor, and a two vacuum tube analogue computer. 
 
 Robots, a term coined in 1920 to describe imagined artificial workers, like Walter's and Nicolas Schöffer's _CYSP 1_ were being used to experiment with connectionist and cybernetic models of intelligence. These theories are precursors to artificial neural networks and involve connections and feedback loops as well as direct sensing of the environment as primary components of intelligence.
 
-Norbert Weiner characterized cybernetics as concerned with "control and communication in the animal and the machine". The goal of control was generally homeostasis or self-organization, or more generally, a resistance to change away from optimal conditions. When these optimal conditions lay on the borders of stasis and chaos, those unpredictable boundary areas where computation can form, like in Rule 110, then life and intelligence can arise.
+Norbert Weiner characterized cybernetics as concerned with "control and communication in the animal and the machine". The goal of control was often homeostasis or self-organization, or more generally, a resistance to change away from optimal conditions. When these optimal conditions lay on the borders of stasis and chaos, those unpredictable boundary areas where computation can form, like we found in the first tutorial in Rule 110, then life and intelligence can arise.
 
 Donald Hebb put forth the unexpected and hugely influential idea that knowledge and learning occurs in the brain primarily through the formation and change of synapses between neurons - concisely stated as Hebb’s Rule: "neurons that fire together, wire together".
 
@@ -549,6 +554,7 @@ Neurons that fire together, wire together
 ## 1949 <!-- .element: class="year" -->
 ## _Machina Speculatrix_
 ### William Grey Walter
+
 [William Grey Walter](https://en.wikipedia.org/wiki/William_Grey_Walter)
  analog tortoise robots with two neuron brain
 
@@ -628,7 +634,7 @@ The Dartmouth Summer Research Project on Artificial Intelligence is noted as the
 
 Interestingly, that phrasing foreshadows a future battle between two camps of AI researchers, the neural net based cybernetic connectionists and the logic and expert systems symbolic rationalists.
 
-The McCuloch-Pitts neural model lacked a mechanism for learning, so by using neuroscience research by Hebb, that found that "neurons that fire together, wire together" a new model called a Perceptron was created that could learn simple classification. An alternate model was proposed not long after that included multiple layers but had other trade-offs. Progress began to stall.
+The McCuloch-Pitts neural model lacked a mechanism for learning, so by using neuroscience research by Hebb, a new model called a Perceptron was created that could learn simple classification. An alternate model was proposed not long after that included multiple layers but had other trade-offs. Progress began to stall.
 
 An infamous event in AI history is the book _Perceptrons_ Marvin Minsky and Seymour Papert. While the Perceptron had been a remarkable first step, it was only a single layer deep and no one could figure out how to train multi-layer Perceptrons. Additionally, computational limitations were holding back larger networks. The books pessimistic predictions for connectionist systems and support for symbolic systems ushered in the first "AI winter" where funding for AI basic research evaporated.
 
@@ -667,13 +673,13 @@ An infamous event in AI history is the book _Perceptrons_ Marvin Minsky and Seym
 ## Symbolic Intelligence and Expert Systems
 
 Notes:
-Building on the tradition of Leibniz and other great mathematicians one set of AI researchers imagined intelligence as rational thought where sensory perception was not required for intelligence. Instead, intelligence was defined by an idealized construction of semantic symbols, what could be construed as facts or truths, and the manipulation of those symbols through the rules of logic. Thinking was done with abstract concepts, not input, which merely needed to be converted to symbols so that it could be thought about. 
+Building on the tradition of Leibniz and other great mathematicians one set of AI researchers imagined intelligence as rational thought where sensory perception was not required for intelligence. Instead, intelligence was defined by an idealized construction of semantic symbols, that could be construed as facts or truths, and the manipulation of those symbols through the rules of logic. Thinking was done with abstract concepts, not input, which merely needed to be converted to symbols so that it could be thought about. 
 
 Symbolic reasoning has one important crucial property that neural networks seemed to lack: once data was represented symbolically then predictions could be made about future or any other unseen data and the predictions could be accurate. This is the difference between a mathematical formula versus mimicy of the patterns of input data. Using a formula you can derive values at any point in time, rather than just matching the patterns seen in training data. Symbolic reasoning was "real" understanding versus pattern matching and mimicry done by the nets.
 
 Thus, the proponents of symbolic reasoning believed that reasoning was only possible by recording a "knowledge base" of facts generally agreed upon by experts as well as distilling the good judgment and expert decision-making based on the facts into rules or heuristics. This approach became known as expert systems and were popular during the 1980s.
 
-Despite the pitfalls of uncertainty and undecidability, the symbolic logic researchers believed they could work around these problems using "fuzzy logic" and "truth maintenance". With hindsight, it seems incredibly utopian to imagine there are generally agreed upon facts and that consistent logical rules could be applied to them.
+Despite the pitfalls of uncertainty and undecidability, the symbolic logic researchers believed they could work around these problems using "fuzzy logic" and "truth maintenance". With hindsight, it seems incredibly utopian to imagine there are generally agreed upon facts for all things and that consistent logical rules could be applied to them.
 
 Practically, building an expert system was difficult. Recording expert knowledge is much more difficult than it sounds and in many cases that knowledge is continually updating. CADUCEUS, an internal medicine expert system finished in the 1980s took a decade to build a knowledge base and was able to diagnose up to 1000 different diseases. 
 
@@ -683,7 +689,7 @@ Practically, building an expert system was difficult. Recording expert knowledge
 ---
 ## Artificial Life and cellular automata
 
-<div class="small">
+<div class="small"> 
 
 * 1948: John von Neumann: cellular automata
 * 1969: Alvy Ray Smith: _Cellular Automata Theory_: proof of universal computation
@@ -702,7 +708,7 @@ These systems originate from the cellular automata imagined by von Neumann. A ce
 
 It was almost 20 years later when the most famous cellular automaton, The Game of Life, helped illustrate the interplay of evolution, life and computation. However, cellular automata were poor at modelling neural networks and were considered ore of a toy than serious researcher.
 
-Genetic algorithms or artificial evolution became a widely recognized optimization method in the 1960s and 1970s. It uses a process similar to evolution: create a large number of test subjects that are constructed using a system of composable parts and test them on the problem. The subjects are initially constructed randomly, but those that are best at solving the problem are kept, the others discarded, and then mutation or breeding of the survivors creates a new generation of test subjects.
+Genetic algorithms or artificial evolution became a widely recognized optimization method in the 1960s and 1970s. It uses a process similar to evolution: create a large number of test subjects that are constructed using a system of composable parts and test them on the problem. The subjects are initially constructed randomly, and are terrible at solving the problem. Those that are best at solving the problem are kept, the others discarded, and then mutation or breeding of the survivors creates a new generation of test subjects.
 
 The hyper competition and high mutation rates combined with millions of cycles of evolution allow the initially incapable problem solvers to evolve effective solutions.
 
@@ -742,11 +748,11 @@ Notes:
 Notes:
 I'm going to skip over the developments of digital computers for the most part, even though they are crucial, the exact development of the hardware is relatively unimportant for machine learning, except to note that general purpose computers were always too slow for the massively parallel computations needed for neural nets. It wasn't until modern consumer graphics cards, developed for 3D video games became cheap and fast enough that training neural nets became feasible on affordable hardware.
 
-So too today's modern internet and personal computing devices are not directly related to machine learning, but the amount of data that they enable have been instrumental in the success of machine learning. Machines need to learn from data, and without the mass adoption of personal computing, cheap storage and ubiquitous networks all made possible through digital technology this data would be unavailable.
+So too today's modern internet and personal computing devices are not directly related to machine learning, but the amount of data that they enable has been instrumental in the success of machine learning. Machines need to learn from data, and without the mass adoption of personal computing, cheap storage and ubiquitous networks all made possible through digital technology this data would be unavailable.
 
 As early as 1945 it was starting to be imagined that information could be stored and linked together, and that vision continued to be developed first in service to organizing data for the government but quickly being adopted by pioneers who imagined how it would transform society if everyone had access to easy to use hyperlinked knowledge tools connected to each other over networks.
 
-The growth of all forms of digital tools, from digital photography, to GPS satellites and the world wide web, combined into devices like the iPhone created the environment where data and metadata was now so abundant that machines with no sensory perceptions of their own could learn about the world through these digital recordings.
+The growth of all forms of digital tools, from digital photography, to GPS satellites and the world wide web, combined in devices like modern mobile phones created the environment where data and metadata is now so abundant that machines with no sensory perceptions of their own could learn about the world through these digital recordings.
 
 
 <!-- .slide: data-state="history" -->
@@ -765,35 +771,6 @@ Notes:
 ---
 ## Computer / Generative Art
 
-<div class="small">
-
-* 1968: Peter Zinovieff: _Computer Orchestra_: early electronic music using PDP8
-* 1968: [George Nees](https://en.wikipedia.org/wiki/Georg_Nees): _Schotter (Gravel)_: someof the first digital computer visual art dervced from software algorithms printed by plotter
-* 1970: Edward Ihnatowicz: _Senster_: robotic sculpture that used sound and movement sensors to react to the behaviour of the visitors
-* 1972: Lillian F. Schwartz: _Mutations_: computer aided visuals set to music
-* 1973: Harold Cohen: _AARON_: software for creation of artistic images using an “expert system”
-  * [Harold Cohen - The Age of Intelligent Machines - 1987 (Clip)](https://www.youtube.com/watch?v=IPczQgCuOOc)
-* 1974: Vera Molnár: _(Dés)Ordres_: 
-* 1987: William Latham, Stephen Todd: _Mutator 1_: beginning evolved 3D graphics used as art
-* 1991: Karl Sims: _Primordial Dance_: animation of abstract textures and colors from evolved mathematical equations guided by human selection
-* 1992: Nicolas Baginsky: _Aglaopheme_: robotic electric guitar using Self Organizing Maps
-* 1999: Scott Draves: _Electric Sheep_: distributed artificial life visualization 
-  * [ElectricSheep.org](https://vimeo.com/27688359)
-  * [Electric Sheep: a self-perpetuating system for the production of algorithmic art](https://www.youtube.com/watch?v=ipw4A6AXokk)
-* 2003: Jared Tarbell: _Substrate_: opensource algorithmic visual art
-* 2005: Jaap Blonk & Golan Levin: _Ursonography_: audiovidual interpretation of Kurt Schwitters' _Ursonate_ with real-time "intelligent" animated subtitles
-* 2006: Alain Lioret: _Painting Beings_
-* 2011: David Rokeby: _Plot Against Time_: video installation, drawing movement trajectories
-  * [excerpt of Plot Against Time #4 "Atlantic Baroque"](https://vimeo.com/30043630)
-* 2012: Francisco Vico: _Melomics_: music composition algorithms using simulated evolution
-* 2018: Allison Parish: _Articulations_: book of generated poems learned from 2 million lines of public poems
-  * https://soundcloud.com/hard-to-read/allison-parrish-reads-from-articulations
-  * https://itp.nyu.edu/adjacent/issue-3/articulations-a-fragment-fragment-fragment/
-  * https://www.youtube.com/watch?v=L3D0JEA1Jdc
-  * 
-
-</div>
-
 Notes:
 Let's take a look at a very incomplete sample of different forms of art made using computers, some with neural nets, many with some form of evolving system, others just generated by software. These are chosen based on available documentation, impact on the art world, or demonstration of diverse techniques, often some mix of the three, but are very arbitrary!
 
@@ -801,16 +778,38 @@ All of these artists are using software to create their art. Software can be tho
 
 
 A medium that can dynamically simulate the details of any other medium, including media that cannot exist physically. It is not a tool, although it can act like many tools. It is the first metamedium, and as such it has degrees of freedom for representation and expression never before encountered and as yet barely investigated. Even more important, it is fun, and therefore intrinsicially worth doing. <!-- .element: class="quote" -->
-Alan Kay <!-- .element: class="attribution" -->
+_Alan Kay (1984)_ <!-- .element: class="attribution" -->
 
 Notes:
 A medium that can dynamically simulate the details of any other medium, including media that cannot exist physically. It is not a tool, although it can act like many tools. It is the first metamedium, and as such it has degrees of freedom for representation and expression never before encountered and as yet barely investigated. Even more important, it is fun, and therefore intrinsicially worth doing.
 
-Early software pioneers often worked with robots as kinetic sculptures or with printed media using plotters or early printers of some type. As televisions and other video works became more common in the 70s other pioneers incorporated software into other video production techniques. As techniques developed artists began incorporating more evolutionary algorithms into their work, playing with giving up control. This took on new significance when the computer could "render" out 3 dimensional images, but these forms did not have to be objects, instead could be ethereal blends of light and colour, visualized mathematics. Alain Loriet even explored paint-like evolving creatures. Scott Draves' ongoing _Electric Sheep_ project demonstrates what years of work in this direction can deliver using a genetic-style language to describe visual elements and distributed rendering by thousands of participants who can also craft and breed their own visual genetic codes.
+
+<div class="small">
+
+* 1968: Peter Zinovieff: _Computer Orchestra_: early electronic music using PDP8
+* 1968: [George Nees](https://en.wikipedia.org/wiki/Georg_Nees): _Schotter (Gravel)_: software generated and printed by plotter
+* 1970: Edward Ihnatowicz: _Senster_: robotic sculpture with sensors to react to the behaviour of audience
+* 1972: Lillian F. Schwartz: _Mutations_: computer aided visuals set to music
+* 1973: Harold Cohen: _AARON_: software for creation of artistic images using an “expert system”
+* 1974: Vera Molnár: _(Dés)Ordres_: software generated and printed
+* 1987: William Latham, Stephen Todd: _Mutator 1_: beginning evolved 3D graphics used as art
+* 1991: Karl Sims: _Primordial Dance_: animation of textures and colors from evolved mathematical equations
+* 1992: Nicolas Baginsky: _Aglaopheme_: robotic electric guitar using Self Organizing Maps
+* 1999: Scott Draves: _Electric Sheep_: distributed artificial life visualization 
+* 2003: Jared Tarbell: _Substrate_: opensource algorithmic visual art
+* 2005: Jaap Blonk & Golan Levin: _Ursonography_: audiovisual spoken poetry with reactive subtitles
+* 2006: Alain Lioret: _Painting Beings_: evolved brushstrokes that interact with each other
+* 2011: David Rokeby: _Plot Against Time_: video installation, drawing movement trajectories
+* 2018: Allison Parrish: _Articulations_: generated poems learned from 2 million lines of public poems
+
+</div>
+
+Notes:
+Early software pioneers often worked with robots as kinetic sculptures or with printed media using plotters or early printers of some type. As televisions and other video works became more common in the 70s other pioneers incorporated software into video production techniques. As techniques developed artists began incorporating more evolutionary algorithms into their work, playing with giving up control. This took on new significance when the computer could "render" out 3 dimensional images onto the 2D screen, but these forms did not have to be objects, instead could be ethereal blends of light and colour, visualized mathematics. Alain Loriet even explored paint-like evolving creatures. Scott Draves' ongoing _Electric Sheep_ project demonstrates what years of work in this direction can deliver using a genetic-style language to describe visual elements and distributed rendering by thousands of participants who can also craft and breed their own visual genetic codes.
 
 Jared Tarbell's _Substrate_ exemplifies what similar algorithmic unfolding of shape and colour can achieve, but with a completely different aethstetic from the hallucinegetic high intensity visuals of the sheep.
 
-Early video techniques have evolved into sublime computer aided video works by artists like David Rokeby and been combined with other performances as in Jaap Blonk & Golan Levin's _Ursonography_. The diversity of expression is growing. I will cover much more contemporary machine learning in fifth tutorial, but start you with an appetiser of Allison Parrish's delightful use of ML language models in her poetry.
+Early video techniques have evolved into sublime computer aided video works by artists like David Rokeby and been combined with other types of performances. The diversity of software expression is growing. I will cover much more contemporary machine learning in fifth tutorial, but I'll start you with an appetizer of Allison Parrish's delightful use of ML language models in her poetry.
 
 ### Credits
 * https://www.artnome.com/news/2018/8/8/why-love-generative-art
@@ -822,7 +821,15 @@ Early video techniques have evolved into sublime computer aided video works by a
 * https://www.jstor.org/stable/24920344?refreqid=excelsior%3Afd0842ab4ac53b944798ae30f36e7564
 * http://iasl.uni-muenchen.de/links/GCA-IV.3e.html
 * http://iasl.uni-muenchen.de/links/GCA-II.3e.html
-
+* [Harold Cohen - The Age of Intelligent Machines - 1987 (Clip)](https://www.youtube.com/watch?v=IPczQgCuOOc)
+* [ElectricSheep.org](https://vimeo.com/27688359)
+* [Electric Sheep: a self-perpetuating system for the production of algorithmic art](https://www.youtube.com/watch?v=ipw4A6AXokk)
+* 2005: Jaap Blonk & Golan Levin: _Ursonography_: audiovidual interpretation of Kurt Schwitters' _Ursonate_ with real-time "intelligent" animated subtitles
+* https://soundcloud.com/hard-to-read/allison-parrish-reads-from-articulations
+* https://itp.nyu.edu/adjacent/issue-3/articulations-a-fragment-fragment-fragment/
+* https://www.youtube.com/watch?v=L3D0JEA1Jdc
+* [excerpt of Plot Against Time #4 "Atlantic Baroque"](https://vimeo.com/30043630)
+* 2012: Francisco Vico: _Melomics_: music composition algorithms using simulated evolution
 ---
 <!-- .slide: data-background-video="video/CNN.mp4"  data-audio-advance="1000"  -->
 ## The Return of the Neural Networks
@@ -859,13 +866,12 @@ The main advancements were:
 
 The first handwritten digital recognition system was built as well as speech recognition.
 
-Despite these advances, progress stalled again and other techniques such as Support Vector machines started to grow in popularity.
+Despite these advances, progress stalled again and other ML techniques such as Support Vector machines started to grow in popularity.
 
 ## Credits
 * https://www.skynettoday.com/overviews/neural-net-history 
 * https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/ 
 * https://www.historyofinformation.com/maps.php?cat=71&start=21&end=41# 
-
 
 * 1990: Rodney Brooks: Elephants Don't Play Chess: introduces nouvelle AI, “individual behaviour generating modules whose coexistence and co-operation let more complex behaviours emerge”. Systems must have representations that are grounded by the physical world - “the world is its own best model”
 * 1994: Jonathan Schaeffer: Chinook computer checkers software beats human. First software to win a human world championship
@@ -887,11 +893,11 @@ Despite these advances, progress stalled again and other techniques such as Supp
 </div>
 
 Notes:
-As interest in neural nets faded again, a few researchers mainly based on Toronto and Montreal continued to get funding from the Canadian government. The small group were jokingly called the Canadian Conspiracy or Canadian Mafia and had rebrand neural nets as “deep learning”.
+As interest in neural nets faded again, a few researchers mainly based in Toronto and Montreal continued to get funding from the Canadian government. The small group were jokingly called the Canadian Conspiracy or Canadian Mafia and had rebrand neural nets as “deep learning”.
 
-Despite the dot-com bust in 2000, the internet and computer hardware were exploding in popularity. Graphics cards or GPUs, built for the massively parallel processing of 3D video games had been released add dramatically sped up training. Massive datasets like ImageNet had been created from images on the internet. It was built using Amazon's Mechanical Turk service - 50000 human workers in 167 countries, paid to clean, sort and label 1 billion images over two years.
+Despite the dot-com bust in 2000, internet and computer hardware were exploding in popularity. Graphics cards or GPUs, built for the massively parallel processing of 3D video games had been released add dramatically sped up training. Massive datasets like ImageNet had been created from images on the internet. ImageNet was built using Amazon's Mechanical Turk service - 50000 human workers in 167 countries, paid to clean, sort and label 1 billion images over two years.
 
-In 2012, everything changed. Geoffery Hinton's lab's _AlexNet_ neural network trained on GPUs, won the Imagenet classification competition by a wide margin. Deep learning immediately came to the attention of Google and other Big Tech companies.
+In 2012, everything changed. Geoffery Hinton and his lab's _AlexNet_, a neural network trained on GPUs, won the Imagenet classification competition by a wide margin. Deep learning immediately came to the attention of Google and other Big Tech companies.
 
 Hinton later described the long delayed success of neural nets this way:
 
@@ -907,7 +913,7 @@ Our computers were millions of times too slow.
 We initialized the weights in a stupid way.
 We used the wrong type of non-linearity.
 
-Now the gate had been opened and deep learning was starting to be used in image, video and language research, especially at the big tech companies. These companies tried to hire every existing neural net researcher in the world to lead their new teams.
+Now, however, the gate had been opened and deep learning was starting to be used in image, video and language research, especially at the big tech companies. These companies tried to hire every existing neural net researcher in the world to lead their new teams.
 
 ## Credits
 * https://youtu.be/IcOMKXAw5VA?t=21m29s
@@ -936,16 +942,16 @@ Now the gate had been opened and deep learning was starting to be used in image,
 </div>
 
 Notes:
-With money pouring into the field, competition was fierce, and existing tech companies swallowed start-ups and bought up as much talent as they could. Two notable groups; Deepmind, acquired by Google in 2014 and OpenAI, originally set up by Elon Musk in 2015 to address his worries about the longterm effects on AI by the no longer "Don't Be Evil" Google and the obvious amorality of Facebook. Musk has since split from OpenAI. 
+With money pouring into the field, competition was fierce, and existing tech companies swallowed start-ups and bought up as much talent as they could. Two notable groups; Deepmind, acquired by Google in 2014 and OpenAI, originally set up by Elon Musk in 2015. Musk was worried about the longterm effects on AI by the no longer "Don't Be Evil" Google and the obvious amorality of Facebook. Musk has since split from OpenAI. 
 
-Fortunately an ethos of opensource software had already taken hold in much of the younger generation of researchers and despite the major holdouts of Deepmind and OpenAI who often don't release their code, a majority of published research comes with source code. This openness in code and access to research papers sparked a flood of entrants, including artists, into the area from all over the world. 
+Fortunately an ethos of opensource software had already taken hold in much of the younger generation of researchers and despite the major holdouts of Deepmind and OpenAI who often don't release their code, a majority of published ML research comes with source code. This openness in code and access to research papers sparked a flood of entrants, including artists, from all over the world. 
 
 Deepmind's _Dreepdream_ was notable for its effect outside the research community. The technique was heavily promoted by Google for marketing reasons, but the software itself was available for full source code and started Google's promotion of AI & art and relatively free sharing of its compute resources to individual experimenters that continues to this day. The _Deepdream_ technique itself inspired many visual artists to engage with machine learning as a viable art form - the insight from the inversion of the network - instead of classifying images, pushing the classification into the world had a mystical and very real symmetry with human cloud watching and hallucinations.
 
 ### Credits
 * https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
 
-Deepmind's Alpha game playing systems also sparked public imagination. The 4000 year old game of Go had been considered an unsolvable task by computers because the techniques for searching the best moves in the future playspace that had been successful in chess were computationally impossible in Go because of the much larger set of possible moves. Computers would have to play by "intuition", as often Go playing was described by the greatest human players. Deepmind's approach was to use reinforcement learning to narrow the search space, to only explore the most promising future playstates, a form of machine intuition. AlphaGo's defeat of Lee Sedol, considered one the best current players was emblematic of what narrow machine intelligence can achieve. Both AlphaGo and Lee Sedol were said to have performed historically important moves to win their games, but AlphaGo won 4 of 5 games. A year later AlphaGo Zero trounced AlphaGo 100-0, this time learning the game from scratch, with no human play examples. A year later, AlphaZero was the new champ, and learned Go, chess and shogi. Finally, in 2019 MuZero was more capable still and could also play 50 Atari games by discovering for itself how to build a model of the game and understand it from first principles. When the world model the AI needs to learn is limited to the complexity of a game, even one as complicated as Starcraft, we now have enough techniques to train to super human levels.
+Deepmind's Alpha game playing systems also sparked public imagination. The 4000 year old game of Go had been considered an unsolvable task by computers because the techniques for searching for the best moves in the future playspace that had been successful in chess were computationally impossible in Go because of the much larger set of possible moves. Computers would have to play by "intuition", as often Go playing was described by the greatest human players. Deepmind's approach was to use reinforcement learning to narrow the search space, to only explore the most promising future playstates, a form of machine intuition. AlphaGo's defeat of Lee Sedol, considered one the best current players was emblematic of what narrow machine intelligence can achieve. Both AlphaGo and Lee Sedol were said to have performed historically important moves to win their games, but AlphaGo won 4 of 5 games. A year later AlphaGo Zero trounced AlphaGo 100-0, this time learning the game from scratch, with no human play examples. A year later, AlphaZero was the new champ, and learned Go, chess and shogi. Finally, in 2019 MuZero was more capable still and could also play 50 Atari games by discovering for itself how to build a model of the game and understand it from first principles. When the world model the AI needs to learn is limited to the complexity of a game, even one as complicated as Starcraft, we now have enough techniques to train to super human levels.
 
 During this time a number of models were developed that have relevance to artists:
 
@@ -953,16 +959,16 @@ During this time a number of models were developed that have relevance to artist
 * word2vec: vec(“Madrid”) - vec(“Spain”) + vec(“France”) = vec(“Paris”) 
 * Generative Adversarial Nets (GANs): generative images
 * style transfer: copy style from one image to transform another image
-* GPT / transformers: large language models
 * pix2pix: given one image, produce a paired image in a different style
+* GPT / transformers: large language models
 * Jukebox: generate music
 
 Notes:
 word2vec allowed for words and concepts to be combined and substracted from each other.
 Generative Adversarial Nets or GANs became very popular for generating images.
 Style transfer for images and videos allowed you to copy or mimic the style of one image, say an impressionist painting, to your own photograph.
-GPT and other transformer based models could generate and summarize text.
 pix2pix trained on image pairs allowed for real-time video transformations from one set of images to another.
+GPT and other transformer based models could generate and summarize text.
 Jukebox allowed for music generation.
 
 We'll discuss these tools in more depth later.
@@ -987,9 +993,9 @@ Interlude: How Not To Be Seen - A Fucking Didactic Educational .MOV File
 Notes:
 We are currently in the era of Deep Learning and Big Data with a rapid proliferation of machine learning into all areas of industry. Industry estimates are for approximately 350 billion dollars of spending on machine learning in 2021. Big Tech leads the way, funded by advertising and data harvesting or user surveillance based business models. The two main rivals, Meta (Facebook) and Alphabet (Google), each control the two most popular opensource deep learning toolkits.
 
-We are in a difficult era for business, or any large modern organization, where the speed of technological development out paces the time to required to integrate that technology. By the time a large organization completes implemention of a technology the next generation is available. The dominant strategy in this position is monopoly or oligopoly - without competitors there is no one to leap frog you - and has strategy has been pursued aggressively since at least the Reagan era.
+We are in a difficult era for business, or any large modern organization, where the speed of technological development out paces the time to required to integrate that technology. By the time a large organization completes implemention of a technology the next generation is available. The dominant strategy in this position is monopoly or oligopoly - without competitors there is no one to leap frog you - and thi s strategy has been pursued aggressively since at least the Reagan era.
 
-Cory Doctorow ascribes these monopoly positions as the root cause of corporate surveillance and other malfeasance, but it is also important to note that Google and Facebook had to find a sustainable business model in an environment where mainstream media, especially journalism and television, had already become almost entirely dependent on advertising. They chose the only option available; the normalized practice of for-profit mass manipulation. Eventually, they were able to out compete other advertising mediums through because digital medias ease of tracking and storing data. 
+Cory Doctorow ascribes these monopoly positions as the root cause of corporate surveillance and other malfeasance, but it is also important to note that Google and Facebook had to find a sustainable business model in an environment where mainstream media, especially journalism and television, had already become almost entirely dependent on advertising. They chose the only option available; the normalized practice of for-profit mass manipulation. Eventually, they were able to out compete other advertising mediums because digital medias ease of tracking and storing data. 
 
 ### Credits
 * https://aimagazine.com/ai-applications/ai-spending-will-reach-usdollar342bn-2021-says-idc
@@ -1029,7 +1035,7 @@ But what data is being used in this hunt? Existing crime data? This is not foolp
 
 It is estimated that only 40% or less of crimes are reported in general, so if that 40% isn't a representative sample then the machine will learn a biased prediction. Findings have shown lower self reporting among White and affluent crime victims, and crimes reported by the police are heavily skewed towards where the police were patrolling, i.e. "street crime", making it extraordinarily likely the dataset is biased.
 
-There was a 2018 academic study of the PredPol algorithm which acknowledged the bias, and studied the effects of a more even distribution of crime predictions. But they found its predictions were less in line with later crime reports, making it less accurate than the original algorithm and PredPol didn't adjust its software. If the goal is only patrolling in areas of greatest street crime, this approach may be reasonable, but questionably provides any new information.
+There was a 2018 academic study of the PredPol algorithm which acknowledged the bias, and studied the effects of a more even distribution of crime predictions. But they found the software predictions were less in line with later crime reports, making it less accurate than the original algorithm and PredPol didn't adjust its software. If the goal is only patrolling in areas of greatest street crime, this approach may be reasonable, but questionably provides any new information.
 
 
 [White Collar Crime Zones](https://whitecollar.thenewinquiry.com/)
@@ -1037,7 +1043,7 @@ There was a 2018 academic study of the PredPol algorithm which acknowledged the 
 Notes:
 An interesting counter example, is [White Collar Crime Zones](https://whitecollar.thenewinquiry.com/) that shows a similar display to PredPol's but instead uses financial crime data to illustrate reversing the biases. In this example the underreporting is likely far higher in areas outside regulated financial sectors.
 
-A more general problem with most commercial AI services are that they exists in a black box protected by trade secrets and have little public scrutiny. At minimum police organizations need access, but due to the impact of the predictions on the public, it seems reasonable to allow public investigation. Making data objective is impossible, debiasing data is difficult, but recording, inspecting and testing the predictions of machine learning systems is far easier than predictions made by humans.
+A more general problem with most commercial AI services is that they exist in a black box protected by trade secrets and have little public scrutiny. At minimum police organizations need access, but due to the impact of the predictions on the public, it seems reasonable to allow or require public investigation. Making data objective is impossible, debiasing data is difficult, but recording, inspecting and testing the predictions of machine learning systems is far easier than predictions made by humans.
 
 ### Credits
 * https://pluralistic.net/2021/12/02/empirical-facewash/#geolitica 
@@ -1066,11 +1072,11 @@ To investigate the intersection of mainstream Western capitalism, current art pr
 * pix2pix
   
 Notes:
-Generative machine learning models are capable of creating audio, visual and text either randomly or with some amount of control. They excel at mimicry and pattern matching. In general there hasn't been direct commercial use for them yet, although a number of smaller start-ups are trying to monetize their use, generally as an alternative to hiring relatively expensive artists. Research in generative models is often to better understand computer vision, but is also driven by a strong interest in machine creativity and exploring what is possible.
+Generative machine learning models are capable of creating audio, visual and text either randomly or with some amount of control. They excel at mimicry and pattern matching. In general there hasn't been direct commercial use for them yet, although a number of smaller start-ups are trying to monetize their use, generally as an alternative to hiring relatively expensive artists or to create training data for other ML models. Research in generative models is often to better understand computer vision, but is also driven by a strong interest in machine creativity and exploring what is possible.
 
 Competition and experimentation is driven by standard datasets and comparison functions, such as the ImageNet dataset and various functions that compute the differences between real and generated images. This in additional to more tradition subjective human testing often carried out through Mechanical Turk.
 
-All generative models currently exist in a space where if the interaction is brief, highly constrained, or accepting of a highly subjective, almost dream-like output, then the model can be useful. At the end of 2021 some limitations are starting to be pushed back, particularly for image generation. But as of yet no generative models have a good understanding of the relationships between elements in the generated whole as they cotinue to lack any conceptual model of the real world.
+All generative models currently exist in a space where if the interaction is brief, highly constrained, or accepting of a highly subjective, almost dream-like output, then the model can be useful. At the end of 2021 some limitations are starting to be pushed back, particularly for image generation. But as of yet no generative models have a good understanding of the relationships between elements in the generated whole as they continue to lack any conceptual model of the real world.
 
 The state-of-the-art changes monthly, and thus, like the businesses trapped in loops faster than they can integrate, almost all but the most popular tools go mostly unexplored by artists.
 
@@ -1090,33 +1096,36 @@ TODO
 
 Notes:
 
-All of these projects take text prompts and generate images. Starting images to act as the origin point to guide the generation can also be supplied and in the case of GauGAN, you can also paint a sketch and modify it to update the generated image.
+All of these projects take text prompts as input and then output generate images. Images to act as the origin point to guide the generation can also be supplied and in the case of GauGAN, you can also paint a sketch and modify it to update the generated image.
 
 Each project has different strengths and weaknesses, but in general are trained from a dataset from the internet that connects images and text, for example, it could be the text from the same page an image was found. After training the model is able to generate an image that has some relationship to the text.
 
-The interface to these models is quite novel - a short prompt, which some surprising characteristics. This comes with the regular caveats - the text is based on English and often originates from public internet sources. There is a growing practice of "prompt engineering" that is learning the quirks of these sorts of models and there is too much to cover here but I'll give a few examples of the strangeness.
+The interface to these models is quite novel - a short prompt, with some surprising characteristics. This comes with the regular caveats - the text is based on English and is trained from biased public internet sources. There is a growing practice of "prompt engineering" that is learning the quirks of these sorts of models and there is too much to cover here but I'll give a few examples of the strangeness.
 
-First, scene descriptions work poorly beyond single interactions or relationships. Specifying numbers of things, their spatial relationship or interactions is unlikely to work well. Global image composition and awareness of all the elements in the image is very poor. Single object and even abstract concepts can work well, and even emoji can work.
+First, scene descriptions work poorly beyond single interactions or relationships. Specifying numbers of things, their spatial relationship or interactions is unlikely to work well. Global image composition and awareness of all the elements in the image is very poor. Single objects and even abstract concepts can work well, and even emoji can work.
 
 Other prompt engineering tricks have bizarrely strong effects:  
 
 
 apple
+the golden apple of my eye
 a photo of an _apple_
 a bad photo of an _apple_
 an _apple_ #artstation
 a highly detailed _apple_ rendered by unreal engine
 
 Notes:
-"a photp of the _blank_" sadly, including the starting "a" and "an" seems to work better sometimes and the end result will look more like a photo than say a painting.
+The choice of subject, apple, is bad here, it doesn't have enough description and it is too concrete, there is a fine balance between definite and subjective in the best prompts. So all of these apples will be less interesting than say, "the golden apple of my eye".
+
+"a photo of an apple" sadly, including the starting "a" and "an" seems to work better sometimes and the end result will look more like a photo than say a painting.
 
 "a bad photo of an apple" TODO:
 
-Adding #artstation to the end of a prompt encourages a mre paintly look remincent of concept paintings for films and video games - because artstation is a website featuring that sort of image.
+Adding #artstation to the end of a prompt encourages a more painterly look reminiscent of concept paintings for films and video games - because artstation is a website featuring concept art.
 
-"rendered by unreal engine" added to the end causes more detail and image fidelity as unreal engine is known for it's high quality rendering. Ading "highly detailed" also helps the model add fine details.
+"rendered by unreal engine" added to the end leads to more detail, bokeh and higher image fidelity as unreal game engine is known for it's high quality rendering. Adding "highly detailed" also helps the model add fine details.
 
-Despite all that the results can be pretty spectacular, especially for creator who are not expert visual artists, it can provide a tool that produces interesting images on demand.
+Despite all that the results can be pretty spectacular, especially for creator who are not expert visual artists, it can provide a tool that produces interesting images on demand, as long as you are willing to explore the bizarre space of prompt engineering.
 
 ### Credits
 * https://arxiv.org/pdf/2112.10741.pdf
@@ -1125,21 +1134,23 @@ Despite all that the results can be pretty spectacular, especially for creator w
 #### StyleGAN
 
 Notes:
-One of the most well known GAN image generators, particularly for its ability to generate high resolution faces.
+StyleGAN is one of the most well known GAN-based image generators, particularly for its ability to generate high resolution faces.
 
-StyleGAN is currently on version 3, which address an interesting limitation of version 2 where the eyes of the faces would mostly be locked into place despite different orientations of the face. 
+StyleGAN is currently on version 3, which address an interesting limitation of version 2 where the details of the faces could be locked into place despite different orientations of the face. 
 
 This is a great model for artists, but requires a lot of training on high-end hardware still. Generally the training starts from an existing pretrained model and then just shifts it to the target dataset, so this requires finding an existing model that is somewhat similar to the images you want to work with.
 
-Like the CLIP and other generative image methods previously, animating the generated output of styleGAN has a particular aesthetic to it that recalls "morphing" software. However, unlike previous morphing software each generated image from these models will be a valid representation, as unlike morphing, any point between any two faces is always just another valid face. We'll talk more about how this work in the next tutorial.
+Like other generative image methods previously, animating the generated output of styleGAN has a particular aesthetic to it that recalls "morphing" software. However, unlike previous morphing techniques each generated image from these models will be a valid representation, as unlike morphing, any point between any two faces is always just another valid face. We'll talk more about how this work in the next tutorial.
 
 
 ### pix2pix
 
 Notes:
-Mostly successfully used by Memo Aktin in his Learning 2 See projects, the pix2pix algorithm was created by Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros in 2017. Using GANs the team learned a mapping from input image to output image. This approach can colorize images, convert day to night, and other more artistic mappings such as eye to nebula or drawing of a castle to photo of a castle. Generally in those cases you train on target images and processed versions of those images containing only edges. Then you can process other images or video of a completely different subject to edges and the model will convert that to the trained image. This creates model that converts everything it "sees" into what has been trained to see.
+Mostly successfully used by Memo Aktin in his Learning 2 See projects, the pix2pix algorithm was created in 2017. The GAN learns a mapping from input image to output image. This approach can colorize images, convert day to night, and other more artistic mappings such as eye to nebula or drawing of a castle to photo of a castle. This creates a model that converts everything it "sees" into what has been trained to see.
 
 This technique is particularly fun to use on modern hardware where it can be run in real-time. There is a certain magic in finding the right representation to map from. For example, it took me quite some time to find that scattered sesame and sunflower seeds made for good input to generate images of treetops.
+
+Cut: Generally in those cases you train on target images and processed versions of those images containing only edges. Then you can convert other images or video of a completely different subject to only edges and the model will convert those edges to the trained image. 
 
 ### Credits
 * https://phillipi.github.io/pix2pix/
@@ -1148,7 +1159,7 @@ This technique is particularly fun to use on modern hardware where it can be run
 ### GPT and transformers
 
 Notes:
-The generative pre-training (GPT) language model was originally developed by Alec Radford and his colleagues at OpenAI in 2018 but it was GPT-2 in 2019 that shook the ML world. OpenAI demonstrated a technique called a transformer language model that used a form of attention to be able to handle long-range associations and references in language. For example, words point to each other, pronouns like "she" refer to proper nouns with names. GPT was trained on a vast amount of text from the web, so learned many biases, of which OpenAI has tried to correct for recently in their latest GPT-3 Instruct model released in 2022. We'll talk about some of the issues around powerful language models a bit later.
+The generative pre-training (GPT) language model was originally developed by Alec Radford and his colleagues at OpenAI in 2018 but it was GPT-2 in 2019 that shook the ML world. OpenAI demonstrated a technique called a transformer language model that used a form of attention to be able to handle long-range associations and references in language. For example, words point to each other, pronouns like "she" refer to proper nouns with names. GPT was trained on a vast amount of text from the web, so learned falsehoods and toxic language. Some of which OpenAI has tried to correct for recently in their latest GPT-3 Instruct model released in 2022. We'll talk about some of the issues around powerful language models a bit later.
 
 This new transformer model began to be applied to many other problems and OpenAI considers GPT to be a general purpose learner.
 
@@ -1163,31 +1174,31 @@ This new transformer model began to be applied to many other problems and OpenAI
 Notes:
 To help them collect more information all the Big Tech companies offer virtual assistant services, placing them in the path of the least resistance of users and into the flow of more of their data. While the conversational ability of assistants is still lacking, it is improving rapidly.
 
-Assistant technology has a lot of potential for increased accessibility to services and data. Currently, assistants are limited to mainly triggering interactions with various webservices. Assistants already provide needed capabilities for those less able or less familiar with other forms of input, but as language comprehension increases there are  opportunities to help people create and express themselves using language as an interface. The text to image generative models are good examples of textual interfaces. These models can also help with writing, and I experimented with asking OpenAI's latest GPT-3 language model to create and summarize information for the historical timeline. If I ask, 
+Assistant technology has a lot of potential for increased accessibility to services and data. Currently, assistants are mostly limited to triggering interactions with various webservices. While assistants already provide needed capabilities for those less able or less familiar with other forms of input, as language comprehension increases there are opportunities to help people create and express themselves using language as an interface. The text prompts to image generative models are good examples of textual interfaces. These models can also help with writing, and I experimented with asking OpenAI's latest GPT-3 language model to create and summarize information for the historical timeline. If I ask, 
 
 What are the main benefits of using AI assistants?
 
-GTP responds: The main benefits of using AI assistants are that they can help you with tasks that are difficult or impossible for humans to do, they can help you to make decisions, and they can help you to learn.
+GPT responds: The main benefits of using AI assistants are that they can help you with tasks that are difficult or impossible for humans to do, they can help you to make decisions, and they can help you to learn.
 
 I think those are currently just _aspirational_ goals, but do seem nice and hopefully do come true.
 
-Problematically, interactions with current assistants requires people to leak their private information to the companies providing the assistant. Initiatives like the [Mycroft assistant](https://mycroft.ai/) which are open source and protect data privacy already exist but are lacking in funding and reach.
+More problematically, interactions with current assistants requires people to leak their private information to the companies providing the assistant. Initiatives like the [Mycroft assistant](https://mycroft.ai/) which are open source and protect data privacy already exist but are lacking in funding and reach.
 
-Assistants are also providing new interfaces for search and recommendation systems. As effective language models develop these systems are converging, such that a system that knows what you have already read or watched can find related information and then edit or summarize it specifically for you. In many ways this transcends assistant and becomes an advisor, curator or teacher - with all the dangers of such. It is especially dangerous when paired with a for-profit business model that sells the ability to warp the guidance to the benefit of the buyer. Google and related businesses quite literally sell the ability to make recommendations worse for you.
+Assistants are also providing new interfaces for search and recommendation systems. As effective language models develop these systems are converging, such that a system that knows what you have already read or watched can find related information and then edit or summarize it specifically for you. In many ways this transcends assistant and becomes an advisor, curator or teacher - with all the dangers of such. It is especially dangerous when paired with a for-profit business model that sells the ability to warp the guidance to the benefit of the buyer. Google, Amazon and Facebook quite literally sell the ability to make recommendations worse for you.
 
 
 ### Automation
 
 Notes:
-Many people, including myself, speculate on the future of automation due to machine learning. There hasn't been a transformation quite like this before, so it is hard to predict. Let's first look at what effects automation has had already even before modern deep learning techniques. By some reports 50% to 70% of declines in U.S. blue-collar workers wages, since 1980, can be attributed to workers being replaced or degraded by automation.
+Many people, including myself, speculate on the future of automation empowered by machine learning. There hasn't been a transformation quite like this before, so it is hard to predict. Let's first look at what effects automation has had already even before modern deep learning techniques. By some reports 50% to 70% of declines in U.S. blue-collar workers wages, since 1980, can be attributed to workers being replaced or degraded by automation.
 
-Automation of bank tellers is instructive. Classification of deposits allowed for automation, which could reduce the number of bank tellers at each bank. Savings from automation allowed for more physical locations to be opened, increasing the total number bank tellers. However, the number seems to have peaked in 2010 and further automation, particularly online banking and electronic transactions, are reducing numbers. 
+Automation of bank tellers is instructive. Automated bank telers could reduce the number of human bank tellers at each bank. Savings from automation allowed for more physical locations to be opened, increasing the total number bank tellers. However, the number seems to have peaked in 2010 and further automation, particularly online banking and electronic transactions, are reducing numbers. 
 
 This is a good rule-of-thumb, the more an activity can be made digital, the easier it is to automate. As work is made digital it shifts large numbers of humans doing physical labour in particular spaces to a few humans doing knowledge work with digital tools with no specific location necessary. Consider that in 2012 General Electric, a traditional tech-based conglomerate, had 300000+ employees while Facebook had just 4600 employees at the time of its IPO and its first billion users. The quality and satisfaction of the jobs may be improving, but there are fewer jobs with higher training required. Have bank tellers' job prospects benefited from automation?
 
 It is important to point out that interacting with the physical world and robotics in general is extremely difficult, so the common perception of the ease of constructing science fiction robots, including self-driving cars, is misleading. Remember that evolution has spent much more time optimizing physical interactions with the world, perception, energy conservation, self-healing, self-preservation, and other basic or embodied thinking than that which is involved in knowledge labour. The newest part of the human brain, the neocortex, may also be the easiest for machines to emulate. 
 
-Certainly any completely digital task will be many factors easier to automate. Digital images demonstrate this well, the hard part is getting the camera in place, pointing it at the subject, and connecting it to power and the network. Once the camera makes a digital image automation is relatively easy. Trevor Paglin, a researcher and artist who has studied machine learning datasets, has coined the term "invisible images" and "machine realism" to describe the images made by machines for other machines to classify or otherwise add meaning to, for example, satellite photos and automated snapshots of licence plates. The number of these images dwarf the number of images taken by humans and implies that control over the meaning of images increasingly resides in control over machines.
+Certainly any completely digital task will be many factors easier to automate. Digital images demonstrate this well, the hard part is getting the camera in place, pointing it at the subject, and connecting it to power and the network. Once the camera makes a digital image automation is relatively easy. Trevor Paglin, a researcher and artist who has studied machine learning datasets, has coined the terms "invisible images" and "machine realism" to describe the images made by machines for other machines to classify or otherwise add meaning to, for example, satellite photos and automated snapshots of licence plates. These machine made images far outnumber the images taken by humans and implies that control over the meaning of images increasingly resides in control over machines.
 
 ### Credits
 * https://www.forbes.com/sites/jackkelly/2021/06/18/artificial-intelligence-has-caused--50-to-70-decrease-in-wages-creating-income-inequality-and-threatening-millions-of-jobs/
@@ -1199,15 +1210,15 @@ Certainly any completely digital task will be many factors easier to automate. D
 ### Translation and Text
 
 Notes:
-Another good example of all-digital knowledge work automation, and a synthesis of assistant and translation technologies, is a collaboration between OpenAI's Codex machine learning model and Microsoft's Github code repository, to create GitHub Copilot; a coding assistant proficient in over a dozen programming languages that can translate natural language instructions into software instructions. Programmers using the system find it uncanny, both magical and frustrating, as though working with a novice who nonetheless produces expert-level code. We see this juxtaposition, of expert mimicry that lack expert understanding in most current ML applications, and it may just be something we have to get used to.
+Another good example of all-digital knowledge work automation, and a synthesis of assistant and translation technologies - GitHub Copilot; a coding assistant proficient in over a dozen programming languages that can translate natural language instructions into software instructions. Programmers using the system find it uncanny, both magical and frustrating, as though working with a novice who nonetheless produces expert-level code. We see this juxtaposition, of expert mimicry that lacks expert understanding in most current ML applications, and it may just be something we have to get used to.
 
 Deepmind, competitor to OpenAI, just released AlphaCode, that was able to achieve median human scores in competitive coding competitions. The race for AI that can solve software problems has begun.
 
-Some, if not most, of the time-consuming aspects of programming will be automated, especially those dealing with complexity and abstraction. The programmer handles higher level design and the machine handles the details of wiring the abstractions together.
+Some, if not most, of the time-consuming aspects of programming will be automated, especially those dealing with complexity and abstraction. The programmer will handle higher level design and the machine will handle the details of wiring the abstractions together.
 
 This is a common hybridization approach, often called a centaur - human and machine combined - where the human chooses goals and problems and the machine solves them. Lacking any will of its own it remains a tool, a magic wand to be waved in the general direction of the problematic dragon. 
 
-Machines' lack of intent and agency may also be a root cause of current language models failures at long form text generation. Without some overarching intent how does one structure a book or film script? Perhaps it is more that they have no model of the world and lack humanity's strong bias toward world coherency. Regardless, with no persistent consciousness or worldview they work best for short or disjointed output, question answering, and semi-sensical, but possibly, poetic output.
+Machines' lack of intent and agency may also be a root cause of current language models failures at long form text generation. Without some overarching intent how does one structure a book or film script? Or perhaps it is more that they have no model of the world and lack humanity's strong bias toward world coherency. Regardless, with no persistent consciousness or worldview they work best for short or disjointed output, question answering, and semi-sensical, but possibly, poetic output.
 
 Another good example of current language model issues is _AI Dungeon_, which uses OpenAI's GPT language model for a text-based fantasy adventure game where players can type out the action or dialog they want their character to perform and the game responds with further text - creating a personalized choose-your-adventure experience.
 
@@ -1242,6 +1253,11 @@ Interlude: TODO
 * Autonomy and non-human rights
 
 Notes:
+I expect the next 20 years of machine learning to dramatically improve our understanding of intelligence. How _that_ knowledge affects our day-to-day lives is hard to imagine, so I'm going to stick to the much easier imaging of the use of advanced forms of today's tools.
+
+I will say that I hope that more people start thinking about about the future of artificial intelligence - not as popularly depicted by rise of the machines sort of fantasy, but instead as the building of digital alien minds.
+
+TODO: Imagine 
 
 TODO:
 * Separation of data and service
@@ -1255,7 +1271,7 @@ Over the course of the last 80 years there has been a battle of minds of sorts -
 
 To better explain this viewpoint, proponents suggest that a hybrid might match Daniel Kahneman's system 1 and system 2 of the human mind that was described in _Thinking Fast and Slow_. System 1, responsible for heuristics, gut feelings and quick responses would be modelled by deep learning, while system 2 would use symbolic reasoning and symbol manipulation, for example generating mathematical equations from input data. 
 
-Remember how badly humans typically handle exponential phenomena. Our use of symbolic manipulation we call mathematics, forces our internal thinking out of our linear biased minds and on to the page to be manipulated with a strict ruleset. This allows us to harness algorithms to help us think in other ways. Indeed, language itself fundamentally works like this, which is why expressing yourself can lead to personal insights. Researchers think this same strategy can help machines and have made progress recently in using deep learning to discover mathematical equations that best describe observed phenomenon.
+Remember how badly humans typically handle exponential phenomena. Our use of symbolic manipulation we call mathematics, forces our minds out of our linear thinking bias and on to the page to be manipulated with a strict ruleset. This allows us to harness algorithms to help us think in other ways. Indeed, language itself fundamentally works like this, which is why expressing yourself can lead to personal insights. Researchers think this same strategy can help machines and have made progress recently in using deep learning to discover mathematical equations that best describe observed phenomenon.
 
 A recent paper approaches from the other direction - allowing rules to guide and shape neural net predictions, allowing for physics and natural phenomenon such as energy conservation to constrain output. This also allows for expert system like guidance, such as "blood pressure above 140 is associated with increased risk of cardiovascular disease". The knitting of neural nets with other machine learning approaches will grow dramatically, and can be thought of as providing them with the same sort of thinking tools that we use ourselves.
 
@@ -1270,15 +1286,15 @@ In future tutorials we'll cover current limitations of deep learning in more dep
 
 One of the reasons so much training data is required lies in the training starting from scratch, with no knowledge of the world. 
 
-Techniques called fine-tuning take pretrained models on related datasets and only add a small amount of additional training for the specific task the model is designed for. This is common in language models and a growing practice in vision models. In the future there will be far more "off the shelf" models that excel in a particular area, such as vision or language, that can be easily integrated and fine-tuned. This will require better model warehouses and easier ways to share and build on each other's work.
+Techniques called fine-tuning take pretrained models on related datasets and only add a small amount of additional training for the specific task the model is designed for. In the future there will be far more "off the shelf" models that excel in a particular area, such as vision or language, that can be easily integrated and fine-tuned. This will require better model warehouses and easier ways to share and build on each other's work.
 
-Another technique that is developing fast in language models is few-shot learning. This requires that few examples are given to the model _before_ asking it the real question to be answered. This works surprisingly well in language models and will be improved and extended into other areas. Frameworks and tools will become standardized to provide examples and context for the model to get a better idea of the answer desired. 
+Another technique that is developing fast in language models is few-shot learning. This requires that few examples are given to the model _before_ asking it the real question to be answered. This works surprisingly well in language models and will be improved and extended into other areas.
 
 Even with fine-tuning and few-shot learning, models are generally limited to a single structure optimized for a single task but this too is an active of research with rapid progress in the last few years. Meta-learning, multi-task learning and life-long learning are all things humans do, but machines struggle at.
 
-Meta-learning allows models to learn how to learn, giving them far greater ability to do few shot learning.
+Meta-learning allows models to learn how to learn, giving them far greater abilities.
 
-Multi-task learning allows for learning more than one task. Often tasks are not completely independent of each other, they have mutual information, so learning one can improve the learning for the other.
+Multi-task learning allows for learning more than one task. Often tasks are not completely independent of each other, they have mutual information, so learning one can improve the learning for another.
 
 Finally, life long learning really makes machine intelligence feel human - instead of learning only in the training phase models will be able to learn new tasks and skills on the fly. More limited forms of this would help considerably for issues where models "forget" previous learning in cases of fine-tuning or learning new tasks. Current models have trouble retaining old skills after new training.
 
@@ -1312,9 +1328,9 @@ Current artistic tools, both dumb and smart, let the artists intent flow through
 ## Autonomous labour
 
 Notes:
-This conception of AI providing low cost digital versions of existing human resources can be expanded to all industries. Far more people may be able to afford machine labour than human labour. Perhaps the wealthy will keep their human assistants (who in turn will rely on digital assistants), but there is no question that having some digital assistance is better than none. 
+This conception of AI providing low cost digital versions of existing human resources can be expanded to all industries. Far more people may be able to afford machine labour than human labour. Perhaps the wealthy will keep their human assistants (who in turn will rely on digital assistants), but there is no question that having some digital assistance, that's under your control, is better than none. 
 
-How many services will be completely replaceable by digital equivalents? Almost everything that doesn't require a machine in a physical space. With an exception for current vehicles, i.e. machines that currently require humans controllers inside them. Human labour may be cheaper than robot labour for quite some time, and according to Cory Doctorow, the nearly infinite amount of work associated with climate change mitigation, such as moving coastal cities inland, could provide enough employment for all. But _which_ jobs are available to human labour could be greatly constrained.
+How many services will be completely replaceable by digital equivalents? Almost everything that doesn't require a machine in a physical space. With an exception for current vehicles, i.e. machines that currently require humans controllers inside them. Human labour in complicated physical environments may be cheaper than robot labour for quite some time, and according to Cory Doctorow, the nearly infinite amount of work associated with climate change mitigation, such as moving coastal cities inland, could provide enough employment for all. But _which_ jobs are available to human labour could be greatly constrained.
 
 
 ## Autonomous art
@@ -1342,11 +1358,11 @@ Researchers are working with dolphins as well. Simple whistle and chirp translat
 
 These early experiments aren't using sophisticated machine learning, but ML techniques are improving **and** becoming easier for non-experts to integrate. 
 
-As we further extend our senses and attempt to understand other living things in their own way, this practice of outreach and consideration could help us embrace machine systems or even natural systems at vastly different scales of space and time, such as a forest or ecosystem.
+As we further extend our senses and attempt to understand other living things in their own way, this practice of outreach and consideration could help us embrace machine systems or even natural systems at vastly different scales of space and time, such as a forest or whole ecosystem.
 
 Machine translators could evolve into advocates to negotiate on behalf of these systems, to help all co-exist more peacefully and cooperatively. To better understand and respect all forms of cognition.
 
-To paraphase Ken Lui again, "Every act of communication is a miracle of translation."
+To paraphase Ken Liu again, "Every act of communication is a miracle of translation."
 
 There is a future filled with these miracles. It requires good judgment to create it, and is perhaps a test of our attention to history, critique of the present and our actions today guided by dreams of tomorrow. 
 
