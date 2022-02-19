@@ -1,4 +1,4 @@
-<!-- .slide: data-audio-src="audio/foundations/01.ogg" data-background-video="video/2020-10-10_LakeErie_beach+waves+close_2.mp4" data-background-video-muted data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/01.ogg" data-background-video="../video/2020-10-10_LakeErie_beach+waves+close_2.mp4" data-background-video-muted data-audio-advance="1500" -->
 Welcome to
 # Foundations
 
@@ -8,7 +8,7 @@ Welcome to Foundations, the first of five tutorials in the series.
 In less than an hour we will cover some important material that will help you understand machine learning and artificial intelligence, the technologies they are built on, and why I think they are important.
 
 ---
-<!-- .slide: data-audio-src="audio/foundations/02.ogg" data-background-video="video/erie - co_ai_existence.mp4" data-background-video-muted data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/02.ogg" data-background-video="../video/erie - co_ai_existence.mp4" data-background-video-muted data-audio-advance="1500" -->
 # Foundations
 
 * Digital
@@ -28,7 +28,7 @@ Let's begin!
 
 ---
 # Digital
-<!-- .slide: data-audio-src="audio/foundations/03a.ogg" data-background-video="video/digital - analog - 720.mp4" data-background-video-muted -->
+<!-- .slide: data-audio-src="../audio/foundations/03a.ogg" data-background-video="../video/digital - analog - 720.mp4" data-background-video-muted -->
 Notes:
 We are told we live a digital world. And we've gotten used to living there, and in many ways, we've forgotten how strange it is.
 
@@ -40,7 +40,7 @@ So at its lowest level a digital signal is still analog. Being analog it is subj
 * [Co(AI)xistence, Justine Emard](https://www.youtube.com/watch?v=vcdUTEpSV1s)
 
 
-<!-- .slide: data-audio-src="audio/foundations/03b.ogg" data-background-image="images/digital-signal-noise.svg" data-audio-advance="1500" --> 
+<!-- .slide: data-audio-src="../audio/foundations/03b.ogg" data-background-image="../images/digital-signal-noise.svg" data-audio-advance="1500" --> 
 Notes:
 The blue line in the image represents this signal. You can see it alternating between a 1 and a 0, the two digital values, but it is still is affected by noise - those squiggly bits. But a digital signal is designed to overcome this noise, not to let it affect the signal. 
 
@@ -49,12 +49,12 @@ The blue line in the image represents this signal. You can see it alternating be
 * [Video by Luis Quintero from Pexels](https://www.pexels.com/video/abstract-video-4990321/)
 
 ---
-<!-- .slide: data-audio-src="audio/foundations/04a.ogg" data-background-video="video/zoom_microchip.mp4" data-background-video-muted data-background-opacity="0.4" -->
+<!-- .slide: data-audio-src="../audio/foundations/04a.ogg" data-background-video="../video/zoom_microchip.mp4" data-background-video-muted data-background-opacity="0.4" -->
 Digital is binary (two values):
 
 # 0 and 1
 
-No noise = perfect replication and transfer <!-- .element: class="fragment" data-audio-src="audio/foundations/04b.ogg" data-audio-advance="1000" -->
+No noise = perfect replication and transfer <!-- .element: class="fragment" data-audio-src="../audio/foundations/04b.ogg" data-audio-advance="1000" -->
 
 Notes:
 Digital technology is designed to create a fantasy world where noise doesn't exist. If you want to prevent noise from messing up your signal, it's easiest to distinguish between only two imperfect, noisy values. The more fluctuating values you try to distinguish from each other the more likely you are to confuse one for another. So two values is optimal and if you can do this perfectly, every time, then you can have perfect, lossless information storage and transfer.
@@ -65,15 +65,15 @@ This lossless information then can be copied infinitely and stored without chang
 [Zoom Into a Microchip](https://www.youtube.com/watch?v=Fxv3JoS1uY8) by NISENet [CC-NC-SA]
     
 ---
-<!-- .slide: data-audio-src="audio/foundations/05a.ogg" data-background-video="video/Life_in_life-xP5-iIeKXE8 720.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.2" data-audio-advance="1000"-->
+<!-- .slide: data-audio-src="../audio/foundations/05a.ogg" data-background-video="../video/Life_in_life-xP5-iIeKXE8 720.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.2" data-audio-advance="1000"-->
               
 Digital technologies are useful and strange:
 
 <div class="tall">
 
-* <!-- .element: class="fragment" data-audio-src="audio/foundations/05b.ogg" --> <strong>Everything is copied.</strong> Movement is done by copying and then deleting. 
-* <!-- .element: class="fragment" data-audio-src="audio/foundations/05c.ogg" --> <strong>Copies are perfect</strong> and indistinguishable. They act like <em>numbers</em> not things. 
-* <!-- .element: class="fragment" data-audio-src="audio/foundations/05d.ogg" --> <strong>Software is deterministic</strong> and thus repeatable by default, true randomness is difficult.
+* <!-- .element: class="fragment" data-audio-src="../audio/foundations/05b.ogg" --> <strong>Everything is copied.</strong> Movement is done by copying and then deleting. 
+* <!-- .element: class="fragment" data-audio-src="../audio/foundations/05c.ogg" --> <strong>Copies are perfect</strong> and indistinguishable. They act like <em>numbers</em> not things. 
+* <!-- .element: class="fragment" data-audio-src="../audio/foundations/05d.ogg" --> <strong>Software is deterministic</strong> and thus repeatable by default, true randomness is difficult.
 
 </div>
 
@@ -87,10 +87,10 @@ Second, copies are perfect and indistinguishable from each other. In physical re
 Finally, software built with digital technologies is deterministic - it is repeatable by default. Each time you run it will do the same thing. True randomness actually becomes difficult.
 
 ### Credits:
-[Life in life](https://www.youtube.com/watch?v=xP5-iIeKXE8) by Phillip Bradbury [CC]
+* [Life in life](https://www.youtube.com/watch?v=xP5-iIeKXE8) by Phillip Bradbury [CC]
 
 ---
-<!-- .slide: data-background-video="video/code - mutations - short 720.mp4" -->
+<!-- .slide: data-background-video="../video/code - mutations - short 720.mp4" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_Mutations_ - William Latham](https://www.youtube.com/watch?v=7sadS5wuOjU) (1991)
@@ -98,7 +98,7 @@ Notes:
 * [_Hello World!_ - Iamus Computer](https://www.youtube.com/watch?v=bD7l4Kg1Rt8) (2012)
 
 ---
-<!-- .slide: data-audio-src="audio/foundations/06a.ogg" data-background-image="images/George_Boole_color.jpg" data-background-size="contain" data-auto-animate -->
+<!-- .slide: data-audio-src="../audio/foundations/06a.ogg" data-background-image="../images/George_Boole_color.jpg" data-background-size="contain" data-auto-animate -->
 # Boolean Algebra <!-- .element: class="r-fit-text" -->
 
 Notes:
@@ -108,12 +108,12 @@ In the middle of the 19th century George Boole published his work that introduce
 * https://en.wikipedia.org/wiki/George_Boole
 
 
-<!-- .slide: data-audio-src="audio/foundations/06b.ogg" data-background-image="images/George_Boole_color.jpg" data-background-opacity="0.2" data-background-position="top" data-auto-animate -->
+<!-- .slide: data-audio-src="../audio/foundations/06b.ogg" data-background-image="../images/George_Boole_color.jpg" data-background-opacity="0.2" data-background-position="top" data-auto-animate -->
 0 = False
 
 1 = True
 
-<table class="text fragment" data-audio-src="audio/foundations/06c.ogg">
+<table class="text fragment" data-audio-src="../audio/foundations/06c.ogg">
 <tr>
 
 <tr>
@@ -122,7 +122,7 @@ In the middle of the 19th century George Boole published his work that introduce
 
 ### AND
 
-<div class="fragment" data-audio-src="audio/foundations/06d.ogg" data-audio-advance="2000">
+<div class="fragment" data-audio-src="../audio/foundations/06d.ogg" data-audio-advance="2000">
 
 1 AND 1 = 1
 
@@ -135,7 +135,7 @@ In the middle of the 19th century George Boole published his work that introduce
 
 ### OR 
 
-<div class="fragment" data-audio-src="audio/foundations/06e.ogg" data-audio-advance="2000">
+<div class="fragment" data-audio-src="../audio/foundations/06e.ogg" data-audio-advance="2000">
 
 1 OR 1 = 1
 
@@ -148,7 +148,7 @@ In the middle of the 19th century George Boole published his work that introduce
 
 ### NOT
 
-<div class="fragment" data-audio-src="audio/foundations/06f.ogg" data-audio-advance="1500">
+<div class="fragment" data-audio-src="../audio/foundations/06f.ogg" data-audio-advance="1500">
 
 NOT 1 = 0
 
@@ -170,7 +170,7 @@ There are few other more complex operators that are important, but for now we ju
 * https://simplycoding.in/boolean-algebra/
 
 ---
-<!-- .slide: data-audio-src="audio/foundations/07a.ogg" data-background-video="video/Al-Khwarizmi - Father of Algebra-CaLOYlvbF9s.mp4" -->
+<!-- .slide: data-audio-src="../audio/foundations/07a.ogg" data-background-video="../video/Al-Khwarizmi - Father of Algebra-CaLOYlvbF9s.mp4" -->
 # Algorithm
 
 Notes:
@@ -184,7 +184,7 @@ The other important concept to understand is that of an "algorithm". That's a fu
 * [The Weird Truth About Arabic Numerals](https://www.youtube.com/watch?v=Ar7CNsJUm58)
 
 
-<!-- .slide: data-audio-src="audio/foundations/07b.ogg" data-background-image="images/algorithm_latent-diffusion.webp" data-background-opacity="0.7" -->
+<!-- .slide: data-audio-src="../audio/foundations/07b.ogg" data-background-image="../images/algorithm_latent-diffusion.webp" data-background-opacity="0.7" -->
 Algorithms have been around since the beginning of time and existed well before a special word had been coined to describe them. Algorithms are not confined to mathematics. The Babylonians used them for deciding points of law, ...and they have been used in all cultures for predicting the future, for deciding medical treatment, or for preparing food. <!-- .element: class="quote" -->
 _Jean-Luc Chabert_ <!-- .element: class="attribution" -->
 
@@ -196,7 +196,7 @@ Notes:
 * [Three Thousand Years of Algorithmic Rituals: The Emergence of AI from the Computation of Space](http://matteopasquinelli.com/3000-years-of-algorithmic-rituals/)
 
 
-<!-- .slide: data-audio-src="audio/foundations/07c.ogg" data-background-image="images/Ramon Llull manuscript 2.jpg"-->
+<!-- .slide: data-audio-src="../audio/foundations/07c.ogg" data-background-image="../images/Ramon Llull manuscript 2.jpg"-->
 Notes:
 Algorithms are ancient technology, that emerged from ritual practices and the organization of social life. They are emergent processes that materialize out of a previous and spontaneous division of space, time and labour. Cultures speak of recipes, rules, techniques, processes, procedures, methods, and strategies. 
 
@@ -206,7 +206,7 @@ Fundamentally we are talking about a systematic process of discrete steps that e
 * Maddox-Harle, Robert. Review of Dia-Logos: Ramon Llull’s Method of Thought and Artistic Practice ed. by Amador Vega, Peter Weibel and Siegfried Zielinski. Leonardo, vol. 53 no. 3, 2020, p. 341-342. Project MUSE https://muse.jhu.edu/article/757589
 
 
-<!-- .slide: data-audio-src="audio/foundations/07d.ogg" data-background-video="video/W. Bradford Paley - Code Profiles-Hs8rDvC3GZg.mp4" data-background-video-loop data-background-video-muted data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/07d.ogg" data-background-video="../video/W. Bradford Paley - Code Profiles-Hs8rDvC3GZg.mp4" data-background-video-loop data-background-video-muted data-audio-advance="1000" -->
 Software algorithms
 Notes:
 Our society is now inundated by software algorithms. Software programmers, like myself, have a bias against doing anything manually more than once. I often get the feeling that humans are terrible at following algorithms correctly, that software is a much more willing, accurate, reliable and quick comrade for my algorithms.
@@ -215,10 +215,10 @@ Our society is now inundated by software algorithms. Software programmers, like 
 * [_Code Profiles_ - W. Bradford Paley](https://www.youtube.com/watch?v=Hs8rDvC3GZg)
 
 
-<!-- .slide: data-audio-src="audio/foundations/08a.ogg" -->
+<!-- .slide: data-audio-src="../audio/foundations/08a.ogg" -->
 <table><tr><td width="50%">
 
-<img data-src="images/Alan_Turing.jpg">
+<img data-src="../images/Alan_Turing.jpg">
 
 </td>
 <td> 
@@ -237,7 +237,7 @@ In 1937, Alan Turing introduced the idea of the Universal Computing Machine. His
 * https://www.reddit.com/r/ColorizedHistory/comments/e6ugox/alan_turing_the_father_artificial_intelligence/
 
 
-<!-- .slide: data-audio-src="audio/foundations/08b.ogg" data-background-video="video/turing_machine.mp4" data-background-video-loop data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/08b.ogg" data-background-video="../video/turing_machine.mp4" data-background-video-loop data-audio-advance="1000" -->
 
 Notes:
 What he was trying to do was create the simplest possible machine, that was still capable of computation. In fact, given an infinitely long tape Turing proved that this machine could compute anything. Everything that could be rendered computable _was_ computable using only these operations and a machine with an internal state or what is called a state machine. Each state has a rule for how to read, write, compare, move the tape and change to another state.
@@ -248,7 +248,7 @@ This creates a simple, universal algorithm for computation. And if sensing, acti
 * [_Turing Machines Explained_ - Computerphile](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 
 
-<!-- .slide: data-audio-src="audio/foundations/09a.ogg" data-background-image="images/computation_theory_of_mind_RealESRGAN-pbaylies-hr-paintings.webp" -->
+<!-- .slide: data-audio-src="../audio/foundations/09a.ogg" data-background-image="../images/computation_theory_of_mind_RealESRGAN-pbaylies-hr-paintings.webp" -->
 Computation and Rule 110
 
 Notes:
@@ -259,7 +259,7 @@ And what is it to compute? The transformation of inputs to outputs that follows 
 * https://en.wikipedia.org/wiki/Computational_theory_of_mind
 
 
-<!-- .slide: data-audio-src="audio/foundations/09b.ogg" data-background-image="images/One-d-cellular-automaton-rule-110.gif" data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/foundations/09b.ogg" data-background-image="../images/One-d-cellular-automaton-rule-110.gif" data-background-size="contain" -->
 Notes:
 I'm going to set that aside and instead show you Rule 110. Rule 110 is an elementary cellular automaton explored by Stephen Wolfram in 1985 and proved to be Turing complete, or capable of universal computation in 2004 by Matthew Cook (which resulted in legal action that blocked the proof for several years).
 
@@ -269,7 +269,7 @@ There are 88 possible unique cellular automata, which are one-dimensional patter
 * https://en.wikipedia.org/wiki/Rule_110 
 
 
-<!-- .slide: data-audio-src="audio/foundations/09c.ogg" data-background-video="video/Rule 110 Simple Implementation Visual-RaZinCdrwRg 720.mp4" data-background-video-muted data-background-opacity="0.4" -->
+<!-- .slide: data-audio-src="../audio/foundations/09c.ogg" data-background-video="../video/Rule 110 Simple Implementation Visual-RaZinCdrwRg 720.mp4" data-background-video-muted data-background-opacity="0.4" -->
 Notes:
 The patterns of 1s and 0s created by this evolution are neither completely stable nor completely chaotic. Structures appear and interact with each other in complex ways. Cook was able to prove that Rule 110 could emulate another known universal computation by use of "spaceships" and other structures. What the heck do spaceships have anything to do with this? Spaceships are just the common name for a self-contained structure that can move through the environment. In this case, the environment is a repeating stable pattern and the spaceship is a structure that can move amongst it. Once you have spaceships then you can start transmitting information. Once you can transmit then you can build read, write and compare... and universal computation.
 
@@ -277,7 +277,7 @@ The patterns of 1s and 0s created by this evolution are neither completely stabl
 * [_Rule 110 Simple Implementation Visual_ - Ryan Edwards](https://www.youtube.com/watch?v=RaZinCdrwRg)
 
 
-<!-- .slide: data-audio-src="audio/foundations/09d.ogg" data-background-image="images/Animated_spaceships.gif" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/09d.ogg" data-background-image="../images/Animated_spaceships.gif" data-audio-advance="1500" -->
 Notes:
 Rule 110 is arguably the simplest known Turing complete system. The essential takeaway is that complex algorithms are not required, instead there are particular forms of algorithms that surf on the boundary of stability and chaos that "come alive" with computational possibilities. 
 
@@ -285,7 +285,7 @@ Rule 110 is arguably the simplest known Turing complete system. The essential ta
 * [Spaceships from Conway's _Game of Life_](https://en.wikipedia.org/wiki/Spaceship_(cellular_automaton))
 
 ---
-<!-- .slide: data-audio-src="audio/foundations/10a.ogg" data-background-video="video/zoom-out-brain-chip.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/10a.ogg" data-background-video="../video/zoom-out-brain-chip.mp4" data-audio-advance="1000" -->
 
 Notes:
 How could something as simple as a Turing machine calculate something as complex as a modern video game or simulations of The Big Bang? The reason this is possible is that simple algorithms can be combined and built on each other. Digital algorithms inherit digital properties: perfect replication and execution thus you can start to build infinitely long chains of algorithms. Like with the Turning machine, the infinitely long nature of the tape becomes critical, as does the speed at which you manipulate it. Today's pocket sized computers perform tens of billion operations per second and store hundreds of billions of bits. They have access to essentially infinite bits through the internet.
@@ -297,7 +297,7 @@ As the length and complexity of each algorithm grows, human understanding of it 
 * [_Allen Institute for Brain Science_](https://www.youtube.com/watch?v=e74pCJmd07s)
 
 
-<!-- .slide: data-audio-src="audio/foundations/10b.ogg" data-background-video="video/2 Bit Relay Adder-m5-iaR-awzg.mp4" -->
+<!-- .slide: data-audio-src="../audio/foundations/10b.ogg" data-background-video="../video/2 Bit Relay Adder-m5-iaR-awzg.mp4" -->
 Notes:
 Using a Universal Turing Machine to calculate anything but the simplest of solutions is a pain, and so is programming machines in binary. For example, you might use digital circuits, 1 and 0, that use boolean algebra to build a "binary adder", that adds two binary numbers. With only a few adders you might interact with them directly, but once you have millions, they are hidden by further layers so that programmers don't have to worry about managing them, but just write a program to add two decimal numbers.
 
@@ -305,7 +305,7 @@ Using a Universal Turing Machine to calculate anything but the simplest of solut
 * [2 Bit Relay Adder](https://www.youtube.com/watch?v=m5-iaR-awzg)
 
 
-<!-- .slide: data-audio-src="audio/foundations/10c.ogg" data-background-image="images/CLIP_neuron.webp" data-background-size="contain" data-background-color="white" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/10c.ogg" data-background-image="../images/CLIP_neuron.webp" data-background-size="contain" data-background-color="white" data-audio-advance="1500" -->
 Notes:
 We've also found abstraction in the brain at the level of individual neurons. There are neurons that respond to abstract semantic concepts around a high-level theme, rather than specific visual features. A famous example was the "Halle Berry" multi-modal neuron that responded to photographs, sketches and the literal text, "Halle Berry". OpenAI's CLIP-system also contains similar artificial digital neurons. We can see here the "Spider-Man" neuron.
 
@@ -315,7 +315,7 @@ Thus abstraction isn't just something we do because of complexity, it arises fro
 * https://openai.com/blog/multimodal-neurons/
 * https://www.youtube.com/watch?v=dNRDvLACg5Q
 ---
-<!-- .slide: data-audio-src="audio/foundations/11.ogg" data-background-video="video/15 Sorting Algorithms in 6 Minutes-kPRA0W1kECg.mp4" data-background-opacity="0.2" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/11.ogg" data-background-video="../video/15 Sorting Algorithms in 6 Minutes-kPRA0W1kECg.mp4" data-background-opacity="0.2" data-audio-advance="1500" -->
 # Software
 
 Notes:
@@ -327,14 +327,14 @@ While all media and art can be thought of as recordings of the creators decision
 * [_15 Sorting Algorithms in 6 Minutes_ - Timo Bingmann](https://www.youtube.com/watch?v=kPRA0W1kECg)
   
 ---
-<!-- .slide: data-background-video="video/life in life - mr computer image - combiantes - binary 720.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-background-video="../video/life in life - mr computer image - combiantes - binary 720.mp4" data-audio-advance="1000" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_Mr. Computer Image_](https://www.youtube.com/watch?v=Lkyhkz_huLw) (1968)
 * [_Cambiantes_ - Analivia Cordeiro](https://www.youtube.com/watch?v=XYY7oMiWxaw) (1976)
 * [_Life in Life_ - Phillip Bradbury](https://www.youtube.com/watch?v=xP5-iIeKXE8) (2012) 
 ---
-<!-- .slide: data-audio-src="audio/foundations/12.ogg" data-background-video="video/4_types_of_software.mp4" data-background-video-loop data-background-opacity="0.4" -->
+<!-- .slide: data-audio-src="../audio/foundations/12.ogg" data-background-video="../video/4_types_of_software.mp4" data-background-video-loop data-background-opacity="0.4" -->
 1. **Recording**: no input after initial recording
 2. **Mapping**: takes input, produces output, but stateless
 3. **Stateful**: has variables / internal state (Turing machine)
@@ -353,14 +353,14 @@ Software can be classified in various categories. Sofian Audry, in his book _Art
 * [MIT Robot Learns How to Play Jenga](https://www.youtube.com/watch?v=o1j_amoldMs)
 
 
-<!-- .slide: data-audio-src="audio/foundations/13a.ogg" data-background-image="images/art_forms_RealESRGAN-pbaylies-hr-paintings.webp" -->
+<!-- .slide: data-audio-src="../audio/foundations/13a.ogg" data-background-image="../images/art_forms_RealESRGAN-pbaylies-hr-paintings.webp" -->
 ## Input and play <!-- .element: class="backdrop" -->
 
 Notes:
 As an aside, one of the things I love about software-based art is the interactivity. When people spend time with art, it is often just a few minutes with a piece in a gallery, an hour or two with film, tens of hours for novels, etc. Software with enough depth can provide ten or hundreds of hours of interactivity. Games are the best example of that.
 
 
-<!-- .slide: data-audio-src="audio/foundations/13b.ogg" data-background-image="images/play.jpg"-->
+<!-- .slide: data-audio-src="../audio/foundations/13b.ogg" data-background-image="../images/play.jpg"-->
 ## Play
 
 Notes:
@@ -370,21 +370,21 @@ Interactivity also means the art can respond to the user, which allows for play 
 * https://pxhere.com/en/photo/692638 [CC0]
 
 
-<!-- .slide: data-audio-src="audio/foundations/13c.ogg" data-audio-advance="1200" -->
+<!-- .slide: data-audio-src="../audio/foundations/13c.ogg" data-audio-advance="1200" -->
 ## The Goldilocks Zone
 <table class="text"><tr><td width="55%">
 
 **M**ost **A**dvanced, 
 **Y**et **A**cceptable
 
-<img data-src="images/Loewy_starliner_coupe.jpg">
+<img data-src="../images/Loewy_starliner_coupe.jpg">
 
 </td>
 <td> 
 
 Zone of proximal development
 
-<img data-src="images/Zone_of_proximal_development.png">
+<img data-src="../images/Zone_of_proximal_development.png">
 
 </td><tr></table>
 
@@ -398,12 +398,12 @@ If you're an artist who wants to help their audiences make profound positive cha
 * https://en.wikipedia.org/wiki/Zone_of_proximal_development
   
 ---
-<!-- .slide: data-audio-src="audio/foundations/14a.ogg" data-background-video="video/American1958.mp4" data-background-opacity="0.4"-->
+<!-- .slide: data-audio-src="../audio/foundations/14a.ogg" data-background-video="../video/American1958.mp4" data-background-opacity="0.4"-->
 # Digital ethics
 
-1. Who decides what, and how, things get made? <!-- .element: class="fragment" data-audio-src="audio/foundations/14b.ogg" -->
-2. Who gets to make it? <!-- .element: class="fragment" data-audio-src="audio/foundations/14c.ogg" -->
-3. Who gets access to what has been made? <!-- .element: class="fragment" data-audio-src="audio/foundations/14d.ogg" data-audio-advance="1200" -->
+1. Who decides what, and how, things get made? <!-- .element: class="fragment" data-audio-src="../audio/foundations/14b.ogg" -->
+2. Who gets to make it? <!-- .element: class="fragment" data-audio-src="../audio/foundations/14c.ogg" -->
+3. Who gets access to what has been made? <!-- .element: class="fragment" data-audio-src="../audio/foundations/14d.ogg" data-audio-advance="1200" -->
 
 Notes:
 Let's take a step back, now that we understand the incredible power of digital technologies, abstraction and interactive software built with them, we need to ask a few questions. What are the economic, cultural and ethical implications of digitization? Anytime economics is involved, I like to boil it down to three "who" questions:
@@ -417,7 +417,7 @@ Those questions have had, and will continue to have, a profound effect on my lif
 * https://archive.org/details/American1958_2
 
 
-<!-- .slide: data-audio-src="audio/foundations/15a.ogg" data-background-image="images/Sacred_Library_Ryan_Moulton_latent-diffusion.webp" data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/foundations/15a.ogg" data-background-image="../images/Sacred_Library_Ryan_Moulton_latent-diffusion.webp" data-background-size="contain" -->
 # Digital Libraries
 
 Notes:
@@ -427,12 +427,12 @@ Some artists and many corporations, don't agree with me, particularly in regard 
 * [_Tour of the Sacred Library_ - Ryan Moulton](https://moultano.wordpress.com/2021/07/20/tour-of-the-sacred-library/) (2021)
 
 
-<!-- .slide: data-audio-src="audio/foundations/15b.ogg" data-background-image="images/TPB.png" data-background-size="contain" data-background-color="rgb(180,180,180)"-->
+<!-- .slide: data-audio-src="../audio/foundations/15b.ogg" data-background-image="../images/TPB.png" data-background-size="contain" data-background-color="rgb(180,180,180)"-->
 Notes:
 We have had the technology, since at least the origin of The Pirate Bay in 2003, to distribute all the world's digital information at a cost much less than we spend on the world's libraries. But we have decided to not do this. We could make every person with access to the internet into a digital billionaire, with access to everything forever - the largest anti-poverty action in history, likely for the entirety of history, but we choose not to. 
 
 
-<!-- .slide: data-audio-src="audio/foundations/15c.ogg" data-background-image="images/Forbes_bilionaires_headshots_2021.jpg" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/15c.ogg" data-background-image="../images/Forbes_bilionaires_headshots_2021.jpg" data-background-size="contain" data-audio-advance="1000" -->
 Notes:
 We'd rather have only [2755 billionaires](https://en.wikipedia.org/wiki/The_World%27s_Billionaires). 
 
@@ -441,7 +441,7 @@ We'd rather have only [2755 billionaires](https://en.wikipedia.org/wiki/The_Worl
 * https://www.forbes.com/sites/kerryadolan/2021/04/06/forbes-35th-annual-worlds-billionaires-list-facts-and-figures-2021/
 
 
-<!-- .slide: data-audio-src="audio/foundations/15d.ogg" data-background-image="images/Eben_Moglen_side_full.webp" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/15d.ogg" data-background-image="../images/Eben_Moglen_side_full.webp" data-audio-advance="1500" -->
 The great moral question of the twenty-first century is this; if all knowledge, all culture, all art, all useful information can be costlessly given to everyone at the same price that it is given to anyone; if everyone can have everything, anywhere, all the time, why is it ever moral to exclude anyone? <!-- .element: class="quote" -->
 _Eben Moglen_ <!-- .element: class="attribution" -->
 
@@ -453,7 +453,7 @@ The great moral question of the twenty-first century is this; if all knowledge, 
 * re:publica from Germany, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons
 
 
-<!-- .slide: data-audio-src="audio/foundations/15e1.ogg" data-background-image="images/open.webp" data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/foundations/15e1.ogg" data-background-image="../images/open.webp" data-background-size="contain" -->
 Notes:
 I found some good answers to these questions in the free and open source software communities. 
 
@@ -462,7 +462,7 @@ I found some good answers to these questions in the free and open source softwar
 * https://eff.org
 
 
-<!-- .slide: data-audio-src="audio/foundations/15e2.ogg" data-background-video="video/ownership.mp4" data-background-size="contain" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/15e2.ogg" data-background-video="../video/ownership.mp4" data-background-size="contain" data-audio-advance="1500" -->
 Notes:
 I found other good answers in decolonization and anti-capitalist movements. Almost always the answers were confounded by concerns of ownership. History has demonstrated that a critical questioning of ownership is a requirement for a just and ethical society. Who and what can or should be owned are fundamental questions about how we organize our economy and culture.
 
@@ -470,7 +470,7 @@ I found other good answers in decolonization and anti-capitalist movements. Almo
 * [_in Pursuit of Venus [infected]_ - Lisa Reihana](https://www.youtube.com/watch?v=WmMRF5nw9UI)
 
 
-<!-- .slide: data-audio-src="audio/foundations/15f.ogg" data-background-video="video/candles.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/15f.ogg" data-background-video="../video/candles.mp4" data-audio-advance="1000" -->
 Notes: 
 When you use digital technologies you become intrinsically linked to the great moral question: when the value others gain dwarfs the cost of your sacrifice, at what point does it become criminal not to make that sacrifice? 
 
@@ -479,7 +479,7 @@ I would extend this line of questioning further; at what point do you refuse to 
 Put more simply, would you pay people enough to create new art and culture so that everyone could have access to what has been made?
 
 
-<!-- .slide: data-audio-src="audio/foundations/15g.ogg" data-background-video="video/candles_for_everyone.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/15g.ogg" data-background-video="../video/candles_for_everyone.mp4" data-audio-advance="1000" -->
 1. Who decides what, and how, things get made? 
 2. Who gets to make it?
 3. Who gets access to what has been made?
@@ -488,13 +488,13 @@ Notes:
 In contrast to a society that accepts billionaires avoiding taxes from their sales of virtual goods that could be copied for free, I see digital technologies as the best opportunity for a once-in-the-history-a-species redefinition of wealth, sharing and sacrifice. To get as close as possible to answering "everyone and anyone" when we ask - who?
 
 ---
-<!-- .slide: data-background-video="video/frank - patterns of life.mp4" data-audio-advance="2000" -->
+<!-- .slide: data-background-video="../video/frank - patterns of life.mp4" data-audio-advance="2000" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_February: In the style of Frank Sinatra_ - OpenAI Jukebox](https://soundcloud.com/openai_audio/frank-sinatra) (2019)
 * [_Patterns of Life_ excerpt - Julien Prévieux](https://vimeo.com/141794173) (2015)
 ---
-<!-- .slide: data-audio-src="audio/foundations/16.ogg" data-background-video="video/Karl Sims Evolved Virtual Creatures compilation-mA8z0GndiYI.mp4" data-audio-advance="2000" -->
+<!-- .slide: data-audio-src="../audio/foundations/16.ogg" data-background-video="../video/Karl Sims Evolved Virtual Creatures compilation-mA8z0GndiYI.mp4" data-audio-advance="2000" -->
 Notes:
 Alongside the development of digital computers was the development of evolving and self-organizing machines. Machines or software that didn't just have preprogrammed states they could be in, but adapted or learned what states were needed to more effectively interact with their environment. Machines that evolved.
 
@@ -504,12 +504,12 @@ Evolution conjures life. And thus were born the fields of artificial life and ar
 * [_Karl Sims' Evolved Virtual Creatures_ compilation](https://www.youtube.com/watch?v=mA8z0GndiYI)
 
 
-<!-- .slide:  data-audio-src="audio/foundations/17a.ogg"  data-background-image="images/AI_venn.png" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide:  data-audio-src="../audio/foundations/17a.ogg"  data-background-image="../images/AI_venn.png" data-background-size="contain" data-audio-advance="1000" -->
 Notes:
 Don't worry too much about the terminology. The important thing to understand is that machine learning or ML adds a training process in addition to traditional software programming. The software is trained on numerous examples or data. The collection and selection or curation of that data dramatically effects the capabilities learned by the machine. This allows the machine to learn from the data instead of having humans specify all the actions of the machine.
 
 
-<!-- .slide:  data-audio-src="audio/foundations/17b.ogg" data-background-video="video/Coded Bias-jZl55PsfZJQ.mp4" data-audio-advance="1500" -->
+<!-- .slide:  data-audio-src="../audio/foundations/17b.ogg" data-background-video="../video/Coded Bias-jZl55PsfZJQ.mp4" data-audio-advance="1500" -->
 Notes:
 When training data controls the output then you end up constantly running into data problems, one of which is called "bias", which is a common criticism of AI systems. However, bias is more of a data collection and curation issue, and all data driven systems, including humans, suffer from bias inherent in their input data.
 
@@ -517,7 +517,7 @@ When training data controls the output then you end up constantly running into d
 * [_Coded Bias_ trailer excerpts](https://www.youtube.com/watch?v=jZl55PsfZJQ)
 
 
-<!-- .slide:  data-audio-src="audio/foundations/17c.ogg" data-background-image="images/PredPol.jpg" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide:  data-audio-src="../audio/foundations/17c.ogg" data-background-image="../images/PredPol.jpg" data-background-size="contain" data-audio-advance="1000" -->
 Notes:
 For example, if you take data on policing, which may be targeted based on existing racial or class distinctions made by the officers, based of their own experiences, which in turn were formed inside a particular (mainstream and policing) culture, you only reinforce the existing bias when the AI recommends policing targets. The machine has no access to reality, only the data it was given to learn from.
 
@@ -525,7 +525,7 @@ For example, if you take data on policing, which may be targeted based on existi
 * https://geolitica.com/public-safety/#accountability
 
 
-<!-- .slide:  data-audio-src="audio/foundations/17d.ogg"  data-background-video="video/network-propagation.mp4" data-background-size="contain" --data-background-video-loop data-audio-advance="1500" -->
+<!-- .slide:  data-audio-src="../audio/foundations/17d.ogg"  data-background-video="../video/network-propagation.mp4" data-background-size="contain" --data-background-video-loop data-audio-advance="1500" -->
 Notes:
 The most popular current ML technique is deep learning using artificial neural networks. These networks mimic the connectivity of biological brains - taking raw input and passing it through many layers of connections. The information flows through the network being transformed into the final output. These networks, called models, are made up many layers of neurons connected together. The first layer is the input, then there are what is called the "hidden" layers of neurons that process the input, and finally an output layer. How the input signal flows through the hidden layers and gets transformed until reaching the output is the computation of the neural net. We'll cover this in detail in Part 3: Neural Nets and Data.
 
@@ -536,7 +536,7 @@ That this works so well is quite remarkable, but currently training requires a v
 * https://quantdare.com/what-is-the-difference-between-deep-learning-and-machine-learning/
 
 
-<!-- .slide: data-audio-src="audio/foundations/18.ogg" data-background-video="video/Transition_Toronto_small.mp4" data-background-opacity="0.6" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/18.ogg" data-background-video="../video/Transition_Toronto_small.mp4" data-background-opacity="0.6" data-audio-advance="1500" -->
 <table>
 <thead>
 <tr><td>Traditional software</td><td>Machine learning</td></tr>
@@ -557,7 +557,7 @@ As we will see, the process of creating machines that learn is dramatically diff
 There are many analogies, but a consensus suggests that machine learning processes are more exploratory and some aspects require less technical proficiency. While many parts of the full machine learning development lifecycle still require tradition software programming, the curation of datasets and the training phases are more similar to teaching and gardening - certainly difficult to master but considerably easier for novices to achieve success. Hours and days rather than weeks or months of education. At least, for the sake of this tutorial I'll pretend that is the case.
 
 
-<!-- .slide: data-audio-src="audio/foundations/19a.ogg" data-background-image="images/feature_visualization.png" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/19a.ogg" data-background-image="../images/feature_visualization.png" data-background-size="contain" data-audio-advance="1000" -->
 Notes:
 Machine learning excels at pattern recognition and prediction. Input to software is almost always noisy and filled with extraneous or non-useful data. Detecting the signal or useful information is difficult. Unlike traditional software where humans study patterns in the data, then create equations that try to detect or isolate those patterns, modern ML systems accept all the input and are trained to find the needed information. It is hard for humans, with our own sophisticated perceptual system that we're not very conscious of, to understand how to filter the input usefully. Indeed, after training, ML systems can have structures resembling our perceptual system at the start of their layered network.
 
@@ -565,7 +565,7 @@ Machine learning excels at pattern recognition and prediction. Input to software
 * https://distill.pub/2017/feature-visualization/
 
 
-<!-- .slide: data-audio-src="audio/foundations/19b.ogg" data-visibility="hidden" -->
+<!-- .slide: data-audio-src="../audio/foundations/19b.ogg" data-visibility="hidden" -->
 1. Mapping: takes input, produces output, but stateless
 2. Stateful: has variables / internal state
 3. Adaptive: adapts to environment through time
@@ -574,7 +574,7 @@ Notes:
 Recall the various levels of interactivity and adaptation discussed previously. Machine learning exists at all levels that take input. 
 
 
-<!-- .slide: data-audio-src="audio/foundations/19c.ogg" data-background-image="images/face_recog_summary_openface.jpg" data-background-size="contain" data-visibility="hidden" -->
+<!-- .slide: data-audio-src="../audio/foundations/19c.ogg" data-background-image="../images/face_recog_summary_openface.jpg" data-background-size="contain" data-visibility="hidden" -->
 Notes:
 At the first level you have systems that do pattern recognition and translation. For example, classifying images, such as facial recognition surveillance systems. Input data, an image, moves through the software that was trained on pairs of images and names, and is transformed into an output, a name.
 
@@ -582,7 +582,7 @@ At the first level you have systems that do pattern recognition and translation.
 * https://cmusatyalab.github.io/openface/
 
 
-<!-- .slide: data-audio-src="audio/foundations/19d.ogg" data-background-image="images/neural_music_architecture.svg" data-background-size="contain" data-background-color="rgb(100,100,100)" data-visibility="hidden" -->
+<!-- .slide: data-audio-src="../audio/foundations/19d.ogg" data-background-image="../images/neural_music_architecture.svg" data-background-size="contain" data-background-color="rgb(100,100,100)" data-visibility="hidden" -->
 Notes:
 Generally when you add the element of time, then you require the next level of system, something that has a memory. For language, music and video input, this memory becomes critical for learning. These inputs have correlations between events at different times, so the system must be able to remember what has happened previously.
 
@@ -590,7 +590,7 @@ Generally when you add the element of time, then you require the next level of s
 * https://jongwook.kim/blog/Neural-Music-Synthesis.html
 
 
-<!-- .slide: data-audio-src="audio/foundations/19e.ogg" data-background-image="images/deepmind_games.webp" data-background-size="contain" data-visibility="hidden" -->
+<!-- .slide: data-audio-src="../audio/foundations/19e.ogg" data-background-image="../images/deepmind_games.webp" data-background-size="contain" data-visibility="hidden" -->
 Notes:
 The final level, adaptive, is often associated with reinforcement learning used for things like playing games or robots interacting with their environment. It can also be thought of more wholistically as the entire process of humans creating a machine learning system - adapting it to be more useful to the problems they are trying to solve.
 
@@ -598,14 +598,14 @@ The final level, adaptive, is often associated with reinforcement learning used 
 * https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules
 
 ---
-<!-- .slide: data-background-video="video/learning to - rock.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-background-video="../video/learning to - rock.mp4" data-audio-advance="1000" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_Robot's Rock_ - The Three Sirens by Nicolas Baginsky](https://www.youtube.com/watch?v=RcxuXYE9UeY) (2008)
 * [_Learning to see - We are made of star dust_ - Memo Akten](https://vimeo.com/242498070) (2018)
 
 ---
-<!-- .slide: data-audio-src="audio/foundations/20a.ogg" data-background-video="video/Zebrafish Brain-YLVdRPVj-XM.mp4" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/20a.ogg" data-background-video="../video/Zebrafish Brain-YLVdRPVj-XM.mp4" data-background-size="contain" data-audio-advance="1000" -->
 # Intelligence
 
 Notes:
@@ -622,7 +622,7 @@ We are in the midst of developing a real understanding of own brains through bet
 * https://theconversation.com/where-are-memories-stored-in-the-brain-new-research-suggests-they-may-be-in-the-connections-between-your-brain-cells-174578
 
 
-<!-- .slide: data-audio-src="audio/foundations/20b.ogg" data-background-video="video/illustris_movie_dmdens_z0_slicing.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/20b.ogg" data-background-video="../video/illustris_movie_dmdens_z0_slicing.mp4" data-audio-advance="1000" -->
 Notes:
 There is an underlying nature of intelligence(s) that are possible in this physical reality. Our brains exploit this in a particular way, but there are many ways, each subtly or grossly attuned to particular tasks.
 
@@ -632,7 +632,7 @@ To see the range of intelligence let's explore a few examples of intelligence ve
 * [_Animated projection of the dark matter density distribution_ - Illustris](https://www.illustris-project.org/media/)
 
 
-<!-- .slide: data-audio-src="audio/foundations/20c.ogg" data-background-video="video/Experienced bumblebee pulling string to solve the coiled-string task-4skDs7y_nVU.mp4" data-background-size="contain" data-audio-advance="700" -->
+<!-- .slide: data-audio-src="../audio/foundations/20c.ogg" data-background-video="../video/Experienced bumblebee pulling string to solve the coiled-string task-4skDs7y_nVU.mp4" data-background-size="contain" data-audio-advance="700" -->
 Notes:
 Honey bees have a hivemind, and approximately a million nerve cells each. They can count up to 5, choose the smaller or larger number from a group, and even choose "zero" when choosing "less than 1", but they do this without numerical concepts, and researchers were able to create a 4 neuron artificial neural net to replicate this. Bees dance to convey direction and distance to sources of flowers to each other and can solve simple object manipulation problems and learn to solve those problems by watching each other.
 
@@ -644,7 +644,7 @@ Honey bees have a hivemind, and approximately a million nerve cells each. They c
 * https://phys.org/news/2018-12-bees-nerve-cells-brains.html
 
 
-<!-- .slide: data-audio-src="audio/foundations/20d.ogg" data-background-video="video/The Amazing Journey of the Monarch Butterfly-YEXhI8VQ9W4.mp4"-->
+<!-- .slide: data-audio-src="../audio/foundations/20d.ogg" data-background-video="../video/The Amazing Journey of the Monarch Butterfly-YEXhI8VQ9W4.mp4"-->
 Notes:
 Monarch butterflies have a lifecycle that is shorter than their migration pattern. In the summer they live in the northern US, and have a 2-6 week adult lifecycle, and then migrate to a very specific location in central Mexico for the winter and have a 9 month adult lifecycle. Their brain is able to navigate to places they have never been before, indeed, only every 5th generation migrates. Research is still ongoing as to how they navigate using a combination of the sun, magnetic fields, and instinct, but we have identified 536 genes that appear to be associated with migration.
 
@@ -655,12 +655,12 @@ Monarch butterflies have a lifecycle that is shorter than their migration patter
 * https://monarchjointventure.org/monarch-biology/monarch-migration
 
 
-<!-- .slide: data-audio-src="audio/foundations/20e1.ogg" data-background-image="images/cognitive assemblages_latent-diffusion.webp" data-background-opacity="0.8" -->
+<!-- .slide: data-audio-src="../audio/foundations/20e1.ogg" data-background-image="../images/cognitive assemblages_latent-diffusion.webp" data-background-opacity="0.8" -->
 <div class="r-stack">
 
-<img class="fragment fade-out" data-src="images/Hayles_Unthought.webp" data-audio-advance="100">
+<img class="fragment fade-out" data-src="../images/Hayles_Unthought.webp" data-audio-advance="100">
 
-<div class="fragment" data-audio-src="audio/foundations/20e2.ogg" data-audio-advance="1500">
+<div class="fragment" data-audio-src="../audio/foundations/20e2.ogg" data-audio-advance="1500">
 
 My position is that all lifeforms, even those lacking brains, such as plants and nematode worms, have cognitive capacities. Once cognition is understood as a much broader capacity than consciousness, the relation between humans, nonhumans and computational media may be radically reconceptualized. Much of the world’s work in contemporary developed countries is done through collectivities through which information, interpretations, and meanings circulate: that is, through cognitive assemblages. <!-- .element: class="quote" -->
 _Katherine Hayles_ <!-- .element: class="attribution" -->
@@ -673,7 +673,7 @@ Katherine Hayles, describes this sort of intelligence as nonconscious cognition:
 _"My position is that all lifeforms, even those lacking brains, such as plants and nematode worms, have cognitive capacities. Once cognition is understood as a much broader capacity than consciousness, the relation between humans, nonhumans and computational media may be radically reconceptualized. Much of the world’s work in contemporary developed countries is done through collectivities through which information, interpretations, and meanings circulate: that is, through cognitive assemblages."_
 
 
-<!-- .slide: data-audio-src="audio/foundations/20f.ogg" data-background-video="video/cosmic_zoom_out 720.mp4" data-background-video-muted data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/20f.ogg" data-background-video="../video/cosmic_zoom_out 720.mp4" data-background-video-muted data-audio-advance="1500" -->
 Notes:
 Intelligence, or what Hayles calls cognition, is not restricted to a single organ, not even a single organism, but is distributed throughout the body, relationships, tools, institutions, markets, and culture. It emerges from evolutionary dynamics, adaptation, complexity, and what is sometimes called "self-organized criticality" or as studied in artificial life, “from simple rules to complex patterns or behaviours.”
 
@@ -683,7 +683,7 @@ As we saw with Rule 110, simple rules that lead to complex patterns allow for co
 * [_Cosmic Eye — Zoom through the Universe!_](https://www.youtube.com/watch?v=8Are9dDbW24)
 
 
-<!-- .slide: data-audio-src="audio/foundations/21.ogg" data-background-image="images/narrow_vs_general_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/21.ogg" data-background-image="../images/narrow_vs_general_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1500" -->
 ### Narrow vs General
 
 Notes:
@@ -692,17 +692,17 @@ Computer science describes intelligence as narrow or weak versus general or stro
 There is broad consensus that we haven't yet found any narrow intelligence that is considered conscious, but at what point does a nonconscious cognitive process transition to conscious general intelligence, and are those two always linked?
 
 
-<!-- .slide: data-audio-src="audio/foundations/22a1.ogg" data-background-image="images/no_self_without_others_RealESRGAN-pbaylies-hr-paintings.webp" -->
+<!-- .slide: data-audio-src="../audio/foundations/22a1.ogg" data-background-image="../images/no_self_without_others_RealESRGAN-pbaylies-hr-paintings.webp" -->
 ### So what is consciousness?
 
-There is no self without awareness of, and engagement with, others.<!-- .element: class="quote fragment" data-audio-src="audio/foundations/22a2.ogg" data-audio-advance="500" -->
+There is no self without awareness of, and engagement with, others.<!-- .element: class="quote fragment" data-audio-src="../audio/foundations/22a2.ogg" data-audio-advance="500" -->
 _Antonio Damasio_<!-- .element: class="attribution" -->
 
 Notes:
 Most researchers agree the ingredients for consciousness are memory and some model of the self and others. The neuroscientist Antonio Damasio as puts it; "there is no self without awareness of and engagement with others." This modelling helps to create and maintaining a coherent picture of the world. This coherency shouldn't be underestimated, we even have trouble remembering foreign concepts.
 
 
-<!-- .slide: data-audio-src="audio/foundations/22b.ogg" data-background-video="video/Piaget’s Schema - Accommodation and Assimilation of New Information-EYbCE1udazw.mp4" data-audio-advance="800" -->
+<!-- .slide: data-audio-src="../audio/foundations/22b.ogg" data-background-video="../video/Piaget’s Schema - Accommodation and Assimilation of New Information-EYbCE1udazw.mp4" data-audio-advance="800" -->
 Conscious experiences are highly informative (differentiated) and always part of a cohesive experience (integrated). <!-- .element: class="quote" -->
 _Anil Seth_ <!-- .element: class="attribution" -->
 
@@ -718,7 +718,7 @@ We base these models of the world on our experiences, but what we think of as ou
 * [The Neuroscience of Consciousness – with Anil Seth](https://www.youtube.com/watch?v=xRel1JKOEbI)
 
 
-<!-- .slide: data-audio-src="audio/foundations/23a.ogg" data-background-image="images/Retinal_Image.png" -->
+<!-- .slide: data-audio-src="../audio/foundations/23a.ogg" data-background-image="../images/Retinal_Image.png" -->
 ### How we see
 
 Notes:
@@ -729,7 +729,7 @@ Our eyes mainly have good detail in a very small area, but more shockingly they 
 * [Perceptual saccadic suppression starts in the retina](https://www.nature.com/articles/s41467-020-15890-w)
 
 
-<!-- .slide: data-audio-src="audio/foundations/23b.ogg" data-background-image="images/9_bottom_Eye_Nerve_cell_Wei_Li_NEI_720.jpg" -->
+<!-- .slide: data-audio-src="../audio/foundations/23b.ogg" data-background-image="../images/9_bottom_Eye_Nerve_cell_Wei_Li_NEI_720.jpg" -->
 Notes:
 Our brain is locked inside our skull with no direct access to the outside world. It only receives signals which have already gone through a bunch of processing (for examples the retina has about 100 million neurons of 5 different types). It gets a noisy, meaningless signal that it interprets according to prior expectation or beliefs.
 
@@ -737,7 +737,7 @@ Our brain is locked inside our skull with no direct access to the outside world.
 * http://lightexhibit.org/bio_image84.html
 
 
-<!-- .slide: data-audio-src="audio/foundations/23c.ogg" data-background-image="images/Simplified-scheme-of-the-hierarchical-predictive-coding-framework-Friston-2005-2008_big.jpg" -->
+<!-- .slide: data-audio-src="../audio/foundations/23c.ogg" data-background-image="../images/Simplified-scheme-of-the-hierarchical-predictive-coding-framework-Friston-2005-2008_big.jpg" -->
 Notes:
 What we see is our brains best guess at what is happening. Other research has investigated "predictive coding" where the brains predictions and the sensory information flow in opposite directions and only errors in the prediction are propagated. 
 
@@ -745,13 +745,13 @@ What we see is our brains best guess at what is happening. Other research has in
 * https://www.researchgate.net/figure/Simplified-scheme-of-the-hierarchical-predictive-coding-framework-Friston-2005-2008_fig1_266401430
 
 
-<!-- .slide: data-background-image="images/natural image reconstruction.png" data-audio-src="audio/foundations/23d1.ogg" -->
+<!-- .slide: data-background-image="../images/natural image reconstruction.png" data-audio-src="../audio/foundations/23d1.ogg" -->
 
 <div class="r-stack">
 
-<img class="fragment fade-out" data-src="images/Surfing_Uncertainty.jpg" data-audio-advance="100" >
+<img class="fragment fade-out" data-src="../images/Surfing_Uncertainty.jpg" data-audio-advance="100" >
 
-<div class="fragment" data-audio-src="audio/foundations/23d2.ogg" data-audio-advance="1500">
+<div class="fragment" data-audio-src="../audio/foundations/23d2.ogg" data-audio-advance="1500">
 
 Our brains actually generate sensory data to match what’s coming in, using internal models of the world and of our bodies. These “generative models” give rise to multiple hypotheses about the sources of the incoming sensory data, and the most likely hypothesis becomes a perception. 
 But this is an ongoing process. The brain compares generated with incoming data, identifies any errors and updates its internal models as necessary, so that it can predict and thus perceive more accurately the next time around. <!-- .element: class="quote" -->
@@ -771,7 +771,7 @@ But this is an ongoing process. The brain compares generated with incoming data,
 * [Deep image reconstruction from human brain activity](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1006633#sec021)
 
 
-<!-- .slide: data-audio-src="audio/foundations/24a.ogg" data-background-video="video/The_Door_Study-FWSxSQsspiQ.mp4" data-background-video-muted  -->
+<!-- .slide: data-audio-src="../audio/foundations/24a.ogg" data-background-video="../video/The_Door_Study-FWSxSQsspiQ.mp4" data-background-video-muted  -->
 Notes:
 In a famous study by Daniel Simons and Daniel Levin, a man stops a passerby and asks for directions. While the subject is speaking, two workmen carrying a door pass between them, momentarily blocking the view. When they pass, the interlocutor has been replaced by another person, but about half of subjects do not notice the discrepancy.
 
@@ -781,7 +781,7 @@ This doesn't show that half of us are clueless, rather that the primacy of a coh
 * [_The Door Study_ - Daniel Simons and Daniel Levin](https://www.youtube.com/watch?v=FWSxSQsspiQ)
 
 
-<!-- .slide: data-audio-src="audio/foundations/24b.ogg" data-background-video="video/selective attention test-vJG698U2Mvo.mp4" data-background-video-loop data-audio-advance="1200" -->
+<!-- .slide: data-audio-src="../audio/foundations/24b.ogg" data-background-video="../video/selective attention test-vJG698U2Mvo.mp4" data-background-video-loop data-audio-advance="1200" -->
 How many passes do you count?
 Notes:
 Another way to conceive of the "information attack" of the door switcheroo, is that our thinking isn't just inside our brain and body, it extends into to the world around us. This is more obvious in acts of memory amplification, for example, if you write down a note to yourself, but we are constantly letting the world compute or hold information for us until we need it. It could be in the case of the switcheroo the brain let the world "hold" the information of the identity of the lost person to focus on how to help them, at least until the identity of person was somehow needed to direct them. Our attention mechanisms in general can be characterized as a shift in what information is being actively, or at least consciously, processed. 
@@ -790,7 +790,7 @@ Another way to conceive of the "information attack" of the door switcheroo, is t
 * [_Selective attention test_ - Daniel Simons and Daniel Levin](https://www.youtube.com/watch?v=vJG698U2Mvo)
 
 
-<!-- .slide: data-audio-src="audio/foundations/26.ogg" data-background-image="images/brian_cantwell-smith_big.jpg" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/26.ogg" data-background-image="../images/brian_cantwell-smith_big.jpg" data-background-size="contain" data-audio-advance="1000" -->
 ### Brian Cantwell Smith
 
 #### Judgment
@@ -809,14 +809,14 @@ The reason we hold human adults accountable for their actions, even if they do n
 Judgment is not restricted to humans. Perhaps it is a mark of the humane. Computers do not need to try to be computers. Humans are different: we must strive to be human."
 
 
-<!-- .slide: data-audio-src="audio/foundations/27a.ogg" data-background-image="images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" -->
+<!-- .slide: data-audio-src="../audio/foundations/27a.ogg" data-background-image="../images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" -->
 ### Decisions?
 
 Notes:
 Where I feel I disagree with Brian is that judgment, while beautiful, seems to imply some sort of decision making or freewill. I like the idea that we do not exercise judgment for most thinking, but can call upon it when the consequences of lack of judgment are high. I like that the capacity for judgment makes you accountable, but I don't know if it makes you responsible in the way that we talk about people _deciding_ to hurt others and being responsible for that decision.
 
 
-<!-- .slide: data-audio-src="audio/foundations/27b.ogg" data-background-video="video/Monty Python Philosophy Football-LfduUFF_i1A.mp4" data-audio-advance="1200" -->
+<!-- .slide: data-audio-src="../audio/foundations/27b.ogg" data-background-video="../video/Monty Python Philosophy Football-LfduUFF_i1A.mp4" data-audio-advance="1200" -->
 Freewill
 
 Notes:
@@ -826,7 +826,7 @@ While the debate on freewill has been a long and nuanced one, and of which I'm n
 * [Monty Python's _Philosohpy Football_](https://www.youtube.com/watch?v=LfduUFF_i1A)
 
 
-<!-- .slide: data-audio-src="audio/foundations/27c.ogg" data-background-image="images/reinforcement_world_model.gif" data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/foundations/27c.ogg" data-background-image="../images/reinforcement_world_model.gif" data-background-size="contain" -->
 Notes:
 A recent study sheds some light on this - in machine reinforcement learning the system learns better when it has a model of the world and can plan its actions, imagining how the world might change as it interacts with it. Importantly this learning procedure relies on counterfactual learning, or the ability imagine alternate reality with different facts, the learner must be able to simulate or imagine having made choices they did not in fact make.
 
@@ -834,7 +834,7 @@ A recent study sheds some light on this - in machine reinforcement learning the 
 * https://bair.berkeley.edu/blog/2020/10/05/plan2explore/
 
 
-<!-- .slide: data-audio-src="audio/foundations/27d.ogg" data-background-video="video/Amelie.mp4" data-audio-advance="2000" -->
+<!-- .slide: data-audio-src="../audio/foundations/27d.ogg" data-background-video="../video/Amelie.mp4" data-audio-advance="2000" -->
 Notes:
 Humans do this too, we imagine how things might have gone if we'd only not said that stupid or thoughtless thing, or had thought of that brilliant reply at the time. This requires us to believe that we _could_ have acted differently than we _actually_ did. This belief is the experience of freewill and is needed for learning. If we thought we could never make any decision or action than the ones we actually took then it might be much more difficult to learn from our mistakes.
 
@@ -842,7 +842,7 @@ Humans do this too, we imagine how things might have gone if we'd only not said 
 * _Amelie_ excerpt (2001)
 
 
-<!-- .slide: data-audio-src="audio/foundations/27e.ogg" data-background-image="images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/27e.ogg" data-background-image="../images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" data-audio-advance="1500" -->
 We tend to think of ourselves as being capable of breaking the causal structure of our environment and making free choices, and this imagined freedom — despite being, in all probability, just a figment of imagination — is necessary for efficient learning and thus a vital part of our intelligence. <!-- .element: class="quote" -->
 _Erik M. Rehn_ <!-- .element: class="attribution" -->
 
@@ -856,20 +856,20 @@ So for me, every intelligence with the capacity for judgment should be held acco
 * https://arxiv.org/pdf/2111.08435.pdf
 
 ---
-<!-- .slide: data-background-video="video/frankenstein - ballet.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-background-video="../video/frankenstein - ballet.mp4" data-audio-advance="1000" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_Frankenstein_](https://www.youtube.com/watch?v=MowmXsMDkY) (1910)
 * [_Computer Ballet_ ](https://www.youtube.com/watch?v=dXQIUEwEGQ) (1965)
 ---
-<!-- .slide: data-audio-src="audio/foundations/28aa.ogg" data-background-image="images/digital_intelligence_rudalle_1_latent-diffusion.webp" data-background-opacity="0.5" data-audio-advance="800" -->
+<!-- .slide: data-audio-src="../audio/foundations/28aa.ogg" data-background-image="../images/digital_intelligence_rudalle_1_latent-diffusion.webp" data-background-opacity="0.5" data-audio-advance="800" -->
 # Digital intelligence <!-- .element: class="r-fit-text" -->
 
 Notes:
 OK, I think we're ready to talk about digital intelligence.
 
 
-<!-- .slide: data-audio-src="audio/foundations/28a.ogg" data-background-image="images/trust_the_machine_big.webp" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/28a.ogg" data-background-image="../images/trust_the_machine_big.webp" data-audio-advance="1000" -->
 Testing, inspection and interpretability <!-- .element: class="backdrop" -->
 Notes:
 There is a great deal of discussion and worry around testing, inspection and interpretability of machine learning systems. Can we trust the machine? How? 
@@ -877,7 +877,7 @@ There is a great deal of discussion and worry around testing, inspection and int
 How would we know when an AI system reaches general intelligence? How do we test for consciousness? On a more mundane level how do we test or know how _any_ of the output is derived from the input? I would pose the same question about humans and other animals. 
 
 
-<!-- .slide: data-audio-src="audio/foundations/28b.ogg" data-background-video="video/Memories of Passersby I by Mario Klingemann-298000366.mp4" data-audio-advance="800" -->
+<!-- .slide: data-audio-src="../audio/foundations/28b.ogg" data-background-video="../video/Memories of Passersby I by Mario Klingemann-298000366.mp4" data-audio-advance="800" -->
 The Imitation Game <!-- .element: class="backdrop" -->
 
 Notes:
@@ -887,21 +887,21 @@ In 1950 Alan Turing devised a famous test called the Imitation Game, now called 
 * [_Memories of Passersby I_ - Mario Klingemann](https://vimeo.com/298000366) (2018)
 
 
-<!-- .slide: data-audio-src="audio/foundations/28c.ogg" data-background-image="images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_cfg_diffusion_1_latent-diffusion.webp" data-audio-advance="800" -->
+<!-- .slide: data-audio-src="../audio/foundations/28c.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_cfg_diffusion_1_latent-diffusion.webp" data-audio-advance="800" -->
 Where is the judgment? <!-- .element: class="backdrop" -->
 
 Notes:
 The Turing test may be more geared towards good simulations of human communication rather than general intelligence, and an AI that could pass the test would have to mimic human failings realistically as well. Importantly, it doesn't test for Cantwell-Smith's concept of judgment. 
 
 
-<!-- .slide: data-audio-src="audio/foundations/28d.ogg" data-background-image="images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_0_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/foundations/28d.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_0_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1500" -->
 A polite convention that everyone thinks <!-- .element: class="backdrop" -->
 
 Notes:
 The Turing Test isn't used in institutional AI research, as the goal of a human-passing general intelligence is only a tiny subset of the possible general intelligences, but it does highlight that it is difficult to decide if, and especially how, anyone possesses general intelligence. Turing wrote, "it is usual to have a polite convention that everyone thinks."
 
 
-<!-- .slide: data-audio-src="audio/foundations/28e.ogg" data-background-image="images/1024px-Saltatory_Conduction.gif" data-background-size="contain" data-background-color="black" data-audio-advance="1200" -->
+<!-- .slide: data-audio-src="../audio/foundations/28e.ogg" data-background-image="../images/1024px-Saltatory_Conduction.gif" data-background-size="contain" data-background-color="black" data-audio-advance="1200" -->
 Brain to neural net and back again
 
 Notes:
@@ -914,20 +914,20 @@ Science has often proceeded from evidence that a thing is possible, to a theory 
   * Dr. Jana, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons
 
 
-<!-- .slide: data-audio-src="audio/foundations/28f.ogg" data-background-image="images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_1_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/28f.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_1_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1000" -->
 Copying frozen digital minds <!-- .element: class="backdrop" -->
 
 Notes:
 The digitalness of machine minds provides much of their promise and strangeness. Only digital minds can be frozen in time - only changing when we want them to, but otherwise responding the same way to repeated testing. Only digital minds are so easy to copy and share between researchers and artists. The perfect copies dramatically improving their use as scientific tools. Researchers regularly share the intelligences they have built with the world, including all the software details and data sets with which they were constructed.
 
 
-<!-- .slide: data-audio-src="audio/foundations/28g.ogg" data-background-image="images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_3_RealESRGAN-pbaylies-hr-paintings.webp" -->
+<!-- .slide: data-audio-src="../audio/foundations/28g.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_3_RealESRGAN-pbaylies-hr-paintings.webp" -->
 Secret keeper <!-- .element: class="backdrop" -->
 Notes:
 Given open source AI that is completely inspectable and run on your own hardware, we can explore very strange and potentially powerful opportunities. These sorts of AI can be trusted more than humans, providing absolute privacy, up to and including forgetting all of your interactions with them.
 
 
-<!-- .slide: data-audio-src="audio/foundations/28h.ogg" data-background-video="video/being_frankenstein.mp4" data-audio-advance="2000"-->
+<!-- .slide: data-audio-src="../audio/foundations/28h.ogg" data-background-video="../video/being_frankenstein.mp4" data-audio-advance="2000"-->
 Being Frankenstein
 
 Notes:
@@ -938,7 +938,7 @@ It is precisely the amount of control we have over our digital minds that likely
 * [_Frankenstein_](https://www.youtube.com/watch?v=MowmXsMDkY) (1910)
 
 ---
-<!-- .slide: data-audio-src="audio/foundations/29.ogg" data-background-image="images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
+<!-- .slide: data-audio-src="../audio/foundations/29.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
 1. **Foundations**

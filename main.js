@@ -52,7 +52,7 @@ deck.initialize({
     textToSpeechURL: null,  // the URL to the text to speech converter
     defaultNotes: false, 	// use slide notes as default for the text to speech converter
     defaultText: false, 	// use slide text as default for the text to speech converter
-    advance: -1, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+    advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
     autoplay: true,	// automatically start slideshow
     defaultDuration: 0.1,	// default duration in seconds if no audio is available
     defaultAudios: false,	// try to play audios with names such as audio/1.2.ogg
@@ -78,7 +78,13 @@ deck.addKeyBinding( { keyCode: 32, key: ' ', description: 'Pause/resume' }, () =
 
   // handle next slide action:
   if (!background_video || !background_video.ended) {
-    if (!audio || audio.ended || !audio.duration || audio.duration - audio.currentTime < 1) {
+    if (!audio) {
+      deck.next();
+      return;
+    }
+    let is_silence = audio.currentSrc.substring(0,4) == 'blob' && 
+      (background_video && (background_video.loop || background_video.muted));
+    if (is_silence || audio.ended || !audio.duration || audio.duration - audio.currentTime < 1 ) {
       deck.next();
       return;
     }
@@ -129,12 +135,14 @@ deck.on( 'slidechanged', event => {
 document.addEventListener('stopplayback', function(e) {
   //console.log("stopplayback", e);
   let slide = deck.getCurrentSlide();
+  if (!slide) return;
   let background_video = slide.slideBackgroundContentElement.querySelector('video');
   if (background_video) background_video.pause();
 } );
 document.addEventListener('startplayback', function(e) {
   //console.log("stopplayback", e);
   let slide = deck.getCurrentSlide();
+  if (!slide) return;
   let background_video = slide.slideBackgroundContentElement.querySelector('video');
   if (background_video) background_video.play();
 } );

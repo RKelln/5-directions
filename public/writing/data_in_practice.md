@@ -158,6 +158,7 @@ The worst case scenario for time series data is probably structural breaks. Thes
 * [GapMinder](https://www.gapminder.org/data/)
 * [Our World in Data - Biodiversity](https://ourworldindata.org/biodiversity)
 * [HYDE (History database of the Global Environment)](https://www.pbl.nl/en/image/links/hyde)
+* [Pangeo Datastore](https://catalog.pangeo.io/)
 
 Notes:
 Time series data can be easily found in the general dataset searches, but there a few others worth mentioned, particularly if you have a environmental focus:
@@ -165,7 +166,7 @@ Time series data can be easily found in the general dataset searches, but there 
 * GapMinder has hundreds of indicators of global well-being, health, environment, etc
 * Our World in Data has a variety of biodiversity datasets
 * HYDE has a wide variety historical data covering the entire Holocene (12000 years or so)
-
+* Pangeo is a community promoting open science and has preprocessed climate and weather datasets
 
 
 # Sensors
@@ -218,4 +219,9 @@ Notes:
 Images may have watermarks, frames, and other extraneous information on them. They should be cropped or removed.
 
 The main challenge with images is resolution and/or dimension. Most models require a particular resolution of image to train on and usually a square resolution that is relatively small. 1024 x 1024 is quite large for contemporary training. This is a giant pain.
+
+
+
+
+TODO: Imagenet: https://devopedia.org/imagenet
 

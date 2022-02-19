@@ -1,6 +1,6 @@
 // past, present, future
 
-import {deck} from './main.js'
+import {deck} from './../main.js'
 
 
 deck.on( 'history', (e) => {
@@ -33,6 +33,11 @@ deck.on( 'slidechanged', event => {
         container.style.display = "block";
         animateValue(container, parseInt(container.innerHTML), parseInt(year.innerHTML), 1000);
         //container.innerHTML = year.innerHTML;
+
+        // trigger animation
+        container.style.animation = 'none';
+        container.offsetHeight; /* trigger reflow */
+        container.style.animation = null; 
     } else {
         let container = view.querySelector("#year");
         if (container) {

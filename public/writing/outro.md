@@ -1,15 +1,7 @@
-<!-- .slide: class="small" data-audio-src="audio/intro/01_outro.ogg" data-background-video="video/Algonquin Park Stars Timelapse-1gwwgR7oNb4.mp4"   data-background-opacity="0.7"-->
-# Sources
+<!-- .slide: class="small" data-audio-src="../audio/intro/01_outro.ogg" data-background-video="../video/Algonquin Park Stars Timelapse-1gwwgR7oNb4.mp4"   data-background-opacity="0.7"-->
+### Sources
 
-https://github.com/RKelln/5-directions
-
-<div class="small-print license">
-
-<img data-src="images/cc-by-sa.svg">
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/"). 
-
-</div>
+**https://github.com/RKelln/5-directions**
 
 #### Special thanks
 <div class="nobullet center">
@@ -27,13 +19,22 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 * [kdenlive](https://kdenlive.org/) video editor
 * [LosslessCut](https://github.com/mifi/lossless-cut) by Mikael Finstad
 * [Audacity](https://www.audacityteam.org/) audio editor
+* [maua](https://github.com/maua-maua-maua/maua) generative art code by [Hans Brouwer](https://wavefunk.xyz/)
 
 </div>
 
 <div style="position: absolute; bottom: 10px; right: 0; width: 25%">
-    <img data-src="images/Interaccess_logo.png" style="max-width: 4em; margin: 1em 2em;">
-    <img data-src="images/OCADU_logo.png" style="max-width: 4em; margin: 1em 2em;" >
-    <img data-src="images/CCA_RGB_white_f.png" >
+    <img data-src="../images/Interaccess_logo.png" style="max-width: 4em; margin: 1em 2em;">
+    <img data-src="../images/OCADU_logo.png" style="max-width: 4em; margin: 1em 2em;" >
+    <img data-src="../images/CCA_RGB_white_f.png" >
+</div>
+
+<div class="small-print license" style="position: absolute; bottom: 10px; left: 0; width: 25%">
+
+<img data-src="../images/cc-by-sa.svg">
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+    
 </div>
 
 Notes:

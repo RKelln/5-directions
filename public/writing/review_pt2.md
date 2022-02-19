@@ -13,6 +13,9 @@ In the previous tutorial, Foundations, we went over the principles and foundatio
 
 
 ### Foundations
+
+<div class="small">
+
 * Digital
   * Resists noise
   * Perfect, free copies
@@ -25,6 +28,8 @@ In the previous tutorial, Foundations, we went over the principles and foundatio
 * What is intelligence?
 * Digital intelligence
   * Judgment & freewill
+
+</div>
 
 Notes:
 In Foundations we started with a basic understand of digital technology - a battle against noise to create a strange digital world of perfect, cheap copies that radically changes what is possible to compute. After thousands of years of ritualized algorithms digital machines using Boolean algebra allowed Alan Turing to imagine a Universal Computing Machine that could compute anything using only a tape to read, write and compare operations and an internal state. Over time engineers and computer scientists built layers of abstraction as computing machinery grew in speed. Software running on these machines takes input from the user, making it different from other types of recordings. Mappings convert input to output, stateful software, like the Turing machines, have a memory. Adaptive software changes what states are needed to best interact with its environment.

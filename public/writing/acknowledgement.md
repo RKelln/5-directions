@@ -1,4 +1,4 @@
-<!-- .slide: data-audio-src="audio/intro/acknowledgement.ogg" data-background-image="images/Toronto.jpg" data-background-opacity="0.6" -->
+<!-- .slide: data-audio-src="/audio/intro/acknowledgement.ogg" data-background-image="/images/Toronto.jpg" data-background-opacity="0.6" -->
 <div class="quote">
 
 I acknowledge the land I live on is the traditional territory of many nations

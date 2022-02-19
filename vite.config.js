@@ -7,9 +7,10 @@ module.exports = defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        foundations: resolve(__dirname, 'foundations.html')
+        foundations: resolve(__dirname, 'foundations/index.html'),
+        past_present_future: resolve(__dirname, 'past_present_future/index.html'),
       }
     }
   },
-  assetsInclude: ['writing/*.md'],
+  assetsInclude: ['/writing/*.md'],
 })

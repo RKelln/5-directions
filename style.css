@@ -65,7 +65,7 @@
     text-shadow: 0 0 1px #fff;
   }
 }
-.reveal .glow.visible {
+.reveal .glow {
   animation: glow 3s linear infinite 1s;
 }
 
@@ -89,7 +89,7 @@
   margin-left: 2rem;
 }
 
-.reveal .backdrop, .reveal .quote, .history .reveal p {
+.reveal .backdrop, .reveal .quote, .history .reveal section p, .history .reveal section ul, .history .reveal section ol {
   background-color: rgba(10,0,0,0.66);
 }
 
@@ -104,6 +104,10 @@
 .reveal .backdrop {
   display: inline-block;
   padding: 0.25em 0.5em;
+}
+
+.reveal .backdrop li {
+  margin-left: 1.25em;
 }
 
 .reveal .quote {
@@ -232,9 +236,32 @@
   font-stretch: condensed;
   color: rgba(210,180,180, 0.7);
   mix-blend-mode: difference;
+  -webkit-text-stroke: 1px black;
+  animation: 10s linear 5s 1 both yearFadeOut;
 }
 
-.history .reveal p, .history .reveal .quote {
+@keyframes yearFadeOut {
+  to {
+    opacity: 0.2;
+  }
+}
+
+@keyframes yearHover {
+  20% { 
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+/* restart animation on hover */
+@keyframes emptyanim {}
+.reveal #year:hover {
+  animation: 2s linear both yearHover;
+}
+
+.history .reveal p, .history .reveal ul, .history .reveal ol, .history .reveal .quote {
   text-align: left;
   font-size: 80%;
   padding: 1rem 1.2rem;
@@ -243,9 +270,20 @@
   backdrop-filter: blur(2px);
 }
 
+.history .reveal ul, .history .reveal ol {
+  padding-left: 1.5em;
+  padding-right: 0;
+  display: block;
+}
+
+.history .reveal p a {
+  font-weight: bold;
+}
+
 .history .reveal section.stack.present section.present {
   position: absolute;
   bottom: 0px;
+  left: 0px;
 }
 
 .history .reveal .quote {
@@ -258,34 +296,35 @@
 }
 
 @media screen and (min-width: 1000px) {
-  .history .reveal p, .history .reveal h2, .history .reveal h3, .history .reveal h4 {
+  .history .reveal section p, .history .reveal section ul, .history .reveal section ol, .history .reveal section h2, .history .reveal section h3, .history .reveal section h4 {
     max-width: 30vw;
-    margin-right: auto;
+    /*margin-right: auto;*/
     margin-left: 0;
+    min-width: 600px;
   }
 
-  .history .reveal p {
+  .history .reveal section p, .history .reveal section ul, .history .reveal section ol {
     font-size: 65%;
-    min-width: 15em;
+    min-width: 25em;
   }
 
-  .history .reveal h1, .history .reveal h2, .history .reveal h3 {
+  .history .reveal section h1, .history .reveal section h2, .history .reveal section h3 {
     margin-left: 1rem;
   }
 
-  .history .reveal h1 {
+  .history .reveal section h1 {
     font-size: 200%;
   }
 
-  .history .reveal h2 {
+  .history .reveal section h2 {
     font-size: 120%;
   }
 
-  .history .reveal h3 {
+  .history .reveal section h3 {
     font-size: 100%;
   }
 
-  .history .reveal h4 {
+  .history .reveal section h4 {
     font-size: 80%;
   }
 
@@ -294,6 +333,7 @@
     bottom: 0;
     right: 0;
     font-size: 50%;
+    min-width: 15em;
   }
 }
 
@@ -308,3 +348,91 @@
   top: 0;
 }
 
+/* Ken Burns-like effects */
+.slide-background.present.zoomout div.slide-background-content {
+  /*
+  background-attachment:fixed;
+  background-size: cover;
+  background-position:center;
+  width: 100%;
+  height: 100%;
+  background-position-x: 50%;
+  background-position-y: 0%;
+  z-index: -1;*/
+  /* animation: 50s linear 0s normal none infinite running zoomout; */
+  animation: 80s linear 0s both zoomout;
+}
+
+.slide-background.present.zoomout-left div.slide-background-content {
+  animation: 80s linear 0s both zoomoutleft;
+}
+
+.slide-background.present.zoomout-right div.slide-background-content {
+  animation: 80s linear 0s both zoomoutright;
+}
+
+.slide-background.present.zoomin div.slide-background-content {
+  animation: 80s linear 0s both zoomin;
+}
+
+.slide-background.present.zoomin-left div.slide-background-content {
+  animation: 80s linear 0s both zoominleft;
+}
+
+.slide-background.present.zoomin-right div.slide-background-content {
+  animation: 80s linear 0s both zoominright;
+}
+
+.slide-background.present.pandown div.slide-background-content {
+  height: 200%;
+  background-position: top;
+  animation: 80s linear 0s both pandown;
+}
+
+.slide-background.present.panup div.slide-background-content {
+  height: 200%;
+  background-position: center bottom;
+  animation: 80s linear 0s both panup;
+}
+
+
+
+@keyframes zoomout {
+  from { transform: scale(1.33, 1.33) }
+  to { transform: scale(1, 1) }
+}
+
+@keyframes zoomin {
+  from { transform: scale(1, 1) }
+  to { transform: scale(1.33, 1.33)  }
+}
+
+@keyframes zoomoutleft {
+  from { transform: scale(1.33, 1.33) translateX(10%) }
+  to { transform: scale(1, 1)  }
+}
+
+@keyframes zoomoutright {
+  from { transform: scale(1.33, 1.33) translateX(-10%) }
+  to { transform: scale(1, 1)  }
+}
+
+@keyframes zoominleft {
+  from { transform: scale(1, 1) }
+  to { transform: scale(1.33, 1.33) translateX(10%) }
+}
+
+@keyframes zoominright {
+  from { transform: scale(1, 1) }
+  to { transform: scale(1.33, 1.33) translateX(-10%) }
+}
+
+@keyframes pandown {
+  from { transform: translateY(0%) }
+  to { transform: translateY(-40%) }
+}
+
+@keyframes panup {
+  from { transform: translateY(-40%) }
+  to { transform: translateY(0%) }
+}

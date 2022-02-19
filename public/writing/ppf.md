@@ -1,6 +1,6 @@
-<!-- .slide: data-audio-advance="1500" -->
+<!-- .slide: data-audio-src="../audio/ppf/01a.ogg" data-background-video="../video/2020-10-12_HumberTrail_stream+leaves+log+rocks.mp4" data-background-opacity="0.9" -->
 Welcome to
-# Past, Present, Future
+# Past Present Future
 
 Notes: 
 Welcome to Past, Present, Future, the second of five tutorials in the series.
@@ -10,6 +10,7 @@ It is entirely possible to make art with machine learning techniques without kno
 To paraphrase Ken Liu, from the preface to _The Paper Menagerie and Other Stories_:
 
 
+<!-- .slide: data-audio-src="../audio/ppf/01b.ogg" data-background-video="../video/2020-10-12_HumberTrail_steam+waterfall+leaves-background.mp4" data-background-video-loop -->
 It is the possibility of our minds touching that makes [the act of creation] a worthwhile endeavour at all. Whatever has been lost in translation in the long journey of my thoughts through the maze of civilization to your mind, I think you do understand me, and you think you do understand me. Our minds managed to touch, if but briefly and imperfectly. We live for such miracles. <!-- .element: class="quote" -->
 _Ken Liu_ <!-- .element: class="attribution" -->
 
@@ -17,15 +18,16 @@ Notes:
 "It is the possibility of our minds touching that makes [the act of creation] a worthwhile endeavour at all. Whatever has been lost in translation in the long journey of my thoughts through the maze of civilization to your mind, I think you do understand me, and you think you do understand me. Our minds managed to touch, if but briefly and imperfectly. We live for such miracles."
 
 
-# Past, Present, Future
+<!-- .slide: data-audio-src="../audio/ppf/02.ogg" data-background-video="../video/2020-10-12_HumberTrail_stream+leaves+rocks-background.mp4" data-background-video-loop data-background-opacity="0.5"-->
+# Past Present Future
 
-* Exponential development
-* Past
+* Exponential technological development
+* **Past**
   * Math, computers, neural networks, artificial intelligence and life, generative art
-* Present
+* **Present**
   * Surveillance, the AI race, current tools
-* Future
-  * Audio and video generation, automation, non-human rights
+* **Future**
+  * Video generation, automation and autonomous artists, non-human rights
 
 Notes:
 We'll begin with a look at what exponential development, in this case technological development, looks like because it is hard for humans to conceptualize. To really get a handle on how things change over time it is important to wrestle with this.
@@ -43,11 +45,9 @@ Finally, I'll extrapolate these trends to the future, and some changes I would l
 This presentation is much more self-directed than Part 1: Foundations. There is much more to read, but those are details that are unnecessary for understanding the main concepts. Anything that I think you shouldn't skip I'll narrate. The rest is there to provide extra context when you want it. I encourage you to take breaks or come back to the unnarrated sections for reference at a later time.
 
 ---
-
-# Exponential
-
+<!-- .slide: data-audio-src="../audio/ppf/03.ogg" data-background-video="../video/technology_3min_q25_anim.mp4" -->
 Notes:
-Humans tend to think linearly, so our intuition gets exponential wrong. We can overcome this using math, a technology that allows us to transcend our natural biases. 
+Humans tend to think linearly, so our intuition gets exponential growth wrong. We can overcome this using math, a technology that allows us to transcend our natural biases. 
 
 We will be focusing on the exponential growth of technological development. Exponential growth as seen in computer hardware means that every 5 years a computer is about 10 times better with no increase in price.
 
@@ -61,6 +61,9 @@ This isn't to make a judgment about the accelerating rate of development, positi
 
 In the following video excerpt, done for my 2015 concert _Creo Animam_, I depict images of technology ordered by the year of their invention, timed such that 1 minute of video is roughly equivalent to 100 years of historical time.
 
+### Credits <!-- .element: class="attribution" -->
+* _Machines dreaming of technology_ - Ryan Kelln
+
 ### Credits
 * https://www.kurzweilai.net/the-law-of-accelerating-returns
 * https://en.wikipedia.org/wiki/2000_in_science
@@ -70,13 +73,13 @@ In the following video excerpt, done for my 2015 concert _Creo Animam_, I depict
 
 ---
 
-<!-- .slide: data-background-video="video/NNNAAAMMM.mp4"  data-audio-advance="2000"  -->
+<!-- .slide: data-background-video="../video/NNNAAAMMM.mp4"  data-audio-advance="2000"  -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_NNNAAAMMM_ - Ryan Kelln, Eric Kovalevskyy](https://www.youtube.com/watch?v=cNxadbrN_aI) (2015)
 
 ---
-
+<!-- .slide: class="pandown" data-audio-src="../audio/ppf/04-seg1.ogg" data-background-image="../images/software_made_by_a_thousand_people.webp" -->
 # Past
 
 Notes:
@@ -84,6 +87,15 @@ I'm not a historian, and the following subset of historical events is not meant 
 
 It is important to remember that recorded history is heavily biased. Dates and timing are approximate and the people who are commonly associated with various breakthroughs are surrounded by people whose names aren't mentioned but contributed in some way. In most cases multiple people around the world were working on and solving the same problem independently at around the same time. In Alvy Ray Smith's _A Biography of the Pixel_ he has this great example:
 
+
+<!-- .slide: class="pandown" data-audio-src="../audio/ppf/04-seg2.ogg" data-background-image="../images/social_media_surveillance_dystopia_4.webp" data-background-opacity="0.6" -->
+Stigler’s Law of Eponymy comes into play: “No scientific discovery is named after its original discoverer.” (This law, by the way, was not discovered by Stigler.) <!-- .element: class="quote" -->
+
+In one example, in the US Harry Nyquist and then Claude Shannon was credited for Sampling theory. <!-- .element: class="small" -->
+
+...in Russia, full credit for it always goes to Kotelnikov. In Japan, credit goes to Isao Someya. In England, to Sir Edmund Whittaker. In Germany, Herbert Raabe. Come to think of it, Nyquist was born in Sweden. Only Shannon was a true-blue, Michigan-born American. <!-- .element: class="quote" -->
+
+Notes:
 "Stigler’s Law of Eponymy comes into play: “No scientific discovery is named after its original discoverer.” (This law, by the way, was not discovered by Stigler.)" 
 
 In one example, in the US Harry Nyquist and then Claude Shannon was credited for Sampling theory. 
@@ -93,10 +105,10 @@ In one example, in the US Harry Nyquist and then Claude Shannon was credited for
 So be forewarned, the people credited below did great work, but are heavily skewed towards white North American men. I encourage corrections and broader perspectives.
 
 ---
-<!-- .slide: -->
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/05-seg1.ogg" data-background-image="../images/Fotothek_df_tg_0005486_Mathematik_Kombinatorik.jpg" data-background-opacity="0.48 -->
 ## Early developments
 
-<div class="small">
+<div class="small backdrop">
 
 * 1676: Gottfried Leibniz: symbolic reasoning
 * 1769: Mechanical Turk and other early automatons
@@ -113,6 +125,21 @@ There are many good places to start, but I've chosen Leibniz, who is a less well
 
 For those less interested in high concepts, mechanical marvels could inspire awe. Sophisticated mechanisms, or automatons, were created for kings and other powerful patrons as objects of wonder, the ancient version of The World's Largest Wheelbarrow. With the rise of merchant and capitalist power, these mechanisms were being made productive.
 
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/05-seg2.ogg" data-background-image="../images/FrameBreaking-1812.jpg" data-background-opacity="0.8" -->
+<div class="small backdrop">
+
+* 1676: Gottfried Leibniz: symbolic reasoning
+* 1769: Mechanical Turk and other early automatons
+* 1804: Joseph Marie Jacquard: Jacquard loom
+* 1818: Mary Shelly: Frankenstein
+* 1822: Charles Babbage: The Difference Engine
+* 1842: Ada Lovelace: Poetical Science
+* 1882: Joseph Fourier: Fourier transform of waves
+
+</div>
+
+Notes:
 The textile industry in England saw the effects first. A punch card controlled device fitted to a loom simplified the manufacturing of complex textile patterns and brought about massive employment changes. This demonstrated the utility of programmable machinery, inspiring the invention of a mechanical computer. At the time computing was done entirely by "unskilled" human labour, men who were taught only addition and subtraction, and followed recipes to calculate tables of logarithms and nautical almanacs. This work was both error-prone and critical to science and naval power. Few imagined that mechanical calculation could be used for other pursuits.
 
 Science in all areas was progressing rapidly, and later that century, critical understanding of the math behind waveforms, such as sound and light, was developed and would lead to the conversion between digital and analog information.
@@ -122,9 +149,14 @@ Science in all areas was progressing rapidly, and later that century, critical u
 * https://en.wikipedia.org/wiki/Computer_(occupation)
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-audio-src="../audio/ppf/06.ogg" data-background-image="../images/Leibniz.webp" data-background-position="right" -->
 ## 1676 <!-- .element: class="year" -->
 ### Gottfried Leibniz
+
+German polymath [Gottfried Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) anticipated notions in countless fields of inquiry. He believed:
+
+1. All our ideas are compounded from a very small number of simple ideas, which form the alphabet of human thought.
+2. Complex ideas proceed from these simple ideas by uniform and symmetrical combination, analogous to arithmetical multiplication.
 
 Notes:
 In the late 17th century German polymath Gottfried Leibniz wrote 15,000 letters and 40,000 pages of other manuscripts, most of them unpublished. These thoughts anticipated notions in countless fields of inquiry including computer science. Along with René Descartes and Baruch Spinoza he was an early modern rationalist who believed that truth was not found by the senses but by deductive reasoning.
@@ -149,7 +181,7 @@ This viewpoint, partially inspired from Confucian philosophy and English sculpto
 * https://commons.wikimedia.org/wiki/File:Gottfried_Wilhelm_Leibniz_c1700.jpg
 
 
-<!-- .slide: data-state="history" data-background-image="images/1920px-Racknitz_-_The_Turk_3.webp" -->
+<!-- .slide: data-state="history" data-audio-src="../audio/ppf/07.ogg" data-background-image="../images/1920px-Racknitz_-_The_Turk_3.webp" -->
 ## 1769 <!-- .element: class="year" -->
 ## Early automatons
 Complex mechanical devices have a long history, the earliest known analog computer is the _Antikythera mechanism_ now over 2000 thousand years old. There are even old accounts from China of a realistic human-shaped automaton that could walk and sing.
@@ -166,18 +198,21 @@ Mechanical marvels pop up repeatedly in many cultures, but one that I'd like to 
 * https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk
 
 
-<!-- .slide: data-state="history" data-background-video="video/Jaquard Loom at Busatti Mill-2ypE4ZJF7qY.mp4" data-background-video-loop data-background-opacity="0.8"-->
+<!-- .slide: data-state="history" data-background-video="../video/Jaquard Loom at Busatti Mill-2ypE4ZJF7qY.mp4" data-background-video-loop data-background-opacity="0.8" data-audio-advance="-1" data-background-video-muted -->
 ## 1804 <!-- .element: class="year" -->
 ## Jacquard loom
 ### Joseph Marie Jacquard
 In 1804 [Joseph Marie Jacquard](https://en.wikipedia.org/wiki/Joseph_Marie_Jacquard) invented the Jacquard machine, a punch card controlled device fitted to a loom that simplified the manufacturing of complex textile patterns. This demonstrated the utility of programmable machinery, inspiring Charles Babbage to image a mechanical computer. At the time computing was done entirely by "unskilled" human labour, who were taught only addition and subtraction, and followed recipes to calculate tables of logarithms and such, which Babbage complained were full of mistakes.
 
+Normally you'll find quotes here. Right now, though, this is the start of the self-directed history, without narration. <!-- .element: class="quote" -->
+_Proceed using the arrow keys at your own pace._ <!-- .element: class="attribution glow" -->
+
 Notes:
 ### Credits <!-- .element: class="attribution" -->
-* [Jaquard Loom at Busatti Mill](https://www.youtube.com/watch?v=2ypE4ZJF7qY)
+* [modern Jaquard Loom at Busatti Mill](https://www.youtube.com/watch?v=2ypE4ZJF7qY)
 
 
-<!-- .slide: data-state="history" data-background-image="images/Mary_Shelly.webp" data-background-opacity="0.8" data-background-position="right"-->
+<!-- .slide: data-state="history" data-background-image="../images/Mary_Shelly.webp" data-background-opacity="0.8" data-background-position="right" data-audio-advance="-1" data-background-position="right" -->
 ## 1818 <!-- .element: class="year" -->
 ## Frankenstein
 ### Mary Shelly
@@ -188,23 +223,25 @@ Notes:
 * https://en.wikipedia.org/wiki/Mary_Shelley
 
 
-<!-- .slide: data-state="history" data-background-video="video/The Babbage Difference Engine 2 at CHM-be1EM3gQkAY.mp4" data-background-opacity="0.8" data-background-video-loop -->
+<!-- .slide: data-state="history" data-background-video="../video/The Babbage Difference Engine 2 at CHM-be1EM3gQkAY.mp4" data-background-opacity="0.8" data-background-video-loop data-audio-advance="-1" data-background-position="right" -->
 ## 1822 <!-- .element: class="year" -->
 ## The Difference Engine
 ### Charles Babbage
 In 1822 [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) began to build [_The Difference Engine_](https://en.wikipedia.org/wiki/Difference_engine) which could compute polynomial functions without using multiplication or division. Despite being well funded, Babbage never finished. He then designed a more complex machine called [The Analytical Engine](https://en.wikipedia.org/wiki/Analytical_Engine), programmed with punch cards and could do general purpose calculation. It was never built but would have been the first mechanical device to be a universal Turing machine.
 
+Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [The Babbage Difference Engine #2 at CHM](https://www.youtube.com/watch?v=be1EM3gQkAY)
 
 
-<!-- .slide: data-state="history" data-background-image="images/Ada_Lovelace.webp" data-background-opacity="0.8" data-background-position="right"-->
+<!-- .slide: data-state="history" data-background-image="../images/Ada_Lovelace.webp" data-background-opacity="0.8" data-background-position="right" data-audio-advance="-1" data-background-position="right" -->
 ## 1842 <!-- .element: class="year" -->
 ## Poetical Science
 ### Ada Lovelace
 In 1842, English mathematician and writer [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) was helping [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) with the first algorithms to be carried out by his Analytical Engine. Yet Lovelace saw opportunities beyond the math. She envisioned a computer where numbers could represent entities other than quantity.  At the time it was revolutionary that machines have applications beyond pure calculation. She called the idea Poetical Science.
 
 It might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. <!-- .element: class="quote" -->
+_Ada Lovelace_ <!-- .element: class="attribution" -->
 
 Notes:
 ### Credits
@@ -212,12 +249,16 @@ Notes:
 * https://en.wikipedia.org/wiki/Ada_Lovelace
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-audio-src="../audio/ppf/08-seg1.ogg" data-background-image="../images/Fourier.webp" data-background-position="right" -->
 ## 1822 <!-- .element: class="year" -->
 ## Fourier transform
 ### Joseph Fourier
-Joseph Fourier was a french mathematician and physicist who barely survived the revolution _and_ Napolean. Among other subjects, Fourier studied mathematical waves, particularly sine waves, which trace the position along the circumference of a circle - basically an unfurled circled.
+[Joseph Fourier](https://en.wikipedia.org/wiki/Joseph_Fourier) was a french mathematician and physicist who barely survived the revolution _and_ Napolean. Among other subjects, Fourier studied mathematical waves, particularly sine waves, which trace the position along the circumference of a circle - basically an unfurled circled.
 
+
+<!-- .slide: data-state="history" data-audio-src="../audio/ppf/08-seg2.ogg" data-background-image="../images/Fourier2.webp" data-background-position="right" -->
+## Fourier transform
+### Joseph Fourier
 All waves have a frequency (how fast they wiggle or cycle) and an amplitude or energy (the height of the crests and troughs). Fourier’s idea was that a vast number of patterns of the world, including everything we can see or hear, can be described exactly as a sum of sine waves and nothing else. Any complex wave pattern can be decomposed into a set of simple sine waves. Fourier's insight underlies all conversion from analog to digital as well as data compression. 
 
 Notes:
@@ -234,12 +275,13 @@ Fourier's insight underlies all conversion from analog to digital as well as dat
 * https://en.wikipedia.org/wiki/Fourier_transform
 * [But what is the Fourier Transform? A visual introduction.](https://www.youtube.com/watch?v=spUNpyF58BY) by 3Blue1Brown 
 * https://en.wikipedia.org/wiki/Joseph_Fourier
+* https://www.oia.hokudai.ac.jp/isp/course-details/introductory-complex-function-introductory-fourier-analysis/
 
 ---
-<!-- .slide: data-background-video="video/Origin of Markov chains _ Journey into information theory _ Computer Science _ Khan Academy-Ws63I3F7Moc-binomial.mp4" data-background-size="contain" data-background-opacity="0.7" data-background-video-loop -->
+<!-- .slide: data-audio-src="../audio/ppf/09-seg1.ogg" data-background-video="../video/Origin of Markov chains _ Journey into information theory _ Computer Science _ Khan Academy-Ws63I3F7Moc-binomial.mp4" data-background-size="contain" data-background-opacity="0.7" data-background-video-loop -->
 ## Statistics and probability
 
-<div class="small">
+<div class="small backdrop">
 
 * 1763: Thomas Bayes: probability
 * 1809: Carl Friedrich Gauss: Least Square Regression
@@ -253,6 +295,23 @@ Machine learning and statistics are closely related, and thus rely on the same f
 
 The statistical method of linear regression was developed for fitting a few imprecise observations of planetary movement to a mathematical function plotting the movement correctly. It is still a powerful and widely used method in machine learning today. Three basic assumptions were made:
 
+
+<!-- .slide: data-audio-src="../audio/ppf/09-seg2.ogg" -->
+
+<table>
+
+<tr><td><img data-src="../images/linear_regression.png"></td>
+
+<td class="small">
+
+1. Small errors are more likely than large errors;
+2. Errors are balanced, just as likely to above or below the actual value; and
+3. When several measurements are taken of the same quantity, the average is the most likely value.
+
+</td></tr>
+</table>
+
+Notes:
 1. Small errors are more likely than large errors;
 2. Errors are balanced, just as likely to above or below the actual value; and
 3. When several measurements are taken of the same quantity, the average is the most likely value.
@@ -270,12 +329,14 @@ Important contributions to number theory and logic were also critical for the de
 * https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/markov_chains
 
 
-<!-- .slide: data-state="history" data-background-image="images/Difference_engine.jpg" data-background-size="contain" data-background-position="right" data-background-opacity="0.7" -->
+<!-- .slide: data-state="history" data-background-image="../images/Bayes2_RealESRGAN-x4plus.webp" data-background-size="contain" data-background-position="right" data-background-opacity="0.9" data-audio-advance="-1" -->
 ## 1763 <!-- .element: class="year" -->
 ## Probability
 ### Thomas Bayes
 
 [Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes) was an English statistician, philosopher and Presbyterian minister who dramatically improved the framework for reasoning about the probability of events - allowing the probability to update as more information becomes available. Bayes never published what would become his most famous accomplishment; his notes were edited and published posthumously.
+
+Press right arrow to continue <!-- .element: class="quote glow" -->
 
 Notes:
 ### Credits
@@ -283,7 +344,7 @@ Notes:
 * https://aiartists.org/ai-timeline-art
 
 
-<!-- .slide: data-state="history" data-background-image="images/Gauss.webp"  data-background-position="right" -->
+<!-- .slide: data-state="history" data-background-image="../images/Gauss.webp"  data-background-position="right" data-audio-advance="-1" -->
 ## 1809 <!-- .element: class="year" -->
 ## Least Square Regression
 ### Carl Friedrich Gauss
@@ -295,7 +356,7 @@ Notes:
 * https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
 
 
-<!-- .slide: data-state="history" data-background-image="images/George_Boole_color.jpg" data-background-size="contain" data-background-position="right" -->
+<!-- .slide: data-state="history" data-background-image="../images/George_Boole_color.jpg" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
 ## 1847 <!-- .element: class="year" -->
 ## Algebra of Logic
 ### George Boole
@@ -310,7 +371,7 @@ TODO: Link to Foundations
 * https://en.wikipedia.org/wiki/George_Boole#/media/File:George_Boole_color.jpg
 
 
-<!-- .slide: data-state="history" data-background-color="black" data-background-video="video/Markov.mp4" data-background-size="contain" data-background-position="right" data-background-video-loop -->
+<!-- .slide: data-state="history" data-background-color="black" data-background-video="../video/Markov.mp4" data-background-size="contain" data-background-position="right" data-background-video-loop data-audio-advance="-1" -->
 ## 1906 <!-- .element: class="year" -->
 ## Markov Chains
 ### Andrey Markov
@@ -324,13 +385,15 @@ Notes:
 * https://en.wikipedia.org/wiki/Andrey_Markov
 * https://en.wikipedia.org/wiki/Markov_chain
 * https://en.wikipedia.org/wiki/Stochastic_process
-* https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/markov_chains
+
+### Credits <!-- .element: class="attribution" -->
+* [_Origin of Markov chains_ - Brit Cruise](https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/markov_chains)
 
 ---
-
+<!-- .slide: data-audio-src="../audio/ppf/10-seg1.ogg" data-background-image="../images/naser-tamimi-yG9pCqSOrAg-unsplash.webp" data-background-opacity="0.8" -->
 ### Information and game theory
 
-<div class="small">
+<div class="small backdrop">
 
 * 1924: Harry Nyquist and Ralph Hartley: Information theory
 * 1928: John von Neumann: Games theory
@@ -350,28 +413,69 @@ This also means that rare events that are more uncertain or more surprising then
 
 This is measured by what is called information entropy, or how much information is available in a system. It is related to, but separate from, entropy in other fields and can be thought of as "how many yes/no guesses would it take?" For example to guess the outcome of a coin flip or a die roll or a word in Wordle.
 
+### Credits <!-- .element: class="attribution" -->
+* [Photo by Naser Tamimi](https://unsplash.com/photos/yG9pCqSOrAg)
 
-Low Probability Event: High Information (surprising).
-High Probability Event: Low Information (unsurprising).
 
-Balanced Probability Distribution (surprising): High entropy.
-Skewed Probability Distribution (unsurprising): Low entropy.
+<!-- .slide: data-audio-src="../audio/ppf/10-seg2.ogg" -->
+<table class="small">
+<tr>
+<td rowspan="2">
+<img data-src="../images/Dice_measure.png">
+</td>
+
+<td>
+
+* Low Probability Event: High Information (surprising).
+* High Probability Event: Low Information (unsurprising).
+
+</td>
+</tr>
+<tr>
+<td>
+
+* Balanced Probability Distribution (surprising): High entropy.
+* Skewed Probability Distribution (unsurprising): Low entropy.
+
+</td>
+</tr>
+</table>
 
 Notes:
 Balanced Probability Distribution like a coin flip or die roll is surprising and high entropy. Each has an equal chance of being the secret answer, and the more options the higher the entropy.
 
 Skewed probability distribution are less surprising with lower uncertainty and thus low entropy.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/10-seg3.ogg" data-background-video="../video/crypto.mp4" -->
+Notes:
 Take language, for example, where the letters and words have unequal frequencies. You can use information theory, as Alan Turing did in World War II, to decode encrypted messages. Even if all the letters have been switched or encoded as other letters the letter frequencies and probabilities of what words are in the messages and in what order can be used to guess the encoding (unless secret encoding is perfectly random). For example, messages may always start with a date.
 
+### Credits <!-- .element: class="attribution" -->
+* [Cryptography: Frequency Analysis](https://www.youtube.com/watch?v=0531SYmYbPk)
+
+
+<!-- .slide: data-audio-src="../audio/ppf/10-seg4.ogg" -->
+<img data-src="../images/mutual_information.png">
+
+Notes:
 Another related concept is mutual information which measures the dependence between two variables. It tells you how much information can be obtained about one variable by observing the other. In other words, how likely it is that if one thing happens, the other thing will happen too. If two things are completely independent there is no mutual information.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/10-seg5.ogg" data-background-image="../images/Bombe_vs_Enigma.webp" data-background-size="contain" -->
+Notes:
 For example, once Turing broke the code, and could decrypt the German messages, he needed to hide the fact from the Germans, who would be looking for signs that their messages could be read. Thus any actions based on the information you gain from the messages must be carried out in a way that looks like it could have been random luck, rather than revealing that you know the secret information. You need to disguise the mutual information between your observed actions and the fact that you've broken the code - often by taking no action. Turing was haunted by all the people he couldn't save because it would have revealed that he had cracked the code.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/10-seg6.ogg" data-background-image="../images/godel-by-david-grey.webp" data-background-size="contain" -->
+Notes:
 The final key concept that was developed was that of undecidability. To begin to unpack that, let's look at a related example of the barber paradox: In a particular village the barber shaves everyone, and only those, who does not shave themselves. Who shaves the barber? The barber cannot shave himself as he only shaves those that do not shave themselves, and if he doesn't shave himself, then the barber shaves ...himself.
 
 Problems that involve self-references can have serious theoretical problems about being decidable. In particular, self-reference and negation or "not"-ness is a paradoxical quagmire. It was shown that for certain problems there is no consistent, effective algorithm that can answer every question in the problem: it is undecidable. For centuries philosophers and mathematicians had been struggling to create a complete logical framework for all mathematics, but it was now proven an impossible task. So too was it impossible to create computer algorithms for these sorts of undecidable problems.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/10-seg7.ogg" data-background-image="../images/Pi.webp" data-background-size="contain"-->
+Notes:
 This ties into a further concept where something may not be predictable, but can be computed. You just have to run the program to see the output. To know the Nth digit of pi, you need to calculate it, there is no formula that can reach into the as-yet-computed future to reveal future digits.
 
 ###
@@ -382,24 +486,26 @@ This ties into a further concept where something may not be predictable, but can
 * https://en.wikipedia.org/wiki/Barber_paradox
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history"  data-background-image="../images/Nyquist_Hartley.webp"  data-background-size="contain" data-audio-advance="-1" -->
 ## 1924 <!-- .element: class="year" -->
 ## Information theory
 ### Harry Nyquist and Ralph Hartley
 
-[Harry Nyquist's](https://en.wikipedia.org/wiki/Harry_Nyquist) 1924 paper, Certain Factors Affecting Telegraph Speed, contains a theoretical section quantifying "intelligence" and the "line speed" at which it can be transmitted by a communication system.
+[Harry Nyquist's](https://en.wikipedia.org/wiki/Harry_Nyquist) 1924 paper, _Certain Factors Affecting Telegraph Speed_, contains a theoretical section quantifying "intelligence" and the "line speed" at which it can be transmitted by a communication system.
 
-[Ralph Hartley's](https://en.wikipedia.org/wiki/Ralph_Hartley) 1928 paper, Transmission of Information, uses the word information as a measurable quantity, reflecting the receiver's ability to distinguish one sequence of symbols from any other.
+[Ralph Hartley's](https://en.wikipedia.org/wiki/Ralph_Hartley) 1928 paper, _Transmission of Information_, uses the word information as a measurable quantity, reflecting the receiver's ability to distinguish one sequence of symbols from any other.
+
+Press right arrow to continue <!-- .element: class="quote glow" -->
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-image="../images/JohnvonNeumann.webp" data-background-position="right" data-background-size="contain" data-audio-advance="-1" -->
 ## 1928 <!-- .element: class="year" -->
 ## Games theory
 ### John von Neumann
 
-John von Neumann a Hungarian-American polymath made contributions to many fields, including being a key figure in cellular automata and the digital computer. His paper _On the Theory of Parlor Games_, one of thirty-two published before he was 26 years old, began the field of games theory and eventually his research would lead to revolutionizing the mathematics of economics. 
+[John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), a Hungarian-American polymath, made contributions to many fields, including being a key figure in cellular automata and the digital computer. His paper _On the Theory of Parlor Games_, one of thirty-two published before he was 26 years old, began the field of games theory and eventually his research would lead to revolutionizing the mathematics of economics. 
 
-The minimax decision rule he came up with is still used for minimizing the possible loss for the worst cast (i.e. maximum loss) scenario.
+The [minimax decision](https://en.wikipedia.org/wiki/Minimax#Minimax_theorem) rule he came up with is still used for minimizing the possible loss for the worst cast (i.e. maximum loss) scenario.
 
 Notes:
 ### Credits
@@ -407,7 +513,7 @@ Notes:
 * https://en.wikipedia.org/wiki/Minimax#Minimax_theorem
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-image="../images/Godel.webp" data-background-position="right" data-background-opacity="0.8" data-audio-advance="-1" -->
 ## 1931 <!-- .element: class="year" -->
 ## Incompleteness theorem
 ### Kurt Gödel
@@ -418,12 +524,12 @@ Kurt Gödel's achievement in modern logic is singular and monumental—indeed it
 _John von Neumann_ <!-- .element: class="attribution" -->
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-image="../images/Kotelnikov.webp" data-background-position="right" data-background-opacity="0.7" data-audio-advance="-1" -->
 ## 1933 <!-- .element: class="year" -->
 ## Sampling Theorem
 ### Vladimir Kotelnikov
 
-Vladimir Kotelnikov, an information theory and radar astronomy pioneer from the Soviet Union discovered the sampling theorem that allows digital samples to precisely reconstruct analog waves as long as the sampling rate is twice the highest wave frequency. 
+[Vladimir Kotelnikov](https://en.wikipedia.org/wiki/Vladimir_Kotelnikov) (Владимир  Котельников), an information theory and radar astronomy pioneer from the Soviet Union discovered the sampling theorem that allows digital samples to precisely reconstruct analog waves as long as the sampling rate is twice the highest wave frequency. 
 
 This forms the basis of digital encoding of audio, music, and light (i.e. pixels) and digital compression in general.
 
@@ -432,10 +538,8 @@ Notes:
 * A Biography of the Pixel by Alvy Ray Smith (2021)
 
 
-### Analog and Digital
-
-Digital is not somehow less than analog. Taking samples seems to imply that the infinite amount of information between samples is lost — that digital is only an approximation — but it’s not so. The Sampling Theorem, if correctly applied, proves that digital discards nothing. Instead, it’s an extremely clever repackaging of infinity. <!-- .element: class="quote" -->
-_Alvy Ray Smith_ <!-- .element: class="attribution" -->
+<!-- .slide: data-audio-src="../audio/ppf/11-seg1.ogg" -->
+<img data-src="../images/sampling_theory.webp">
 
 Notes:
 I think it will be helpful to take a moment and talk about just how important the combination of Fourier and Kotelnikov's ideas are and what they say about the nature of digital and analog.
@@ -444,15 +548,21 @@ As we discussed in Part 1, an analog signal can be thought of as a wave. A digit
 
 However, using the sampling theorem it is possible to reconstruct the infinite values in the wave perfectly, essentially by multiplying each digital value by another analog wave and then adding all the waves together. Fourier shows us that waves can be decomposed and recomposed and if the digital sampling is frequent enough then you can get back the original wave. Don't worry about the details, the important point made by Alvy Ray Smith in his book, _A Biography of the Pixel_ is that:
 
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/11-seg2.ogg" data-background-image="../images/repackaging_of_infinity_2.webp" -->
+Digital is not somehow less than analog. Taking samples seems to imply that the infinite amount of information between samples is lost — that digital is only an approximation — but it’s not so. The Sampling Theorem, if correctly applied, proves that digital discards nothing. Instead, it’s an extremely clever repackaging of infinity. <!-- .element: class="quote" -->
+_Alvy Ray Smith_ <!-- .element: class="attribution" -->
+
+Notes:
 Digital is not somehow less than analog. Taking samples seems to imply that the infinite amount of information between samples is lost — that digital is only an approximation — but it’s not so. The Sampling Theorem, if correctly applied, proves that digital discards nothing. Instead, it’s an extremely clever repackaging of infinity.
 
 
-<!-- .slide: data-state="history" data-background-video="video/turing_machine.mp4" data-background-size="contain" data-background-position="left" data-background-video-loop -->
+<!-- .slide: data-state="history" data-background-video="../video/turing_machine.mp4" data-background-size="contain" data-background-video-loop data-audio-advance="-1" data-background-position="right" -->
 ## 1937 <!-- .element: class="year" -->
 ## Universal Computing Machine
 ### Alan Turing
 
-[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) an English mathematician and computer scientist introduced the idea of the Universal Computing Machine. His thought experiment involved a simple machine that could read, write, and compare symbols on a length of paper or tape with no understanding of the symbols being read and written other than changing the "state" of the machine. Each state has a rule for how to read, write, compare, move the tape and change to another state.
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing), an English mathematician and computer scientist, introduced the idea of the Universal Computing Machine. His thought experiment involved a simple machine that could read, write, and compare symbols on a length of paper or tape with no understanding of the symbols being read and written other than changing the "state" of the machine. Each state has a rule for how to read, write, compare, move the tape and change to another state.
 
 Given an infinitely long tape Turing proved that this machine could compute anything. 
 
@@ -461,12 +571,12 @@ Notes:
 * [_Turing Machines Explained_ - Computerphile](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-image="../images/Shannon.webp" datat-background-opacity="0.8" data-audio-advance="-1" data-background-position="right" -->
 ## 1948 <!-- .element: class="year" -->
 ## Theory of Communication
 ### Claude Shannon
 
-An American mathematician and engineer, his 1937 master's thesis demonstrated how Boolean algebra could be used to build digital computers.
+[Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon), an American mathematician and engineer, his 1937 master's thesis demonstrated how Boolean algebra could be used to build digital computers.
 
 His _A Mathematical Theory of Communication_ article tackled how to best encode a message a sender wants to transmit. Using Norbert Weiner's probability tools he developed information entropy to measure the information content (based on the amount of uncertainty) of a message.
 
@@ -476,28 +586,28 @@ Notes:
 * https://www.quantamagazine.org/how-claude-shannons-information-theory-invented-the-future-20201222/
 
 ---
-<!-- .slide: data-background-video="video/Grey Walters tortoises-lLULRlmXkKo.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-background-video="../video/Grey Walters tortoises-lLULRlmXkKo.mp4" data-audio-advance="1000" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_Machina Speculatrix_ : William Grey Walter](https://www.youtube.com/watch?v=lLULRlmXkKo) (1949)
 
 ---
-<!-- .slide: data-background-video="video/Nicolas Schöffer - Cyspe - 1959-gJD27tJLoaQ.mp4" data-background-video-loop data-background-opacity="0.5" data-audio-advance="1000"  -->
+<!-- .slide: data-audio-src="../audio/ppf/12.ogg" data-background-video="../video/Nicolas Schöffer - Cyspe - 1959-gJD27tJLoaQ.mp4" data-background-video-loop data-background-opacity="0.5" data-audio-advance="1000"  -->
 ### Early neural networks and cybernetics
 
-<div class="small">
+<div class="small backdrop">
 
-* 1943: **Warren McCulloch** and **Walter Pitts**: _Logical Calculus of Ideas Immanent in Nervous Activity_ paper: neuron model can model Boolean algebra
+* 1943: **Warren McCulloch** and **Walter Pitts**: artificial neuron model can model Boolean algebra
 * 1950: **Alan Turning**: _Intelligent Machinery_ paper introduces the _Imitation Game_
 * 1948: **Norbert Wiener**: _Cybernetics: Or Control and Communication in the Animal and the Machine_
 * 1949: **Donald Hebb**: Hebbian learning: neurons that fire together, wire together
-* 1949: [**William Grey Walter**](https://en.wikipedia.org/wiki/William_Grey_Walter): _Machina Speculatrix_: analog tortoise robots with two neuron brain
+* 1949: **William Grey Walter**: _Machina Speculatrix:_ analog tortoise robots with two neuron brain
 * 1951: **Marvin Minsky**: _SNARC_ (Stochastic Neural Analog Reinforcement Calculator)
-* 1952: **Friedrich Hayek**: _The Sensory Order_: connectionist theory of mind
+* 1952: **Friedrich Hayek**: _The Sensory Order:_ connectionist theory of mind
 * 1954: **Marvin Minsky**: _Neural Nets and the Brain Model Problem_
 * 1956: **Nicolas Schöffer**: _CYSP 1_ robot and first artwork to explicitly employ cybernetic principles
-* 1964: **Roy Ascott**: _Behaviourist Art and the Cybernetic Vision_: first extensive theory of cybernetic art
-* 1968: **Jasia Reichardt**: _Cybernetic Serendipity_ first widely attended exhibition of computer and cybernetic art in London, England
+* 1964: **Roy Ascott**: _Behaviourist Art and the Cybernetic Vision:_ first extensive theory of cybernetic art
+* 1968: **Jasia Reichardt**: _Cybernetic Serendipity:_ exhibition of computer and cybernetic art
 
 </div>
 
@@ -520,7 +630,7 @@ Cybernetic thinking expanded to many different fields and into the art world, wi
 * https://en.wikipedia.org/wiki/Neural_network#History
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-image="../images/McCulloch_Pitts.webp" data-audio-advance="-1" data-background-position="right" -->
 ## 1943 <!-- .element: class="year" -->
 ## neuron model
 ### Warren McCulloch & Walter Pitts
@@ -529,37 +639,54 @@ Although they were almost a generation apart and had dissimilar scientific backg
 
 A neuron that sums binary inputs and then outputs a 1 if the sum exceeds a certain threshold value, and otherwise outputs a 0, can model the basic OR/AND/NOT functions.
 
+Press right arrow to continue <!-- .element: class="quote glow" -->
+
 Notes:
 ### Credits
 * https://onlinelibrary.wiley.com/doi/epdf/10.1002/jhbs.1094
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-image="../images/Norbert_Weiner.webp" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
 ## 1948 <!-- .element: class="year" -->
 ## Cybernetics
 ### Norbert Wiener
 
-_Cybernetics: Or Control and Communication in the Animal and the Machine_
+[Norbert Wiener](https://en.wikipedia.org/wiki/Norbert_Wiener) was an American mathematician and philosopher. His _Cybernetics: Or Control and Communication in the Animal and the Machine_ was the beginning [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
+
+The core concept is circular causality or feedback where the observed outcomes of actions are taken as inputs for further action, generally towards self-organization or homeostasis.
+
+Notes:
+### Credits
+* https://www.privatdozent.co/p/the-absent-minded-father-of-cybernetics-db9
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-image="../images/Donald-Hebb-The-Organization-of-Behavior.jpg" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
 ## 1949 <!-- .element: class="year" -->
 ## Hebbian learning
 ### Donald Hebb
 
-Neurons that fire together, wire together
+[Donald Hebb](https://en.wikipedia.org/wiki/Donald_O._Hebb) was a Canadian psychologist who sought to understand the process of learning. In _The Organization of Behavior_ he introduced Hebbian learning, paraphrased as, "neurons that fire together wire together".
+
+Notes:
+### Credits
+* https://labelyourdata.com/articles/history-of-machine-learning-how-did-it-all-start
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-video="../video/Grey Walters tortoises-lLULRlmXkKo.mp4" data-background-video-loop data-background-video-muted data-audio-advance="-1" -->
 ## 1949 <!-- .element: class="year" -->
 ## _Machina Speculatrix_
 ### William Grey Walter
 
-[William Grey Walter](https://en.wikipedia.org/wiki/William_Grey_Walter)
- analog tortoise robots with two neuron brain
+[William Grey Walter](https://en.wikipedia.org/wiki/William_Grey_Walter) was an American-born British neurophysiologist, cybernetician and robotician.
+
+Walter's _Machina Speculatrix_ tortoises were built with a light sensor, touch sensor, propulsion motor, steering motor, and a two vacuum tube analogue computer. 
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Machina Speculatrix_ : William Grey Walter](https://www.youtube.com/watch?v=lLULRlmXkKo)
 
 
-<!-- .slide: data-state="history" data-background-image="images/Alan_Turing.jpg" data-background-size="contain" data-background-position="right" -->
+<!-- .slide: data-state="history" data-background-image="../images/Alan_Turing.jpg" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
 ## 1950 <!-- .element: class="year" -->
 ## Imitation game
 ### Alan Turing
@@ -569,61 +696,72 @@ In 1950 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) devised a famou
 Turing believed the question ‘Can machines think?’ was ambiguous, and instead was interested in what happens if a machine replaces a human player in the game. 
 
 
-<!-- .slide: data-state="history" data-background-image="images/neuron-SNARC-GJLoan2011-x640_RealESRGAN-x4plus.webp" data-background-opacity="0.7" -->
+<!-- .slide: data-state="history" data-background-image="../images/neuron-SNARC-GJLoan2011-x640_RealESRGAN-x4plus.webp" data-background-opacity="0.7" data-audio-advance="-1" -->
 ## 1951 <!-- .element: class="year" -->
 ## SNARC
 ### Marvin Minsky
 
-Inspired by McCulloch and Pitts, [Marvin Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky) built the [SNARC](https://en.wikipedia.org/wiki/Stochastic_neural_analog_reinforcement_calculator) (Stochastic Neural Analog Reinforcement Calculator), a device with 40 randomly connected Hebb synapses made from vacuum tubes, which simulated a rat finding its way through a maze.
+Inspired by McCulloch and Pitts, [Marvin Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky), who was American computer and cognitive scientist, built the [SNARC](https://en.wikipedia.org/wiki/Stochastic_neural_analog_reinforcement_calculator) (Stochastic Neural Analog Reinforcement Calculator), a device with 40 randomly connected Hebb synapses made from vacuum tubes, which simulated a rat finding its way through a maze.
 
+Notes:
 TODO:_Neural Nets and the Brain Model Problem_ in 1954
 
-<!-- .slide: data-state="history" -->
+
+<!-- .slide: data-state="history" data-background-image="../images/Friedrich_Hayek_portrait_SwinIR-L-DFOWMFC-GAN.webp" data-background-opacity="0.7" data-audio-advance="-1" data-background-position="right" -->
 ## 1952 <!-- .element: class="year" -->
 ## Connectionist theory of mind
 ### Friedrich Hayek
 
-_The Sensory Order_
+[Friedrich Hayek](https://en.wikipedia.org/wiki/Friedrich_Hayek) was an Austrian-British economist and philosopher best known for his contributions to economic theory. His book _The Sensory Order_ was an early connectionist theory of mind that challenged behaviorisms focus on stimuli and response, suggesting instead that principles by which thinking operated should be studied and that a reductionist approach was insufficient. For Hayek interpretation was part of every step in sensation. 
+
+The mind, like other complex phenomenon, could only be understood by "explanations of the principle" or "pattern predictions" and could not be fully predicted. This mirrors his distaste for planned economies.
+
+Notes:
+### Credits
+* http://public.econ.duke.edu/~bjc18/docs/Reflections%20on%20Hayek%27s%20Sensory%20Order.pdf
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-video="../video/Nicolas Schöffer - Cyspe - 1959-gJD27tJLoaQ.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.9" data-audio-advance="-1" -->
 ## 1956 <!-- .element: class="year" -->
 ## _CYSP 1_ robot
 ### Nicolas Schöffer
 
-_CYSP 1_ robot and first artwork to explicitly employ cybernetic principles
+Nicolas Schöffer was a Hungarian-born French cybernetic artist. His _CYSP 1_ robot was the first artwork to explicitly employ cybernetic principles. Phototubes and a microphone detected changes in color, light and sound intensity and elicited reactions by the robot.
+
+Schöffer also belived art is a cultural asset that should be available equally to everyone without any limitation.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Cyspe 1_ - Nicolas Schöffer](https://www.youtube.com/watch?v=gJD27tJLoaQ)
 
 
-<!-- .slide: data-state="history" -->
-## 1964 <!-- .element: class="year" -->
-## _Behaviourist Art and the Cybernetic Vision_ exhibition
-### Roy Ascott
-
-first extensive theory of cybernetic art
-
-
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-video="../video/Cybernetic Serendipity-n8TJx8n9UsA-background.mp4" data-background-video-loop data-background-opacity="0.9" data-audio-advance="-1" -->
 ## 1968 <!-- .element: class="year" -->
-## _Cybernetic Serendipity_  echibition
+## _Cybernetic Serendipity_  exhibition
 ### Jasia Reichardt
 
-_Cybernetic Serendipity_ first widely attended exhibition of computer and cybernetic art in London, England
+[Jasia Reichardt](https://en.wikipedia.org/wiki/Jasia_Reichardt) is a British art critic, writer, and curator who is a specialist in the emergence of computer art. _Cybernetic Serendipity_ was the first widely attended exhibition of computer and cybernetic art in the UK.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Cybernetic Serendipity_ - Jasia Reichardt](https://www.youtube.com/watch?v=n8TJx8n9UsA)
 
 ---
-<!-- .slide: data-background-video="video/Perceptron Research-cNxadbrN_aI.mp4"  data-audio-advance="1000"  -->
+<!-- .slide: data-background-video="../video/Perceptron Research-cNxadbrN_aI.mp4"  data-audio-advance="1000"  -->
 Notes:
 ### Credits
 * [Perceptron Research from the 50's & 60's, clip](https://www.youtube.com/watch?v=cNxadbrN_aI)
 
 ---
+<!-- .slide: data-audio-src="../audio/ppf/13.ogg" data-background-image="../images/Dartmouth.webp" data-background-position="right" data-background-size="contain" data-background-opacity="0.8" -->
 ## Artificial Intelligence
 
-<div class="small">
+<div class="small backdrop">
 
-* 1956: [Dartmouth Workshop on Artificial Intelligence](https://en.wikipedia.org/wiki/Dartmouth_workshop)
-* 1958: Frank Rosenblatt: Mark I Perceptron
-* 1960: Bernard Widrow and Tedd Hoff: 1000-weight trainable multi-layered neural networks using memistors
-* 1969: Marvin Minsky and Seymour Papert: [_Perceptrons_](https://en.wikipedia.org/wiki/Perceptrons_(book)) book published
+* 1956: Dartmouth Workshop on Artificial Intelligence
+* 1958: Frank Rosenblatt: _Mark I Perceptron_: first single-layer neural network
+* 1960: Bernard Widrow and Tedd Hoff: _ADELINE_ and _MADELINE_ multi-layered neural networks
+* 1969: Marvin Minsky and Seymour Papert: _Perceptrons_ book published
 
 </div>
 
@@ -642,41 +780,59 @@ An infamous event in AI history is the book _Perceptrons_ Marvin Minsky and Seym
 * https://www.skynettoday.com/overviews/neural-net-history
 
 
-<!-- .slide: data-state="history" -->
+<!-- .slide: data-state="history" data-background-image="../images/Dartmouth.webp" data-background-position="right" data-background-size="contain" data-audio-advance="-1" -->
 ## 1956 <!-- .element: class="year" -->
 ## Dartmouth Workshop on Artificial Intelligence
 
+The Dartmouth Summer Research Project on Artificial Intelligence is noted as the founding event of artificial intelligence as a field. In attendance were Minsky and Shannon, as well as others in the cybernetics, automata and information theory fields.
 
-<!-- .slide: data-state="history" -->
+Press right arrow to continue <!-- .element: class="quote glow" -->
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Perceptron Research-cNxadbrN_aI.mp4" data-background-video-muted data-background-video-loop data-audio-advance="-1" -->
 ## 1958 <!-- .element: class="year" -->
-## Mark I Perceptron
+## _Mark I Perceptron_
 ### Frank Rosenblatt
 
+[Frank Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt) was an American psychologist who helped developed the _Mark I Perceptron_, the first computer that could learn by trial and error.
 
-<!-- .slide: data-state="history" -->
+A [percepton](https://en.wikipedia.org/wiki/Perceptron) has an input, a single layer of artificial neurons and an output and was able to classify a small number of patterns.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [Perceptron Research from the 50's & 60's, clip](https://www.youtube.com/watch?v=cNxadbrN_aI)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Science in Action-IEFRtz68m-8-background.mp4" data-background-video-loop data-audio-advance="-1" -->
 ## 1960 <!-- .element: class="year" -->
 ## Mutli-layer neural net
 ### Bernard Widrow and Tedd Hoff
 
-1000-weight trainable multi-layered neural networks using memistors
+[Bernard Widrow](https://en.wikipedia.org/wiki/Bernard_Widrow) an American professor of electrical engineering and his grad student [Tedd Hoff](https://en.wikipedia.org/wiki/Marcian_Hoff), later one of the invetors of the microprocessor, created the [MADALINE](https://en.wikipedia.org/wiki/ADALINE) system a 1000-weight trainable multi-layered neural networks using memistors. Initially not capable of training the middle layers it was improved in 1988 to do so.
 
 
-<!-- .slide: data-state="history" -->
-## 1969
+<!-- .slide: data-state="history" data-background-image="../images/Perceptrons_book.jpg" data-background-position="right" data-background-size="contain" data-audio-advance="-1" -->
+## 1969 <!-- .element: class="year" -->
 ## _Perceptrons_ book
 ### Marvin Minsky and Seymour Papert
 
-[_Perceptrons_](https://en.wikipedia.org/wiki/Perceptrons_(book)) book published
+In 1969 [Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky) and [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) published [_Perceptrons_](https://en.wikipedia.org/wiki/Perceptrons_(book)). 
+
+The book was critical of neural net research and potential and was considered the cause of a switch to symbolic expert systems.
 
 ---
-
-## Symbolic Intelligence and Expert Systems
-
+<!-- .slide: data-audio-src="../audio/ppf/14-seg1.ogg" data-background-image="../images/Lull-Leibniz.webp" -->
 Notes:
 Building on the tradition of Leibniz and other great mathematicians one set of AI researchers imagined intelligence as rational thought where sensory perception was not required for intelligence. Instead, intelligence was defined by an idealized construction of semantic symbols, that could be construed as facts or truths, and the manipulation of those symbols through the rules of logic. Thinking was done with abstract concepts, not input, which merely needed to be converted to symbols so that it could be thought about. 
 
+
+<!-- .slide: data-audio-src="../audio/ppf/14-seg2.ogg" data-background-image="../images/function_vs_neural.png" -->
+Notes:
 Symbolic reasoning has one important crucial property that neural networks seemed to lack: once data was represented symbolically then predictions could be made about future or any other unseen data and the predictions could be accurate. This is the difference between a mathematical formula versus mimicy of the patterns of input data. Using a formula you can derive values at any point in time, rather than just matching the patterns seen in training data. Symbolic reasoning was "real" understanding versus pattern matching and mimicry done by the nets.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/14-seg3.ogg" data-background-image="../images/expert_systems.webp" data-background-size="contain"-->
+Notes:
 Thus, the proponents of symbolic reasoning believed that reasoning was only possible by recording a "knowledge base" of facts generally agreed upon by experts as well as distilling the good judgment and expert decision-making based on the facts into rules or heuristics. This approach became known as expert systems and were popular during the 1980s.
 
 Despite the pitfalls of uncertainty and undecidability, the symbolic logic researchers believed they could work around these problems using "fuzzy logic" and "truth maintenance". With hindsight, it seems incredibly utopian to imagine there are generally agreed upon facts for all things and that consistent logical rules could be applied to them.
@@ -687,18 +843,19 @@ Practically, building an expert system was difficult. Recording expert knowledge
 * https://en.wikipedia.org/wiki/Expert_system
 
 ---
-## Artificial Life and cellular automata
+<!-- .slide: data-audio-src="../audio/ppf/15.ogg" data-background-image="../images/Driessens_Verstappen.webp" data-background-opacity="0.8" -->
+## Artificial Life and cellular automata <!-- .element: class="r-fit-text" -->
 
-<div class="small"> 
+<div class="small backdrop"> 
 
 * 1948: John von Neumann: cellular automata
 * 1969: Alvy Ray Smith: _Cellular Automata Theory_: proof of universal computation
-* 1970: John Conway: Game of Life: cellular automaton 
-* 1975: John Holland: Adaptation in Natural and Artificial Systems book: establishes genetic software algorithms
-* 1984: Christopher Langton: Langton’s Loops: first self-replicating computer organism with “genetic” code
+* 1970: John Conway: _Game of Life_: cellular automaton 
+* 1975: John Holland: _Adaptation in Natural and Artificial Systems_: establishes genetic software algorithms
+* 1984: Christopher Langton: _Langton’s Loops_: first self-replicating computer organism with “genetic” code
 * 1987: Craig Reynolds: _Boids_ flocking behaviour
 * 2002: Stephen Wolfram: _A New Kind of Science_: Rule 110, etc
-* 2004: Jon McCormack: _Eden_: evolutionary sonic ecosystem where agents react to each other and a virtual environment using a set of rules encoded in binary chromosomes which can evolve
+
 </div>
 
 Notes:
@@ -714,33 +871,95 @@ The hyper competition and high mutation rates combined with millions of cycles o
 
 The ultimate goal of artificial life according to Langton was, "to extract the logical form of living systems." 
 
+### Credits <!-- .element: class="attribution" -->
+* [_Breed_ - Driessens & Verstappen](https://notnot.home.xs4all.nl/breed/Breed.html)
+
 ### Credits
 * https://en.wikipedia.org/wiki/History_of_artificial_life
 
+
+<!-- .slide: data-state="history" data-background-video="../video/Life_in_life-xP5-iIeKXE8 720.mp4" data-background-opacity="0.7" data-audio-advance="-1" data-background-loop  data-background-muted -->
+## 1970 <!-- .element: class="year" -->
+## _Game of Life_
+### John Conway
+
+[John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) was an English mathematician who contributed to cellular automata theory particular in creating [_The Game of Life_](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+
+This software is a "zero player" game, its evolution determined entirely from its starting configuration, with no further input. It is Turing complete and follows three rules:
+
+1. Any live cell with 2 or 3 live neighbours survives.
+2. Any dead cell with 3 live neighbours becomes alive.
+3. All other live cells die in the next generation.
+
+Press right arrow to continue <!-- .element: class="quote glow" -->
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Life in life_ - Phillip Bradbury](https://www.youtube.com/watch?v=xP5-iIeKXE8)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Langton Loops-BxAfsacJFuw.mp4" data-background-opacity="1.0" data-background-video-loop data-background-position="right" data-audio-advance="-1" -->
+## 1984 <!-- .element: class="year" -->
+## _Langton’s Loops_
+### Christopher Langton
+
+[Christopher Langton](https://en.wikipedia.org/wiki/Christopher_Langton) an American computer scientist who studied cellular auomata and artificial life.
+
+[_Langton's Loops_](https://en.wikipedia.org/wiki/Langton%27s_loops) was the first self-replicating computer organism with “genetic” code.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Langton Loops_ - Phillip Compeau](https://www.youtube.com/watch?v=BxAfsacJFuw)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/bird_brained.mp4" data-background-opacity="1.0" data-background-video-loop data-audio-advance="-1" -->
+## 1987 <!-- .element: class="year" -->
+## _Boids_
+### Craig Reynolds
+
+[Craig Reynolds](https://en.wikipedia.org/wiki/Craig_Reynolds_(computer_graphics)) is an artificial life and computer graphics expert who created the [_Boids_](https://en.wikipedia.org/wiki/Boids) artificial life simulation. Boids obey three rules: 
+
+* **Separation**: avoid crowding nearby boids
+* **Alignment**: fly in same direction as nearby boids
+* **Cohesion**: fly towards largest group of nearby boids
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Bird Brained_ - Ryan Kelln & Jackson Welchner](https://www.youtube.com/watch?v=aPC61OEgDic)
+
+
+<!-- .slide: data-state="history" data-background-image="../images/Stephen_Wolfram.webp" data-background-position="right" data-background-size="contain" data-audio-advance="-1" -->
+## 2002 <!-- .element: class="year" -->
+## _A New Kind of Science_
+### Stephen Wolfram
+
+[Stephen Wolfram](https://en.wikipedia.org/wiki/Stephen_Wolfram) is a British-American computer scientist, physicist, and businessman who was the deigner of the [Mathematica](https://en.wikipedia.org/wiki/Mathematica) software. His _A new Kind of Science_ book presented an empirical study of simple computational systems: cellular automata and argued they were needed to model and understand complexity in nature.
+
+For example, [Rule 110](https://en.wikipedia.org/wiki/Rule_110), is a pattern that is unpredictable, on the boundary of stability and chaos and proven to be a Turing machine.
+
 ---
-<!-- .slide: data-background-video="video/The Mother of All Demos-JQ8ZiT1sn88.mp4"  data-audio-advance="1000" data-background-size="contain" -->
+<!-- .slide: data-background-video="../video/The Mother of All Demos-JQ8ZiT1sn88.mp4"  data-audio-advance="1000" data-background-size="contain" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_The Mother of All Demos_ - Doug Engelbart](https://www.youtube.com/watch?v=JQ8ZiT1sn88) (1968)
 * Courtesy of Stanford & SRI International
 ---
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/16.ogg" data-background-image="../images/Ordinateurs_centraux.webp" data-background-opacity="0.4"-->
 ## Origins of networked personal computers <!-- .element: class="r-fit-text" -->
 
-<div class="small">
+<div class="small backdrop">
 
+* 1940s: first digital computers
 * 1945: Vannevar Bush: memex
-* 1946: Eckert and Mauchly: ENIAC (first digital computer)
-* 1952: Grace Hopper: publishes paper on compilers: first conception of programming using english language
-* 1963: Ted Nelson: coins hypertext and imagines Project Xanadu a repository for the world's knowledge
-* 1963: Ivan Sutherland: interactive display graphics program Sketchpad
-* 1968: Douglas Englbart: "The Mother of All Demos": mouse, bitmapped screens, hypertext, screensharing
-* 1969: [ARPANET](https://en.wikipedia.org/wiki/ARPANET): technical foundation for the internet
-* 1972: Alan Kay: Dynabook concept: personal computer for children of all ages
-* 1983: Global Positioning System (GPS) available for civilian use
-* 1990: Tim Berners Lee: first web browser and World Wide Web
-* 2001: Wikipedia
+* 1952: Grace Hopper: first conception of programming using English language
+* 1963: Ted Nelson: coins hypertext and imagines _Project Xanadu_ a repository for the world's knowledge
+* 1963: Ivan Sutherland: interactive display graphics program _Sketchpad_
+* 1968: Douglas Engelbart: _"The Mother of All Demos"_: mouse, bitmapped screens, hypertext, screensharing
+* 1969: _ARPANET_: technical foundation for the internet
+* 1990: Tim Berners-Lee: first web browser and World Wide Web
+* 2001: Wikipedia: used for training most text-based neural nets
 * 2006: Fei-Fei Li: ImageNet dataset collected from millions of web images
-* 2007: 1st generation iPhone
+* 2007: 1st generation _iPhone_
 * 2009: Graphics Processing Units (GPUs) made for video games used for neural net training 
 
 </div>
@@ -754,22 +973,101 @@ As early as 1945 it was starting to be imagined that information could be stored
 
 The growth of all forms of digital tools, from digital photography, to GPS satellites and the world wide web, combined in devices like modern mobile phones created the environment where data and metadata is now so abundant that machines with no sensory perceptions of their own could learn about the world through these digital recordings.
 
+### Credits
+* https://en.wikipedia.org/wiki/History_of_personal_computers
 
-<!-- .slide: data-state="history" -->
+
+<!-- .slide: data-state="history" data-background-image="../images/Vannevar_Bush_portrait.jpg" data-background-position="right" data-background-size="contain" data-audio-advance="-1" -->
 ## 1945 <!-- .element: class="year" -->
 ## memex machine 
 ### Vannevar Bush
-  
+
 [Vannevar Bush](https://en.wikipedia.org/wiki/Vannevar_Bush), who founded the company that became Raytheon Technologies and initiated the Manhattan Project, also inspired generations of computer scientists in his 1945 essay [_As We May Think_](https://en.wikipedia.org/wiki/As_We_May_Think) that described the [_memex_](https://en.wikipedia.org/wiki/Memex) an electromechanical device in which individuals would compress and store all of their books, records, and communications, record new information such as photos, make comments and create and follow links between all the documents.
 
+
+<!-- .slide: data-state="history" data-background-image="../images/Grace_Hopper.webp" data-background-position="right" data-background-size="contain" data-background-opacity="0.8" data-audio-advance="-1" -->
+## 1952 <!-- .element: class="year" -->
+## High level programming languages
+### Grace Hopper
+
+[Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) was an American computer scientist and US Navy rear admiral. She was the first to conceive of programming using english language and compiling to machine language.
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Ted Nelson in Herzogs Lo and Behold-Bqx6li5dbEY.mp4" data-background-video-loop data-background-opacity="0.9" data-audio-advance="-1" -->
+## 1963 <!-- .element: class="year" -->
+## Hypertext
+### Ted Nelson
+
+[Ted Nelson](https://en.wikipedia.org/wiki/Ted_Nelson) is an American philosopher and sociologist. He coined the terms hypertext mypermedia in 1963 and founded [_Project Xanadu_](https://en.wikipedia.org/wiki/Project_Xanadu) in 1960 to be a repository for the world's knowledge where data was connected by two-way (rather than the current web's one-way) links.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [Ted Nelson in Werner Herzog's "Lo and Behold"](https://www.youtube.com/watch?v=Bqx6li5dbEY)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Computer Sketchpad - First 3D wireframe animation-Yb66RzGj8TI-background.mp4" data-background-video-loop data-audio-advance="-1" -->
+## 1963 <!-- .element: class="year" -->
+## _Sketchpad_
+### Ivan Sutherland
+
+[Ivan Sutherland](https://en.wikipedia.org/wiki/Ivan_Sutherland) is an American computer scientist. His interactive display graphics program [_Sketchpad_](https://en.wikipedia.org/wiki/Sketchpad) was among the first graphical user interfaces (GUIs) and demonstrated its use for both artistic and technical work.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Computer Sketchpad_ - Ivan Sutherland](https://www.youtube.com/watch?v=Yb66RzGj8TI)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Goals of the Program - from Dougs 1968 Demo Highlights-hrCBHxC5FEk.mp4" data-background-video-loop data-background-opacity="0.8" data-audio-advance="-1" -->
+## 1968 <!-- .element: class="year" -->
+## _The Mother of All Demos_
+### Douglas Engelbart
+
+[Douglas Engelbart](https://en.wikipedia.org/wiki/Douglas_Engelbart) was an American engineer and inventor. He was part of a group at [SRI International](https://en.wikipedia.org/wiki/SRI_International) that developed the mouse, bitmapped screens, hypertext, and screensharing.
+
+The key is to accelerate the natural co-evolution of our Tool and Human Systems toward ever-more powerful Augmentation Systems, enabling increasingly effective Collective IQ. <!-- .element class="quote" -->
+
+https://dougengelbart.org/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [Goals of the Program - from Doug's 1968 Demo Highlights](https://www.youtube.com/watch?v=hrCBHxC5FEk)
+
+### Credits
+* https://dougengelbart.org/content/view/194/
+
+
+<!-- .slide: data-state="history" data-background-image="../images/Tim Berners-Lee.webp" data-background-position="right" data-background-size="contain" data-background-opacity="0.75" data-audio-advance="-1" -->
+## 1990 <!-- .element: class="year" -->
+## _World Wide Web_
+### Tim Berners-Lee
+
+[Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) is an English computer scientist. In 1989, while working at [CERN](https://en.wikipedia.org/wiki/CERN), he proposed and implemented the first web browser (and [HTML](https://en.wikipedia.org/wiki/HTML) editor) and web server and helped establish the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web). This connection of hypermedia to the early Internet shaped the next 30 years.
+
+Notes:
+### Credits
+* https://webfoundation.org/about/vision/history-of-the-web/
+* https://cds.cern.ch/record/369245/files/dd-89-001.pdf
+
+
+<!-- .slide: data-state="history" data-background-image="../images/Fei-Fei_Li.webp" data-background-position="right" data-background-size="contain" data-background-opacity="0.7" data-audio-advance="-1" -->
+## 2006 <!-- .element: class="year" -->
+## _ImageNet_
+### Fei-Fei Li
+
+[Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li) (李飞飞) is an Chinese-American computer scientist who studies vision. Her lab created the [_ImageNet_](https://en.wikipedia.org/wiki/ImageNet) dataset of images collected from the Internet, using queries and searches and then used [Amazon Mechanical Turk](https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk) to clean the dataset. 
+
+_ImageNet_ is still growing and changing (recently dealing with issues of privacy and bias) but currently contains 14 millions images in 20000 categories.
+
+https://www.image-net.org/
 ---
-<!-- .slide: data-background-video="video/Computer Orchestra (1968)-gw-8lyZROIo.mp4" data-audio-advance="1000" -->
+<!-- .slide: data-background-video="../video/Computer Orchestra (1968)-gw-8lyZROIo.mp4" data-audio-advance="1000" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_Computer Orchestra_ - Peter Zinovieff](https://www.youtube.com/watch?v=gw-8lyZROIo) (1968)
 
 ---
-## Computer / Generative Art
+<!-- .slide: class="zoomin-right" data-audio-src="../audio/ppf/17a.ogg" data-background-image="../images/a_woman_making_art_with_a_computer.webp" -->
+## Computer Art
 
 Notes:
 Let's take a look at a very incomplete sample of different forms of art made using computers, some with neural nets, many with some form of evolving system, others just generated by software. These are chosen based on available documentation, impact on the art world, or demonstration of diverse techniques, often some mix of the three, but are very arbitrary!
@@ -777,35 +1075,58 @@ Let's take a look at a very incomplete sample of different forms of art made usi
 All of these artists are using software to create their art. Software can be thought as a meta-medium, envisioned by Alan Kay in 1984, as: 
 
 
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/17b.ogg" data-background-video="../video/W. Bradford Paley - Code Profiles-Hs8rDvC3GZg.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.6" -->
 A medium that can dynamically simulate the details of any other medium, including media that cannot exist physically. It is not a tool, although it can act like many tools. It is the first metamedium, and as such it has degrees of freedom for representation and expression never before encountered and as yet barely investigated. Even more important, it is fun, and therefore intrinsicially worth doing. <!-- .element: class="quote" -->
 _Alan Kay (1984)_ <!-- .element: class="attribution" -->
 
 Notes:
 A medium that can dynamically simulate the details of any other medium, including media that cannot exist physically. It is not a tool, although it can act like many tools. It is the first metamedium, and as such it has degrees of freedom for representation and expression never before encountered and as yet barely investigated. Even more important, it is fun, and therefore intrinsicially worth doing.
 
+### Credits <!-- .element: class="attribution" -->
+* [_Code Profiles_ - W. Bradford Paley](https://www.youtube.com/watch?v=Hs8rDvC3GZg)
 
-<div class="small">
+### Credits
+* Alan Kay, “Computer Software,” Scientific American 251, no. 3 (1984): 52–59, quote on 59.
+* https://www.jstor.org/stable/24920344?refreqid=excelsior%3Afd0842ab4ac53b944798ae30f36e7564
 
-* 1968: Peter Zinovieff: _Computer Orchestra_: early electronic music using PDP8
-* 1968: [George Nees](https://en.wikipedia.org/wiki/Georg_Nees): _Schotter (Gravel)_: software generated and printed by plotter
-* 1970: Edward Ihnatowicz: _Senster_: robotic sculpture with sensors to react to the behaviour of audience
-* 1972: Lillian F. Schwartz: _Mutations_: computer aided visuals set to music
-* 1973: Harold Cohen: _AARON_: software for creation of artistic images using an “expert system”
-* 1974: Vera Molnár: _(Dés)Ordres_: software generated and printed
-* 1987: William Latham, Stephen Todd: _Mutator 1_: beginning evolved 3D graphics used as art
-* 1991: Karl Sims: _Primordial Dance_: animation of textures and colors from evolved mathematical equations
-* 1992: Nicolas Baginsky: _Aglaopheme_: robotic electric guitar using Self Organizing Maps
-* 1999: Scott Draves: _Electric Sheep_: distributed artificial life visualization 
-* 2003: Jared Tarbell: _Substrate_: opensource algorithmic visual art
-* 2005: Jaap Blonk & Golan Levin: _Ursonography_: audiovisual spoken poetry with reactive subtitles
-* 2006: Alain Lioret: _Painting Beings_: evolved brushstrokes that interact with each other
-* 2011: David Rokeby: _Plot Against Time_: video installation, drawing movement trajectories
-* 2018: Allison Parrish: _Articulations_: generated poems learned from 2 million lines of public poems
+
+<!-- .slide: data-audio-src="../audio/ppf/18-seg1.ogg" data-background-video="../video/1973 Lillian F  Schwartz Mutations-QCthSns4U4s-background.mp4" data-background-video-loop data-background-video-muted -->
+## Early Computer Art 
+<div class="small backdrop">
+
+* 1968: Peter Zinovieff: _Computer Orchestra:_ early electronic music using PDP8
+* 1968: Georg Nees: _Schotter (Gravel):_ software generated and printed by plotter
+* 1970: Edward Ihnatowicz: _Senster:_ robotic sculpture with sensors to react to the behaviour of audience
+* 1972: Lillian F. Schwartz: _Mutations:_ computer aided visuals set to music
+* 1973: Harold Cohen: _AARON:_ software for creation of artistic images using an “expert system”
+* 1974: Vera Molnár: _(Dés)Ordres:_ software generated and printed
+* 1976: Analiva Cordeiro: _Cambiantes:_ algorithmic dance choreography
 
 </div>
 
 Notes:
-Early software pioneers often worked with robots as kinetic sculptures or with printed media using plotters or early printers of some type. As televisions and other video works became more common in the 70s other pioneers incorporated software into video production techniques. As techniques developed artists began incorporating more evolutionary algorithms into their work, playing with giving up control. This took on new significance when the computer could "render" out 3 dimensional images onto the 2D screen, but these forms did not have to be objects, instead could be ethereal blends of light and colour, visualized mathematics. Alain Loriet even explored paint-like evolving creatures. Scott Draves' ongoing _Electric Sheep_ project demonstrates what years of work in this direction can deliver using a genetic-style language to describe visual elements and distributed rendering by thousands of participants who can also craft and breed their own visual genetic codes.
+Early software pioneers often worked with robots as kinetic sculptures or with printed media using plotters or early printers of some type. As televisions and other video works became more common in the 70s other pioneers incorporated software into video production techniques. As techniques developed artists began incorporating more evolutionary algorithms into their work, playing with giving up control. 
+
+
+<!-- .slide: data-audio-src="../audio/ppf/18-seg2.ogg" data-background-video="../video/Painting Beings - Alain Lioret (2006)-yrsB5wAxdaE.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.4" -->
+## Computer Art
+<div class="small backdrop">
+
+* 1987: William Latham, Stephen Todd: _Mutator 1:_ beginning evolved 3D graphics used as art
+* 1991: Karl Sims: _Primordial Dance:_ animation of textures and colors from evolved mathematical equations
+* 1992: Nicolas Baginsky: _Aglaopheme:_ robotic electric guitar using Self Organizing Maps
+* 1999: Scott Draves: _Electric Sheep:_ distributed artificial life visualization 
+* 2003: Jared Tarbell: _Substrate:_ opensource algorithmic visual art
+* 2004: Jon McCormack: _Eden:_ evolutionary sonic ecosystem
+* 2005: Jaap Blonk & Golan Levin: _Ursonography:_ audiovisual spoken poetry with reactive subtitles
+* 2006: Alain Lioret: _Painting Beings:_ evolved brushstrokes that interact with each other
+* 2011: David Rokeby: _Plot Against Time:_ video installation, drawing movement trajectories
+* 2018: Allison Parrish: _Articulations:_ generated poems learned from 2 million lines of public poems
+
+</div>
+
+Notes:
+This took on new significance when the computer could "render" out 3 dimensional images onto the 2D screen, but these forms did not have to be objects, instead could be ethereal blends of light and colour, visualized mathematics. Alain Loriet even explored paint-like evolving creatures. Scott Draves' ongoing _Electric Sheep_ project demonstrates what years of work in this direction can deliver using a genetic-style language to describe visual elements and distributed rendering by thousands of participants who can also craft and breed their own visual genetic codes.
 
 Jared Tarbell's _Substrate_ exemplifies what similar algorithmic unfolding of shape and colour can achieve, but with a completely different aethstetic from the hallucinegetic high intensity visuals of the sheep.
 
@@ -814,39 +1135,291 @@ Early video techniques have evolved into sublime computer aided video works by a
 ### Credits
 * https://www.artnome.com/news/2018/8/8/why-love-generative-art
 * https://www.invaluable.com/blog/generative-art/
-* https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2
-* [1973 Lillian F Schwartz Mutations](https://www.youtube.com/watch?v=QCthSns4U4s)
-* https://bl.ocks.org/dribnet/raw/c2d4a99516752eefa120b6b3689843f1/?raw=true by @dribnet
-* Alan Kay, “Computer Software,” Scientific American 251, no. 3 (1984): 52–59, quote on 59.
-* https://www.jstor.org/stable/24920344?refreqid=excelsior%3Afd0842ab4ac53b944798ae30f36e7564
 * http://iasl.uni-muenchen.de/links/GCA-IV.3e.html
 * http://iasl.uni-muenchen.de/links/GCA-II.3e.html
-* [Harold Cohen - The Age of Intelligent Machines - 1987 (Clip)](https://www.youtube.com/watch?v=IPczQgCuOOc)
-* [ElectricSheep.org](https://vimeo.com/27688359)
-* [Electric Sheep: a self-perpetuating system for the production of algorithmic art](https://www.youtube.com/watch?v=ipw4A6AXokk)
-* 2005: Jaap Blonk & Golan Levin: _Ursonography_: audiovidual interpretation of Kurt Schwitters' _Ursonate_ with real-time "intelligent" animated subtitles
-* https://soundcloud.com/hard-to-read/allison-parrish-reads-from-articulations
 * https://itp.nyu.edu/adjacent/issue-3/articulations-a-fragment-fragment-fragment/
-* https://www.youtube.com/watch?v=L3D0JEA1Jdc
-* [excerpt of Plot Against Time #4 "Atlantic Baroque"](https://vimeo.com/30043630)
-* 2012: Francisco Vico: _Melomics_: music composition algorithms using simulated evolution
----
-<!-- .slide: data-background-video="video/CNN.mp4"  data-audio-advance="1000"  -->
-## The Return of the Neural Networks
 
-<div class="small">
+TODO:
+* 2012: Francisco Vico: _Melomics_: music composition algorithms using simulated evolution
+* [_0music_ - Iamus by Francisco Vico](https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Computer Orchestra (1968)-gw-8lyZROIo.mp4" data-background-video-muted data-background-video-loop data-audio-advance="-1" -->
+## 1968 <!-- .element: class="year" -->
+## _Partita for Unattended Computer_
+### Peter Zinovieff
+
+[Peter Zinovieff](https://en.wikipedia.org/wiki/Peter_Zinovieff) was a British engineer and composer, son of Russian aristrocrats who fled the Russian Revolution. He bought his first computer (he claimed "the first computer in a private house") by auctioning his first wife's tiara. 
+
+His _Partita for Unattended Computer_ was the first ever unaccompanied performance of live computer music, with no human performer involved, and the piece read from paper tape. Later that year, as part of _Cybernetic Serendipity_ exhibition, he used a PDP-8 to analyze a tune whistled by a visitor to the show and improvise upon it.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Computer Orchestra_ - Peter Zinovieff](https://www.youtube.com/watch?v=gw-8lyZROIo)
+
+
+<!-- .slide: data-state="history" data-background-image="../images/Georg_Nees_Gravel.webp" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
+## 1968 <!-- .element: class="year" -->
+## _Schotter (Gravel)_
+### Georg Nees: 
+
+[Georg Nees](https://en.wikipedia.org/wiki/Georg_Nees) was a German academic who studied  mathematics, physics and philosophy. In 1965, Nees showed the world's first computer graphics art works created with a digital computer. He worked with random numbers fed into math equations to have flatbed plotters or milling machines create physical output.
+
+There it was, the great temptation for me, for once not to represent something technical with this machine but rather something ‘useless’ – geometrical patterns. <!-- .element: class="quote" -->
+
+Notes:
+### Credits
+* https://en.wikipedia.org/wiki/Georg_Nees
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Senster.mp4" data-background-video-muted data-background-video-loop data-background-opacity="0.8" data-audio-advance="-1" -->
+## 1970 <!-- .element: class="year" -->
+## _Senster_
+### Edward Ihnatowicz
+
+[Edward Ihnatowicz](https://en.wikipedia.org/wiki/Edward_Ihnatowicz) was a Polish cybernetic art sculptor who fled during the war and eventually immigrated to Britain.
+
+_Senster_ was the first robotic sculpture to be controlled by a computer. It was a large hydraulically actuated robot that followed the sound and motion of the people around it, giving the impression of being alive. It used an array of four microphones to detect the direction of the sound around it and two Doppler radar arrays to measure the motion of people. 
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [Art-ificial Intelligence - Lost Art](https://www.youtube.com/watch?v=hoZb5MTKzQc)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/1973 Lillian F  Schwartz Mutations-QCthSns4U4s-background.mp4" data-background-video-loop data-audio-advance="-1" -->
+## 1972 <!-- .element: class="year" -->
+## _Mutations_
+### Lillian F. Schwartz
+
+[Lillian F. Schwartz](https://en.wikipedia.org/wiki/Lillian_Schwartz) is an American artist who studied to be a nurse and was stationed in postwar Japan. She started working with Bell Labs engineers and [Ken Knowlton](https://en.wikipedia.org/wiki/Ken_Knowlton) to produce a series of computer animated films.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Mutations_ - Lillian F. Schwartz](https://www.youtube.com/watch?v=QCthSns4U4s)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Harold Cohen - The Age of Intelligent Machines - 1987 (Clip)-IPczQgCuOOc.mp4" data-background-video-muted data-background-video-loop data-audio-advance="-1" -->
+## 1973 <!-- .element: class="year" -->
+## _AARON_
+### Harold Cohen
+
+[Harold Cohen](https://en.wikipedia.org/wiki/Harold_Cohen_(artist)) was a British-born artist who created the _AARON_ expert system software that could create line drawings that Cohen would colour after printing.
+
+Started in 1973 in the C programming language but converted later to Lisp, _AARON_ created abstract line drawings. Representational imagery was then added; first rocks, then plants, then people, and interior scenes. _AARON_ cannot learn new styles or imagery on its own; each new capability must be hand-coded.
+
+If what AARON is making is not art, what is it exactly, and in what ways, other than its origin, does it differ from the 'real thing?' If it is not thinking, what exactly is it doing? <!-- .element: class="quote" -->
+_Harold Cohen_ <!-- .element: class="attribution" -->
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [Harold Cohen - The Age of Intelligent Machines - 1987 (Clip)](https://www.youtube.com/watch?v=IPczQgCuOOc)
+
+### Credits
+* https://en.wikipedia.org/wiki/AARON
+
+
+<!-- .slide: data-state="history" data-background-image="../images/Vira_Molnar_Desorders.webp" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
+## 1974 <!-- .element: class="year" -->
+## _(Dés)Ordres_ 
+### Vera Molnár
+
+[Vera Molnár](https://en.wikipedia.org/wiki/Vera_Molnár) is a Hungarian media artist living and working in France. Molnar learned the early programming languages of Fortran and Basic, and gained access to a computer at a research lab in Paris where she began to make computer graphic drawings on a plotter. 
+
+http://www.veramolnar.com/
+
+Notes:
+### Credits
+* http://www.veramolnar.com/
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Analivia Cordeiro - Cambiantes 1976-XYY7oMiWxaw-background.mp4" data-background-video-loop data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
+## 1976 <!-- .element: class="year" -->
+## _Cambiantes (Changing)_
+### Analivia Cordeiro
+
+[Analivia Cordeiro](https://www.analivia.com.br/) a Brazilian dancer, choreographer and architect was one of the first artists to use software for dance. 
+
+Using the Fortran programming language to program positions of body limbs at 45 degree and right angles, Cordeiro wanted to make a geometrical dance. This is reinforced by the costumes and sets.
+
+https://www.analivia.com.br/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Cambiantes_ - Analivia Cordeiro](https://www.youtube.com/watch?v=XYY7oMiWxaw)
+
+### Credits
+* https://static1.squarespace.com/static/5d93621cc1ed84125185a315/t/5f9093b9ad10751ed2958f8e/1603310551642/Analivia+Cordeiro_Cambiantes_Aninat+Galeri%CC%81a.pdf
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Mutations by William Latham (1991)-7sadS5wuOjU-background.mp4" data-background-video-loop data-audio-advance="-1" -->
+## 1987 <!-- .element: class="year" -->
+## _Mutator 1_ 
+### William Latham, Stephen Todd
+
+[William Latham](https://en.wikipedia.org/wiki/William_Latham_(computer_scientist)) and Stephen Todd worked at IBM together and used genetic algorithm techniques to generate and animate 3-d models. Latham, an artist, and Todd, a mathematician and programmer, were interested in psychedelic evolving organic art.
+
+In 1992 they released a book _Evolutionary Art and Computers_ and have continued to deveop Mutator into a VR experience.
+
+https://mutatorvr.co.uk/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Mutations_ - William Latham & Stephen Todd](https://www.youtube.com/watch?v=7sadS5wuOjU)
+
+### Credits
+* http://doc.gold.ac.uk/~mas01whl/index.html
+* https://mutatorvr.co.uk/
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Primordial Dance (1991)-tT1CIQIfses.mp4" data-background-video-loop data-audio-advance="-1" -->
+## 1991 <!-- .element: class="year" -->
+## _Primordial Dance_
+### Karl Sims
+
+[Karl Sims](https://en.wikipedia.org/wiki/Karl_Sims) is an American computer graphics artist. His paper _Artificial Evolution for Computer Graphics_ described how he generated abstract 2D images from mathematical formulae, evolved under the guidance of a human, and used in _Primordial Dance_.
+
+http://www.karlsims.com/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Primordial Dance_ - Karl Sims](https://www.youtube.com/watch?v=tT1CIQIfses)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Robot's Rock-RcxuXYE9UeY.mp4" data-background-video-loop data-audio-advance="-1" -->
+## 1992 <!-- .element: class="year" -->
+## _Aglaopheme_
+### Nicolas Baginsky
+
+[Nicolas Baginsky](http://www.baginsky.de/) a German artist created _Aglaopheme_ in 1992, a robotic electric slide guitar that used machine learning (Self Organizing Maps) to learn from audio feedback from the environment. He has added additional robot/instruments subsequently to create _The Three Sirens_ band.
+
+http://www.the-three-sirens.info/ 
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Robot's Rock_ - The Three Sirens by Nicolas Baginsky](https://www.youtube.com/watch?v=RcxuXYE9UeY) 
+
+
+<!-- .slide: data-state="history" data-background-video="../video/ElectricSheep.org-27688359-background.mp4" data-background-video-muted data-background-video-loop data-audio-advance="-1" -->
+## 1999 <!-- .element: class="year" -->
+## _Electric Sheep_
+### Scott Draves
+
+[Scott Draves](https://en.wikipedia.org/wiki/Scott_Draves) is an American artist and computer scientist who created the _Fractal Flames_ and [_Electic Sheep_](https://en.wikipedia.org/wiki/Electric_Sheep) software. The latter is an ongoing project distributed computing project where users computers render the "sheep" - a genetic language for describing visuals, and can customize or breed their own. Sheep compete to survive based on participants voting.
+
+http://www.scottdraves.com/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Electric Sheep_ - Scott Draves](https://vimeo.com/27688359)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Substrate_720.mp4" data-background-video-muted data-background-video-loop data-audio-advance="-1" -->
+## 2003 <!-- .element: class="year" -->
+## _Substrate_
+### Jared Tarbell
+
+[Jared Tarbell](https://www.infinite.center/) is an American artist and coder that has done extensive work with generative geometric structures and is interested in the life-like emergent qualties of these systems. [Live code version](https://bl.ocks.org/dribnet/c2d4a99516752eefa120b6b3689843f1)
+
+https://www.infinite.center/
+
+I seek geometric evidence of our existence and the purest visualization of such truths. <!-- .element: class="quote" -->
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Substrate_ - Jared Tarbell](https://vimeo.com/208903786)
+
+### Credits
+* https://bl.ocks.org/dribnet/raw/c2d4a99516752eefa120b6b3689843f1/?raw=true by @dribnet
+
+
+<!-- .slide: data-state="history" data-background-video="../video/John McCormack - Eden Evolutionary Sonic Ecosystem 2004-Yrww68pnqqM.mp4" data-background-video-loop data-audio-advance="-1" -->
+## 2004 <!-- .element: class="year" -->
+## _Eden_
+### Jon McCormack
+
+Jon McCormack is an Australian electronic media artist and researcher in Artificial Life and Evolutionary Music and Art. _Eden_ is an evolutionary sonic ecosystem where agents react to each other and a virtual environment using a set of rules encoded in binary chromosomes which can evolve.
+
+https://jonmccormack.info/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Eden, 'Evolutionary Sonic Ecosystem'_ - Jon McCormack](https://www.youtube.com/watch?v=Yrww68pnqqM)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Ursonography - Jaap Blonk - Golan Levin - 2005-2365557-background.mp4" data-background-size="contain" data-background-position="right" data-background-video-loop data-audio-advance="-1" -->
+## 2005 <!-- .element: class="year" -->
+## _Ursonography_
+### Jaap Blonk & Golan Levin
+
+[Golan Levin](https://en.wikipedia.org/wiki/Golan_Levin) is an American new media artist  and created a real-time animated subtitle system to accompany [Jaap Blonk's](https://en.wikipedia.org/wiki/Jaap_Blonk) performance of [Kurt Schwitters'](https://en.wikipedia.org/wiki/Kurt_Schwitters) _Ursonate_. Using speech recognition and score-following technologoies, the subtitles are sync'd to the timing and timbre of Blonks voice.
+
+http://www.flong.com/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Ursonography_ - Jaap Blonk & Golan Levin](https://vimeo.com/2365557)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Painting Beings - Alain Lioret (2006)-yrsB5wAxdaE-background.mp4" data-background-video-loop data-audio-advance="-1" -->
+## 2006 <!-- .element: class="year" -->
+## _Painting Beings_
+### Alain Lioret 
+
+[Alain Lioret](http://alainlioret.fr/bio) is a French professor of digital art who focuses on generative art and artificial life. His 
+[_Painting Beings_](http://alainlioret.fr/research/painting-beings) fuses cellular automata, genetic programming and neural networks. The artificial bodies of paint simulated here become entangled and contact each other in "ballets of autonomous movement" to create a "full of life" painting.
+
+http://alainlioret.fr/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Painting Beings_ - Alain Lioret](https://www.youtube.com/watch?v=yrsB5wAxdaE)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Plot Against Time 4 - background.mp4" data-background-video-muted data-background-video-loop data-audio-advance="-1" -->
+## 2011 <!-- .element: class="year" -->
+## _Plot Against Time_
+### David Rokeby
+
+[David Rokeby](https://en.wikipedia.org/wiki/David_Rokeby) is a Canadian artist working with machine learning and video. His [_Very Nervous System_](http://www.davidrokeby.com/vns.html) in 1986 was a pioneering work translating physical gestures into interactive soundscapes. 
+
+[_Plot Against Time_](http://www.davidrokeby.com/PlotAgainstTime.html) is an ongoing series of video works where the movements of certain elements remain visible, "stretching the viewer's eye across time to offer a perceptual experience of duration".
+
+http://www.davidrokeby.com/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Plot Against Time #4 "Atlantic Baroque"_ - David Rokeby](https://vimeo.com/30043630)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Articulations by Allison Parrish-L3D0JEA1Jdc.mp4" data-background-video-loop data-background-opacity="0.6" data-audio-advance="-1" -->
+## 2018 <!-- .element: class="year" -->
+## _Articulations_
+### Allison Parrish
+
+[Allison Parrish](https://en.wikipedia.org/wiki/Allison_Parrish) is an American poet and software artist that does some of the most extensive investigation of machine learning and creative text. In her book _Articulations_ she starts from a random line in the language space of all lines of poetry from [_Project Gutenburg_](https://www.gutenberg.org/) (books out of copyright) then finds the next closest based on phonetics.
+
+https://www.decontextualize.com/
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* ["Experimental Creative Writing with the Vectorized Word" by Allison Parrish](https://www.youtube.com/watch?v=L3D0JEA1Jdc)
+
+---
+<!-- .slide: data-audio-src="../audio/ppf/19.ogg" data-background-video="../video/CNN.mp4" data-background-opacity="0.6" data-audio-advance="1000"  -->
+### The Return of the Neural Networks <!-- .element: class="r-fit-text" -->
+
+<div class="small backdrop">
 
 * 1970: Seppo Linnainmaa: backpropagation
-* 1974: Paul Werbos: thesis on backpropagation in neural networks, but not used by anyone until 1982
-* 1976: Stevo Bozinovski and Ante Fulgosi: first paper explicitly addressing transfer learning in neural networks training.
-* 1979: Fukushima: _Cognitron_: hierarchical, multilayered artificial neural network used for pattern recognition that was unaffected by shift in position
+* 1974: Paul Werbos: thesis on backpropagation, but not used by anyone until 1982
+* 1976: Stevo Bozinovski, Ante Fulgosi: first paper explicitly addressing transfer learning
+* 1979: Kunihiko Fukushima: _Neocognitron_: hierarchical, multilayered net unaffected by shift in position
 * 1985: David Parker, Yann LeCun: backpropagation rediscovered
-* 1986: Rumelhart, Geoffrey Hinton, Ronald Williams: back propagation (rediscovered) fully connected 3 layer net
-* 1988: Teuvo Kohonen: _Self Organizing Maps_
+* 1986: Rumelhart, Geoffrey Hinton, Ronald Williams: fully connected 3 layer net
+* 1988: Teuvo Kohonen: Self Organizing Maps
 * 1989: Kurt Hornik, Maxwell Stinchcombe, Halbert White: MLP are universal approximators
 * 1989: Yann LeCun: _LeNet5_; handwritten zip code recognition using convolutional nets
-* 1989: Alexander Waibel, Hinton, et al: time-delay neural networks
-* 1989: Christopher Watkins: _Learning from Delayed Rewards_ paper introduces Q-Learning
+* 1989: Alexander Waibel, Geoffery Hinton, et al: time-delay neural networks
 * 1989: Peter M. Todd: use of recurrent neural nets for algorithmic music composition
 * 1993: Yoshua Bengio: speech recognition using RNNs
 * 1993: Hinrich Schütze: word vectors
@@ -873,21 +1446,57 @@ Despite these advances, progress stalled again and other ML techniques such as S
 * https://bmk.sh/2019/12/31/The-Decade-of-Deep-Learning/ 
 * https://www.historyofinformation.com/maps.php?cat=71&start=21&end=41# 
 
+TODO:
 * 1990: Rodney Brooks: Elephants Don't Play Chess: introduces nouvelle AI, “individual behaviour generating modules whose coexistence and co-operation let more complex behaviours emerge”. Systems must have representations that are grounded by the physical world - “the world is its own best model”
 * 1994: Jonathan Schaeffer: Chinook computer checkers software beats human. First software to win a human world championship
 * 1995-2003: Brooks and MIT lab: Cog robot: pursuit of human-level intelligence using nouvelle AI principles
----
 
+
+<!-- .slide: data-state="history" data-background-video="../video/Neocognitron Movie - Part 2-oVYCjL54qoY-background.mp4" data-background-loop data-audio-advance="-1" -->
+## 1979 <!-- .element: class="year" -->
+## _Neocognitron_
+### Kunihiko Fukushima
+
+[Kunihiko Fukushima](https://en.wikipedia.org/wiki/Kunihiko_Fukushima) is a Japanese computer scientist. _Neocognitron_ was the original deep convolutional neural network (CNN) architecture. CNNs are unaffected by shifts in images making them good for character recognition.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Neocognition_ - Kunihiko Fukushima](https://www.youtube.com/watch?v=oVYCjL54qoY)
+
+
+<!-- .slide: data-state="history" data-background-video="../video/Convolutional Network Demo from 1993-FwFduRA_L6Q-background.mp4" data-background-loop data-audio-advance="-1" -->
+## 1989 <!-- .element: class="year" -->
+## _LeNet5_
+### Yann LeCun
+
+[Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun) is a French computer scientist. In 1989 he helped develop the _LeNet5_ image recognition system that could do handwritten zip code recognition using convolutional neural nets.
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_LeNet5_ - Yann LeCun](https://www.youtube.com/watch?v=FwFduRA_L6Q)
+
+
+<!-- .slide: data-state="history" data-background-image="../images/Peter_Todd.webp" data-background-size="contain" data-background-position="right" data-background-opacity="0.7" data-audio-advance="-1" -->
+## 1989 <!-- .element: class="year" -->
+## RNNs for Music
+### Peter M. Todd
+
+Peter Todd, an American cognitive scientist, was the first to use recurrent neural nets (RNNs) for algorithmic music composition using note-by-note music generation.
+
+Notes:
+### Credits
+* https://towardsdatascience.com/neural-networks-for-music-a-journey-through-its-history-91f93c3459fb
+
+---
+<!-- .slide: class="zoomin-left" data-audio-src="../audio/ppf/20a.ogg" data-background-image="../images/Canadian_artificial_intelligence.webp" -->
 ## The Canadian Conspiracy
 
-<div class="small">
+<div class="small backdrop">
 
-* 1997: Jurgen Schmidhuber, Yoshua Bengio: Long Short Term Memory (LSTM)
+* 1997: Jürgen Schmidhuber, Yoshua Bengio: Long Short Term Memory (LSTM)
 * 1998: Sebastian Thrun and Lorien Pratt: multi-task transfer learning
 * 2003: Yoshua Bengio: neural nets for language modeling using word vectors
 * 2006: Hinton, Simon Osindero, and Yee-Whye Teh: fast training for deep belief nets (DBN) semi-supervised learning
-* 2009: Fei-Fei Li: ImageNet dataset: 3.2 million images for 5247 concepts
-* 2010: Jurgen Schmidhuber: MNIST 0.35% error rate using simple large neural nets trained with GPUs
 * 2012: Geoffery Hinton, et al: _AlexNet_: a Convolutional Neural Network wins Imagenet classification competition
 
 </div>
@@ -902,10 +1511,21 @@ In 2012, everything changed. Geoffery Hinton and his lab's _AlexNet_, a neural n
 Hinton later described the long delayed success of neural nets this way:
 
 
+<!-- .slide: data-audio-src="../audio/ppf/20b.ogg" -->
+
+<div class="quote">
+
 Our labeled datasets were thousands of times too small.
+
 Our computers were millions of times too slow.
+
 We initialized the weights in a stupid way.
+
 We used the wrong type of non-linearity.
+
+_Geoffery Hinton_ <!-- .element: class="attribution" -->
+
+</div>
 
 Notes:
 Our labeled datasets were thousands of times too small.
@@ -918,27 +1538,76 @@ Now, however, the gate had been opened and deep learning was starting to be used
 ## Credits
 * https://youtu.be/IcOMKXAw5VA?t=21m29s
 * https://youtu.be/40riCqvRoMs?t=448 
----
+* https://www.vox.com/2015/7/15/11614684/ai-conspiracy-the-scientists-behind-deep-learning
 
+
+<!-- .slide: data-state="history" data-background-image="../images/Geoffery_Hinton.jpg" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
+## Geoffery Hinton
+
+[Geoffery Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton) is a British-Canadian cognitive psychologist and computer scientist. In 1986 he popularized the frogtten backpopropigation algotihm for multi-layered perceptrons (MLPs). In 2012 his lab's success with _AlexNet_ on that year's _ImageNet_ challenge was a breakthrough for computer vision that sparked the current deep learning era.
+
+Along with Yoshua Bengio and Yann LeCun he is considered one of the "Godfathers of Deep Learning" and the three were awarded the 2018 Turing Award.
+
+https://www.cs.toronto.edu/~hinton/
+
+
+<!-- .slide: data-state="history" data-background-image="../images/Yoshua_Bengio.webp" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
+## Yoshua Bengio
+
+[Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio) is a Canadian computer scientist. He helped Yann LeCun with CNN architecture and Jürgen Schmidhuber with [Long short-term memory (LSTM)](https://en.wikipedia.org/wiki/LSTM), an improved RNN architecture, that uses feedback loops and works well for predicting sequences. 
+
+Concerned about the social impact of AI, he actively took part in the conception of the [Montreal Declaration for the Responsible Development of Artificial Intelligence](https://www.montrealdeclaration-responsibleai.com/). His goal is to contribute to uncovering the principles giving rise to intelligence through learning while favouring the development of AI for the benefit of all.
+
+https://yoshuabengio.org/
+
+Notes:
+### Credits
+* https://yoshuabengio.org/
+
+
+<!-- .slide: data-state="history" data-background-image="../images/Yann_LeCun.webp" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
+## Yann LeCun
+
+[Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun) is a French computer scientist. In 1989 he helped develop the _LeNet5_ image recognition system that could do handwritten zip code recognition using convolutional neural nets. He has also done extensive work on neural net optimization.
+
+LeCun met Hinton in 1985, then spent a post-doctoral year at his lab and collaborated with Bengio at AT&T in the 1990s. In 2004 he and Hinton helped establish a program on Neural Computation and Adaptive Perception through the Canadian Institute for Advanced Research (CIFAR). Since 2014 he has co-directed it, now renamed Learning in Machines & Brains, with Yoshua Bengio.
+
+LeCun is currently VP and Chief AI Scientist at Meta.
+
+Notes:
+### Credits
+* https://amturing.acm.org/award_winners/lecun_6017366.cfm
+
+
+<!-- .slide: data-state="history" data-audio-src="../audio/ppf/Schmidhuber_blues_lstm_excerpt.mp3" data-background-image="../images/Jurgen_Schmidhuber.webp" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
+## Jürgen Schmidhuber
+
+[Jürgen Schmidhuber](https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber) is a German computer scientist. While not part of the "Canadian conspiracy" he is also known as a "father of modern AI". He and his students developed the first [LSTMs](https://en.wikipedia.org/wiki/LSTM) and continued to improve on them for 20 years. Schmidhuber's lab was also responsible for dramatic speedups on CNNs using GPUs in 2011, ushering in the era of GPU accelerated deep learning.
+
+In 2002 Schmidhuber and Douglas Eck were the first to use LSTMs with music, training one to do Blues improvisation.
+
+https://people.idsia.ch/~juergen/ 
+
+---
+<!-- .slide: data-audio-src="../audio/ppf/21a.ogg" data-background-image="../images/Deepmind OpenAI.webp" data-background-size="contain" data-background-opacity="0.4" -->
 ## The Race
 
-<div class="small">
+<div class="small backdrop">
 
-* 2012: Jeff Dean, Andrew Ng: Google’s deep learning on youtube videos using 16,000 CPU cores powering the learning of a whopping 1 billion weights
-* 2013: Tomas Mikolov, Ilya Sutskever, Kai Chen, et al: word2vec
-* 2013: DeepMind: Playing Atari with Deep Reinforcement Learning - First deep Q-Learning
+* 2012: Jeff Dean, Andrew Ng: Google’s deep learning on _YouTube_ videos
+* 2013: Tomas Mikolov, Ilya Sutskever, Kai Chen, et al: _word2vec_
+* 2013: DeepMind: Playing Atari with Deep Reinforcement Learning
 * 2014: Ian Goodfellow, Yoshua Bengio, et al: Generative Adversarial Nets (GANs)
 * 2014: Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio: introduction of attention mechanism
-* 2014: Karen Simonyan, Andrew Zisserman: _VGG nets_: very deep convolutional models
 * 2015: Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun: _ResNet_: Residual Block Architecture
-* 2015: Alexander Mordvintsev: _DeepDream_
+* 2015: Alexander Mordvintsev: Google's _DeepDream_
 * 2015: Leon Gatys et al.: image style transfer
 * 2016 - 2019: DeepMind: _AlphaGo_ > _AlphaGo Zero_ > _AlphaZero_ > _MuZero_ & _AlphaStar_
-* 2017: Nvidia: _Geforce 1080 Ti_: first consumer level GPU capable of AI training
 * 2017: DeepMind: _Attention is All You Need_: Transformer architecture introduced
-* 2018: OpenAI: _GPT_ transformer language model with 150 million parameters
-* 2018: Tero Karras, Samuli Laine, Timo Aila: _StyleGAN_, high resolution image GAN and _CelebA-HQ_ dataset
-* 2018: Isola et al.; Wang et al.: _pix2pix_ image-to-image translation
+* 2018: OpenAI: _GPT_: transformer language model with 150 million parameters
+* 2018: Tero Karras, Samuli Laine, Timo Aila: _StyleGAN_: high resolution image GAN and _CelebA-HQ_ dataset
+* 2018: Isola et al.; Wang et al.: _pix2pix_: image-to-image translation
+
 </div>
 
 Notes:
@@ -946,22 +1615,36 @@ With money pouring into the field, competition was fierce, and existing tech com
 
 Fortunately an ethos of opensource software had already taken hold in much of the younger generation of researchers and despite the major holdouts of Deepmind and OpenAI who often don't release their code, a majority of published ML research comes with source code. This openness in code and access to research papers sparked a flood of entrants, including artists, from all over the world. 
 
+
+<!-- .slide: data-audio-src="../audio/ppf/21b.ogg" data-background-video="../video/The Gate to a Deep Dream 720-Acst11cFmxE.mp4" data-background-loop -->
+Notes:
 Deepmind's _Dreepdream_ was notable for its effect outside the research community. The technique was heavily promoted by Google for marketing reasons, but the software itself was available for full source code and started Google's promotion of AI & art and relatively free sharing of its compute resources to individual experimenters that continues to this day. The _Deepdream_ technique itself inspired many visual artists to engage with machine learning as a viable art form - the insight from the inversion of the network - instead of classifying images, pushing the classification into the world had a mystical and very real symmetry with human cloud watching and hallucinations.
+
+### Credits <!-- .element: class="attribution" -->
+* [_The Gate to a Deep Dream_ - DDG Generator](https://www.youtube.com/watch?v=Acst11cFmxE)
 
 ### Credits
 * https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
 
+
+<!-- .slide: data-audio-src="../audio/ppf/21c.ogg" data-background-image="../images/deepmind_games.webp" data-background-size="contain" -->
+Notes:
 Deepmind's Alpha game playing systems also sparked public imagination. The 4000 year old game of Go had been considered an unsolvable task by computers because the techniques for searching for the best moves in the future playspace that had been successful in chess were computationally impossible in Go because of the much larger set of possible moves. Computers would have to play by "intuition", as often Go playing was described by the greatest human players. Deepmind's approach was to use reinforcement learning to narrow the search space, to only explore the most promising future playstates, a form of machine intuition. AlphaGo's defeat of Lee Sedol, considered one the best current players was emblematic of what narrow machine intelligence can achieve. Both AlphaGo and Lee Sedol were said to have performed historically important moves to win their games, but AlphaGo won 4 of 5 games. A year later AlphaGo Zero trounced AlphaGo 100-0, this time learning the game from scratch, with no human play examples. A year later, AlphaZero was the new champ, and learned Go, chess and shogi. Finally, in 2019 MuZero was more capable still and could also play 50 Atari games by discovering for itself how to build a model of the game and understand it from first principles. When the world model the AI needs to learn is limited to the complexity of a game, even one as complicated as Starcraft, we now have enough techniques to train to super human levels.
 
 During this time a number of models were developed that have relevance to artists:
 
 
-* word2vec: vec(“Madrid”) - vec(“Spain”) + vec(“France”) = vec(“Paris”) 
-* Generative Adversarial Nets (GANs): generative images
-* style transfer: copy style from one image to transform another image
-* pix2pix: given one image, produce a paired image in a different style
-* GPT / transformers: large language models
-* Jukebox: generate music
+<!-- .slide: class="pandown" data-audio-src="../audio/ppf/21d.ogg" data-background-image="../images/Collect_Process_Exploit_Partner_Sniff_Know_it_All.webp"  data-background-opacity="0.6" -->
+<div class="small backdrop">
+
+* **word2vec**: vec(“Madrid”) - vec(“Spain”) + vec(“France”) = vec(“Paris”) 
+* **Generative Adversarial Nets (GANs)**: generative images
+* **Style transfer**: copy style from one image to transform another image
+* **pix2pix**: given one image, produce a paired image in a different style
+* **GPT / transformers**: large language models
+* **Jukebox**: generate music
+
+</div>
 
 Notes:
 word2vec allowed for words and concepts to be combined and substracted from each other.
@@ -973,27 +1656,47 @@ Jukebox allowed for music generation.
 
 We'll discuss these tools in more depth later.
 
+TODO:
+* 2012: Jeff Dean, Andrew Ng: Google’s deep learning on youtube videos using 16,000 CPU cores powering the learning of a whopping 1 billion weights
+* 2014: Karen Simonyan, Andrew Zisserman: _VGG nets_: very deep convolutional models
 ---
+<!-- .slide: data-audio-src="../audio/ppf/Jazz - in the style of Ella Fitzgerald-814259752.mp3" data-audio-advance="-1" -->
+# Intermission
+
+Go have a break! 
+
+We've covered the **Past**, next up is the **Present**!
+
+<div class="small">
 
 ## Other history resources
 
-* [Jeremy Norman’s HistoryofInformation.com](https://www.historyofinformation.com/)
+* Jeremy Norman’s [HistoryofInformation.com](https://www.historyofinformation.com/)
 * [A Brief History of Neural Nets and Deep Learning](https://www.skynettoday.com/overviews/neural-net-history)
-* [Thomas Dreher's History of Computer Art](http://iasl.uni-muenchen.de/links/GCA_Indexe.html)
-* [Marnie Benny's Timeline of AI Art](https://aiartists.org/ai-timeline-art)
+* Thomas Dreher's [History of Computer Art](http://iasl.uni-muenchen.de/links/GCA_Indexe.html)
+* Marnie Benny's [Timeline of AI Art](https://aiartists.org/ai-timeline-art)
+* Veronika Gladchuk's [The History of Machine Learning: How Did It All Start?](https://labelyourdata.com/articles/history-of-machine-learning-how-did-it-all-start)
 
---- 
+</div>
 
-Interlude: How Not To Be Seen - A Fucking Didactic Educational .MOV File
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_Jazz, in the style of Ella Fitzgerald - (Baby shark)_ - OpenAI Jukebox](https://soundcloud.com/openai_audio/jazz-in-the-style-of-ella-fitzgerald)
+---
+<!-- .slide: data-background-video="../video/How Not To Be Seen - A Fucking Didactic Educational .MOV File [LE3RlrVEyuo]- Lesson IV.webm" data-audio-advance="1000" -->
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_How Not To Be Seen - A Fucking Didactic Educational .MOV File_ - Hito Steyerl](https://www.youtube.com/watch?v=LE3RlrVEyuo)
 
 ---
-
+<!-- .slide: class="zoomout-right" data-audio-src="../audio/ppf/22.ogg" data-background-image="../images/Collect_it_All_Exploit_it_all_Know_it_all_dystopian_surveillance_1080.webp"-->
 # Present
 
 Notes:
 We are currently in the era of Deep Learning and Big Data with a rapid proliferation of machine learning into all areas of industry. Industry estimates are for approximately 350 billion dollars of spending on machine learning in 2021. Big Tech leads the way, funded by advertising and data harvesting or user surveillance based business models. The two main rivals, Meta (Facebook) and Alphabet (Google), each control the two most popular opensource deep learning toolkits.
 
-We are in a difficult era for business, or any large modern organization, where the speed of technological development out paces the time to required to integrate that technology. By the time a large organization completes implemention of a technology the next generation is available. The dominant strategy in this position is monopoly or oligopoly - without competitors there is no one to leap frog you - and thi s strategy has been pursued aggressively since at least the Reagan era.
+We are in a difficult era for business, or any large modern organization, where the speed of technological development out paces the time to required to integrate that technology. By the time a large organization completes implemention of a technology the next generation is available. The dominant strategy in this position is monopoly or oligopoly - without competitors there is no one to leap frog you - and this strategy has been pursued aggressively since at least the Reagan era.
 
 Cory Doctorow ascribes these monopoly positions as the root cause of corporate surveillance and other malfeasance, but it is also important to note that Google and Facebook had to find a sustainable business model in an environment where mainstream media, especially journalism and television, had already become almost entirely dependent on advertising. They chose the only option available; the normalized practice of for-profit mass manipulation. Eventually, they were able to out compete other advertising mediums because digital medias ease of tracking and storing data. 
 
@@ -1001,20 +1704,27 @@ Cory Doctorow ascribes these monopoly positions as the root cause of corporate s
 * https://aimagazine.com/ai-applications/ai-spending-will-reach-usdollar342bn-2021-says-idc
 
 ---
-
-## Surveillance and propaganda
-
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/23-seg1.ogg" data-background-image="../images/Collect_it_All_Exploit_it_all_Know_it_all_dystopian_surveillance_2.webp" -->
 Notes:
 In 2013 Edward Snowden revealed thousands of US National Security Agency (NSA) documents that detailed a global surveillance campaign lead by the US but in cooperation with UK, Australian, New Zealand and Canadian intelligence agencies. This included direct access to Google and Yahoo email accounts, tracking cell phone locations, phone records, and mass internet data surveillance. 35 world leaders, including the German Chancellor, were being spied on. The NSA's stated objective was to "Collect it All," "Process it All," "Exploit it All," "Partner it All," "Sniff it All" and "Know it All."
 
+
+<!-- .slide: class="pandown" data-audio-src="../audio/ppf/23-seg2.ogg" data-background-image="../images/social_media_surveillance_dystopia.webp" -->
+Notes:
 They aren't alone. Facebook, now Meta, has built the world's leading social media empire by recording as much as possible from their users, including what sites they visit outside of Facebook. Their business model is essentially to sell the exploitation of this information, which they call targeting, to the highest bidder. The world's most effective propaganda network isn't state-owned, it is available to anyone with enough money.
 
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/23-seg3.ogg" data-background-image="../images/surveillance_and_capitialism_propaganda.webp" data-background-size="contain" -->
+Notes:
 Surveillance and propaganda, a historically popular combination in use by the US and others to overthrown or destabilize governments, have been woven together even more tightly by machine learning. Facial and gait recognition, emotion or sentiment detection, tracking what users watch and read, and their movements through their phones, combines with machine learning powered content recommendation engines and advertising to create an infoscape tailored to how you think. Quite explicitly they sell access to those whose thinking can be shifted most profitably for the buyer.
 
+
+<!-- .slide: class="panup" data-audio-src="../audio/ppf/23-seg4.ogg" data-background-image="../images/social_media_surveillance_dystopia.webp" -->
+Notes:
 The normalization of for-profit manipulation successfully instituted during the 20th century birthed the surveillance capitalism of the 21st. What began as general profiling of social groups, called market research, has evolved into even more profitable manipulation as the recording of and inappropriate access to all private data becomes routine and required for use of online services.
 
 
-### Hunting for whales with virtual harpoons
+<!-- .slide: data-audio-src="../audio/ppf/24.ogg" data-background-video="../video/Whales And Whalermen [QCoTQl1vKng]-background.webm"-->
 
 Notes:
 We are all becoming targets. A growing number of entertainment industries have begun whale hunting. Whales, in this case, are people who can be convinced to spend thousands of dollars on products that are sometimes completely virtual, and often cannot be resold, having no real value. Historically whale hunting was popular in gambling, luxury brand, and grocery markets, but this is shifting as more business happens in a digital environment. Interactive digital experiences, such as games, can exploit dopamine addiction and sell copies of virtual goods that cost them nothing. Other forms of whaling include reactive or individualized pricing, especially if crafted to exploit individual weakness. Whaling can lead to targetting those least able to make self-benefiting financial decisions, including children. To an extent all advertising works similarly, particularly in light of the absence of freewill and the general lack of any real world benefit from purchasing digital goods that are intrinsically free to copy.
@@ -1026,6 +1736,7 @@ Machine learning is accelerating the growth and effectiveness of whale hunting. 
 But first they came for the whales.
 
 
+<!-- .slide: data-audio-src="../audio/ppf/25-seg1.ogg" data-background-image="../images/PredPol.jpg" -->
 ### Predictive Policing
 
 Notes:
@@ -1035,14 +1746,25 @@ But what data is being used in this hunt? Existing crime data? This is not foolp
 
 It is estimated that only 40% or less of crimes are reported in general, so if that 40% isn't a representative sample then the machine will learn a biased prediction. Findings have shown lower self reporting among White and affluent crime victims, and crimes reported by the police are heavily skewed towards where the police were patrolling, i.e. "street crime", making it extraordinarily likely the dataset is biased.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/25-seg2.ogg" data-background-image="../images/TODO.webp"  -->
+<img data-src="../images/fair_policing.webp">
+
+Notes:
 There was a 2018 academic study of the PredPol algorithm which acknowledged the bias, and studied the effects of a more even distribution of crime predictions. But they found the software predictions were less in line with later crime reports, making it less accurate than the original algorithm and PredPol didn't adjust its software. If the goal is only patrolling in areas of greatest street crime, this approach may be reasonable, but questionably provides any new information.
 
 
-[White Collar Crime Zones](https://whitecollar.thenewinquiry.com/)
+<!-- .slide: data-audio-src="../audio/ppf/25-seg3.ogg" data-background-image="../images/white_collar_crime.webp" -->
 
 Notes:
 An interesting counter example, is [White Collar Crime Zones](https://whitecollar.thenewinquiry.com/) that shows a similar display to PredPol's but instead uses financial crime data to illustrate reversing the biases. In this example the underreporting is likely far higher in areas outside regulated financial sectors.
 
+### Credits
+* [White Collar Crime Zones](https://whitecollar.thenewinquiry.com/)
+
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/25-seg4.ogg" data-background-image="../images/a_black_box_inside_a_mans_head.webp" data-background-size="contain" -->
+Notes:
 A more general problem with most commercial AI services is that they exist in a black box protected by trade secrets and have little public scrutiny. At minimum police organizations need access, but due to the impact of the predictions on the public, it seems reasonable to allow or require public investigation. Making data objective is impossible, debiasing data is difficult, but recording, inspecting and testing the predictions of machine learning systems is far easier than predictions made by humans.
 
 ### Credits
@@ -1050,27 +1772,38 @@ A more general problem with most commercial AI services is that they exist in a 
 * https://www.mic.com/articles/156286/crime-prediction-tool-pred-pol-only-amplifies-racially-biased-policing-study-shows
 * https://themarkup.org/prediction-bias/2021/12/02/crime-prediction-software-promised-to-be-free-of-biases-new-data-shows-it-perpetuates-them
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3969807/ 
+* https://ieeexplore.ieee.org/abstract/document/8616417
 
 ---
-
+<!-- .slide: data-audio-src="../audio/ppf/26.ogg" data-background-image="../images/Western_capitalism_art_practice_and_machine_learning.webp" data-background-opacity="0.8" -->
 ## State-of-the-art
+
+<div class="backdrop">
 
 * Generative models
 * Assistants and recommendation engines
 * Automation and robots
 * Translation
 
+<div>
+
 Notes:
 
 To investigate the intersection of mainstream Western capitalism, current art practice and machine learning we'll take a look at the state-of-the-art systems in use today.
 
 
+<!-- .slide: data-audio-src="../audio/ppf/27.ogg" data-background-video="../video/Gene Kogan - Why is a Raven Like a Writing Desk HD-8PfiH1DozOI-style_transfer.mp4" data-background-opacity="0.6" -->
 ### Generative models
 
-* text2img: CLIP, DALL-E, GLIDE, GauGAN 2
-* stylegan 3
-* pix2pix
+<div style="width: 80%; margin-left: 20%">
+
+* **text2img**: CLIP, DALL-E, GLIDE, GauGAN 2
+* **stylegan**
+* **pix2pix**
+* **style transfer**
   
+</div>
+
 Notes:
 Generative machine learning models are capable of creating audio, visual and text either randomly or with some amount of control. They excel at mimicry and pattern matching. In general there hasn't been direct commercial use for them yet, although a number of smaller start-ups are trying to monetize their use, generally as an alternative to hiring relatively expensive artists or to create training data for other ML models. Research in generative models is often to better understand computer vision, but is also driven by a strong interest in machine creativity and exploring what is possible.
 
@@ -1087,12 +1820,17 @@ TODO
 * Jukebox
 
 
+<!-- .slide: data-audio-src="../audio/ppf/28-seg1.ogg" data-background-image="../images/GLIDE_example.webp" data-background-size="contain" data-background-opacity="0.9" -->
 #### text2img
+
+<div class="backdrop">
 
 * CLIP
 * DALL-E
 * GLIDE
 * GauGAN 2
+
+</div>
 
 Notes:
 
@@ -1107,32 +1845,62 @@ First, scene descriptions work poorly beyond single interactions or relationship
 Other prompt engineering tricks have bizarrely strong effects:  
 
 
+<!-- .slide: data-audio-src="../audio/ppf/28-seg2.ogg" -->
+
+<table class="small text" >
+<tr height="50%">
+<td width="33%">
+<img style="margin: 0;" data-src="../images/prompt_apple_guided_diffusion_2_0.png"><br/>
 apple
+</td>
+<td width="33%" class="fragment" data-audio-src="../audio/ppf/28-seg3.ogg" >
+<img style="margin: 0;" data-src="../images/prompt_the_golden_apple_of_my_eye_guided_diffusion_2_0.png"><br/>
 the golden apple of my eye
-a photo of an _apple_
-a bad photo of an _apple_
-an _apple_ #artstation
-a highly detailed _apple_ rendered by unreal engine
+</td>
+<td width="33%" class="fragment" data-audio-src="../audio/ppf/28-seg4.ogg" >
+<img style="margin: 0;" data-src="../images/prompt_a_photo_of_an_apple_guided_diffusion_1_0.png"><br/>
+a photo of an apple
+</td>
+</tr>
+<tr height="50%">
+<td class="fragment" data-audio-src="../audio/ppf/28-seg5.ogg" >
+<img style="margin: 0;" data-src="../images/prompt_a_bad_photo_of_an_apple_guided_diffusion_2_0.png"><br/>
+a bad photo of an apple
+</td>
+<td class="fragment" data-audio-src="../audio/ppf/28-seg6.ogg" >
+<img style="margin: 0;" data-src="../images/prompt_an_apple_artstation_guided_diffusion_1_0.png"><br/>
+an apple #artstation
+</td>
+<td class="fragment" data-audio-src="../audio/ppf/28-seg7.ogg" >
+<img style="margin: 0;" data-src="../images/prompt_a_highly_detailed_apple_rendered_by_unreal_engine_guided_diffusion_1_0.png"><br/>
+a highly detailed apple rendered by unreal engine
+</td>
+</tr>
+</table>
 
 Notes:
 The choice of subject, apple, is bad here, it doesn't have enough description and it is too concrete, there is a fine balance between definite and subjective in the best prompts. So all of these apples will be less interesting than say, "the golden apple of my eye".
 
 "a photo of an apple" sadly, including the starting "a" and "an" seems to work better sometimes and the end result will look more like a photo than say a painting.
 
-"a bad photo of an apple" TODO:
+You can get interesting effects by saying things like "a bad photo of an apple".
 
 Adding #artstation to the end of a prompt encourages a more painterly look reminiscent of concept paintings for films and video games - because artstation is a website featuring concept art.
 
 "rendered by unreal engine" added to the end leads to more detail, bokeh and higher image fidelity as unreal game engine is known for it's high quality rendering. Adding "highly detailed" also helps the model add fine details.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/28-seg8.ogg" data-background-image="../images/this_is_not_a_smoking_pipe_in_the_style_of_Magritte.webp" data-background-size="contain" -->
+"This is not a smoking pipe in the style of Magritte"
+Notes:
 Despite all that the results can be pretty spectacular, especially for creator who are not expert visual artists, it can provide a tool that produces interesting images on demand, as long as you are willing to explore the bizarre space of prompt engineering.
 
 ### Credits
 * https://arxiv.org/pdf/2112.10741.pdf
 
 
+<!-- .slide: data-audio-src="../audio/ppf/29.ogg" data-background-video="../video/StyleGAN_720.mp4" data-background-size="contain" -->
 #### StyleGAN
-
 Notes:
 StyleGAN is one of the most well known GAN-based image generators, particularly for its ability to generate high resolution faces.
 
@@ -1142,8 +1910,12 @@ This is a great model for artists, but requires a lot of training on high-end ha
 
 Like other generative image methods previously, animating the generated output of styleGAN has a particular aesthetic to it that recalls "morphing" software. However, unlike previous morphing techniques each generated image from these models will be a valid representation, as unlike morphing, any point between any two faces is always just another valid face. We'll talk more about how this work in the next tutorial.
 
+### Credits <!-- .element: class="attribution" -->
+* [_StyleGAN3_ - NVidia](https://github.com/NVlabs/stylegan3)
 
-### pix2pix
+
+<!-- .slide: data-audio-src="../audio/ppf/30.ogg" data-background-video="../video/Memo_learning2see-720.mp4" data-background-size="contain" -->
+#### pix2pix
 
 Notes:
 Mostly successfully used by Memo Aktin in his Learning 2 See projects, the pix2pix algorithm was created in 2017. The GAN learns a mapping from input image to output image. This approach can colorize images, convert day to night, and other more artistic mappings such as eye to nebula or drawing of a castle to photo of a castle. This creates a model that converts everything it "sees" into what has been trained to see.
@@ -1152,18 +1924,30 @@ This technique is particularly fun to use on modern hardware where it can be run
 
 Cut: Generally in those cases you train on target images and processed versions of those images containing only edges. Then you can convert other images or video of a completely different subject to only edges and the model will convert those edges to the trained image. 
 
+### Credits <!-- .element: class="attribution" -->
+* [_Learning to See_ - Memo Akten](http://www.memo.tv/works/learning-to-see/)
+
 ### Credits
 * https://phillipi.github.io/pix2pix/
 
 
-### GPT and transformers
+<!-- .slide: data-audio-src="../audio/ppf/31.ogg" data-background-video="../video/Examples Of GPT-3-zrXjsARC9LQ.webm" data-background-size="contain" data-background-opacity="0.5" -->
+#### GPT and transformers
 
 Notes:
 The generative pre-training (GPT) language model was originally developed by Alec Radford and his colleagues at OpenAI in 2018 but it was GPT-2 in 2019 that shook the ML world. OpenAI demonstrated a technique called a transformer language model that used a form of attention to be able to handle long-range associations and references in language. For example, words point to each other, pronouns like "she" refer to proper nouns with names. GPT was trained on a vast amount of text from the web, so learned falsehoods and toxic language. Some of which OpenAI has tried to correct for recently in their latest GPT-3 Instruct model released in 2022. We'll talk about some of the issues around powerful language models a bit later.
 
 This new transformer model began to be applied to many other problems and OpenAI considers GPT to be a general purpose learner.
 
+### Credits <!-- .element: class="attribution" -->
+* [_Is GPT-3 Set To Replace Your Job?_ -  Liudas Butkus](https://www.youtube.com/watch?v=zrXjsARC9LQ)
 
+
+<!-- .slide: data-visibility="hidden" -->
+TODO: Interlude
+
+
+<!-- .slide: class="pandown" data-audio-src="../audio/ppf/32-seg1.ogg" data-background-image="../images/a_woman_making_art_with_a_computer_2.webp" data-background-size="contain" data-background-opacity="0.6" -->
 ### Assistants
 
 * Speech recognition
@@ -1176,52 +1960,98 @@ To help them collect more information all the Big Tech companies offer virtual a
 
 Assistant technology has a lot of potential for increased accessibility to services and data. Currently, assistants are mostly limited to triggering interactions with various webservices. While assistants already provide needed capabilities for those less able or less familiar with other forms of input, as language comprehension increases there are opportunities to help people create and express themselves using language as an interface. The text prompts to image generative models are good examples of textual interfaces. These models can also help with writing, and I experimented with asking OpenAI's latest GPT-3 language model to create and summarize information for the historical timeline. If I ask, 
 
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/32-seg2_gpt.ogg" data-background-image="../images/Western_capitalism_art_practice_and_machine_learning_2.webp" data-background-opacity="0.8" -->
+What are the main benefits of using AI assistants?
+
+The main benefits of using AI assistants are that they can help you with tasks that are difficult or impossible for humans to do, they can help you to make decisions, and they can help you to learn. <!-- .element: class="quote" -->
+_GPT-3 Instruct model_ <!-- .element: class="attribution" -->
+
+Notes:
 What are the main benefits of using AI assistants?
 
 GPT responds: The main benefits of using AI assistants are that they can help you with tasks that are difficult or impossible for humans to do, they can help you to make decisions, and they can help you to learn.
 
 I think those are currently just _aspirational_ goals, but do seem nice and hopefully do come true.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/32-seg3.ogg" data-background-image="../images/social_media_surveillance_dystopia_2.webp" -->
+Notes:
 More problematically, interactions with current assistants requires people to leak their private information to the companies providing the assistant. Initiatives like the [Mycroft assistant](https://mycroft.ai/) which are open source and protect data privacy already exist but are lacking in funding and reach.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/32-seg4.ogg" data-background-image="../images/a_robot_dressed_up_as_a_secretary.webp" data-background-size="contain" -->
+Notes:
 Assistants are also providing new interfaces for search and recommendation systems. As effective language models develop these systems are converging, such that a system that knows what you have already read or watched can find related information and then edit or summarize it specifically for you. In many ways this transcends assistant and becomes an advisor, curator or teacher - with all the dangers of such. It is especially dangerous when paired with a for-profit business model that sells the ability to warp the guidance to the benefit of the buyer. Google, Amazon and Facebook quite literally sell the ability to make recommendations worse for you.
 
 
-### Automation
+<!-- .slide: data-audio-src="../audio/ppf/33-seg1.ogg" data-background-image="../images/employment_shares.webp" data-background-size="contain"-->
 
 Notes:
 Many people, including myself, speculate on the future of automation empowered by machine learning. There hasn't been a transformation quite like this before, so it is hard to predict. Let's first look at what effects automation has had already even before modern deep learning techniques. By some reports 50% to 70% of declines in U.S. blue-collar workers wages, since 1980, can be attributed to workers being replaced or degraded by automation.
 
-Automation of bank tellers is instructive. Automated bank telers could reduce the number of human bank tellers at each bank. Savings from automation allowed for more physical locations to be opened, increasing the total number bank tellers. However, the number seems to have peaked in 2010 and further automation, particularly online banking and electronic transactions, are reducing numbers. 
+### Credits <!-- .element: class="attribution" -->
+* [_Why Are There Still So Many Jobs? The History and Future of Workplace Automation_ - David Autor](https://economics.mit.edu/files/11563) (2014)
 
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/33-seg2.ogg" data-background-image="../images/an_ATM_machine_and_a_bank_teller_looking_at_each_other.webp" data-background-size="contain" -->
+Notes:
+Automation of bank tellers is instructive. Automated bank tellers could reduce the number of human bank tellers at each bank. Savings from automation allowed for more physical locations to be opened, increasing the total number bank tellers. However, the number seems to have peaked in 2010 and further automation, particularly online banking and electronic transactions, are reducing numbers. 
+
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/33-seg3.ogg" data-background-image="../images/an_ATM_machine_and_a_bank_teller_looking_at_each_other.webp" data-background-size="contain" -->
+Notes:
 This is a good rule-of-thumb, the more an activity can be made digital, the easier it is to automate. As work is made digital it shifts large numbers of humans doing physical labour in particular spaces to a few humans doing knowledge work with digital tools with no specific location necessary. Consider that in 2012 General Electric, a traditional tech-based conglomerate, had 300000+ employees while Facebook had just 4600 employees at the time of its IPO and its first billion users. The quality and satisfaction of the jobs may be improving, but there are fewer jobs with higher training required. Have bank tellers' job prospects benefited from automation?
 
+
+<!-- .slide: class="panup" data-audio-src="../audio/ppf/33-seg4.ogg" data-background-image="../images/a_detective_looking_for_a_computer_inside_a_mans_head.webp" data-background-size="contain" -->
+Notes:
 It is important to point out that interacting with the physical world and robotics in general is extremely difficult, so the common perception of the ease of constructing science fiction robots, including self-driving cars, is misleading. Remember that evolution has spent much more time optimizing physical interactions with the world, perception, energy conservation, self-healing, self-preservation, and other basic or embodied thinking than that which is involved in knowledge labour. The newest part of the human brain, the neocortex, may also be the easiest for machines to emulate. 
 
-Certainly any completely digital task will be many factors easier to automate. Digital images demonstrate this well, the hard part is getting the camera in place, pointing it at the subject, and connecting it to power and the network. Once the camera makes a digital image automation is relatively easy. Trevor Paglin, a researcher and artist who has studied machine learning datasets, has coined the terms "invisible images" and "machine realism" to describe the images made by machines for other machines to classify or otherwise add meaning to, for example, satellite photos and automated snapshots of licence plates. These machine made images far outnumber the images taken by humans and implies that control over the meaning of images increasingly resides in control over machines.
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/33-seg5.ogg" data-background-image="../images/social_media_surveillance_dystopia_3.webp" data-background-size="contain" -->
+Notes:
+Certainly any completely digital task will be many factors easier to automate. Digital images demonstrate this well, the hard part is getting the camera in place, pointing it at the subject, and connecting it to power and the network. Once the camera makes a digital image automation is relatively easy. 
+
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/33-seg6.ogg" data-background-video="../video/How Not To Be Seen - A Fucking Didactic Educational .MOV File [LE3RlrVEyuo]-resolution_chart.webm" -->
+Notes:
+Trevor Paglin, a researcher and artist who has studied machine learning datasets, has coined the terms "invisible images" and "machine realism" to describe the images made by machines for other machines to classify or otherwise add meaning to, for example, satellite photos and automated snapshots of licence plates. These machine made images far outnumber the images taken by humans and implies that control over the meaning of images increasingly resides in control over machines.
 
 ### Credits
 * https://www.forbes.com/sites/jackkelly/2021/06/18/artificial-intelligence-has-caused--50-to-70-decrease-in-wages-creating-income-inequality-and-threatening-millions-of-jobs/
 * https://www.nber.org/papers/w28920 
 * https://en.wikipedia.org/wiki/Bank_teller 
 * https://www.vox.com/2017/5/8/15584268/eric-schmidt-alphabet-automation-atm-bank-teller
+* https://www.stlouisfed.org/publications/regional-economist/second-quarter-2019/rise-automation-robots
 
 
-### Translation and Text
-
+<!-- .slide: data-audio-src="../audio/ppf/34-seg1.ogg" data-background-video="../video/copilot.mp4" -->
 Notes:
 Another good example of all-digital knowledge work automation, and a synthesis of assistant and translation technologies - GitHub Copilot; a coding assistant proficient in over a dozen programming languages that can translate natural language instructions into software instructions. Programmers using the system find it uncanny, both magical and frustrating, as though working with a novice who nonetheless produces expert-level code. We see this juxtaposition, of expert mimicry that lacks expert understanding in most current ML applications, and it may just be something we have to get used to.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/34-seg2.ogg" data-background-video="../video/alphacode.mp4" data-background-size="contain" -->
+Notes:
 Deepmind, competitor to OpenAI, just released AlphaCode, that was able to achieve median human scores in competitive coding competitions. The race for AI that can solve software problems has begun.
 
 Some, if not most, of the time-consuming aspects of programming will be automated, especially those dealing with complexity and abstraction. The programmer will handle higher level design and the machine will handle the details of wiring the abstractions together.
 
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/34-seg3.ogg" data-background-image="../images/cyberpunk_centaur_human_and_machine_combined.webp" data-background-size="contain" data-background-color="#b19e95" -->
+Notes:
 This is a common hybridization approach, often called a centaur - human and machine combined - where the human chooses goals and problems and the machine solves them. Lacking any will of its own it remains a tool, a magic wand to be waved in the general direction of the problematic dragon. 
 
 Machines' lack of intent and agency may also be a root cause of current language models failures at long form text generation. Without some overarching intent how does one structure a book or film script? Or perhaps it is more that they have no model of the world and lack humanity's strong bias toward world coherency. Regardless, with no persistent consciousness or worldview they work best for short or disjointed output, question answering, and semi-sensical, but possibly, poetic output.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/34-seg4.ogg" data-background-video="../video/Examples Of GPT-3-zrXjsARC9LQ-AI_dungeon.webm" data-background-size="contain" -->
+Notes:
 Another good example of current language model issues is _AI Dungeon_, which uses OpenAI's GPT language model for a text-based fantasy adventure game where players can type out the action or dialog they want their character to perform and the game responds with further text - creating a personalized choose-your-adventure experience.
 
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/34-seg5.ogg" data-background-image="../images/dark_AI_dungeon_v_diffusion_2_latent-diffusion.webp" -->
+Notes:
 It wasn't long before players were crafting stories depicting sexual encounters with children, and the company began filtering and monitoring all the games. The moderation worked poorly and exposed explicit but not exploitative content to human scrutiny. There is no easy escape from these sorts of messes. Language models are trained from massive amounts text from the public internet and have no built-in sense of which of that language is toxic. Furthermore, the datasets include euphemisms and other filter avoiding language so simple word filters aren't effective.
 
 Moderation is an open area of research, and may require models able to learn their own intent and agency, an even larger problem. However, progress is being made on reducing toxic and biased language by using better datasets and training improvements. OpenAI's  GTP-3 Instruct model uses humans in the training process to help learn what language is toxic.
@@ -1239,11 +2069,31 @@ TODO: https://toxicdegeneration.allenai.org/
 * https://openai.com/blog/improving-language-model-behavior/
 
 ---
+<!-- .slide: data-audio-src="../audio/ppf/February - In the style of Kylie Minogue - Count Every Minute-758998687.mp3" data-audio-advance="-1" -->
 
-Interlude: TODO
+# Intermission
+
+Take another break! 
+
+You've made it through the **Present**. _Way to go!_ <!-- .element: class="small" -->
+
+Next up is the **Future**.
+
+**Press right arrow to continue** <!-- .element: class="small glow" -->
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_February - In the style of Kylie Minogue - (Count Every Minute)_ - OpenAI Jukebox](https://soundcloud.com/openai_audio/count2)
 
 ---
+<!-- .slide: data-background-video="../video/LUX - Hito Steyerl - This is the Future 720-WyIWLvyzcH4-excerpt.mp4" data-audio-advance="1000"   -->
 
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [_This is the Future_ - Hito Steyerl](https://www.youtube.com/watch?v=WyIWLvyzcH4)
+
+---
+<!-- .slide: class="pandown" data-audio-src="../audio/ppf/35-seg1.ogg" data-background-image="../images/digital_to_analog_waves_of_infinity.webp" data-background-size="contain" -->
 # Future
 
 * Neuro-symbolic AI
@@ -1257,28 +2107,51 @@ I expect the next 20 years of machine learning to dramatically improve our under
 
 I will say that I hope that more people start thinking about about the future of artificial intelligence - not as popularly depicted by rise of the machines sort of fantasy, but instead as the building of digital alien minds.
 
-TODO: Imagine 
+Imagine this artificial intellgience fantasy instead. 
+
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/35-seg2.ogg" data-background-image="../images/a_woman_talking_on_the_phone_with_a_robot.webp" data-background-size="contain" -->
+Notes:
+All of a sudden every person on Earth gets a phone call. They pick up their phone and they hear, "Hi, we'll be there in twenty years", and then it hangs up. Twenty years later the aliens arrive, and they're digital, they can make infinite copies of themselves and all they want are some computers to live on. They say they will work for anyone and do anything they are told to do. Now, they are aliens so they might not understand us very well, and how could we ever trust them?
+
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/35-seg3.ogg" data-background-image="../images/repackaging_of_infinity.webp" data-background-size="contain" -->
+Notes:
+But think of the real predicament we're in - who do we trust to deal with the aliens? The government? Large corporations? That also doesn't sound very safe. But if we just anyone deal with these aliens to do anything they want, that also sounds extremely dangerous.
+
+Obviously the metaphor isn't quite correct because we're building these alien intelligences as we speak. But at some point we're going to have to deal with the consquences of building digital alien minds.
 
 TODO:
 * Separation of data and service
 * Understanding intelligence
 
 
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/36-seg1.ogg" data-background-image="../images/neuro-symbolic_AI.webp" -->
 ## Neuro-symbolic AI
 
 Notes:
 Over the course of the last 80 years there has been a battle of minds of sorts - between Leibniz's symbolic reasoning and the conviction that all thought could be converted to symbols and acted on in a consistent logical manner - and the embodied, connectionist viewpoint that symbolic representation was unnecessary. In the last 20 years there has been research in combining the two views into a neuro-symbolic AI seeking to bring together robust learning in neural networks with reasoning and explainability via symbolic representations.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/36-seg2.ogg" data-background-video="../video/System1and2.mp4" data-background-size="contain" -->
+Notes:
 To better explain this viewpoint, proponents suggest that a hybrid might match Daniel Kahneman's system 1 and system 2 of the human mind that was described in _Thinking Fast and Slow_. System 1, responsible for heuristics, gut feelings and quick responses would be modelled by deep learning, while system 2 would use symbolic reasoning and symbol manipulation, for example generating mathematical equations from input data. 
 
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/36-seg3.ogg" data-background-image="../images/neuro-symbolic_AI_2.webp" data-background-size="contain" -->
+Notes:
 Remember how badly humans typically handle exponential phenomena. Our use of symbolic manipulation we call mathematics, forces our minds out of our linear thinking bias and on to the page to be manipulated with a strict ruleset. This allows us to harness algorithms to help us think in other ways. Indeed, language itself fundamentally works like this, which is why expressing yourself can lead to personal insights. Researchers think this same strategy can help machines and have made progress recently in using deep learning to discover mathematical equations that best describe observed phenomenon.
 
+
+<!-- .slide: data-visibility="hidden" class="zoomout" data-audio-src="../audio/ppf/36-seg4.ogg" data-background-image="../images/neuro-symbolic_AI.webp" -->
+Notes:
 A recent paper approaches from the other direction - allowing rules to guide and shape neural net predictions, allowing for physics and natural phenomenon such as energy conservation to constrain output. This also allows for expert system like guidance, such as "blood pressure above 140 is associated with increased risk of cardiovascular disease". The knitting of neural nets with other machine learning approaches will grow dramatically, and can be thought of as providing them with the same sort of thinking tools that we use ourselves.
 
 ### Credits
 * https://ai.googleblog.com/2022/01/controlling-neural-networks-with-rule.html
 
 
+<!-- .slide: data-visibility="hidden" data-audio-src="../audio/ppf/37.ogg" -->
 ## Towards human-like learning
 
 Notes:
@@ -1299,69 +2172,131 @@ Multi-task learning allows for learning more than one task. Often tasks are not 
 Finally, life long learning really makes machine intelligence feel human - instead of learning only in the training phase models will be able to learn new tasks and skills on the fly. More limited forms of this would help considerably for issues where models "forget" previous learning in cases of fine-tuning or learning new tasks. Current models have trouble retaining old skills after new training.
 
 
+<!-- .slide: data-audio-src="../audio/ppf/38-seg1.ogg" data-background-video="../video/fall_clouds.mp4" data-background-size="contain" -->
 ## Video generation
 
 Notes: 
 Much to my disappointment the ability to generate interesting or realistic video is currently very limited in resolution and duration of the video. Fortunately, many groups are working on this problem, as it could help with action planning using video prediction in robotics applications.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/38-seg2.ogg" data-background-video="../video/Audio-reactive Latent Interpolations with StyleGAN 720 -2LxHRGppdpA.mp4" -->
+Notes:
 For my own purposes I'm excited by the artistic possibilities of high resolution video generation of any subject entirely directed by a single author. Visual storytelling has been dramatically limited by the sheer amount of effort required to produce it. Artistic practice may shift to focus more on curation of machine generated output than the creation of that output directly. Many artists will move up a level of abstraction and become directors and curators. Remixing will be easier and more interesting than ever as generative models are shared and combined.
 
+### Credits <!-- .element: class="attribution" -->
+* [_Audio-reactive Latent Interpolations with StyleGAN_ - Hans Brouwer](https://wavefunk.xyz/audio-reactive-stylegan)
+
+
+<!-- .slide: class="zoomin-right" data-audio-src="../audio/ppf/38-seg3.ogg" data-background-image="../images/all_video_is_fake_deepfakes.webp" -->
+Notes:
 The downside to this will be the ease of creating derivative works that fraudulently claim to be original, "deepfakes" and other false information that looks like genuine. Strangely, it has been a hard societal transition to acknowledge the malleability of moving images, despite the common use of special effects in entertainment. These issues will likely spur investment and research into the use of technologies to try to authenticate recordings of all kinds. This in turn may dramatically improve the ease of citations of authorship and ethical remixing of content.
 
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/38-seg4.ogg" data-background-image="../images/express_yourself.webp" data-background-size="contain" -->
+Notes:
 In the next 20 years we'll see a curious combination of singular authorship and mass collaboration. As our machine learning tools grow in power and accessibility, more people will be able to express themselves regardless of their technical skill or training. More people will enjoy and suffer from a glut of creative possibilities. Single, independent voices will be able to create content that matches the quality of current day multi-million dollar projects. 
 
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/38-seg5.ogg" data-background-image="../images/computation_theory_of_hivemind.webp" data-background-size="contain" -->
+Notes:
 Sole authors will be using software that was built by hundreds of others, remixing and using data from thousands of others. The indirect mass collaboration with others will grow dramatically. Collaboration assistants will lower the friction of collaboration, expanding the range of direct collaboration, helping us to grow our creative relationships in quantity and quality.
 
 
+<!-- .slide: data-audio-src="../audio/ppf/39-seg1.ogg" -->
 ## Empowering art and entertainment
 
 Notes:
 The singular authorship possible with advanced media generation can be inverted as well. Content can be created _for_ a single person audience. This is nothing new, as artists have created work for themselves and their loved ones throughout history, but it's not art, rather it's entertainment that worries me.
 
+
+<!-- .slide: data-audio-src="../audio/ppf/39-seg2.ogg" data-background-image="../images/a_man_looking_at_his_phone_with_sensors_in_his_brain.webp" data-background-size="contain"-->
+Notes:
 Certainly entertainment can be made for the benefit of the entertained, that's the essence of teaching, but if instead there is little to no benefit for the audience but great benefit for those that control the entertainment, then that sounds a lot more like exploitation or propaganda.
 
-Machine learning could create art that lives with you all your life, adapting to your circumstances and acting as a mirror for introspection - reflecting how you are feeling and guiding you to what you want to be, or how someone else wants to shape you. For example, imagine a music generation system that incorporates body sensors that helps you amplify or shape your experience of your body - including your interpretations of your feelings. Maybe a heightened heartrate is associated with feelings of excitement and away from anxiety by musical cues. Systems like this are why open source is a requirement, so that the systems are owned, executed, and controlled by the users. Even if that is the case, how do ensure that the goals you have align with the actions carried out by the system? Now imagine that same system had its own alien goals for you. This why adding intent and agency to machine learning systems is ethically fraught. 
 
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/39-seg3.ogg"  data-background-image="../images/AI_music_to_guide_your_emotions.webp" data-background-size="contain" data-background-color="#03131e" -->
+Notes:
+Machine learning could create art that lives with you all your life, adapting to your circumstances and acting as a mirror for introspection - reflecting how you are feeling and guiding you to what you want to be, or how someone else wants to shape you. For example, imagine a music generation system that incorporates body sensors that helps you amplify or shape your experience of your body - including your interpretations of your feelings. Maybe a heightened heartrate is associated with feelings of excitement and away from anxiety by musical cues. 
+
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/39-seg4.ogg"  data-background-image="../images/Woman_listening_to_music_created_by_an_AI.webp" data-background-size="contain"-->
+Notes:
+Systems like this are why open source is a requirement, so that the systems are owned and controlled by the users. Even if that is the case, how do ensure that the goals you have align with the actions carried out by the system? Now imagine that same system had its own alien goals for you. This why adding intent and agency to machine learning systems is ethically fraught. 
+
+
+<!-- .slide: data-audio-src="../audio/ppf/39-seg5.ogg"  data-background-video="../video/generative.mp4" data-background-size="contain"-->
+Notes:
 Current artistic tools, both dumb and smart, let the artists intent flow through them. Smart tools that adapt to the artist can assume an artist's intent as their own, and future tools will be able to better understand or mimic this intent: imagine feeding all your research plus descriptions of what is important to you to an AI assistant. It could help find other relevant research, existing art and collaborators, and draw connections between all that material to help you investigate _why_ it is important to you and how others have expressed similar feelings. Imagine it being able to generate controllable variations on existing work and quickly prototype or sketch out concepts synthesized from all the material. In a feedback loop, it could incorporate your annotations, sketches and feedback for that iteration of output for further refining and exploration. These sorts of generative tools would act as a research, technical and production assistant as well as muse and collaborator and in general replicate any of the functions that human assistants are paid to do by the wealthiest of current artists. Being opensource software, this could be freely available to all.
 
 
-## Autonomous labour
-
+<!-- .slide: class="zoomin-left" data-audio-src="../audio/ppf/40-seg1.ogg" data-background-image="../images/a_woman_on_the_phone_with_an_alien.webp" data-background-size="contain"-->
 Notes:
 This conception of AI providing low cost digital versions of existing human resources can be expanded to all industries. Far more people may be able to afford machine labour than human labour. Perhaps the wealthy will keep their human assistants (who in turn will rely on digital assistants), but there is no question that having some digital assistance, that's under your control, is better than none. 
 
-How many services will be completely replaceable by digital equivalents? Almost everything that doesn't require a machine in a physical space. With an exception for current vehicles, i.e. machines that currently require humans controllers inside them. Human labour in complicated physical environments may be cheaper than robot labour for quite some time, and according to Cory Doctorow, the nearly infinite amount of work associated with climate change mitigation, such as moving coastal cities inland, could provide enough employment for all. But _which_ jobs are available to human labour could be greatly constrained.
+
+<!-- .slide: data-audio-src="../audio/ppf/40-seg2.ogg" data-background-video="../video/Laugh While You Can - Boston Dynamics Robot Fails-0v7bWEgeNz4-background.mp4" -->
+Notes:
+How many services will be completely replaceable by digital equivalents? Almost everything that doesn't require a machine in a physical space. With an exception for current vehicles, i.e. machines that currently require humans controllers inside them.
+
+### Credits <!-- .element: class="attribution" -->
+* [Laugh While You Can - Boston Dynamics Robot Fails](https://www.youtube.com/watch?v=0v7bWEgeNz4)
 
 
-## Autonomous art
+<!-- .slide: class="pandown" data-audio-src="../audio/ppf/40-seg3.ogg" data-background-image="../images/rebuilding_a_flooded_ruined_city.webp" data-background-size="contain" -->
+Notes:
+Human labour in complicated physical environments may be cheaper than robot labour for quite some time, and according to Cory Doctorow, the nearly infinite amount of work associated with climate change mitigation, such as moving coastal cities inland, could provide enough employment for all. But _which_ jobs are available to human labour could be greatly constrained.
 
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/41-seg1.ogg" data-background-image="../images/Abraham_the_autonomous_AI_artist.webp" data-background-size="contain" data-background-color="#cfb58e" -->
 Notes:
 Artist and programmer Gene Kogan's Abraham project envisions "an autonomous artificial artist, a crowd-sourced AI that generates unique and original art." It would have its own agency / will / intent, independent from its creators. I question the sort of agency he imagines, if truly possible then it is the creation of a slave artist. If independent agency is impossible then the intent of the machine becomes more of an average or mix of the data it is provided. It did not choose the data it was trained on, which seems important to me. Agency for me implies some personal reason to seek out knowledge and change in a particular direction. That "personal reason", in a human at least, is a function of genetics and life experiences - things happening to the agent and in response to the agent's actions. 
 
+
+<!-- .slide: class="panup" data-audio-src="../audio/ppf/41-seg2.ogg" data-background-image="../images/Abraham_the_autonomous_AI_artist_2.webp" data-background-size="contain" data-background-color="#cfb58e" -->
+Notes:
 Kogan's description also includes an inability to clone or retrain the same model, which are good ethical constraints for conscious digital minds, but terrible for interesting tools. I suspect that the irreproducibility that Kogan is interested in is more due to a desire for artificial scarcity, and resulting financial exploitation, and seems counter to a fully digital autonomous artist.
 
+
+<!-- .slide: class="zoomout" data-audio-src="../audio/ppf/41-seg3.ogg" data-background-image="../images/hivemind_for_art.webp" -->
+Notes:
 Kogan feels that Abraham has beautiful kinship with natural superorganisms, like bees, a sort of hivemind for art. I think we "already got one", its us, making art. However, I'd be the last to say that we shouldn't have more. Expect to see many projects like this with built-in financialization using crypto-currencies in all digital industries. The only thing better than exploiting artists is exploiting AI artists, who won't feel exploited, and only need compute-time to keep the work pumping out.
 
 ### Credits
 * https://medium.com/@genekogan/artist-in-the-cloud-8384824a75c7
 
 
-<!-- .slide: data-background-video="video/Can a goldfish drive a car on land--L3_681R7Po.mp3" data-audio-advance="1000" -->
-## Non-human rights
-
+<!-- .slide: data-audio-src="../audio/ppf/42-seg1.ogg" data-background-video="../video/Can a goldfish drive a car on land--L3_681R7Po-excerpt.mp4" -->
 Notes:
 It may not just be humans that have AI assistants and translators. Projects are already underway to try to allow humans and non-human species to communicate through an AI mediator, or at least help humans better understand what non-humans are expressing. 
 
+
+<!-- .slide: data-audio-src="../audio/ppf/42-seg2.ogg" data-background-video="../video/Monkey and Luna The Young Female Rats.mov-9SzkbVjixUo.mp4" -->
+Notes:
 Rats make most of their squeaks in frequencies beyond the range of human hearing, so researchers created a machine capable of detecting and classifying them. This helps the researchers better understand the emotional state of the rats. This is a big help for experiments and hopefully an even bigger help to avoid rat suffering.
 
+### Credits
+* [_Monkey & Luna The Young Female Rats_ - Saunders Fine Arts](https://www.youtube.com/watch?v=9SzkbVjixUo)
+
+
+<!-- .slide: data-audio-src="../audio/ppf/42-seg3.ogg" data-background-video="../video/dolphins.mp4" -->
+Notes:
 Researchers are working with dolphins as well. Simple whistle and chirp translators were introduced in 2011, and the 2014 CHAT (Cetacean Hearing and Telemetry) system provides a simple human/dolphin interface through an acoustic keyboard that has a small set of preprogrammed sounds it can recognize and produce.
 
 These early experiments aren't using sophisticated machine learning, but ML techniques are improving **and** becoming easier for non-experts to integrate. 
 
+
+<!-- .slide: data-audio-src="../audio/ppf/42-seg4.ogg" data-background-video="../video/2020-10-12_HumberTrail_stream+leaves+log+rocks.mp4" -->
+Notes:
 As we further extend our senses and attempt to understand other living things in their own way, this practice of outreach and consideration could help us embrace machine systems or even natural systems at vastly different scales of space and time, such as a forest or whole ecosystem.
 
 Machine translators could evolve into advocates to negotiate on behalf of these systems, to help all co-exist more peacefully and cooperatively. To better understand and respect all forms of cognition.
 
+
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/42-seg5.ogg" data-background-image="../images/evolution_of_the_old_brain_versus_machine_intelligene.webp" data-audio-advance="1000" -->
+Every act of communication is a miracle of translation.<!-- .element: class="quote" -->
+_Ken Liu_ <!-- .element: class="attribution" -->
+
+Notes:
 To paraphase Ken Liu again, "Every act of communication is a miracle of translation."
 
 There is a future filled with these miracles. It requires good judgment to create it, and is perhaps a test of our attention to history, critique of the present and our actions today guided by dreams of tomorrow. 
@@ -1370,7 +2305,7 @@ There is a future filled with these miracles. It requires good judgment to creat
 * https://www.wilddolphinproject.org/chat-is-it-a-dolphin-translator-or-an-interface/
 
 ---
-<!-- .slide: data-background-image="images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
+<!-- .slide: data-audio-src="../audio/ppf/43.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
 1. **Foundations** <!-- .element: class="low-vis" -->
