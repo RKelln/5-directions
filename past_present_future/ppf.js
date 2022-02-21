@@ -1,19 +1,6 @@
+import {deck} from '../main.js'
+
 // past, present, future
-
-import {deck} from './../main.js'
-
-
-deck.on( 'history', (e) => {
-    console.log('✨');
-    // remove auto layout
-
-} );
-
-deck.off( 'history', (e) => {
-    console.log('history off');
-    // remove auto layout
-
-} );
 
 deck.on( 'slidechanged', event => {
     // event.previousSlide, event.currentSlide, event.indexh, event.indexv
@@ -36,7 +23,7 @@ deck.on( 'slidechanged', event => {
 
         // trigger animation
         container.style.animation = 'none';
-        container.offsetHeight; /* trigger reflow */
+        container.offsetHeight; // trigger reflow
         container.style.animation = null; 
     } else {
         let container = view.querySelector("#year");

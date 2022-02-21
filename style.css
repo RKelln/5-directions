@@ -110,6 +110,11 @@
   margin-left: 1.25em;
 }
 
+.reveal .backdrop > ol, .reveal .backdrop > ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .reveal .quote {
   padding: 1.5em;
   text-align: left;
@@ -151,7 +156,7 @@
   z-index: 11;
   margin: 0.4em;
   font-size: 0.4em;
-  animation: fadeIn linear 3s;
+  animation: 3s linear fadeIn;
 }
 
 .reveal div#attribution {
@@ -159,15 +164,30 @@
 }
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  to { opacity: 1; }
 }
 
+@keyframes titleSplash {
+  from { opacity: 0; }
+  10% { opacity: 1; }
+  60% { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.reveal .past > .fadeout, .reveal .future > .fadeout {
+  animation-play-state: paused;
+  opacity: 0;
+}
+
+.reveal .present > .fadeout {
+  animation-play-state: running;
+  animation:  12s linear both titleSplash;
+}
 
 .reveal .pushright {
   position: relative;
   left: 33%;
-  width: 90%;
+  width: 66%;
 }
 
 .reveal .small {
@@ -295,6 +315,14 @@
   padding: 1em 1.5em;
 }
 
+.reveal .dates ul, .reveal ul.dates {
+  list-style: none;
+}
+
+.reveal .dates ul > li, .reveal ul.dates > li {
+  margin-left: 0;
+}
+
 @media screen and (min-width: 1000px) {
   .history .reveal section p, .history .reveal section ul, .history .reveal section ol, .history .reveal section h2, .history .reveal section h3, .history .reveal section h4 {
     max-width: 30vw;
@@ -360,42 +388,44 @@
   background-position-y: 0%;
   z-index: -1;*/
   /* animation: 50s linear 0s normal none infinite running zoomout; */
-  animation: 80s linear 0s both zoomout;
+  animation: 80s linear 0s forwards zoomout;
 }
 
 .slide-background.present.zoomout-left div.slide-background-content {
-  animation: 80s linear 0s both zoomoutleft;
+  animation: 80s linear 0s forwards zoomoutleft;
 }
 
 .slide-background.present.zoomout-right div.slide-background-content {
-  animation: 80s linear 0s both zoomoutright;
+  animation: 80s linear 0s forwards zoomoutright;
 }
 
 .slide-background.present.zoomin div.slide-background-content {
-  animation: 80s linear 0s both zoomin;
+  animation: 80s linear 0s forwards zoomin;
 }
 
 .slide-background.present.zoomin-left div.slide-background-content {
-  animation: 80s linear 0s both zoominleft;
+  animation: 80s linear 0s forwards zoominleft;
 }
 
 .slide-background.present.zoomin-right div.slide-background-content {
-  animation: 80s linear 0s both zoominright;
+  animation: 80s linear 0s forwards zoominright;
 }
 
 .slide-background.present.pandown div.slide-background-content {
   height: 200%;
   background-position: top;
-  animation: 80s linear 0s both pandown;
+  animation: 80s linear 0s forwards pandown;
 }
 
 .slide-background.present.panup div.slide-background-content {
   height: 200%;
   background-position: center bottom;
-  animation: 80s linear 0s both panup;
+  animation: 80s linear 0s forwards panup;
 }
 
-
+.movement-paused .slide-background.present div.slide-background-content {
+  animation-play-state: paused;
+}
 
 @keyframes zoomout {
   from { transform: scale(1.33, 1.33) }

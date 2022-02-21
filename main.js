@@ -45,6 +45,9 @@ deck.initialize({
   minScale: 0.2,
   maxScale: 2.0,
 
+  // disable autoplay of media, audio-slideshow will start the background videos
+  autoPlayMedia: false,
+
   // audio slideshow/recorder init options
   audio: {
     prefix: 'audio/', 	// audio files are stored in the "audio" folder
@@ -140,7 +143,7 @@ document.addEventListener('stopplayback', function(e) {
   if (background_video) background_video.pause();
 } );
 document.addEventListener('startplayback', function(e) {
-  //console.log("stopplayback", e);
+  //console.log("startplayback", e);
   let slide = deck.getCurrentSlide();
   if (!slide) return;
   let background_video = slide.slideBackgroundContentElement.querySelector('video');
@@ -175,6 +178,9 @@ function pause() {
   if (background_video) background_video.pause();
   if (video) video.pause();
   if (audio) audio.pause();
+
+  let e = document.querySelector('div.reveal');
+  e.classList.add("movement-paused");
 }
 
 
@@ -184,6 +190,9 @@ function play() {
   if (background_video) background_video.play();
   if (video) video.play();
   if (audio) audio.play();
+
+  let e = document.querySelector('div.reveal');
+  e.classList.remove("movement-paused");
 }
 
 
@@ -237,4 +246,3 @@ if (typeof document.addEventListener === "undefined" || hidden === undefined) {
   // Handle page visibility change
   document.addEventListener(visibilityChange, handleVisibilityChange, false);
 }
-
