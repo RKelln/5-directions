@@ -22,6 +22,21 @@
 .reveal h3 {
   text-transform: capitalize;
 }
+
+/* section.has-light-background, 
+section.has-light-background h1, 
+section.has-light-background h2, 
+section.has-light-background h3, 
+section.has-light-background h4, 
+section.has-light-background h5, 
+section.has-light-background h6 {
+  mix-blend-mode: hue;
+} */
+
+.reveal .hidden {
+  display: none;
+}
+
 .reveal p {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -119,7 +134,8 @@
   padding: 1.5em;
   text-align: left;
   font-size: 75%;
-  max-width: 24em;
+  width: 70%;
+  min-width: 26em;
   position: relative;
   margin: auto;
   /*font-style: italic;*/
@@ -310,7 +326,6 @@
   font-style: italic;
   margin-top: 2em;
   background-color: rgba(40, 9, 0, 0.7);
-  mix-blend-mode: difference;
   border: 4px double rgba(210,180,180, 0.9);
   padding: 1em 1.5em;
 }
