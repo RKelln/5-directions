@@ -9,6 +9,7 @@ module.exports = defineConfig({
         main: resolve(__dirname, 'index.html'),
         foundations: resolve(__dirname, 'foundations/index.html'),
         past_present_future: resolve(__dirname, 'past_present_future/index.html'),
+        neural_nets: resolve(__dirname, 'neural_nets/index.html'),
       }
     }
   },

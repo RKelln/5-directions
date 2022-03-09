@@ -241,7 +241,7 @@ Notes:
 ## 1842 <!-- .element: class="year" -->
 ## Poetical Science
 ### Ada Lovelace
-In 1842, English mathematician and writer [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) was helping [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) with the first algorithms to be carried out by his Analytical Engine. Yet Lovelace saw opportunities beyond the math. She envisioned a computer where numbers could represent entities other than quantity.  At the time it was revolutionary that machines have applications beyond pure calculation. She called the idea Poetical Science.
+In 1842, English mathematician and writer [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) was helping [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) with the first algorithms to be carried out by his Analytical Engine. Yet Lovelace saw opportunities beyond the math. She envisioned a computer where numbers could represent entities other than quantity.  At the time it was revolutionary that computing could be used for creative pursuits. She called the idea Poetical Science.
 
 It might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. <!-- .element: class="quote" -->
 _Ada Lovelace_ <!-- .element: class="attribution" -->
@@ -2354,9 +2354,9 @@ There is a future filled with these miracles. It requires good judgment to creat
 <!-- .slide: data-audio-src="../audio/ppf/43.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
-1. **Foundations** <!-- .element: class="low-vis" -->
+1. [**Foundations**](../foundations/)
 2. **Past, Present, Future**
-3. ***Neural Nets***
+3. [**Neural Nets**](../neural_nets/)
 4. Data in Practice <!-- .element: class="low-vis" -->
 5. Machine Learning Art <!-- .element: class="low-vis" -->
    

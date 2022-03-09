@@ -13,7 +13,9 @@ import Search from 'reveal.js/plugin/search/search.esm.js';
 import AudioSlideshow from 'reveal.js-plugins/audio-slideshow/plugin.js'
 //import AudioRecorder from 'reveal.js-plugins/audio-slideshow/recorder.js'
 
-import {init as wikiInit} from 'wikipedia-preview/src/index.js'
+// non-reveal plugins and libraries
+import {init as wikiInit} from 'wikipedia-preview/src/index.js' // wikipedia link popups
+//import "@lottiefiles/lottie-player"; // lottie animations
 
 
 export const deck = new Reveal();

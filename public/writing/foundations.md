@@ -718,7 +718,7 @@ We base these models of the world on our experiences, but what we think of as ou
 * [The Neuroscience of Consciousness – with Anil Seth](https://www.youtube.com/watch?v=xRel1JKOEbI)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/23a.ogg" data-background-image="../images/Retinal_Image.png" -->
+<!-- .slide: data-audio-src="../audio/foundations/23a.ogg" data-background-image="../images/Retinal_Image.webp" -->
 ### How we see
 
 Notes:
@@ -745,7 +745,7 @@ What we see is our brains best guess at what is happening. Other research has in
 * https://www.researchgate.net/figure/Simplified-scheme-of-the-hierarchical-predictive-coding-framework-Friston-2005-2008_fig1_266401430
 
 
-<!-- .slide: data-background-image="../images/natural image reconstruction.png" data-audio-src="../audio/foundations/23d1.ogg" -->
+<!-- .slide: data-background-image="../images/natural image reconstruction.webp" data-audio-src="../audio/foundations/23d1.ogg" -->
 
 <div class="r-stack">
 
@@ -942,7 +942,7 @@ It is precisely the amount of control we have over our digital minds that likely
 # Thank you
 
 1. **Foundations**
-2. ***Past, Present, Future***
+2. [**Past, Present, Future**](../past_present_future/)
 3. Neural Nets <!-- .element: class="low-vis" -->
 4. Data in Practice <!-- .element: class="low-vis" -->
 5. Machine Learning Art <!-- .element: class="low-vis" -->
