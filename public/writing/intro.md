@@ -19,12 +19,16 @@ Notes:
 <!-- .slide: data-audio-src="../audio/intro/01.ogg" data-background-video="../video/SunsetWavesMediumH264_Beachfront-B-roll.mp4" data-audio-advance="1500"-->
 # Five Directions Tutorials <!-- .element: class="r-fit-text" -->
 
-1. **Foundations**
-2. **Past Present Future**
-3. **Neural Nets**
+<div class="backdrop">
+
+1. [**Foundations**](../foundations/) <!-- .element: class="lighten" -->
+2. [**Past Present Future**](../past_present_future/) <!-- .element: class="lighten" -->
+3. [**Neural Nets**](../neural_nets/) <!-- .element: class="lighten" -->
 4. **Data in Practice**
 5. **Machine Learning Art**
-   
+
+</div>
+
 Notes:
 Welcome to a five part tutorial series on machine learning and art. I'm really excited to share this with you, it's been a labour of love. I consider this to be an open source, continually improving work of art, rather than a definitive textbook. Your feedback and improvements are very welcome.
 

@@ -941,11 +941,15 @@ It is precisely the amount of control we have over our digital minds that likely
 <!-- .slide: data-audio-src="../audio/foundations/29.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
+<div class="backdrop">
+
 1. **Foundations**
-2. [**Past, Present, Future**](../past_present_future/)
-3. Neural Nets <!-- .element: class="low-vis" -->
+2. [**Past, Present, Future**](../past_present_future/) <!-- .element: class="lighten" -->
+3. [Neural Nets](../neural_nets/) <!-- .element: class="lighten" -->
 4. Data in Practice <!-- .element: class="low-vis" -->
 5. Machine Learning Art <!-- .element: class="low-vis" -->
+
+</div>
    
 Notes:
 Well, we've made it to the end of the first tutorial. Thank you for your attention. I hope you'll check out the next in the series; Past, Present, Future, where we'll look more deeply at the history of the development of these technologies, the current state-of-the-art and my guesses about the future.

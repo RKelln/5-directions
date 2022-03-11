@@ -4,15 +4,15 @@
 **https://github.com/RKelln/5-directions**
 
 #### Special thanks
-<div class="nobullet center">
+<div class="nobullet center lighten">
 
 * Laura, Jason, Kristy, Liz, and the Harbour Collective
 * InterAccess, OCADU, and the Canada Council for the Arts
 * The Diagonal AI Reading group
-* All the <a title="Thank you Laura, Eric, Dallas, Rinat, Lucas, Rod, Giuliana, Jason, Liz, Graham">beta testers</a>
+* All the <a title="Thank you Laura, Lucas, Giuliana, Eric, Dallas, Rinat, Rod, Jason, Liz, Graham, and Cameron">beta testers</a>
 
 </div>
-<div class="nobullet name">
+<div class="nobullet name lighten">
 
 * [Reveal.js](https://revealjs.com/) slideshow framework by Hakim El Hattab
 * [reveal.js-plugins](https://github.com/RKelln/reveal.js-plugins) by Asvin Goel

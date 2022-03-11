@@ -38,6 +38,9 @@ Finally, we'll discuss the ethics around data collection and the concept of data
 Notes:
 In 1960, Frank Rosenblatt created the Mark 1 Perceptron by combining the McCulloch-Pitts neural model with Hebbian learning in a custom-built electronic machine that used 400 photocells, variable resistors (which are similar to dimmable light switches) and electric motors controlling knobs on the resistors. At the time digital computers were too slow to simulate the neurons in software. The Perceptron was designed for image recognition and the photocells were randomly connected to the neurons.
 
+### Credits
+* https://www.reddit.com/r/EngineeringPorn/comments/e8a7x8/frank_rosenblatt_with_a_mark_i_perceptron/
+
 
 <!-- .slide: data-audio-src="../audio/neural_nets/04.ogg" data-background-image="../images/neural_net.png" data-background-size="contain" data-background-color="grey" -->
 Notes:
@@ -115,7 +118,7 @@ That style of training is too slow, but the basic principles remain the same for
 So, quite bizarrely, in the original Perceptron example the luminance of each pixel suggests gender in some way. There are obvious problems with this, as all the faces would have to be very similar size, similarly positioned in the image and looking the same direction. That it worked at all was quite surprising.
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/12.ogg" data-background-image="../images/linear_vs_nonlinear_classifier.svg" data-background-size="contain" data-background-color="#DDD" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/12.ogg" data-background-image="../images/linear_vs_nonlinear_classifier.svg" data-background-size="contain" data-background-color="#EEE" -->
 Notes:
 The Perceptron was initially promising, but failed to recognize many classes of patterns. It could only do classification when the groups were easily separable. Imagine it was being trained to tell cats from dogs based on two measurements: size and domestication. (This is a trivial example, but it is easier to see when plotting only 2 variables, and the principles hold for any number of variables, such as the 400 variables in the previous 20x20 example input image, but that is difficult to visualize.)
 
@@ -136,20 +139,14 @@ Notes:
 There are three main components to neural net based machine learning: data, model and training. The data or dataset is used to train the network, or model. Once a model has been trained, a slow process taking hours or even weeks, then it can be used on new data, which is called inference. Inference times are usually measured in milliseconds to minutes. So training is slow, but once trained, networks output answers quickly.
 
 ---
-<!-- .slide: data-visibility="hidden" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-overview.mp4" data-background-size="contain" -->
-Notes:
-### Credits <!-- .element: class="attribution" -->
-* [_VGG16 Neural Network Visualization_ by Denis Dmitriev](https://www.youtube.com/watch?v=RNnKtNrsrmg)
-
----
-<!-- .slide: data-audio-src="../audio/neural_nets/14.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-data_collection.mp4" data-background-opacity="0.8" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/14.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-data_collection.mp4" data-background-opacity="0.8" data-background-color="black" -->
 # Data
 
 Notes:
 The data used for a model is the only thing the network can use to be effective at its goal. The hope is that eventually the network will learn to generalize from this data such that when it is given new data that it has never seen before it will be as effective as it was with the data it was trained on.
 
 
-<!-- .slide: data-visibility="hidden" data-audio-src="../audio/neural_nets/15.ogg" data-background-image="../images/TODO" data-background-video="../video/" -->
+<!-- .slide: data-visibility="hidden" data-audio-src="../audio/neural_nets/15.ogg" -->
 ### Data set splits:
 * Training
 * Validation
@@ -167,7 +164,7 @@ Test data is used after the model is finished training to give it another set of
 We'll go into practical details on collecting, cleaning and curating datasets in the next tutorial.
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/16.ogg"  data-background-video="../video/Neural Network 3D Simulation-MLP-3JQ3hYko51Y.mp4" data-background-video-loop data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/16.ogg"  data-background-video="../video/Neural Network 3D Simulation-MLP-3JQ3hYko51Y.mp4" data-background-video-loop data-background-size="contain" data-background-color="black" -->
 # Model <!-- .element: class="hidden" -->
 Notes:
 As in the Perceptron, neural networks are described by a model made of layers of neurons with connections, with an input layer and an output layer. The interior layers between input and output are sometimes refer red to as "hidden layers" inside the "black box" of the outer layers. The construction of the model is done using traditional software programming. The design of model is often the area of research being investigated to see what structure and flows of information between the input and output gets closest to the goals of the researchers.
@@ -176,7 +173,7 @@ As in the Perceptron, neural networks are described by a model made of layers of
 * [_Neural Network 3D Simulation_ - Denis Dmitriev](https://www.youtube.com/watch?v=3JQ3hYko51Y)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/17.ogg" data-background-video="../video/network-propagation.mp4" data-background-video-loop -->
+<!-- .slide: data-audio-src="../audio/neural_nets/17.ogg" data-background-video="../video/network-propagation.mp4" data-background-video-loop data-background-color="black" -->
 Notes:
 In deep learning there are many layers. These are sometimes called Multilayer Perceptrons or MLPs. Part of the engineering of the network consists of choosing how many layers, how many neurons per layer and how the neurons are connected. Layers can be full-connected, where each neuron has a connection to every neuron in the next layer, or sparsely connected.
 
@@ -192,6 +189,9 @@ For example, models dealing with images tend to work well with ten or so layers,
 Notes:
 A model basically describes a set of weights and biases. One way of thinking about training is encoding a representation of the training data into the weights. This is most obvious for generative models like StyleGAN where thousands of images of faces are used to train the model that can then reproduce similar faces. StyleGAN transforms pixel data of faces into a much smaller number of weights and biases in the model that represent the same data a different way. This is a form of data compression. Some information is lost, but a well-designed model that is deep and wide enough will store all the important information such that if you are shown an image it generates you will think it is the same person as an image from the training data even if the exact pixel values aren't the same. Thus, models have a representational capacity that is determined by their size.
 
+### Credits <!-- .element: class="attribution" -->
+* [_StyleGAN3_ - NVidia](https://github.com/NVlabs/stylegan3)
+
 
 <!-- .slide: data-audio-src="../audio/neural_nets/19.ogg" data-background-video="../video/GAN_projection_Obama.mp4" data-background-size="contain" data-background-video-loop -->
 Notes:
@@ -201,7 +201,7 @@ What's truly amazing is that you can find faces of people who were never in the 
 * [_Latent Space Exploration with StyleGAN2_ - Amar Saini](https://amarsaini.github.io/Epoching-Blog/jupyter/2020/08/10/Latent-Space-Exploration-with-StyleGAN2.html)
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/20.ogg" data-background-video="../video/What is backpropagation really doing _ Chapter 3 Deep learning-Ilg3gGewQ5U.mp4" data-background-opacity="0.7" data-background-size="contain" data-background-video-loop -->
+<!-- .slide: data-audio-src="../audio/neural_nets/20.ogg" data-background-video="../video/What is backpropagation really doing _ Chapter 3 Deep learning-Ilg3gGewQ5U.mp4" data-background-opacity="0.7" data-background-size="contain" data-background-video-loop data-background-color="black" -->
 # Training <!-- .element: class="hidden" -->
 
 Notes:
@@ -216,8 +216,7 @@ So training requires forward and backwards passes, an evaluation function and an
 * https://www.3blue1brown.com/lessons/backpropagation
 
 
-
-<!-- .slide: data-visibility="hidden" data-audio-src="../audio/neural_nets/21.ogg" data-background-image="../images/TODO" data-background-video="../video/" -->
+<!-- .slide: data-visibility="hidden" data-audio-src="../audio/neural_nets/21.ogg"  -->
 Notes:
 The optimizer function is modified by a learning rate which controls how much the weights are adjusted and thus how quickly the model can learn. At first it would seem like increasing the learning rate would be a good idea, however large adjustments can overshoot the most effective weight. Each step of the training needs to adjust the weights as much as possible (to speed up learning) without overcompensating.
 
@@ -235,6 +234,9 @@ You'll hear researchers talk about stochastic gradient descent (SGD), the de fac
 ## Local minima <!-- .element: class="hidden" -->
 Notes:
 Imagine this curve described a single connection weight and its error. Our goal is to adjust the weight to get the lowest error. You can see that the "landscape" has hills and valleys, peaks and troughs. Starting from a random weight we can use gradient descent to find the lowest error by taking small steps and seeing if the error is lower or greater. You descend down the slope of the hill (the gradient) to the lowest amount of error. It's possible however to get trapped in local minima if you're at the bottom of a small valley. In both directions the error increases unless you take a much larger step out of the valley.
+
+### Credits
+* https://en.wikipedia.org/wiki/File:Extrema_example_original.svg
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/24.ogg" data-background-video="../video/Optimizers - EXPLAINED!-mdKjMPmcWjY-crop.mp4" data-background-color="#EEE" data-background-size="contain" data-background-video-loop -->
@@ -257,7 +259,7 @@ One last property of neural nets is a bit surprising at first: there isn't a sin
 This to me is one of the beautiful aspects of neural nets. Each model of the same design starts out with random weights, producing indistinguishable noise, and from that random starting point takes a unique journey to one of a vast number of solutions to the same problem. Like us, astonishingly unique and similar at the same time.
 
 ### Credits 
-* The Master Algorithm
+* The Master Algorithm by Pedro Domingos 
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/26.ogg" data-background-image="../images/under and overfitting.webp" data-background-size="contain" data-background-color="#343f4b" -->
@@ -285,11 +287,11 @@ This last idea, called dropout, is illustrative of the power of simplicity. Duri
 * https://en.wikipedia.org/wiki/Overfitting
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/27.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-training.mp4" data-background-size="contain" data-background-video-loop data-background-opacity="0.8" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/27v2.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-training.mp4" data-background-size="contain" data-background-video-loop data-background-opacity="0.8" -->
 ### Hyperparameters <!-- .element: class="fadeout" -->
 
 Notes:
-Training iterations, one full cycle through the training data, are called epochs. The number of epochs to train for, the learning rate, and the initial weights of the network are all called hyperparameters. Hyperparameters are variables that need to be adjusted that affect the results of the training. Each model may have unique hyperparameters that tune the model and there is no way to know for sure what the best hyperparameters are at the start of training, and while there are tools that can automate the search, it is mostly experimental trial and error.
+Training iterations, one full cycle through the training data, are called epochs. The number of epochs to train for, the learning rate, and the initial weights of the network are examples of hyperparameters. Hyperparameters are variables that need to be adjusted that affect the results of the training. Each model may have unique hyperparameters that tune the model and there is no way to know for sure what the best hyperparameters are at the start of training, and while there are tools that can automate the search, it is mostly experimental trial and error.
 
 ### Credits <!-- .element: class="attribution" -->
 * [_VGG16 Neural Network Visualization_ by Denis Dmitriev](https://www.youtube.com/watch?v=RNnKtNrsrmg)
@@ -349,8 +351,8 @@ Yann LeCun has described the relationship between the three as a cake: unsupervi
 
 Training methods can be combined. OpenAI's newest GPT model is trained on unsupervised text and then is fine-tuned using reinforcement learning using human feedback of whether its output is useful or toxic.
 
-### Credits
-* https://www.youtube.com/watch?v=VsnQf7exv5I
+### Credits <!-- .element: class="attribution" -->
+* [Turing Award Lecture "The Deep Learning Revolution" - ACM](https://www.youtube.com/watch?v=VsnQf7exv5I)
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/30.ogg" data-background-image="../images/unsupervised learning.png" data-background-size="contain" data-background-color="white"-->
@@ -359,8 +361,10 @@ Training methods can be combined. OpenAI's newest GPT model is trained on unsupe
 Notes:
 Unsupervised learning is an algorithm that learns patterns from untagged or unlabelled data. The neural net learns a representation that allows it to mimic the data it is trained on. The power of unsupervised learning is that you can predict any part of the input given a smaller observed part. In other words the neural net becomes generative. For example, language models can learn by blanking out words from sentences and guessing which words fill in the blanks. In image in-painting you can block out part of the image and the network can fill in the missing part. No labels are needed because the training only requires hiding parts of the training data.
 
+### Credits <!-- .element: class="attribution" -->
+* [How Do Machines Learn? - Booz Allen Hamilton](https://www.boozallen.com/s/insight/blog/how-do-machines-learn.html)
+  
 ### Credits
-* https://www.boozallen.com/s/insight/blog/how-do-machines-learn.html
 * https://en.wikipedia.org/wiki/Unsupervised_learning
 
 
@@ -370,9 +374,11 @@ The main problem with unsupervised learning is the potential mismatch with human
 
 Thus, unsupervised learning is used in clustering or grouping data and to find all manner of patterns, partitions, relationships or hierarchies. It can also detect anomalies in data or the most important features that are then used for training another neural net.
 
+### Credits <!-- .element: class="attribution" -->
+* [t-SNE visualization of CNN codes - Andrej Karpathy](https://cs.stanford.edu/people/karpathy/cnnembed/)
+
 ### Credits
 * [Invariant Information Clustering for Unsupervised Image Classification and Segmentation](https://arxiv.org/pdf/1807.06653.pdf)
-* https://cs.stanford.edu/people/karpathy/cnnembed/
 
 
 <!-- .slide: data-visibility="hidden" data-audio-src="../audio/neural_nets/32.ogg" data-background-video="../video/Robot's Rock-RcxuXYE9UeY.mp4" data-background-video-loop data-background-video-muted -->
@@ -393,9 +399,11 @@ Supervised learning is also used for regression algorithms that discover the rel
 
 There also exists semi-supervised learning where only a subset of the data is labelled.
 
+### Credits <!-- .element: class="attribution" -->
+* [How Do Machines Learn? - Booz Allen Hamilton](https://www.boozallen.com/s/insight/blog/how-do-machines-learn.html)
+
 ### Credits
 * https://en.wikipedia.org/wiki/Supervised_learning
-* https://www.boozallen.com/s/insight/blog/how-do-machines-learn.html
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/34.ogg" data-background-video="../video/Multi-Agent Hide and Seek-kopoLzvh5jY-720.mp4" data-background-video-loop -->
@@ -404,7 +412,7 @@ There also exists semi-supervised learning where only a subset of the data is la
 Notes:
 This style of learning is used in agents interacting with an environment, either virtual (like a video game) or physical. Importantly the agents actions affect its environment and the agent is trying to maximize a cumulative reward. It does not require labelled training data, but usually the agent must have ways of exploring the environment and its possible actions. Agents balance exploration with reward goals.
 
-### Credits
+### Credits <!-- .element: class="attribution" -->
 * [Multi-Agent Hide and Seek - OpenAI](https://www.youtube.com/watch?v=kopoLzvh5jY)
 
 ### Credits
@@ -431,10 +439,12 @@ Sets of extracted features can be compared. A facial recognition system might co
 Notes:
 The entire set of features learned after training, the model's representation of the training data, can be organized into a latent space. Each point in the space represents a different set of feature values and points closer together are more similar. Generative images models commonly used by artists can create animations by displaying the image at each point in a latent space while moving through the space. Part of the art and fun of generative models is exploring and then moving through the latent space in a performative way.
 
+### Credits <!-- .element: class="attribution" -->
+* [VAE Latent Space Explorer - Taylor Denouden](https://github.com/tayden/VAE-Latent-Space-Explorer)
+
 ### Credits
 * https://en.wikipedia.org/wiki/Feature_(machine_learning)
 * https://towardsdatascience.com/a-tool-for-collaborating-over-gans-latent-space-b7ea92ad63d8
-* https://github.com/tayden/VAE-Latent-Space-Explorer
 
 ---
 
@@ -462,14 +472,20 @@ Typical feed-forward networks take one input and give one output that is wholly 
 Notes:
 Recurrent networks or RNNs add loop or feedback connections. Neurons will connect to themselves or other neurons in previous layers allowing information to be retained between inputs. Simple loops allow for an effective short-term memory. These loops however can cause training problems when using gradient descent.
 
+### Credits <!-- .element: class="attribution" -->
+* [How Recurrent Neural Networks and Long Short-Term Memory Work - Brandon Rohrer](https://e2eml.school/how_rnns_lstm_work.html)
+
 
 <!-- .slide: data-audio-src="../audio/neural_nets/40.ogg" data-background-image="../images/LSTM.png" data-background-size="contain" data-background-color="#0b5394" -->
 Notes:
 More complicated loops add learnable forgetting so that neurons can learn to retain information for different amounts of time, which then allows for much longer recall of information. One technique is called Long short-term memory or LSTM. An LSTM component learns what data is relevant to keep and which to ignore. It can remember values over arbitrary time intervals because it regulates the flow of information in and out of the LSTM. 
 
+### Credits <!-- .element: class="attribution" -->
+* [How Recurrent Neural Networks and Long Short-Term Memory Work - Brandon Rohrer](https://e2eml.school/how_rnns_lstm_work.html)
+
 ### Credits
 * https://en.wikipedia.org/wiki/Long_short-term_memory
-* https://e2eml.school/how_rnns_lstm_work.html
+
 ---
 <!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/41.ogg" data-background-image="../images/Google cat neuron.webp" data-background-size="contain" -->
 ## Convolutional neural nets
@@ -488,7 +504,7 @@ Individual cortical neurons only respond to stimuli in a small region of the vis
 Notes:
 Images have a lot of data to process if each channel (red, green, blue) of each pixel is represented by a neuron. A 1000x1000 RGB image would have 3 million weights, making it difficult to process in a fully connected network. A CNN converts overwhelming pixel image data into a form that is easier to process - a feature map, also called an activation map. This operation extracts features such as edges, colours, and gradient orientation from the pixel data. 
 
-### Credits
+### Credits <!-- .element: class="attribution" -->
 * [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901)
 
 
@@ -522,7 +538,7 @@ Notes:
 Generative Adversarial Networks or GANs are popular models for image creation. Created in 2014, GANs solve some tricky problems. First, how do you teach a machine to mimic a large amount of complex data? The first attempts by a neural net will be so bad it won't have any positive signal to follow to improve upon. This can be also thought of as, how do you reduce the difficulty of the task so that learning can happen. Second, how do you automatically judge whether generated complex data is correct? How does the machine judge when your flower image generator produces a flower?
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/45.ogg" data-background-image="../images/GAN_diagram.png" data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/45.ogg" data-background-image="../images/GAN_diagram.png" data-background-size="contain" data-background-color="white" -->
 Notes:
 GANs are a brilliant solution to these problems - by creating two neural nets that learn in tandem. One network is the discriminator or critic, the other is the image generator, and together they can be thought of as playing a competitive game. The generator creates images, trying to match or mimic the training data images, the discriminator's role is to judge whether images are "real" (from the training data) or "fake" (from the generator). Each round of the training game the generator makes an image and the discriminator is given a real image and a fake image and asked to judge it. When the discriminator judges the fake generated image as real, the generator is given a positive signal - its on the right track. When the fake is spotted, it is given a negative signal. The discriminator is learning too, getting better at distinguishing real from fake.
 
@@ -530,10 +546,13 @@ Importantly, both the discriminator and the generator start out randomly, absolu
 
 GANs are also interesting since they have a correlation with other phenomenon such as camouflage, mimicry and other evolution driven by discriminative competition.
 
+### Credits <!-- .element: class="attribution" -->
+* [Generative Adversarial Network (GAN) for Dummies - Michel Kana](https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-by-step-tutorial-fdefff170391)
+
 ### Credits
 * https://thegradient.pub/playing-a-game-of-ganstruction/
 * https://en.wikipedia.org/wiki/Generative_adversarial_network
-* https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-by-step-tutorial-fdefff170391
+
 ---
 
 <!-- .slide: data-background-video="../video/Audio-reactive Latent Interpolations with StyleGAN 720 -2LxHRGppdpA.mp4" -->
@@ -743,7 +762,7 @@ One thing the machines have going for them is much more transparency and easier 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/63.ogg" data-background-image="../images/poverty_neuron.webp" data-background-size="contain" data-background-color="white" -->
 Notes:
-For example, OpenAI's microscope project documents each neuron in some of their models. You can explore their site by clicking on the link in the top right. I've started you at a bizarre and disturbing multi-modal neuron in the CLIP model that responds strongly to a machine learned concept combining wanting, unemployment, poverty and homelessness. (But from whose perspective?) On the right are feature visualizations using a deepdream technique to show optimal images to activate the neuron, the smaller images are from ImageNet that most activate the neuron, and similarly for the text prompts. Peering at the details of any mind will be fascinating, confusing and disturbing with an uneasy sense of violation as the most deeply private becomes inspectable.
+For example, OpenAI's microscope project documents each neuron in some of their models. You can explore their site by clicking on the link in the top right. I've started you at a bizarre and disturbing multi-modal neuron in the CLIP model that responds strongly to a machine learned concept combining wanting, unemployment, poverty and homelessness. (But from whose perspective?) On the left are feature visualizations using a deepdream technique to show optimal images to activate the neuron, the smaller images are from ImageNet that most activate the neuron, and similarly for the text prompts. Peering at the details of any mind will be fascinating, confusing and disturbing with an uneasy sense of violation as the most deeply private becomes inspectable.
 
 ### Credits <!-- .element: class="attribution" -->
 * [OpenAI Microscope of Neuron #237](https://microscope.openai.com/models/contrastive_4x/image_block_4_4_Add_6_0/237)
@@ -817,7 +836,7 @@ The symbolic AI camp continues to point out that neural nets have no common sens
 Pedro Domingos in _The Master Algorithm_ puts it this way:
 
 
-<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/68.ogg"  data-audio-src="../audio/neural_nets/67.ogg" data-background-image="../images/a_black_box_inside_a_mans_head_2.webp" -->
+<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/68.ogg"  data-background-image="../images/a_black_box_inside_a_mans_head_2.webp" -->
 Take commonsense reasoning. It involves combining pieces of information that may have never been seen together before. Did Mary eat a shoe for lunch? No, because Mary is a person, people only eat edible things, and shoes are not edible. Symbolic systems have no trouble with this — they just chain the relevant rules — but multilayer perceptrons can’t do it; once they’re done learning, they just compute the same fixed function over and over again. Neural networks are not compositional, and compositionality is a big part of human cognition. Another big issue is that humans — and symbolic models like sets of rules and decision trees — can explain their reasoning, while neural networks are big piles of numbers that no one can understand. <!-- .element: class="quote" style="font-size: 60%" -->
 _Pedro Domingos in "The Master Algorithm"_ <!-- .element: class="attribution" -->
 
@@ -848,12 +867,15 @@ Nonetheless, current neural nets are terrible at reasoning, but exploring how to
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/70.ogg" data-background-image="../images/Abraham_the_autonomous_AI_artist_stochastic_parrots.webp" -->
-## No Understanding <!-- .element: class="fadeout" -->
+## Stochastic Parrots <!-- .element: class="fadeout" -->
 
 Notes:
 In a famous paper entitled, "On the Dangers of Stochastic Parrots" the authors make the assumption that deep learning will never understand language. The generated text can be seemingly coherent, but this is in the eye of the beholder, and we know how much humans love to have a coherent model of the world. Because the machine never models our mental state it isn't communicating, instead it is using statistical models to parrot language that only appears to be relevant because it was relevant in recordings of real communication it was trained on. Communication, as they see it, is constructed from mutual interpretation of the actual thoughts and intent of the communicators. Mimicry provides no intent or understanding.
 
 There has been a great deal of philosophy written on this topic, too much to cover here, but I will point out a few things. This conception of communication is very beautiful, but it may not be useful.
+
+### Credits
+* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922) by Emily M. Bender, Timnit Gebru, Angelina McMillan-Major and Shmargaret Shmitchell
 
 
 <!-- .slide: class="panup" data-audio-src="../audio/neural_nets/71.ogg" data-background-image="../images/the_Dangers_of_Stochastic_Parrots.webp" data-background-size="contain" -->
@@ -861,14 +883,11 @@ Notes:
 We may not need much true communication with machines, and indeed, communicating with something with no agency / consciousness / intention or general intelligence is essentially pointless **if** the goal is to understand how they understand themselves or what they want. Language-based interfaces to powerful tools however can be useful as long as they allow us to control the machine or otherwise help it understand **our** intent or how we think. As I mentioned in the second tutorial, the ethics of machines with their own intent is quite dubious, but machines that absorb and reflect our own intent (and not that of others) are safer and potentially more useful. 
 
 
-<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/72.ogg" data-background-image="../images/unexplainable_AI_creating_art.webp"  data-background-color="black"-->
+<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/72v2.ogg" data-background-image="../images/unexplainable_AI_creating_art.webp"  data-background-color="black"-->
 Notes:
 Imagine a machine intelligence that acts as a personal teacher. It may only be able to mimic recordings of great teachers and how those teachers responded to students with our level of understanding, but that is certainly useful. Add in a feedback loop where the teaching style is optimized for the students acquired knowledge and learning style, and you may not have true communication, but the student's mind is being shaped by the teacher and, in turn, the teacher is responsive to those changes. That smells like communication. Many worry that the teacher would promote normative ideas, which is certainly true, but that is a dataset curation and training problem, not one of understanding. Perhaps, returning to the beauty of the paper's author's position, there isn't much difference between training that identifies how language would affect others and understanding. Brian Cantwell Smith suggests as much in his view of judgment being required for general intelligence. We could close the loop by having the machine teach the student how language affects others based on its own experiences.
 
 Finally, a case in point, exploring what happens as the proficiency of language mimicry increases may be the basic science that helps us understand the development of "real" communication.
-
-### Credits
-* On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? by Emily M. Bender, Timnit Gebru, Angelina McMillan-Major and Shmargaret Shmitchell. https://dl.acm.org/doi/10.1145/3442188.3445922
 
 ---
 
@@ -930,11 +949,17 @@ Notes:
 
 What the heck is going on? Why are the labels so bad and comprised of a list of weird synonyms?
 
+### Credits
+* [Excavating AI - Kate Crawford & Travor Paglen](https://excavating.ai/)
+
 
 <!-- .slide: data-audio-src="../audio/neural_nets/77.ogg"  -->
 <img data-src="../images/imagenet-interface.jpg">
 Notes:
-They correctly point out that, "the automated interpretation of images is an inherently social and political project, rather than a purely technical one." The labels came from humans, but it is not enough to just blame it on the humans. These were the labour of Mechanical Turk workers, with a median income of $2 an hour, paid per label, so speed is important. The location of workers is skewed heavily towards the US and India. Even more subtle is that pay may be withheld if the answers are not deemed acceptable, so workers are incentivized to guess what the employer wants or align with other workers by defaulting to broad (but culturally specific) stereotypes. Even more subtle, the interface for ImageNet doesn't show an image and ask the worker to label it, rather workers are given a label and then select all images "that contain the object or depict the concept of". The labels themselves are 1000 selected from another dataset called WordNet which is organized in a specific (very symbolic) way that includes connecting synonyms. There are curious categories of hot lines, hot pants, hot plates, hot pots, hot rods, hot sauce, hot springs, hot toddies, hot tubs, hot-air balloons, hot fudge sauce, and hot water bottles. So the imagenet workers didn't label an image with a long set of synonyms, but the reverse, they "labelled" a set of word synonyms with images. So you see, details matter.
+They correctly point out that, "the automated interpretation of images is an inherently social and political project, rather than a purely technical one." The labels came from humans, but it is not enough to just blame it on the humans. These were the labour of Amazon Mechanical Turk workers, that work from home, paid per label, with a median income of $2 an hour, so speed is important. The location of workers is skewed heavily towards the US and India. Even more subtle is that pay may be withheld if the answers are not deemed acceptable, so workers are incentivized to guess what the employer wants or align with other workers by defaulting to broad (but culturally specific) stereotypes. Even more subtle, the interface for ImageNet doesn't show an image and ask the worker to label it, rather workers are given a label and then select all images "that contain the object or depict the concept of". The labels themselves are 1000 selected from another dataset called WordNet which is organized in a specific (very symbolic) way that includes connecting synonyms. There are curious categories of hot lines, hot pants, hot plates, hot pots, hot rods, hot sauce, hot springs, hot toddies, hot tubs, hot-air balloons, hot fudge sauce, and hot water bottles. So the imagenet workers didn't label an image with a long set of synonyms, but the reverse, they "labelled" a set of word synonyms with images. So you see, details matter.
+
+### Credits
+* [Excavating AI - Kate Crawford & Travor Paglen](https://excavating.ai/)
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/78.ogg" data-background-image="../images/a_black_box_that_no_one_can_see_inside.webp" -->
@@ -942,6 +967,9 @@ What are computers meant to recognize in an image and what is misrecognized or e
 
 Notes:
 Crawford and Paglen also ask the important question: "What are computers meant to recognize in an image and what is misrecognized or even completely invisible?"
+
+### Credits
+* [Excavating AI - Kate Crawford & Travor Paglen](https://excavating.ai/)
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/79.ogg"  -->
@@ -951,6 +979,9 @@ There is an abundance of politics here if you explore the excavating site.
 
 Importantly, every image that is labelled in this way is removing a connection to more accurate labels for the AI to train on. General categories, such as "woman", with negative sub-category labels ("slut"), then make invisible more neutral or positive sub-labels like "mother".
 
+### Credits
+* [Excavating AI - Kate Crawford & Travor Paglen](https://excavating.ai/)
+
 
 <!-- .slide: data-audio-src="../audio/neural_nets/80.ogg" data-background-image="../images/Imagenet_face_blur_examples.webp" data-background-size="contain" -->
 Notes:
@@ -959,7 +990,7 @@ There is another huge unrelated ethical question for ImageNet. The people depict
 The good news is that researchers are working on these issues. Recently ImageNet has removed problematic descriptions in the "person" subtree (removing over half of the images). They also removed non-imageable concepts, such as "philanthropist", and blurred faces in photos where the people were incidental. But problems remain, especially outside the person subtree.
 
 ### Credits
-* https://excavating.ai/ 
+* [Excavating AI - Kate Crawford & Travor Paglen](https://excavating.ai/)
 * https://www.vice.com/en/article/88apnv/underpaid-workers-are-being-forced-to-train-biased-ai-on-mechanical-turk
 * The Limits of Global Inclusion in AI Development by Alan Chan, Chinasa T. Okolo, Zachary Terner, Angelina Wang : https://arxiv.org/pdf/2102.01265.pdf
 * https://www.image-net.org/update-sep-17-2019.php
@@ -979,6 +1010,9 @@ There is a growing, and much needed, push toward open data. This movement has go
 As we discussed in other tutorials the advent of digital technologies means that data is more easily collected, stored, copied and distributed than ever, and this leads to a moral obligation to provide for the benefit of others when the cost is trivial.
 
 In 2016 the FAIR guiding principles were published - intended for scientific data, they are good basic principles for all consequential data:
+
+### Credits <!-- .element: class="attribution" -->
+* [FAIR Principles](https://www.go-fair.org/fair-principles/)
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/82.ogg" data-background-image="../images/fair-principles.jpg" data-background-size="contain" data-background-color="white" -->
@@ -1000,11 +1034,11 @@ FAIR principles are technically oriented, but are essential to the practical cha
 * https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/83.ogg" data-background-image="../images/blood_quantum.webp" data-background-size="contain"-->
-## Understanding ethics <!-- .element: class="fadeout" -->
+<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/83v2.ogg" data-background-image="../images/blood_quantum.webp" data-background-size="contain"-->
+## Data ethics <!-- .element: class="fadeout" -->
   
 Notes:
-Once the basic technical requirements of openness are in place we can focus on the ethics of data sharing. Marginalized communities are uniquely placed to understand the systems they operate in. They have often been subject to the contradictions in those systems that have been used against them both ways. In turn, they are able to identify the tensions and contradictions in those systems that can be leveraged to bring about change. An infamous example is the "blood quantum" and "Indian register" practices of the US and Canada, where Indigenous peoples were forced to register with the settler government. Qualifying for the register could depend on their ancestry as well as who they married. Inclusion on the register was used to disenfranchise voting rights and civic participation and exclusion was used to deny land and other treaty rights.
+Once the basic technical requirements of openness are in place we can focus on the ethics of data use and sharing. Marginalized communities are uniquely placed to understand the systems they operate in. They have often been subject to the contradictions in those systems that have been used against them both ways. In turn, they are able to identify the tensions and contradictions in those systems that can be leveraged to bring about change. An infamous example is the "blood quantum" and "Indian register" practices of the US and Canada, where Indigenous peoples were forced to register with the settler government. Qualifying for the register could depend on their ancestry as well as who they married. Inclusion on the register was used to disenfranchise voting rights and civic participation and exclusion was used to deny land and other treaty rights.
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/83-2.ogg" data-background-image="../images/GIDA_FAIR_CARE.webp" data-background-size="contain" data-background-color="#5eb2b2" -->
@@ -1017,10 +1051,10 @@ The Global Indigenous Data Alliance (GIDA) sets out some principles, called CARE
 * **Ethics**: The communities rights and wellbeing should be considered at all stages of the data life cycle and across the ecosystem.
 
 ### Credits <!-- .element: class="attribution" -->
-* https://www.gida-global.org/care
+* [GIDA CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/83-3.ogg" data-background-image="../images/Suzanne_Kite.webp" data-background-size="contain" data-background-color="black" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/83-3.ogg" data-background-image="../images/Suzanne_Kite.webp" data-background-size="contain" data-background-opacity="0.8" data-background-color="black" -->
 ## How to Build Anything Ethically <!-- .element: class="fadeout" -->
 Notes:
 The notion of a data ecosystem and life cycle I think are strong concepts to convey some subtle details. Suzanne Kite's _How to Build Anything Ethically_ article in the 2020 Indigenous Protocol and Artificial Intelligence position paper lays this out beautifully, 
@@ -1099,7 +1133,7 @@ If participation is permissionless, what about issues of cultural appropriation?
 * http://pkmital.com/home/2021/09/01/ucla-course-on-cultural-appropriation-with-machine-learning/
 
 
-<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/89.ogg" data-background-image="../images/ownership_vs_authorship_game_of_authors.webp"  -->
+<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/89.ogg" data-background-image="../images/ownership_vs_authorship_game_of_authors.webp" -->
 ## Ownership vs authorship <!-- .element: class="fadeout" -->
 
 Notes:
@@ -1110,6 +1144,9 @@ I think it's important to first be clear that ownership and authorship are not e
 Notes:
 Even more importantly, open source communities have been promoting a broadening of authorship to recognize all contributors. Removing the heroizing of a singular authors is going to be a challenge for the art community, that often turns artists into brands for financial gain. Nonetheless, fair, equitable and inclusive recognition of contribution is essential to the practice of making things in a good way.
 
+### Credits <!-- .element: class="attribution" -->
+* This image was created by [Scriberia](http://www.scriberia.co.uk/) for The Turing Way community and is used under a CC-BY licence.
+
 
 <!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/91.ogg" data-background-image="../images/a_lightbulb_wearing_a_crown.webp"  -->
 ## Intellectual property
@@ -1117,14 +1154,16 @@ Even more importantly, open source communities have been promoting a broadening 
 The phrase 'intellectual property' is, at root, a dangerous euphemism that leads us to all sorts of faulty reasoning about knowledge.
 ...So the term 'intellectual property,' in that world of monopolies, actually has a very crisp and highly specific commercial meaning: IP is any rule that I can invoke that will allow me to control the conduct of my customers, my critics, and my competitors.
 ...[The ideology of the Right is] the belief that some of us were born to rule, and some of us were born to be ruled over. [In the case of IP, that] some people have the great ideas and, when their ideas are protected, they’ll make more great ideas.<!-- .element: class="quote" -->
-_Cory Doctorow_<!-- .element: class="attribution" -->
+_Cory Doctorow_ <!-- .element: class="attribution" -->
 
 Notes:
 As Cory Doctorow writes, "the phrase 'intellectual property' is, at root, a dangerous euphemism that leads us to all sorts of faulty reasoning about knowledge." IP, copyright, and patents are terms that define state granted monopolies. "So the term 'intellectual property,' in that world of monopolies, actually has a very crisp and highly specific commercial meaning: IP is any rule that I can invoke that will allow me to control the conduct of my customers, my critics, and my competitors." This power is enmeshed with his description of the ideology of the Right - "the belief that some of us were born to rule, and some of us were born to be ruled over." In the case of IP, that only "some people have the great ideas and, when their ideas are protected, they’ll make more great ideas." 
 
+### Credits <!-- .element: class="attribution" -->
+* [Novelist Cory Doctorow on the Problem With Intellectual Property - Jacobin](https://jacobinmag.com/2021/05/cory-doctorow-interview-bill-gates-intellectual-property)
+  
 ### Credits
 * https://freesouls.cc/essays/05-cory-doctorow-you-cant-own-knowledge.html
-* https://jacobinmag.com/2021/05/cory-doctorow-interview-bill-gates-intellectual-property
 
 
 <!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/92.ogg" data-background-image="../images/a_lightbulb_wearing_a_crown.webp"  data-background-size="contain" data-background-color="#281c04" -->
@@ -1132,7 +1171,7 @@ Notes:
 This sort of ownership thinking contradicts participation without permission, even though the benefactors of monopoly might insist that anyone can have great ideas, it ignores the result that control of an idea creates the mechanisms to control related ideas.
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/93.ogg" data-background-image="../images/Local_Contexts.webp" data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/93.ogg" data-background-image="../images/Local_Contexts.webp" data-background-size="contain" data-background-color="white" -->
 Notes:
 So let us reject appropriation related to ownership and intellectual property and instead look at it from other contexts. The Local Contexts project founded by Jane Anderson and Kim Christen in 2010, aims to enhance and legitimize frameworks for culturally appropriate access to cultural heritage and Indigenous data. They provide a system of labels, tested within different Indigenous communities, that express local and specific conditions for participating in relationships with communities and their data. These labels are intended as templates to be customized by each community.
 
@@ -1140,8 +1179,8 @@ This sort of labelling invites responsibility, and helps clarify what responsibi
 
 Let's look at a few of these labels to see what sort of issues they address. I'll let you read them for yourself, press the right arrow to continue when ready. 
 
-# Credits
-* https://localcontexts.org/
+### Credits <!-- .element: class="attribution" -->
+* [Local Contexts](https://localcontexts.org/)
 
 
 <!-- .slide: data-background-color="rgb(250,247,247)" data-audio-advance="-1" -->
@@ -1150,6 +1189,10 @@ Let's look at a few of these labels to see what sort of issues they address. I'l
 ### TK Clan
 This Label should be used when you would like external users to know that this material is subject to conditions for circulation relating to clan membership and/or is according to protocols for clan relationships. Because these conditions have not historically been recognized, this Label helps make these conditions for use and circulation clearer. Specifically, the Label asks future users to respect culturally specific rules of use and to make informed decisions about using this type of material. <!-- .element: class="small left" -->
 
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [TK Clan (TK CL) - Local Contexts](https://localcontexts.org/label/tk-clan/)
+
 
 <!-- .slide: data-background-color="rgb(250,247,247)" data-audio-advance="-1" -->
 <img data-src="../images/tk_label_v.png">
@@ -1157,42 +1200,54 @@ This Label should be used when you would like external users to know that this m
 ### TK Verified (TK V)
 This Label should be used when you and your community are satisfied with the way in which your traditional knowledge materials are being represented online or offline. This Label affirms that appropriate conditions for access and use are in place and that whoever has made this material accessible has made accommodations for cultural protocols associated with the knowledge. It lets users know that the right thing is being done by your community protocols and standards. <!-- .element: class="small left" -->
 
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [TK Verified (TK V) - Local Contexts](https://localcontexts.org/label/tk-verified/)
+
 
 <!-- .slide: data-background-color="rgb(250,247,247)" data-audio-advance="-1" -->
 <img data-src="../images/tk_label_ss.png">
 
 ### TK Secret / Sacred
-This Label should be used when you want to let external users know that the material that is openly circulating contains secret/sacred information and that it has specific conditions of access and use. These conditions potentially include restrictions upon access. Using this Label helps to alert external users that this material is special and requires respectful and careful treatment. It asks users to make different decisions about using it and, importantly, to discuss any potential use with you. <!-- .element: class="small" -->
+This Label should be used when you want to let external users know that the material that is openly circulating contains secret/sacred information and that it has specific conditions of access and use. These conditions potentially include restrictions upon access. Using this Label helps to alert external users that this material is special and requires respectful and careful treatment. It asks users to make different decisions about using it and, importantly, to discuss any potential use with you. <!-- .element: class="small left" -->
+
+Notes:
+### Credits <!-- .element: class="attribution" -->
+* [TK Secret / Sacred (TK SS) - Local Contexts](https://localcontexts.org/label/tk-secret-sacred/)
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/94.ogg" data-background-image="../images/taking_responsibility_and_developing_relationships.webp" data-background-size="contain"  -->
+<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/94v2.ogg" data-background-image="../images/taking_responsibility_and_developing_relationships.webp" data-background-size="contain"  -->
 Notes:
 The Local Contexts project acknowledges existing cultural contexts around the sharing of information. As such it provides for secret or sacred knowledge as well as gender restricted knowledge. 
 
 Here we can see a clear tension between open data and existing cultural practices. Is there a reasonable distinction between intellectual property and other limits to information sharing? How can you offer participation with specific exclusions? I don't have easy answers to this, but encourage an exploration rooted in principles of relational ethics and responsibility.
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/95.ogg" data-background-image="../images/explainable_AI_BLM.webp" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/95v2.ogg" data-background-image="../images/explainable_AI_BLM.webp" data-background-size="contain" data-audio-advance="1000" -->
 ## Falling in love <!-- .element: class="fadeout" -->
 
 Notes:
 Like Parag Mital, I would urge you to think carefully about tools that use data you didn't produce to generate public representations of that data. Heck, I'd be extra careful with data you did produce because of potentially misguided feelings of ownership of that data.
 
-Part of the beauty of machine learning art is a sense of diverse contribution and being a guide to the world, rather than having perfect control. So too control over data may be a false goal, instead I would ask you to fall in love with data, get to know it and celebrate and respect where it comes from. Build a responsible relationship with it and the human and nonhuman communities it is a part of. 
+Part of the beauty of machine learning art is a sense of diverse contribution and being a guide to the world, rather than having perfect control. So too control over data may be a false goal, instead I would ask you to fall in love with data, get to know it and celebrate and respect where it comes from. Do not claim to own the data, instead build a responsible relationship with it and the human and nonhuman communities it is a part of. 
 
 If we were to outlaw falling in love under the guise of inappropriate cultural appropriation we would be supporting a regime where cultural purity trumps diversity and inclusion.
 
-Instead, let's create greater freedoms together based on establishing strong relationships, responsibility and consent to best achieve participation without permission.
+Let's create greater freedoms together based on establishing strong relationships and responsibility to each other to best achieve consensual participation without permission.
 ---
 <!-- .slide: data-audio-src="../audio/neural_nets/96.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
-1. [**Foundations**](../foundations/)
-2. [**Past, Present, Future**](../past_present_future/)
+<div class="backdrop">
+
+1. [Foundations](../foundations/) <!-- .element: class="lighten" -->
+2. [Past, Present, Future](../past_present_future/) <!-- .element: class="lighten" -->
 3. **Neural Nets**
 4. ***Data in Practice***
 5. Machine Learning Art <!-- .element: class="low-vis" -->
-   
+
+</div>
+
 Notes:
 Well, that's the end of the third tutorial. Thank you for your attention. I hope you'll check out the next in the series; Data in Practice, where we'll take a practical look at finding, cleaning and curating training data for your art projects.
 

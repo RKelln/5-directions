@@ -60,6 +60,11 @@ section.has-light-background h6 {
 .reveal .detail {
   font-size: 66%;
 }
+
+.reveal .lighten {
+  filter: brightness(140%);
+}
+
 @keyframes reveal {
   0% {
     opacity: 0;

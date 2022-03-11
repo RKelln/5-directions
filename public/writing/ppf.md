@@ -2354,12 +2354,16 @@ There is a future filled with these miracles. It requires good judgment to creat
 <!-- .slide: data-audio-src="../audio/ppf/43.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
-1. [**Foundations**](../foundations/)
+<div class="backdrop">
+
+1. [Foundations](../foundations/) <!-- .element: class="lighten" -->
 2. **Past, Present, Future**
-3. [**Neural Nets**](../neural_nets/)
+3. [**Neural Nets**](../neural_nets/) <!-- .element: class="lighten" -->
 4. Data in Practice <!-- .element: class="low-vis" -->
 5. Machine Learning Art <!-- .element: class="low-vis" -->
-   
+
+</div>
+
 Notes:
 Well, we've made it to the end of the second tutorial. Thank you for your attention. I hope you'll check out the next in the series; Neural Nets, where we'll look more deeply at neural net technologies and data ethics.
 

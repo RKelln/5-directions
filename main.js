@@ -233,11 +233,15 @@ if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and 
 
 // If the page is hidden, pause the video;
 // if the page is shown, play the video
-function handleVisibilityChange() {
+let prev_pause_state;
+function handleVisibilityChange() { 
   if (document[hidden]) {
+    prev_pause_state = paused;
     pause();
   } else {
-    play();
+    if (!prev_pause_state) {
+      play(); 
+    }
   }
 }
 
