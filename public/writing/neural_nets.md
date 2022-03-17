@@ -433,6 +433,9 @@ In earlier machine learning practice features were determined manually by humans
 
 Sets of extracted features can be compared. A facial recognition system might compare the features in a photo of your face to the features in a new photo to identify you in it.
 
+### Credits
+* https://distill.pub/2020/circuits/zoom-in/
+
 
 <!-- .slide: data-audio-src="../audio/neural_nets/36.ogg" data-background-image="../images/latent_space_exploration.gif" -->
 ## Latent spaces <!-- .element: class="fadeout" -->

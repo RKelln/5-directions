@@ -9,10 +9,12 @@
   "devDependencies": {
     "jszip": "^3.7.1",
     "less": "^4.1.2",
+    "markdown-modest": "github:RKelln/modest",
     "recordrtc": "^5.6.2",
     "reveal.js": "^4.2.1",
     "reveal.js-plugins": "github:RKelln/reveal.js-plugins",
     "vite": "^2.8.6",
+    "vite-plugin-markdown": "^2.0.2",
     "wikipedia-preview": "^1.4.4"
   }
 }
