@@ -372,7 +372,8 @@ You can also collect images manually, although be prepared to invest a lot of ti
 * [Rawpixel PD](https://www.rawpixel.com/category/53/public-domain)
 * [Pexels PD](https://www.pexels.com/public-domain-images/)
 * [Unsplash](https://unsplash.com/)
-
+* [Art Institute Chicago](https://www.artic.edu/collection?is_public_domain=1)
+  
 <a href="#top" class="doc-nav top">back to top</a>
 
 
