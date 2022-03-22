@@ -1,35 +1,34 @@
 # Data in Practice
 
-This is the companion document to the [Data in Practice tutorial](../data_in_practice/).
+This is the companion document to the [Data in Practice tutorial](../data_in_practice/), part four of the [Five Directions](../) art and machine learning tutorials.
+
+<a id="top"></a>
 
 ## Overview
 
-* Selection
-* Dataset discovery
-* Preprocessing
+* [Selection](#selection)
+* [Preprocessing](#preprocessing)
+* [Dataset discovery](#dataset-discovery)
 * Dataset types:
-  * Times series
-  * Image
-  * Text
-  * Audio
-  * Video
-* Avoiding pitfalls
-* Making things ethically
-  * FAIR, CARE & Local Contexts
-  * Questions
-  * Maintenance
+  * [Time series](#time-series-datasets)
+  * [Image and Video](#image-datasets)
+  * [Text](#text-datasets)
+  * [Audio](#audio-datasets)
+* [Data pitfalls](#pitfalls)
+* [Making things ethically](#ethics)
+  * [FAIR, CARE & Local Contexts](#fair-care)
+  * [Maintenance](#maintenance)
   
-We'll start off by talking about how to select and augment a dataset, then talk about tools for finding existing datasets.
+We'll start off by talking about how to select and augment a dataset and the work that goes into preparing the dataset before it can be safely used as training data. Then we'll talk about tools for finding existing datasets.
 
-Next we'll talk about all the work that goes into preparing the dataset before it can be safely used as training data.
+We'll look at the different types of datasets and discuss bias and fair distribution in more detail, as well as tools to explore and handle those issues.
 
-Then we'll go into the details for the different types of datasets and discuss bias and fair distribution in more detail, as well as tools to explore and handle those issues.
-
-We'll end with a bit more theory, but from a practical perspective, for how to make a dataset ethically.
+Next I'll revisit how to make datasets ethically with a focus on care work and maintenance of the dataset.
 
 Our goal is to get you started on finding or recording your own data, then cleaning and curating it so that it can be used in an ML project done in collaboration with ML engineers. We'll learn how to do this in a Good Way, and share it ethically with others.
 
 ---
+<a id="selection"></a>
 
 # Selection
 
@@ -51,13 +50,19 @@ If you don't have enough data there some options, we'll get into specifics for t
 
 #### Augmentation 
 
-Augmentation means applying transformations to your data, usually dynamically during training. For images this almost always includes horizontal flips, as most images are equivalent when mirrored. 
+![Image augmentation example](../images/image_aug_examples_grid.jpg)
+
+Augmentation means applying transformations to your data, usually dynamically during training. For images this almost always includes horizontal flips, as most images are equivalent when mirrored. See the [augmentation](#augmentation) section for more details.
 
 
 #### Transfer learning
 
 Transfer learning involves finding and using an existing fully trained network then using that to help train a new one. This can be done through retraining the model or using it as a teacher for your new student model. In the first case, sometimes the pretrained model has some layers removed, generally the highest level ones. Model layers start from generic to task/data specific in the final layer. For example, if you are creating an image model you could take an existing image classification model trained on millions of images and replace the last layer (which is doing the classification) with new layers. You could remove a few more layers if you just wanted to keep the lower-level feature detection.
 
+<figure>
+<img src="../images/GAN-Sarin-Japanese_landscape_1.jpg" alt="Helena Sarin example" loading="lazy">
+<figcaption><a href="https://aiartists.org/helena-sarin">Helena Sarin's</a> image <em>"troops of tourists come for april flower-viewing oh, they're sparrow-men"</em> from a model pretrained on landscapes and then fine-tuned on Japanese poetry book covers.</figcaption>
+</figure>
 
 #### Synthetic data
 
@@ -65,14 +70,22 @@ A final approach is synthetic data, in which at least some portion of the data i
 
 Synthetic data may be an interesting approach in generative art making as it allows for interesting combinations of data. For example, one of my pieces I used one technique to do style-transfer of multiple different styles on to still images and then used those stylized images to train a generative model that could produce video animations of moving from one style to another.
 
-Artists like Hans Brouwer use similar techniques to solve the problem of building an interesting dataset. In practice this might be a few cycles of generation through a model, synthetic transformation of the output, and then feeding that back through the model again and repeating this loop a number of times.
+<figure>
+<img src="../images/hot_bod_synthetic_data.webp" alt="Hot Bod synthetic data example" loading="lazy">
+<figcaption>Example of multi-style transfer to video stills to create training data for a GAN from my <a href="https://www.youtube.com/watch?v=C8PAehTUsQw">Hot Bod</a> video.</figcaption>
+</figure>
+
+Artists like [Hans Brouwer](https://wavefunk.xyz/) use [similar techniques](https://wavefunk.xyz/blog/lakspe) to solve the problem of building an interesting dataset starting from just a few images. In practice this might be a few cycles of training and then creating a first draft of output, applying some transformation to that output, and then feeding those transformed images back through the model again. He repeats this loop a number of times, increasing the number of good training images each time.
 
 ### Links
 * https://machinelearningmastery.com/transfer-learning-for-deep-learning/
 * https://wavefunk.xyz/blog/lakspe 
 * https://wavefunk.xyz/blog/rhodops
 
+<a href="#top" class="doc-nav top">back to top</a>
+
 ---
+<a id="preprocessing"></a>
 
 # Preprocessing
 
@@ -85,7 +98,7 @@ Raw data is a mess and an old adage in computer science is "garbage in, garbage 
 
 Some basic tasks include cleaning the data, balancing the data between classes (for example, you wouldn't want 100 times as many dogs as cats), checking the range of feature values and ensuring all the data has roughly similar ranges or sizes.
 
-Then you may want to split your data into training, validation and test sets. By splitting your data and holding some it back from training you are able to better test when your model is generalizing well to data other than what has been trained on.
+Then you may want to split your data into training, validation and test sets. By splitting your data and holding some it back from training you are better able to test when your model is generalizing well to data other than what it was trained on.
 
 
 ## Cleaning 
@@ -103,10 +116,12 @@ The values may have misplaced decimals or an extra zero or other number added. S
 
 With labelled data, such as labelled images, it is very common to have incorrectly labelled data. If you use crowd-working online services for labels then you need to have a variety of data integrity checks. For example, have multiple answers from different workers to compare for agreement.
 
-Finally, another common error for human entered data is inconsistent timestamps, such as year-month-day vs month-day-year. Also be on the lookout for timezone problems, times and dates may be set to a particular timezone (where the data was recorded) or may default to UTC (with zero timezone offset). If the time ends in a Z that generally indicates UTC time.
+Another common error is inconsistent timestamps, such as year-month-day vs month-day-year. Also be on the lookout for timezone problems, times and dates may be set to a particular timezone (where the data was recorded) or may default to UTC (with zero timezone offset). If the time ends in a Z that generally indicates UTC time.
 
 ### Links
 * https://developers.google.com/machine-learning/data-prep/construct/collect/data-size-quality
+
+<a href="#top" class="doc-nav top">back to top</a>
 
 
 ## Balancing
@@ -117,17 +132,19 @@ If after training on the imbalanced dataset your results on the minority classes
 
 ![Downsampling an Upweighting](../images/downsampling-upweighting-v5.svg)
 
-Downsampling means training on fewer of the majority cases. You can randomly sample from the majority to use a less imbalanced ratio, perhaps down to 10 to 1. Then you can upweight these downsampled majority examples - you can increase the importance of those examples in the calculation of the loss. Thus you end up with fewer of the majority class examples, so the model sees the minority more, but to compensate the majority examples change the weights more.
+Downsampling means training on fewer of the majority cases. You can randomly sample from the majority to use a less imbalanced ratio, perhaps down to 10 to 1. Then you can upweight these downsampled majority examples - you can increase the importance of those examples in the calculation of the loss. Thus you end up with fewer of the majority class examples, so the model sees the minority classes more, but to compensate the majority examples change the weights more.
 
 ### Links
 * https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data
+
+<a href="#top" class="doc-nav top">back to top</a>
 
 
 ## Feature scaling
 
 For time-series and other numerical data you may need to ensure that the data is roughly similar to get good results. Some machine learning algorithms are sensitive to scale and differences in scale between different inputs. Feature scaling transforms the data so that it works well with the algorithm you are using. Note that sometimes the differences in scale between variables captures important information, so scaling makes things worse.
 
-This mainly consists of two practices: normalization and standardization.
+Feature scaling mainly consists of two practices: **normalization** and **standardization**.
 
 ![Normalization techniques](../images/normalizations-at-a-glance-v2.svg)
 
@@ -144,11 +161,14 @@ There aren't hard rules about when to use or not use types of feature scaling, b
 * https://developers.google.com/machine-learning/data-prep/transform/normalization
 * https://en.wikipedia.org/wiki/Normal_distribution
 
+<a href="#top" class="doc-nav top">back to top</a>
 
-<!-- .slide: data-audio-src="../audio/data/TODO.ogg" -->
+
 ## Splitting
 
 To examine how effective the network is at generalization you can partition or split the data you collect into three groups: **training**, **validation** and **test**. 
+
+![Training Validation Test example from v7labs](../images/training-data-validation-test.png)
 
 #### Training data
 
@@ -169,46 +189,55 @@ Test data is used after the model is finished training to give it another set of
 
 When models are used for art, splitting the data may be less important, as often the output will be visually inspected by the artist since the desired results are subjective. In addition, not using all your data for training by holding out data for validation and testing can make already small datasets even smaller. For art related projects you may only want to split 10% or so of the data to use for validation. Even then you may only need to do this if the model is receiving new data after the model has been trained. So, for example, generative models that are used to produced images that are used in the art do not generally need validation data, but something that generates images in real time from sensors during an installation may benefit from validation data.
 
+### Links
+* https://www.v7labs.com/blog/train-validation-test-set
+
+<a href="#top" class="doc-nav top">back to top</a>
+
 ---
+<a id="dataset-discovery"></a>
 
 # Dataset discovery
+
+The below are good places to do general searches for datasets. A vast majority of the datasets you can find in these aggregators are for government, business or research purposes, so aren't directly applicable for art making, but certainly offer opportunities for associative and critical exploration.
+
+Existing datasets will still often need processing, although it is common to find a raw dataset version and cleaned version.
+
+Also note [Mimi Onuoha's](https://mimionuoha.com/) project, [_Library of Missing Datasets_](https://github.com/MimiOnuoha/missing-datasets) to give a sense of what data isn't being recorded and why it is missing.
 
 * [AWS open data registry](https://registry.opendata.aws/)
 * [DataHub](https://datahub.io/search)
 * [Google dataset search](https://datasetsearch.research.google.com)
-* [Kaggle]https://kaggle.com/datasets
+* [Kaggle](https://kaggle.com/datasets)
 * [OpenML](https://www.openml.org/search?type=data)
-* [UCI](https://archive.ics.uci.edu) UC Irvine Machine Learning Repository
-  
-* [Library of Missing Datasets](https://github.com/MimiOnuoha/missing-datasets)
-
-The above are good places to do general searches for datasets, many of the datasets are for business or research purposes, so aren't directly applicable for art making, but certain offer opportunities for associative and critical exploration. I'll discuss data specific aggregators (like image data sets) net, but I won't cover any government, business, science or otherwise strictly numerical dataset aggregators that you can usually find through these more general aggregators.
-
-Existing datasets will still often need processing, although it is common to have a raw dataset version and cleaned version.
-
-I've included Mimi Onuoha's project, _Library of Missing Datasets_ to give a sense of what data isn't being recorded and why they are missing.
+* [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu) 
 
 ### Links
 * https://www.v7labs.com/blog/best-free-datasets-for-machine-learning
 * https://pub.towardsai.net/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f
 * https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
 
+<a href="#top" class="doc-nav top">back to top</a>
+
 ---
+<a id="time-series-datasets"></a>
 
 # Time series data
 
 Time series data records values (typically from some sort of sensor or digital process). This includes temperature and weather data, economic data, population data, and physiological data.
 
-I am not an expert on time series data and there is too much information to do more than a cursory look, so we'll just go over the basics. Generally if you're using time series data for an art project you are:
+Generally if you're using time series data for an art project you are:
 
 1. Using real-time sensor data
-   * The main issue is handling sensor failure and other outliers in real time
+   * The main issue is handling sensor failure and other outliers in real time.
 2. Replaying recorded sensor data
-   * The benefit here is that you can clean the data, otherwise similar to above
+   * The benefit here is that you can clean the data, otherwise similar to above.
 3. Predicting future data
-   * Why is the prediction necessary vs recorded historical data?
+   * Why is the prediction necessary vs recorded output?
 
-In general avoiding real-time data and predictions will make your life easier. You will likely need to work with a data scientist or learn some math, statistics and programming (which I encourage regardless of other collaborators) to work with time series data. Projects like [Auto_TS](https://github.com/AutoViML/Auto_TS) claim to allow for building models in "one line of code".
+In general, **avoiding real-time data and predictions** will make your life easier. 
+
+If you want to work with time series data you will likely need to work with a data scientist or learn some math, statistics and programming (which I encourage regardless of other collaborators). Projects like [Auto_TS](https://github.com/AutoViML/Auto_TS) claim to allow for building models in "one line of code".
 
 
 ## Cleaning
@@ -227,21 +256,23 @@ The first step of working with time series data is generally to visualize it in 
 
 Mean-reverting data returns to a value that is stable over time, and it is important to know if this is at 0 or some other value. This data is called stationary.
 
-Conversely, does the data have a trend or non-stable shape? Data can have cycles or seasonality. You may want to de-trend the data (sometimes you can find seasonally adjusted versions) or use a model that incorporates seasonality.
+Conversely, the data may have a trend or non-stable shape. Data can have cycles or seasonality. You may want to de-trend the data (sometimes you can find seasonally adjusted versions) or use a model that handles seasonality.
 
 The worst case scenario for time series data is probably structural breaks. These are large sudden shifts in the data. You'll likely need to have special models or otherwise transform the data so that it is comparable.
 
 ### Links
 * https://www.aptech.com/blog/introduction-to-the-fundamentals-of-time-series-data-and-analysis/
 
+<a href="#top" class="doc-nav top">back to top</a>
+
 
 ### OpenRefine
 
-https://openrefine.org/
+[![OpenRefine](../images/OpenRefine_logo_color.png)](https://openrefine.org/)
 
-There are a few tools to help clean data, one of open source tools is [OpenRefine](https://openrefine.org/). It works with a variety of data formats data and runs locally on your machine, but you use your web browser to interact with it. 
+There are a few tools to help clean data, one of open source tools is [OpenRefine](https://openrefine.org/). It works with a variety of data formats and runs locally on your machine, but you use your web browser to interact with it. 
 
-Particularly for data with human-entered text values, OpenRefine helps spot and fix inconsistent entries and mistakes. There are [additional extensions](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension/) for OpenRefine that help integrate FAIR data principles.
+Particularly for data with human-entered text values, OpenRefine helps spot and fix inconsistent entries and mistakes. There are [additional extensions](https://github.com/FAIRDataTeam/OpenRefine-metadata-extension/) that help integrate FAIR data principles.
 
 When starting your own datasets it is important to collect metadata. You can find reference and example metadata for any type of data at [schema.org](https://schema.org/docs/schemas.html).
 
@@ -251,34 +282,51 @@ When starting your own datasets it is important to collect metadata. You can fin
 * https://github.com/FAIRDataTeam/OpenRefine-metadata-extension/
 * https://schema.org/docs/schemas.html
 
+<a href="#top" class="doc-nav top">back to top</a>
 
-## Existing datasets
+
+## Existing time series datasets
+
+Time series data can be easily found in the general dataset searches, but there a few others worth mentioned, particularly if you have an environmental focus:
 
 * [Time Series Data Library (TSDL)](https://pkg.yangzhuoranyang.com/tsdl/)
+  * Created by Rob Hyndman, Professor of Statistics at Monash University and contains 650 datasets of a wide variety of types.
 * [GapMinder](https://www.gapminder.org/data/)
+  * Hundreds of indicators of global well-being, health, environment, etc.
 * [Our World in Data - Biodiversity](https://ourworldindata.org/biodiversity)
+  * A variety of biodiversity datasets.
 * [HYDE (History database of the Global Environment)](https://www.pbl.nl/en/image/links/hyde)
+  *  A wide variety historical data covering the entire Holocene (12000 years or so).
 * [Pangeo Datastore](https://catalog.pangeo.io/)
+  * [Pangeo](https://pangeo.io/) is a community promoting open science and has preprocessed climate and weather datasets
 
-Notes:
-Time series data can be easily found in the general dataset searches, but there a few others worth mentioned, particularly if you have an environmental focus:
-* TSDL was created by Rob Hyndman, Professor of Statistics at Monash University, Australia and contains 650 datasets of a wide variety of types.
-* GapMinder has hundreds of indicators of global well-being, health, environment, etc
-* Our World in Data has a variety of biodiversity datasets
-* HYDE has a wide variety historical data covering the entire Holocene (12000 years or so)
-* Pangeo is a community promoting open science and has preprocessed climate and weather datasets
+#### Space:
+* [Canadian Space Agency Open Data Portal](https://www.asc-csa.gc.ca/eng/open-data/default.asp)
+  * Public data, such as solar flares, monitor solar wind, cosmic radiation, solar cycle, unpredictable events, statistical likelihood of solar activity
+* [NASA Open Data Portal](https://data.nasa.gov/)
+  * Earth based observational data, forest fire data sets
 
-Are also numerous environmental and atmospheric datasets from governments available.
+#### Environment:
+* [Environment Canada historical climate data](https://climate.weather.gc.ca/index_e.html)
+* [RadarSat – Earth based observation in Canada](https://www.asc-csa.gc.ca/eng/satellites/radarsat/access-to-data/default.asp)
+  * More recent satellite data with 90% coverage of the earth including the Arctic
+* [CloudSat](https://cloudsat.atmos.colostate.edu/data)
+  * Cloud data used for studying clouds effect on weather and climate
+* [MBARI – Monterey Bay Aquarium Research Institute](https://www.mbari.org/products/data-repository/)
+  * A large variety of ocean data from near Monterey Bay
+* [NOAA – National Oceanic and Atmosphere Administration](https://www.ncdc.noaa.gov/cdo-web/)
+  * Global historical weather and climate data 
+
+<a href="#top" class="doc-nav top">back to top</a>
 
 
 ## Sensors
 
-[FieldKit](https://www.fieldkit.org/)
+[![FieldKit](../images/fieldkit.webp)](https://www.fieldkit.org/)
 
-Notes:
-If you want to collect data yourself, then you'll want to look into FieldKit, an opensource platform for research grade hardware, a software platform for handling that data and community to help with the process.
+If you want to collect data yourself, then you'll want to look into [FieldKit](https://www.fieldkit.org/), an opensource platform for research grade hardware, a software platform for handling that data and community to help with the process.
 
-Sensor kits start around $150 USD but a full set of weather sensors is up to $400 USD. A weather FieldKit station can record temperature, relative humidity, barometric pressure, wind speed, wind direction, and rainfall. They also have kits of water measurements and soon air quality measurements. Due to pandemic supply issues it could be hard to source these kits currently, but they remain one of the best open, artist-accessible sensor packages.
+Sensor kits start around $150 USD but a full set of weather sensors is up to $400 USD. A [weather FieldKit station](https://www.fieldkit.org/products/fieldkit-weather/) can record temperature, relative humidity, barometric pressure, wind speed, wind direction, and rainfall. They also have kits of water measurements and soon air quality measurements. Due to pandemic supply issues it could be hard to source these kits currently, but they remain one of the best open, artist-accessible sensor packages.
 
 There is a growing community of conservationists trying to make opensource sensor and data tools. Check out [WildLabs](https://wildlabs.net/) and [Conservify](http://conservify.org/).
 
@@ -287,43 +335,50 @@ There is a growing community of conservationists trying to make opensource senso
 * https://wildlabs.net/
 * http://conservify.org/
 
+<a href="#top" class="doc-nav top">back to top</a>
+
 
 ## Formatting
 
-Generally when using the Python language and popular ML time series tools you will want to save your data in CSV format. All spreadsheet software will be able to export to this format, so you can use spreadsheets to manage the data until you export it into other tools.
+Generally when using the Python language and popular ML time series tools you will want to save your data in [CSV format](https://en.wikipedia.org/wiki/Comma-separated_values). All spreadsheet software will be able to export to this format, so you can use any [office software](https://www.libreoffice.org/) to manage the data until you export it for ML tools.
+
+<a href="#top" class="doc-nav top">back to top</a>
 
 ---
+<a id="image-datasets"></a>
 
 # Image data
 
-Notes:
-Image data is self-explanatory, but there are some important details. The format of the data can matter. Although it takes far larger amounts of space, PNG formatted images suffer from less compression artifacts than JPEGs, although the vast majority of image data is still using JPEG format, and it won't help to use PNG versions of JPEGs since the data loss caused by compression happens when saved as a JPEG. If you are creating your own images, use PNG or WEBP formatted images. WEBP has high quality and smaller file sizes, but as of yet is relatively unused.
+Image data is self-explanatory, but there are some important details. The format of the data can matter. Although it takes far larger amounts of space, PNG formatted images suffer from less compression artifacts than JPEGs. The vast majority of image data is still using JPEG format, but it won't help to save JPEGs as PNG formatted images since the data loss caused by compression happens when first saved as a JPEG. If you are creating your own images, use PNG or WEBP formatted images. WEBP has high quality and smaller file sizes, but as of yet is relatively unused.
 
 
 ## Scraping
 
-Notes:
-Many technical artists use software scripts to "scrape" images from sources like Flickr. There are a number of issues with this, both technically and with copyright licences. It is possible however to download Creative Commons licensed digital photographs (that allow for use with or without attribution) from Flickr. Remember to keep a list of the image URLs if you are releasing the dataset so that you can respect any attribution requirements.
+Many software artists use programs to "scrape" images from sources like [Flickr](https://www.flickr.com/). There are a number of issues with this, both technically and with copyright licences. It is possible however to download Creative Commons licensed images (that allow for use with or without attribution) from Flickr. Remember to keep a list of the image URLs you downloaded if you are publicly releasing the dataset so that you can respect any attribution requirements.
 
-When collecting from the Internet I recommend learning enough Python programming to run some scripts that will download the images for you given a particular search term. There are few existing utilities that you can use, but you will often have to make small modifications to them and at minimum understand how to install Python and run python programs. Unfortunately, that is beyond the scope of this tutorial.
+When collecting from the Internet I recommend learning enough [Python programming](https://www.python.org/) to [run some scripts](https://github.com/hwasiti/smart-image-scraper) that will download the images for you given a particular search term. There are a few existing utilities that you can use, but you will often have to make small modifications to them and at minimum understand [how to install Python and run python programs](https://www.python.org/about/gettingstarted/). Unfortunately, that is beyond the scope of this tutorial.
 
-TODO: my script, links to scraping tutorials
+### Links
+* https://github.com/hwasiti/smart-image-scraper
+* https://www.python.org/about/gettingstarted/
 
 
-[Openverse](https://wordpress.org/openverse/)
-[Flickr CC](https://www.flickr.com/search/?text=&license=2%2C3%2C4%2C5%2C6%2C9&media=photos)
-[Rawpixel PD](https://www.rawpixel.com/category/53/public-domain)
-[Pexels PD](https://www.pexels.com/public-domain-images/)
-[Unsplash](https://unsplash.com/)
+### Manual image searches
 
-Notes:
-You can also collect images manually, although be prepared to invest a lot of time. There are a number of sites that you can use for public domain or Creative Commons (CC) licensed images. You can also use Google image searches and their Creative Commons licensed image search option, but the images often are not verifiably licensed in any way.
+You can also collect images manually, although be prepared to invest a lot of time. There are a number of sites that you can use for public domain or [Creative Commons](https://creativecommons.org/) (CC) licensed images. You can also use [Google image search](https://images.google.com/) and their Creative Commons licensed image search option, but the images often are not verifiably licensed in any way.
+
+* [Openverse](https://wordpress.org/openverse/)
+* [Flickr CC](https://www.flickr.com/search/?text=&license=2%2C3%2C4%2C5%2C6%2C9&media=photos)
+* [Rawpixel PD](https://www.rawpixel.com/category/53/public-domain)
+* [Pexels PD](https://www.pexels.com/public-domain-images/)
+* [Unsplash](https://unsplash.com/)
+
+<a href="#top" class="doc-nav top">back to top</a>
 
 
 ## Preparing
 
-Notes:
-Images may have watermarks, frames, and other extraneous information on them. If you are using them in a generative model, any extraneous image elements should be cropped out or removed or the model may learn to generate them as well.
+Images may have watermarks, frames, and other extraneous information in them. If you are using them in a generative model, any extraneous image elements should be cropped out or removed or the model may learn to generate them as well.
 
 The main challenge with images is resolution and/or dimension. Most models require a particular resolution of image to train on and usually a square resolution (i.e. width and height are the same) that is relatively small. 1024 x 1024 is quite large for contemporary training.
 
@@ -367,15 +422,19 @@ Many of these datasets are hundreds of gigabytes in size, so be prepared for lon
 #### 3D:
 * [CO3D: Common Objects In 3D](https://github.com/facebookresearch/co3d):
 
+<a href="#top" class="doc-nav top">back to top</a>
+
+<a id="augmentation"></a>
 
 ## Augmentation
 
 When training models using images care must be taken to avoid common problems with neural nets. 
 
-For example, researchers found that texture was the most important attribute being used to make the predictions in early image classification models, but they could force more robust learning but adding silhouettes, line drawings, noise, clipping and partial masking of the image and other transformations to the training data to expand the range of characteristics that led to a classification. This [data augmentation](https://github.com/AgaMiko/data-augmentation-review) is critical now in image-based training.
+For example, researchers found that texture was the most important attribute being used to make the predictions in early image classification models, but they could force more robust learning by adding silhouettes, line drawings, noise, clipping and partial masking of the image and other transformations to the training data to expand the range of characteristics that led to a classification. This [data augmentation](https://github.com/AgaMiko/data-augmentation-review) is critical now in image-based training.
 
-Most augmentation is now included in computer vision related research projects and done automatically, on-the-fly during training, but be sure that you have it enabled during training.
+![Texture problems](../images/biased_towards_textures.png)
 
+Most augmentation is now included in computer vision related research projects and done automatically, on-the-fly during training, but be sure that you have it enabled.
 
 This augmentation includes: 
 
@@ -387,31 +446,41 @@ This augmentation includes:
 * mixup: blending of two images
 * style transfer
 
-Automated image augmention is an active area of research and tools are improving rapidly.
+Automated image augmentation is an active area of research and tools are improving rapidly.
+
+![Image augmentation example](../images/image_aug_examples_grid.jpg)
 
 ### Links
 * https://github.com/AgaMiko/data-augmentation-review
 
----
-# Text data
+<a href="#top" class="doc-nav top">back to top</a>
 
-There are quite a few text datasets, although in general unless you are interested in exploring text in ways similar to Allison Parish, who uses text like image and time-series data, I would generally suggest using existing large language models. It is possible to fine-tune these existing models on more specific vocabulary as well, although the training may be difficult or expensive.
+---
+<a id="text-datasets"></a>
+
+# Text data
+TODO: link
+There are quite a few text datasets, although in general unless you are interested in exploring text like [Allison Parish](TODO), who uses text data similar to how image and time-series data is used, I would suggest using existing pre-trained large language models. It is possible to fine-tune these existing models on more specific vocabulary, although the training may be difficult or expensive.
 
 
 ## Existing large language models
 
 * [OpenAI GPT](https://beta.openai.com/overview)
 
-If you want the most effective and easiest solution, but by far the most expensive, OpenAI's GPT API is in beta right now. It can be fine-tuned and offers completion, question answering, classification, summarization, semantic search amongst many other capabilities.
+If you want the most effective and easiest solution, but by far the most expensive, OpenAI's GPT API is in beta right now. It can be fine-tuned and offers completion, question answering, classification, summarization, and semantic search amongst many other capabilities.
 
 * [Hugging Face models](https://huggingface.co/models)
 
-Hugging Face offers a number of pretrained large language models, but you will need the capability of running them and fine-tuning the training yourself.
+Hugging Face offers a number of pretrained large language models, but using them requires the capability of running them and doing any extra fine-tuning training yourself.
 
 ### Links
 * https://beta.openai.com/examples
 * https://huggingface.co/models
 
+<a href="#top" class="doc-nav top">back to top</a>
+
+---
+<a id="audio-datasets"></a>
 
 # Audio
 
@@ -427,6 +496,10 @@ The majority of audio datasets are for natural language text-to-speech learning.
 * [NSynth](https://magenta.tensorflow.org/datasets/nsynth) musical notes from a thousand synthesized instruments
 * [Free Music Archive](https://freemusicarchive.org/) free music search engine (no dataset)
 
+<a href="#top" class="doc-nav top">back to top</a>
+
+---
+<a id="pitfalls"></a>
 
 # Data pitfalls
 
@@ -435,15 +508,19 @@ We have covered some issues with data in the previous tutorials, including bias,
 
 ## Diversity and Bias
 
-Datasets reflect the biases of the society from which they originate. As mentioned in the last tutorial, datasets gathered from the Internet a lack of diversity and over-representation of certain viewpoints, particularly, younger and WEIRD (Western, educated, industrialized, rich and democratic). Western biases, such as stereotypes about gender, minorities, capitalism are pervasive.
+Datasets reflect the biases of the society from which they originate. As mentioned in the last tutorial, datasets gathered from the Internet lack diversity and have an over-representation of certain viewpoints, particularly, younger and WEIRD (Western, educated, industrialized, rich and democratic). Western biases, such as stereotypes about gender, minorities, and capitalism are pervasive.
 
-Trying to counteract the lack of diversity can be challenging, for example, take this selection of search results for "construction worker" that attempts to balance gender diversity. However, the masculine-presenting individuals are more realistic, modern and active than the nostalgic, toy, non-realistic, passive and/or sexualised feminine-presenting individuals.
+![Construction workers example](../images/construction.jpg)
+
+Trying to counteract the lack of diversity can be challenging, for example, take [this selection of search results](https://pair.withgoogle.com/explorables/measuring-diversity/) for "construction worker" that attempts to balance gender diversity. However, the masculine-presenting individuals are more realistic, modern and active than the nostalgic, toy, non-realistic, passive and/or sexualised feminine-presenting individuals.
 
 Thus, if you incorporate image datasets from the Internet, and are not critiquing them by presenting their flaws, you will need to carefully curate the dataset to manage the diversity and bias issues. This curation requires a vast amount of manual labour, but it is also very valuable, helping to create more freely available higher quality datasets for further research and other art.
 
-Unfortunately, removing problematic images from datasets may not be enough to get sufficient diversity. You may also need to create or find images to add missing or bolster minority representations. Creating your own images, especially from minority groups, requires careful consideration of representation and consent.
+Unfortunately, removing problematic images from datasets may not be enough to get sufficient diversity. You may also need to create or find images to bolster minority representations. Creating your own images, especially from minority groups, requires careful consideration of representation and consent.
 
-Data based on historical trends is going to necessarily reflect the bias of that society at that time. In this example of college GPA, the more data points for each student, including gender, etc the better the model predicts based on its historic data. For example, historical bias against women can cause the model to predict lower GPAs for women and if that bias remains in the educational institution a biased model may be more accurate. In essence a biased, but accurate model can be used to detect bias in the systems its data is derived from, hopefully leading to reforms.
+![GPA sexism example](../images/GPA_PAIR_example.png)
+
+Data based on historical trends is going to necessarily reflect the bias of that society at that time. In [this fictional example](https://pair.withgoogle.com/explorables/hidden-bias/) of college GPA prediction, the more data points for each student, including gender and other attributes thought to be unrelated to GPA, the better the model predicts based on its historic data. Historical bias against women can cause the model to predict lower GPAs for women and if that bias remains in the educational institution a biased model may be more accurate. In essence a biased but accurate model can be used to detect bias in the systems its data is derived from, hopefully leading to reforms.
 
 Hiding attributes that the model shouldn't use for its prediction is not fail-safe either. Models, like humans, can infer private attributes from public ones. For example, using a person's birthplace or living location to infer race or ethnicity.
 
@@ -453,6 +530,10 @@ Fortunately, in artistic practice your datasets will not be making consequential
 * [Measuring Diversity - Google PAIR](https://pair.withgoogle.com/explorables/measuring-diversity/)
 * [Hidden Bias - Google PAIR](https://pair.withgoogle.com/explorables/hidden-bias/)
 
+<a href="#top" class="doc-nav top">back to top</a>
+
+---
+<a id="ethics"></a>
 
 # Making things ethically
 
@@ -462,14 +543,18 @@ Properly building the relationships and tools needed to collect, curate and shar
 
 There are many fields with related challenges including museum, library and information sciences, art history as well as other preservation, conservation and knowledge keeping practices. Also relevant are the practice of ethics and data management used in journalism and science research, particularly experimental studies. Plus all the open source and open data movements. Don't be shy to reach out for help and integrate best practices.
 
-I wish there were more I could offer, but I too am at the start of this journey, so I am mainly able point out the footsteps of pioneers for us both to follow.
+I wish there was more I could offer, but I too am at the start of this journey, so I am mainly able point out the footsteps of pioneers for us both to follow.
 
+
+<a id="fair-care"></a>
 
 ## FAIR, CARE & Local Contexts
 
-In the Neural Nets and Data tutorial I introduced the open data FAIR principles, the CARE Indigenous principles, and the Local Textures project for culturally appropriate access to cultural heritage and Indigenous data.
+![FAIR & CARE](../images/GIDA_FAIR_CARE.webp)
 
-I will review this quickly again then suggest some practice steps to implement them:
+In the Neural Nets and Data tutorial I introduced the open data [FAIR principles](https://www.go-fair.org/fair-principles/), the [CARE Indigenous principles](https://www.gida-global.org/care), and the [Local Contexts](https://localcontexts.org/) project for culturally appropriate access to cultural heritage and Indigenous data.
+
+I will quickly review this and then suggest some practice steps to implement them:
 
 #### FAIR:
 * Findable
@@ -483,7 +568,11 @@ I will review this quickly again then suggest some practice steps to implement t
 * Responsibility
 * Ethics
 
-Let's explain this with an example dataset of collected and new photos of cultural heritage and art from a particular people and the land they live on.
+FAIR principles are findable, accessible, interoperable, and reusable data. In other words, place good signposts to your data, access it through standard doors and locks, storing it on standard sized paper with good labels, and note everything in an index.
+
+CARE principles add community benefit from the data, getting consent from the community and inviting them to be stewards of the data, a responsibility to share how the data will be used, and holistic data ethics that includes the community's wellbeing at all stages of the data life cycle.
+
+Let's explain this with an example dataset of collected and new photos of cultural heritage and art from a particular community and the land they live on.
 
 
 Following [Suzanne Kite's](https://kitekitekitekite.com/) [_How to Build Anything Ethically_](https://kitekitekitekite.com/portfolio/items/indigenous-protocols-and-artificial-intelligence-position-paper/) questions, we can start a data project by identifying and connecting with elders and knowledge keepers of the community. They will help to identify other stakeholders, both human and non-human, past and present.
@@ -504,17 +593,21 @@ Data formats and all tools needed for access and contribution to the dataset sho
 * https://www.gida-global.org/care
 * https://kitekitekitekite.com/portfolio/items/indigenous-protocols-and-artificial-intelligence-position-paper/
 
+<a href="#top" class="doc-nav top">back to top</a>
 
-## Maintenance
 
-One important step often overlooked in art and tech practice is designing for maintenance and end of life. End of life for data, generally is about retention and deletion, but also encompasses recycling or reuses of hardware. In this section I am going to focus on maintenance.
+<a id="maintenance"></a>
+
+## The Art of Maintenance (of Art)
+
+One important step often overlooked in art and tech practice is designing for maintenance and end of life. End of life for data requires decisions about data retention and deletion, but also encompasses recycling or reuses of hardware. In this section I am going to focus on maintenance.
 
 
 > Maintenance is a drag; it takes all the fucking time (lit.) The mind boggles and chafes at the boredom. The culture confers lousy status on maintenance jobs = minimum wages, housewives = no pay.
 >
 >~ **Mierle Laderman Ukeles** in _Manifesto for Maintenance Art, 1969!_
 
-Artist Mierle Laderman Ukeles manifesto lays out an approach where Care, i.e. the labour of maintenance, is Art. It is worth reading the entire manifesto, and I think the devaluing of maintenance work, especially due to its association with gendered labour is important to understand, but I want to emphasize the most practical aspect: maintenance takes all the time.
+Artist [Mierle Laderman Ukeles](https://kortina.nyc/notes/n/manifesto-for-maintenance-art-1969/) manifesto lays out an approach where Care, i.e. the labour of maintenance, is Art. It is worth reading the entire manifesto, and I think the devaluing of maintenance work, especially due to its association with gendered labour is important to understand, but I want to emphasize the most practical aspect: _maintenance takes all the time_.
 
 David Graeber, who was an anthropologist and anarchist activist, points this out too in his work on the care economy:
 
@@ -526,23 +619,29 @@ David Graeber, who was an anthropologist and anarchist activist, points this out
 >
 > ~ **David Graeber** in [_From Managerial Feudalism to the Revolt of the Caring Classes_](https://youtu.be/MN9S0HD8VH8)
 
-Art too is for its own sake. Thus your dataset when used for art is about creating freedom, first for yourself and then for everyone else who has access to it. That is why it is critical to make it in an open and ethical way. This concept of care work as freedom generating is also important to Indigenous feminism.
+Art too is for its own sake. Thus your dataset when used for art is about creating freedom, first for yourself and then for everyone else who has access to it. That is why it is critical to make it in an open and ethical way. This concept of care work as freedom generating is also important to [Indigenous feminism](https://en.wikipedia.org/wiki/Indigenous_feminism).
 
-But it is not just the creation of the dataset but the maintenance of that data that is critical for maximizing freedom. Care must be taken to minimize the maintenance costs and consider how to sustain the maintenance work of the dataset. When you are designing your project, all other things being roughly equal, choose the option that is best to maintain. Remember, the vast majority of the time and effort required and the freedom generated by the project is through maintenance.
+But it is not just the creation of the dataset but the maintenance of that data that is critical for maximizing freedom. Care must be taken to minimize the maintenance costs and consider how to sustain the maintenance work of the dataset. When you are designing your project, all other things being roughly equal, _choose the option that is best to maintain_. Remember, the vast majority of the time and effort required and the freedom generated by the project is through maintenance.
 
 
-Sadly there are few tools and even fewer sources of funding for maintenance work for art projects, unless your work is accepted by a major cultural institution into their permanent collection. Any project, at or otherwise, that uses computer hardware and software also rapidly becomes a maintenance nightmare. The cultural changes needed to prioritize maintenance and care over development and production are slow, but in the meantime we'll do what we can.
+Sadly there are few tools and even fewer sources of funding for maintenance work for art projects, unless your work is accepted by a major cultural institution into their permanent collection. Any project, art or otherwise, that uses computer hardware and software also rapidly becomes a maintenance nightmare. The cultural changes needed to prioritize maintenance and care over development and production are slow, but in the meantime we'll do what we can.
 
 ### Links
 * https://kortina.nyc/notes/n/manifesto-for-maintenance-art-1969/
 * http://opentranscripts.org/transcript/managerial-feudalism-revolt-caring-classes/
 * https://youtu.be/MN9S0HD8VH8
 * https://en.wikipedia.org/wiki/David_Graeber
+* https://en.wikipedia.org/wiki/Indigenous_feminism
+
+<a href="#top" class="doc-nav top">back to top</a>
 
 
 ### DisCo
 
-One of the best working models of a successful care-first model is the [distributed cooperative organization](https://disco.coop/), the [Guerrilla Media Collective](https://disco.coop/labs/guerrilla-media-collective/). They have documented their practice and created a wonderful manifesto in collaboration with the [Transnational Institute](https://www.tni.org/), to help others learn about distributed cooperative organizations or DisCos.
+![DisCo](../images/DisCo.jpg)
+Image by [Felipe Duarte](https://disco.coop/felipe-duarte/).
+
+One of the best examples of a successful care-first model is the [distributed cooperative organization](https://disco.coop/), the [Guerrilla Media Collective](https://disco.coop/labs/guerrilla-media-collective/). They have documented their practice and created a wonderful manifesto in collaboration with the [Transnational Institute](https://www.tni.org/), to help others learn about distributed cooperative organizations or DisCos.
 
 Their documents detail a number of important principles, but there are three that I want to highlight here:
 
@@ -551,9 +650,32 @@ Their documents detail a number of important principles, but there are three tha
 >
 > **Put your effort where your heart is**: use values-based accountability. Production is guided not by profit but by social and environmental priorities.
 >
-> **Building whole-community governance**: extend decision making and ownership to all contributors whether present in all value chains or affected by the coop’s actions.
+> **Building whole-community governance**: extend decision-making and stewardship to all contributors and those affected by your organization's actions.
 
-These principles reflect the similar ideals we have seen in other feminist economic movements. Care work is the core makes clear that every collaboration requires maintenance and sustenance of both the collaboration and all the contributors to the collaboration, both human and non-human, animate and inanimate. 
+These principles reflect the similar ideals we have seen in other feminist economic movements. Care work at the core makes clear that every collaboration requires maintenance and sustenance of both the collaboration and all the contributors to the collaboration, both human and non-human, animate and inanimate. 
+
+For example, in the Guerrilla Media Collective DisCo they have separated out [different types of labour](https://wiki.guerrillamediacollective.org/index.php/Working_Circles), beyond the paid and pro-bono [translation work](https://www.guerrillatranslation.org/) they all do, and have regular rotation between the types of care work:
+
+* Website/Tech
+  * Development and maintenance of website
+* Media Peers
+  * Networking and alliances, social media, campaigns
+* Sustainability
+  * Fundraising, relations with funders
+* Community 
+  * Mentoring, mutual support, rhythms, tools and group culture
+* Membership
+  * Interviews, aptitude testing, buddy-system, mentoring
+* Legal/Finance
+  * Legal structure, taxes, payroll
+* Development
+  * Goals, structural and organizational development
+* Love
+  * Overseeing pro-bono work, blog publishing
+* Livelihood
+  * Agency work, client attention, budgeting
+
+These groupings work best for an ongoing collective, but certainly apply to art making collectives, and even single projects involve the first three: Website/Tech, Media, Sustainability, and ongoing projects like datasets may require all but the last two: Love and Livelihood.
 
 These DisCo principles work well in dataset collaborations with diverse sets of contributors with different needs. Put care work at the core, guided by your shared values, for all contributors and those affected by your decisions and actions.
 
@@ -563,47 +685,45 @@ These DisCo principles work well in dataset collaborations with diverse sets of 
 * https://wiki.guerrillamediacollective.org/index.php/Main_Page
 * https://www.tni.org/
 
+<a href="#top" class="doc-nav top">back to top</a>
+
 
 ### Tools
 
 What sort of tools are needed to manage maintenance and care work?
 
-The Guerrilla Media Collective uses browser-based software and services, which allows for a single piece of software with various interfaces customized to the specific task at hand.
+The [Guerrilla Media Collective](https://disco.coop/labs/guerrilla-media-collective/) uses browser-based software and services, which allows for a single piece of software with various interfaces customized to the specific task at hand.
 
 Beyond project specific tools, they use 6 different types of tools for all projects:
 
 1. Clock/timer to track work (punch clock)
+   * [Kimai](https://www.kimai.cloud/) online service [open source]
+   * [Clockify](https://clockify.me/) online service
+   * [Toggl](https://toggl.com/) online service
 2. Synchronous group and individual communication (cafeteria or desk chat)
+   * [Element](https://element.io/) online service [open source]
+   * [Rocket.Chat](https://rocket.chat/) online service & self-hosted software [open source]
+   * [Mattermost](https://mattermost.com/) online service & self-hosted software [open source] 
+   * [Slack](https://slack.com) online service
+   * [Discord](https://discord.com/) online service
 3. Asynchronous communication / decision-making (boardroom)
+   * [Loomio](https://www.loomio.com/) online service (not free)
+     * https://github.com/loomio/loomio-deploy self-hosted [open source]
+   * [Liquid Feedback](https://liquidfeedback.com/) self-hosted software [open source]
+   * [Polis](https://pol.is/) online service & self-hosted software [open source]
 4. Task and project management (whiteboard and planner)
+   * [Focalboard](https://www.focalboard.com/) online service & self-hosted software [open source]
+   * [Trello](https://trello.com/) online service
 5. Collaborative writing and file-storage (file cabinet)
+   * [Nextcloud](https://nextcloud.com/) online service & self-hosted software [open source]
+   * [SpiderOak Crossclave](https://spideroak.com/crossclave/) online service
+   * [G-Drive](https://drive.google.com/) online service
 6. Wiki documentation (public report)
+   * [Mediawiki](https://www.mediawiki.org/) self-hosted software [open source]
  
-In general I would recommend all open source software for these choices, but options can be limited based on access to technical help and Guerrilla Media themselves have chosen online services that are not open source for some of their tools.
+In general I would recommend all open source software for these choices, but options can be limited based on access to technical help and Guerrilla Media Collective have chosen online services that are not open source for some of their tools.
 
 ### Links
 * https://wiki.guerrillamediacollective.org/Category:Tools
 
----
-
-I've put together a document that goes into further details on all the information we've covered in this tutorial. You can find it at this link.
-
----
-<!-- .slide: data-audio-src="../audio/data/TODO.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
-# Thank you
-
-<div class="backdrop">
-
-1. [Foundations](../foundations/) <!-- .element: class="lighten" -->
-2. [Past, Present, Future](../past_present_future/) <!-- .element: class="lighten" -->
-3. [Neural Nets](../neural_nets/) <!-- .element: class="lighten" -->
-4. **Data in Practice**
-5. ***Machine Learning Art*** 
-
-</div>
-
-Notes:
-Well, that's the end of the fourth tutorial. Thank you for your attention. I hope you'll check out the next in the series; Machine Learning Art, where we'll look at specific art projects and artists and how they have adapted ML into their practice, examples of popular tools, and consider some project ideas.
-
-See you there!
-
+<a href="#top" class="doc-nav top">back to top</a>

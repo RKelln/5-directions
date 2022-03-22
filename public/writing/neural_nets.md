@@ -628,7 +628,7 @@ The data fed into a neural network, by in large, is made of recordings of the re
 * [_VGG16 Neural Network Visualization_ by Denis Dmitriev](https://www.youtube.com/watch?v=RNnKtNrsrmg)
 
 
-<!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/51.ogg" data-background-image="../images/GAN - Sarin - Japanese landscape 1.jpg" data-background-size="contain" -->
+<!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/51.ogg" data-background-image="../images/GAN-Sarin-Japanese_landscape_1.jpg" data-background-size="contain" -->
 Notes:
 There are ways to emulate some existing world knowledge in machine learning techniques. For example building on top of more general models, such as general machine vision models for image generation or large language models transformed to a specific domain of knowledge. An existing working network that was trained from scratch on a larger dataset, is given extra training on a much smaller domain. For example, like the beautiful image here by Helena Sarin, you could start from a GAN pre-trained on landscapes and then train it on Japanese poetry book covers.
 
