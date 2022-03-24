@@ -262,7 +262,7 @@ I've also included Mimi Onuoha's project, _Library of Missing Datasets_ to give 
 * https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
 
 ---
-<!-- .slide: id="time-series-datasets" data-audio-src="../audio/data/15-seg1.ogg" data-background-video="../video/Debbie Symons - Counting One to Four - Nature morte square -qLjcdy9OOlc.mp4" data-background-size="contain" data-background-color="black" data-background-opacity="0.9" -->
+<!-- .slide: id="time-series-datasets" data-audio-src="../audio/data/15-seg1.ogg" data-background-video="../video/Debbie Symons - Counting One to Four - Nature morte square -qLjcdy9OOlc.mp4" data-background-size="contain" data-background-color="black" data-background-opacity="0.9" data-background-video-loop -->
 # Time series data
 
 <div class="fragment backdrop" data-audio-src="../audio/data/15-seg2.ogg">
@@ -623,7 +623,7 @@ Fortunately, in artistic practice your datasets will not be making consequential
 * [Hidden Bias - Google PAIR](https://pair.withgoogle.com/explorables/hidden-bias/)
 
 ---
-<!-- .slide: id="ethics" class="zoomin" data-audio-src="../audio/data/35-seg1.ogg" data-background-image="../images/a_long_distance_view_of_people_climbing_over_walls.webp" -->
+<!-- .slide: id="ethics" class="zoomin" data-audio-src="../audio/data/35-seg1.ogg" data-background-image="../images/results_not_ethics.webp" -->
 # Making things ethically <!-- .element: class="r-fit-text" -->
 
 Notes:

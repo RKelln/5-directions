@@ -25,7 +25,7 @@ Notes:
 2. [**Past Present Future**](../past_present_future/) <!-- .element: class="lighten" -->
 3. [**Neural Nets**](../neural_nets/) <!-- .element: class="lighten" -->
 4. [**Data in Practice**](../data_in_practice/) <!-- .element: class="lighten" -->
-5. **Machine Learning Art**
+5. **Machine Learning Art** <!-- .element: class="low-vis" -->
 
 </div>
 
@@ -58,7 +58,7 @@ Basic controls
 * **[`F`]** to go to fullscreen (**[`esc`]** to exit)
 * The red arrows in the bottom right also control movement
 * The playback bar at the bottom controls the narration
- 
+* Text in [**red**](#) denotes clickable links 
 </div>
 
 Press spacebar to continue <!-- .element: class="fragment glow" data-audio-advance="-1" -->
