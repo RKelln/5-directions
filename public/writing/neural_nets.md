@@ -454,7 +454,7 @@ The entire set of features learned after training, the model's representation of
 <!-- .slide: data-background-video="../video/hot_bod_720.mp4" data-background-size="contain" data-audio-advance="500" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
-* [_Hot Bod_ - Ryan Kelln & Sarah Thawer](http://www.ryankelln.com/project/sound-escapes/)
+* [_Hot Bod_ - Ryan Kelln & Sarah Thawer](http://www.ryankelln.com/project/sound-escapes/#hot-bod)
 
 ---
 <!-- .slide: data-audio-src="../audio/neural_nets/37.ogg" data-background-image="../images/types_of_networks.webp" data-background-color="white" -->

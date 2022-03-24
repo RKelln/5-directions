@@ -338,7 +338,7 @@ There is a growing community of conservationists trying to make opensource senso
 <a href="#top" class="doc-nav top">back to top</a>
 
 
-## Formatting
+## File formats
 
 Generally when using the Python language and popular ML time series tools you will want to save your data in [CSV format](https://en.wikipedia.org/wiki/Comma-separated_values). All spreadsheet software will be able to export to this format, so you can use any [office software](https://www.libreoffice.org/) to manage the data until you export it for ML tools.
 
@@ -349,7 +349,7 @@ Generally when using the Python language and popular ML time series tools you wi
 
 # Image data
 
-Image data is self-explanatory, but there are some important details. The format of the data can matter. Although it takes far larger amounts of space, PNG formatted images suffer from less compression artifacts than JPEGs. The vast majority of image data is still using JPEG format, but it won't help to save JPEGs as PNG formatted images since the data loss caused by compression happens when first saved as a JPEG. If you are creating your own images, use PNG or WEBP formatted images. WEBP has high quality and smaller file sizes, but as of yet is relatively unused.
+Image data is self-explanatory, but there are some important details. The format of the data can matter. Although it takes far larger amounts of space, PNG formatted images suffer from less compression artifacts than JPEGs. The vast majority of image data is still using JPEG format, but it won't help to save JPEGs as PNG formatted images since the data loss caused by compression happens when first saved as a JPEG. If you are creating your own images, use PNG or WEBP formatted images. WEBP has high quality and smaller file sizes, but as of yet is relatively unused, but works in almost all browsers.
 
 
 ## Scraping
@@ -472,7 +472,7 @@ If you want the most effective and easiest solution, but by far the most expensi
 
 * [Hugging Face models](https://huggingface.co/models)
 
-Hugging Face offers a number of pretrained large language models, but using them requires the capability of running them and doing any extra fine-tuning training yourself.
+Hugging Face offers a number of pretrained large language models, and you can pay to have them run the models or do everything on your own machines but using the models requires the capability of running them and doing any extra fine-tuning training yourself.
 
 ### Links
 * https://beta.openai.com/examples

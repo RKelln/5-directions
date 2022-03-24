@@ -24,7 +24,7 @@ Notes:
 1. [**Foundations**](../foundations/) <!-- .element: class="lighten" -->
 2. [**Past Present Future**](../past_present_future/) <!-- .element: class="lighten" -->
 3. [**Neural Nets**](../neural_nets/) <!-- .element: class="lighten" -->
-4. **Data in Practice**
+4. [**Data in Practice**](../data_in_practice/) <!-- .element: class="lighten" -->
 5. **Machine Learning Art**
 
 </div>

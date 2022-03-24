@@ -443,7 +443,15 @@ section.has-light-background h6 {
   animation: 80s linear 0s forwards panup;
 }
 
-.movement-paused .slide-background.present div.slide-background-content {
+.slide-background.present.panleft div.slide-background-content {
+  animation: 80s linear 0s forwards panleft;
+}
+
+.slide-background.present.panright div.slide-background-content {
+  animation: 80s linear 0s forwards panright;
+}
+
+.reveal.movement-paused .slide-background.present div.slide-background-content {
   animation-play-state: paused;
 }
 
@@ -485,4 +493,14 @@ section.has-light-background h6 {
 @keyframes panup {
   from { transform: translateY(-40%) }
   to { transform: translateY(0%) }
+}
+
+@keyframes panleft {
+  from { background-position: 0% 0%; }
+  to { background-position: 100% 0%; }
+}
+
+@keyframes panright {
+  from { background-position: 100% 0%; }
+  to { background-position: 0% 0%; }
 }

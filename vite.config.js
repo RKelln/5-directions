@@ -24,6 +24,7 @@ export default defineConfig({
         past_present_future: resolve(__dirname, 'past_present_future/index.html'),
         neural_nets: resolve(__dirname, 'neural_nets/index.html'),
         data_in_practice: resolve(__dirname, 'data_in_practice/index.html'),
+        data_companion: resolve(__dirname, 'data_in_practice/companion.html'),
       }
     }
   },
