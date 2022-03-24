@@ -15,7 +15,6 @@ import AudioSlideshow from 'reveal.js-plugins/audio-slideshow/plugin.js'
 
 // non-reveal plugins and libraries
 import {init as wikiInit} from 'wikipedia-preview/src/index.js' // wikipedia link popups
-//import "@lottiefiles/lottie-player"; // lottie animations
 
 
 export const deck = new Reveal();
@@ -75,9 +74,11 @@ deck.initialize({
 });
 
 
-deck.addKeyBinding( { keyCode: 32, key: ' ', description: 'Pause/resume' }, () => {
+deck.addKeyBinding( { keyCode: 32, key: ' ', description: 'Pause/resume' }, (event) => {
   // two functionaliies: if no audio playing then advance the slide
   // if audio playing then pause/resume video and audio
+  
+  event.preventDefault();
 
   const [background_video, video, audio] = getMedia(); 
 
@@ -96,6 +97,8 @@ deck.addKeyBinding( { keyCode: 32, key: ' ', description: 'Pause/resume' }, () =
   }
   
   togglePause();
+
+  return false;
 } )
 
 
@@ -121,35 +124,34 @@ deck.on( 'slidechanged', event => {
       attribution.innerHTML = "";
     }
   }
+  // always start unpaused
+  paused = false;
 } );
 
-// deck.on( 'slidetransitionend', event => {
-// 	// add activate class to animations
-//   let slide = event.currentSlide;
-//   let animations = slide.querySelectorAll('.anim');
-
-//   animations.forEach(function(e) {
-//     e.classList.add('active');
-//   });
-// });
 
 // HACK: FIXME: to allow for using the pause button on the audio player and not
 // restarting the video when starting an audio fragent we watch the stopplayback event
 // and pause the background video if it exists
-// HACK: pause works without this locally but not on server!!!
 document.addEventListener('stopplayback', function(e) {
-  //console.log("stopplayback", e);
+  //console.log("stopplayback", paused, e);
   let slide = deck.getCurrentSlide();
   if (!slide) return;
-  let background_video = slide.slideBackgroundContentElement.querySelector('video');
-  if (background_video) background_video.pause();
+  // event e has custom attribute .paused which will be true when main pause
+  // should be called (i.e. in the case where the play button was pressed)
+  if (e.paused === true) {
+    pause();
+  }
 } );
+
 document.addEventListener('startplayback', function(e) {
-  //console.log("startplayback", e);
+  //console.log("startplayback", paused, e);
   let slide = deck.getCurrentSlide();
   if (!slide) return;
-  let background_video = slide.slideBackgroundContentElement.querySelector('video');
-  if (background_video) background_video.play();
+  // event e has custom attribute .paused which will be true when main pause
+  // should be called (i.e. in the case where the play button was pressed)
+  if (e.paused === false) {
+    play();
+  }
 } );
 
 
@@ -173,42 +175,65 @@ function getMedia() {
   return [background_video, video, audio];
 }
 
+// create is_playing attribute
+// https://stackoverflow.com/questions/8599076/detect-if-html5-video-element-is-playing
+Object.defineProperty(HTMLMediaElement.prototype, 'is_playing', {
+  get: function(){
+      return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+  }
+})
 
-function pause() {
-  const [background_video, video, audio] = getMedia(); 
-
-  if (background_video) background_video.pause();
-  if (video) video.pause();
-  if (audio) audio.pause();
+function pause_background(background_video = false) {
+  if (background_video === false) {
+    const [bg_video, video, audio] = getMedia();
+    background_video = bg_video;
+  }
+  if (background_video && background_video.is_playing) background_video.pause();
 
   let e = document.querySelector('div.reveal');
   e.classList.add("movement-paused");
 }
 
-
-function play() {
-  const [background_video, video, audio] = getMedia(); 
-
-  if (background_video) background_video.play();
-  if (video) video.play();
-  if (audio) audio.play();
+function play_background(background_video = false) {
+  if (background_video === false) {
+    const [bg_video, video, audio] = getMedia();
+    background_video = bg_video;
+  }
+  if (background_video && !background_video.is_playing) background_video.play();
 
   let e = document.querySelector('div.reveal');
   e.classList.remove("movement-paused");
 }
 
 
-function togglePause() {
+function pause() {
+  if (paused) return;
+  paused = true;
   const [background_video, video, audio] = getMedia(); 
 
-  // handle pause / resume action:
-  paused = !paused;
+  // NOTE: order matters because audio also tries to pause video
+  if (audio && audio.is_playing) audio.pause();
+  if (video && video.is_playing) video.pause();
 
-  // video/audio may be paused independently so we check that here and override
-  if (background_video) paused = !background_video.paused;
-  if (audio) paused = !audio.paused;
+  pause_background(background_video);
+}
 
-  if (paused) { // pause video and audio
+function play() {
+  if (!paused) return;
+  paused = false;
+
+  const [background_video, video, audio] = getMedia(); 
+
+  // NOTE: order matters because audio also tries to play video
+  if (audio && !audio.is_playing) audio.play();
+  if (video && !video.is_playing) video.play();
+
+  play_background(background_video);
+}
+
+
+function togglePause() {
+  if (!paused) { // pause video and audio
     pause();
   } else { // resume video and audio
     play();
