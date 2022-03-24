@@ -53,7 +53,7 @@ How much data do you need? There is no hard guide to this, but typically there i
 
 For classification, you want enough data per "class" and roughly balanced data per classes, with recommendations for image classification at around 1000 images per class.
 
-If you don't have enough data there some options, we'll get into specifics for the different types of datasets but the basic options are:
+If you don't have enough data there are some options, we'll get into specifics for the different types of datasets but the basic options are:
 
 
 <!-- .slide: data-audio-src="../audio/data/04.ogg" data-background-image="../images/image_mirror.webp" data-background-size="contain" -->
@@ -130,7 +130,7 @@ Raw data is a mess and an old adage in computer science is "garbage in, garbage 
 
 Some basic tasks include cleaning the data, balancing the data between classes (for example, you wouldn't want 100 times as many dogs as cats), checking the range of feature values and ensuring all the data has roughly similar ranges or sizes.
 
-Then you may want to split your data into training, validation and test sets. By splitting your data and holding some it back from training you are better able to test when your model is generalizing well to data other than what it was trained on.
+Then you may want to split your data into training, validation and test sets. By splitting your data and holding some of it back from training you are better able to test when your model is generalizing well to data other than what it was trained on.
 
 
 <!-- .slide: data-audio-src="../audio/data/10.ogg" data-background-image="../images/bad_data.png" data-background-size="contain" data-background-opacity="0.5" -->
@@ -358,7 +358,7 @@ When starting your own datasets it is important to collect metadata. You can fin
 </div>
 
 Notes:
-Time series data can be easily found in the general dataset searches, but there a few worth mentioning anyways, particularly if you have an environmental focus:
+Time series data can be easily found in the general dataset searches, but there are a few worth mentioning anyways, particularly if you have an environmental focus:
 * TSDL was created by Rob Hyndman, Professor of Statistics at Monash University, and contains 650 datasets of a wide variety of types.
 * GapMinder has hundreds of indicators of global well-being, health, and the environment.
 * Our World in Data has a variety of biodiversity datasets.
@@ -636,7 +636,7 @@ Properly building the relationships and tools needed to collect, curate and shar
 Notes:
 There are many fields with related challenges including museum, library and information sciences, art history as well as other preservation, conservation and knowledge keeping practices. Also relevant are the practice of ethics and data management used in journalism and science research, particularly experimental studies. Plus all the open source and open data movements. Don't be shy to reach out for help and integrate best practices.
 
-I wish there was more I could offer, but I too am at the start of this journey, so I am mainly able point out the footsteps of pioneers for us both to follow.
+I wish there was more I could offer, but I too am at the start of this journey, so I am mainly able to point out the footsteps of pioneers for us both to follow.
 
 
 <!-- .slide: id="fair-care-contexts" data-audio-src="../audio/data/36.ogg" data-background-image="../images/GOFAIR_logo.png" data-background-size="contain" data-background-opacity="0.6"-->
@@ -676,7 +676,7 @@ If the data is coming from Indigenous sources, like in this example, you'll want
 
 <!-- .slide: data-audio-src="../audio/data/38-seg3.ogg" data-background-video="../video/fade_to_black_seasons_small.mp4" data-background-size="contain" data-background-color="black" -->
 Notes:
-In this example, timelines for getting access to existing art and cultural works to photograph them and well as guided tours of the geography would be necessary. It may be necessary to photograph 3-4 times at different times of the year to incorporate all seasonal changes, and certain cultural artifacts may only be available seasonally. Visits to various community and personal dwellings will likely need to be coordinated, compensated and acknowledged. Keep track of everything, detailed notes will save you countless hours later! You can, with consent, also record audio and/or video of the data collection process, which can be consulted later to confirm the notes or catch mistakes.
+In this example, timelines for getting access to existing art and cultural works to photograph them as well as guided tours of the geography would be necessary. It may be necessary to photograph 3-4 times at different times of the year to incorporate all seasonal changes, and certain cultural artifacts may only be available seasonally. Visits to various community and personal dwellings will likely need to be coordinated, compensated and acknowledged. Keep track of everything, detailed notes will save you countless hours later! You can, with consent, also record audio and/or video of the data collection process, which can be consulted later to confirm the notes or catch mistakes.
 
 There may be data that is requested to remain private to just the community or even certain parts of the community, so each data point and photo should have a list of metadata associated with it. This metadata should encompass current and potential future use cases. We can use the Local Context tags to identify cultural data practices. Using a tool like OpenRefine can help with metadata management. 
 
@@ -716,7 +716,7 @@ David Graeber, who was an anthropologist and anarchist activist, points this out
 
 But a teacup or a bottle, well you know, you produce a cup once. You wash it like ten thousand times. Most work isn’t actually about producing new things, it’s about maintaining things. <!-- .element: class="quote" -->
 
-Service to others is a type of care work. Production and maintenance of things that meet others needs and improve others freedom is a type of caring for others. <!-- .element: class="small" -->
+Service to others is a type of care work. Production and maintenance of things that meet others' needs and improve others freedom is a type of caring for others. <!-- .element: class="small" -->
 
 ...A parent takes care of a child, so that that child can grow and be healthy and flourish. That’s true. But in an immediate level, you take care of a child so the child can go and play. That’s what children actually do when you’re taking care of them. What is play? Play is like action done for its own sake. It’s in a way the very paradigm of freedom. Because action done for its own sake is what freedom really consists of. Play and freedom are ultimately the same thing. <!-- .element: class="quote" -->
 _David Graeber_ <!-- .element: class="attribution" -->
@@ -724,7 +724,7 @@ _David Graeber_ <!-- .element: class="attribution" -->
 Notes:
 But a teacup or a bottle, well you know, you produce a cup once. You wash it like ten thousand times. Most work isn’t actually about producing new things, it’s about maintaining things.
 
-Service to others is a type of care work. Production and maintenance of things that meet others needs and improve others freedom is a type of caring for others.
+Service to others is a type of care work. Production and maintenance of things that meet others' needs and improve others freedom is a type of caring for others.
 
 A parent takes care of a child, so that that child can grow and be healthy and flourish. That’s true. But in an immediate level, you take care of a child so the child can go and play. That’s what children actually do when you’re taking care of them. What is play? Play is like action done for its own sake. It’s in a way the very paradigm of freedom. Because action done for its own sake is what freedom really consists of. Play and freedom are ultimately the same thing.
 
