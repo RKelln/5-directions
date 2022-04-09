@@ -239,6 +239,12 @@ In general, **avoiding real-time data and predictions** will make your life easi
 
 If you want to work with time series data you will likely need to work with a data scientist or learn some math, statistics and programming (which I encourage regardless of other collaborators). Projects like [Auto_TS](https://github.com/AutoViML/Auto_TS) claim to allow for building models in "one line of code".
 
+### Links
+* [_Basics of Time Series_ - Andreas Mueller](https://www.youtube.com/watch?v=d34aLzKP0rY)
+* https://amueller.github.io/COMS4995-s19/slides/aml-23-time-series/
+
+<a href="#top" class="doc-nav top">back to top</a>
+
 
 ## Cleaning
 
@@ -349,7 +355,12 @@ Generally when using the Python language and popular ML time series tools you wi
 
 # Image data
 
+![Image format comparison](../images/image_compare_1300beach.webp)
+
 Image data is self-explanatory, but there are some important details. The format of the data can matter. Although it takes far larger amounts of space, PNG formatted images suffer from less compression artifacts than JPEGs. The vast majority of image data is still using JPEG format, but it won't help to save JPEGs as PNG formatted images since the data loss caused by compression happens when first saved as a JPEG. If you are creating your own images, use PNG or WEBP formatted images. WEBP has high quality and smaller file sizes, but as of yet is relatively unused, but works in almost all browsers.
+
+### Links
+* https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/
 
 
 ## Scraping
@@ -401,27 +412,28 @@ There are some video datasets available as well, based off [YouTube](https://res
 Many of these datasets are hundreds of gigabytes in size, so be prepared for long downloads and massive storage requirements.
 
 #### General:
-* [VisualData Discovery](https://visualdata.io/discovery): computer vision dataset search
-* [ImageNet](http://image-net.org/): the original labelled image dataset
-* [Open Images](https://storage.googleapis.com/openimages/web/index.html): Google's labelled, segmented image dataset
-* [COCO](https://cocodataset.org/): Microsoft's segmented, captioned, mostly labelled images
+* [VisualData Discovery](https://visualdata.io/discovery): computer vision dataset search.
+* [ImageNet](http://image-net.org/): the original labelled image dataset.
+* [Open Images](https://storage.googleapis.com/openimages/web/index.html): Google's labelled, segmented image dataset.
+* [COCO](https://cocodataset.org/): Microsoft's segmented, captioned, mostly labelled images.
+* [PASS](https://www.robots.ox.ac.uk/~vgg/data/pass/): no humans and geographically diverse ImageNet-like dataset.
 
 #### Class specific:
-* [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/): face images with age and gender labels
-* [Cityscapes](https://www.cityscapes-dataset.com/): labelled, segmented cityscape images
-* [XView Dataset](http://xviewdataset.org/#dataset): annotated overhead imagery
-* [LHQ](https://github.com/universome/alis): high quality landscape photos
+* [IMDB-WIKI](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/): face images with age and gender labels.
+* [Cityscapes](https://www.cityscapes-dataset.com/): labelled, segmented cityscape images.
+* [XView Dataset](http://xviewdataset.org/#dataset): annotated overhead imagery.
+* [LHQ](https://github.com/universome/alis): high quality landscape photos.
 
 #### Art:
-* [Wiki Art dataset](https://www.kaggle.com/c/painter-by-numbers/data): based on [WikiArt](https://www.wikiart.org/) both public domain and copyrighted images of paintings, photographs and scultpures
-* [Art Institute Chicago](https://www.artic.edu/collection?is_public_domain=1): public domain high resolution digitized collection (no dataset yet)
+* [Wiki Art dataset](https://www.kaggle.com/c/painter-by-numbers/data): based on [WikiArt](https://www.wikiart.org/) both public domain and copyrighted images of paintings, photographs and scultpures.
+* [Art Institute Chicago](https://www.artic.edu/collection?is_public_domain=1): public domain high resolution digitized collection (no dataset yet).
 
 #### Video:
-* [YouTube-8M](https://research.google.com/youtube8m/): labelled video dataset
-* [Kinetics](https://deepmind.com/research/open-source/kinetics): video clips that cover human action classes
+* [YouTube-8M](https://research.google.com/youtube8m/): labelled video dataset.
+* [Kinetics](https://deepmind.com/research/open-source/kinetics): video clips that cover human action classes.
 
 #### 3D:
-* [CO3D: Common Objects In 3D](https://github.com/facebookresearch/co3d):
+* [CO3D: Common Objects In 3D](https://github.com/facebookresearch/co3d): Facebook's Common Objects in 3D (CO3D) dataset.
 
 <a href="#top" class="doc-nav top">back to top</a>
 
@@ -460,23 +472,44 @@ Automated image augmentation is an active area of research and tools are improvi
 <a id="text-datasets"></a>
 
 # Text data
-TODO: link
+
 There are quite a few text datasets, although in general unless you are interested in exploring text like [Allison Parish](TODO), who uses text data similar to how image and time-series data is used, I would suggest using existing pre-trained large language models. It is possible to fine-tune these existing models on more specific vocabulary, although the training may be difficult or expensive.
+
+<figure>
+<img src="../images/Parrish_Compasses.webp" alt="Allison Parrish's Compasses" loading="lazy">
+<figcaption>A selection from <a href="https://aiartists.org/helena-sarin">Allison Parrish's</a> <em>Compasses</em> project.</figcaption>
+</figure>
 
 
 ## Existing large language models
 
-* [OpenAI GPT](https://beta.openai.com/overview)
+[OpenAI GPT](https://beta.openai.com/overview)
 
-If you want the most effective and easiest solution, but by far the most expensive, OpenAI's GPT API is in beta right now. It can be fine-tuned and offers completion, question answering, classification, summarization, and semantic search amongst many other capabilities.
+If you want the most effective and easiest solution, but by far the most expensive, [OpenAI's GPT API](https://beta.openai.com/overview) is in beta right now. It can be fine-tuned and offers completion, question answering, classification, summarization, and semantic search amongst many other capabilities.
 
-* [Hugging Face models](https://huggingface.co/models)
+[Hugging Face models](https://huggingface.co/models)
 
-Hugging Face offers a number of pretrained large language models, and you can pay to have them run the models or do everything on your own machines but using the models requires the capability of running them and doing any extra fine-tuning training yourself.
+Hugging Face offers a number of [pretrained large language models](https://huggingface.co/models), and you can pay to have them run the models or do everything on your own machines but using the models requires the capability of running them and doing any extra fine-tuning training yourself.
 
 ### Links
 * https://beta.openai.com/examples
 * https://huggingface.co/models
+
+
+### Other text datasets
+
+If you do want to look into text datasets yourself, here are some other resources:
+
+* [The Big Bad NLP Database](https://datasets.quantumstat.com/): Dataset list contains datasets for various natural language processing tasks, created and curated by [Quantum Stat](https://quantumstat.com/).
+* [HotspotQA Dataset](https://hotpotqa.github.io/): Question answering dataset featuring natural, multi-hop questions, with intense supervision for supporting facts to enable more explainable question answering systems.
+* [Amazon Reviews](https://snap.stanford.edu/data/web-Amazon.html): A vast dataset from Amazon, containing over 45 million Amazon reviews.
+Rotten Tomatoes Reviews: Archive of more than 480,000 critic reviews (fresh or rotten).
+* [Google Books Ngrams](https://books.google.com/ngrams): A vast collection of words extracted from the Google Books corpus. The “n” specifies the number of elements in the tuple, meaning that a 4-gram contains four words or characters. 
+* [Wikipedia Links Data](https://www.english-corpora.org/wiki/): A dataset with 1.9 billion words from more than 4.4 million articles.  You can search by word, phrase, part of speech, synonyms, comparisons of terms, etc.
+
+### Links
+* https://pub.towardsai.net/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f?sk=f1b8356b013171d7796619e57d7555c9
+
 
 <a href="#top" class="doc-nav top">back to top</a>
 
@@ -488,14 +521,14 @@ Hugging Face offers a number of pretrained large language models, and you can pa
 The majority of audio datasets are for natural language text-to-speech learning. These have limited use to artists generally, but there are a few well known non-voice datasets.
 
 #### Speech:
-* [Common Voice](https://voice.mozilla.org/en/datasets) open source multi-language dataset of voices
-* [Open Speech and Language Resources](http://www.openslr.org/resources.php) particularly the [LibriSpeech](http://www.openslr.org/12/) a 1000 hour dataset of read English
-* [The Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/) hundreds of hours of aligned audio to text in multiple languages
+* [Common Voice](https://voice.mozilla.org/en/datasets): open source multi-language dataset of voices.
+* [Open Speech and Language Resources](http://www.openslr.org/resources.php): particularly the [LibriSpeech](http://www.openslr.org/12/) a 1000 hour dataset of read English.
+* [The Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/): hundreds of hours of aligned audio to text in multiple languages.
 
 #### Other audio:
-* [AudioSet](https://research.google/tools/datasets/audioset/) labelled 10 second sound clips from YouTube videos
-* [NSynth](https://magenta.tensorflow.org/datasets/nsynth) musical notes from a thousand synthesized instruments
-* [Free Music Archive](https://freemusicarchive.org/) free music search engine (no dataset)
+* [AudioSet](https://research.google/tools/datasets/audioset/): labelled 10 second sound clips from YouTube videos.
+* [NSynth](https://magenta.tensorflow.org/datasets/nsynth): musical notes from a thousand synthesized instruments.
+* [Free Music Archive](https://freemusicarchive.org/): free music search engine (no dataset).
 
 <a href="#top" class="doc-nav top">back to top</a>
 
@@ -607,6 +640,8 @@ One important step often overlooked in art and tech practice is designing for ma
 > Maintenance is a drag; it takes all the fucking time (lit.) The mind boggles and chafes at the boredom. The culture confers lousy status on maintenance jobs = minimum wages, housewives = no pay.
 >
 >~ **Mierle Laderman Ukeles** in _Manifesto for Maintenance Art, 1969!_
+
+![Mierle Laderman Ukeles](../images/feldmangallery.com--Ukeles-Washing-Tracks-Maintenance-Outside-1973.jpg)
 
 Artist [Mierle Laderman Ukeles](https://kortina.nyc/notes/n/manifesto-for-maintenance-art-1969/) manifesto lays out an approach where Care, i.e. the labour of maintenance, is Art. It is worth reading the entire manifesto, and I think the devaluing of maintenance work, especially due to its association with gendered labour is important to understand, but I want to emphasize the most practical aspect: _maintenance takes all the time_.
 

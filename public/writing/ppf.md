@@ -910,6 +910,8 @@ This software is a "zero player" game, its evolution determined entirely from it
 2. Any dead cell with 3 live neighbours becomes alive.
 3. All other live cells die in the next generation.
 
+Play with the game and learn more at [conwaylife.com](https://conwaylife.com/).
+
 Press right arrow to continue <!-- .element: class="quote glow" -->
 
 Notes:

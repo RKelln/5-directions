@@ -124,15 +124,25 @@ section.has-light-background h6 {
 .reveal .backdrop {
   display: inline-block;
   padding: 0.25em 0.5em;
+  min-width: 25%;
 }
 
 .reveal .backdrop li {
   margin-left: 1.25em;
 }
 
-.reveal .backdrop > ol, .reveal .backdrop > ul {
+.reveal .backdrop li::marker {
+  color:rgba(210,180,180, 0.7);
+}
+
+.reveal .backdrop ol, .reveal .backdrop ul {
   margin-left: 0;
   padding-left: 0;
+}
+
+.column-list > ul, .column-list > ol {
+  column-count: 2;
+  column-gap: 2em;
 }
 
 .reveal .quote {
@@ -221,6 +231,15 @@ section.has-light-background h6 {
 
 .reveal .small-print {
   font-size: 8pt;
+}
+
+.reveal .highlighted li {
+  filter: brightness(70%);
+}
+
+.reveal .highlighted li strong {
+  font-weight: normal;
+  filter: brightness(150%);
 }
 
 .reveal .license p, .reveal .license img {
@@ -334,6 +353,26 @@ section.has-light-background h6 {
   border: 4px double rgba(210,180,180, 0.9);
   padding: 1em 1.5em;
 }
+
+div.artist > ul, div.artist > h3 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div.artist > ul > li {
+  padding: 0.25rem 0;
+}
+
+div.artist.r-stretch > ul, div.artist.r-stretch > h3 {
+  padding: 0.5rem 0.9rem;
+  text-transform: unset;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 60%;
+}
+
 
 .reveal .dates ul, .reveal ul.dates {
   list-style: none;
@@ -504,3 +543,4 @@ section.has-light-background h6 {
   from { background-position: 100% 0%; }
   to { background-position: 0% 0%; }
 }
+

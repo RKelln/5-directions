@@ -1,21 +1,22 @@
-import 'reveal.js/dist/reveal.css'
+import 'reveal.js/dist/reveal.css';
 // see available themes in the
 // node_modules/reveal.js/dist/theme
 //  beige, black, blood, league, moon, night, serif, simple, ...
-import 'reveal.js/dist/theme/blood.css'
-import './style.css'
+import 'reveal.js/dist/theme/blood.css';
+import './style.css';
 
 
-import Reveal from 'reveal.js'
-import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js'
+import Reveal from 'reveal.js';
+import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js';
 import Notes from 'reveal.js/plugin/notes/notes.esm.js';
 import Search from 'reveal.js/plugin/search/search.esm.js';
-import AudioSlideshow from 'reveal.js-plugins/audio-slideshow/plugin.js'
+import AudioSlideshow from 'reveal.js-plugins/audio-slideshow/plugin.js';
 //import AudioRecorder from 'reveal.js-plugins/audio-slideshow/recorder.js'
 
 // non-reveal plugins and libraries
-import {init as wikiInit} from 'wikipedia-preview/src/index.js' // wikipedia link popups
+import {init as wikiInit} from 'wikipedia-preview/src/index.js'; // wikipedia link popups
 
+import {vtt_parser} from './vtt.js';
 
 export const deck = new Reveal();
 let paused = false;
@@ -124,8 +125,61 @@ deck.on( 'slidechanged', event => {
       attribution.innerHTML = "";
     }
   }
+
+  // vtt
+  let vtt = slide.querySelector('script[type="text/vtt"]');
+  if (vtt) {
+    const [_bgvideo, _video, audio] = getMedia(); 
+    //console.log("vtt", vtt, audio);
+    if (audio) {
+      var track = audio.addTextTrack('captions', "English", "en");
+      track.mode = "showing"; //doesn't show with audio, argh
+      vtt_parser(vtt.innerHTML).map( (cue) => {
+        track.addCue(cue);
+      });
+      let dynamic_text = slide.querySelector('.dynamic-text');
+      if (!dynamic_text) {
+        dynamic_text = document.createElement('div');
+        dynamic_text.classList.add('dynamic-text');
+        slide.appendChild(dynamic_text);
+      }
+      track.addEventListener('cuechange', event => {
+        let cues = event.target.activeCues;
+        if (cues.length == 1) {
+          dynamic_text.innerText = cues[0].text;
+          let fadeDuration = 0.2;
+          let animDelay = cues[0].endTime - cues[0].startTime - fadeDuration;
+          if (animDelay < 0) animDelay = fadeDuration;
+          //console.log(cues[0].text, animDelay);
+          // https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API
+          dynamic_text.animate(
+            [
+              { opacity: 0},
+              { opacity: 1}
+            ], {
+              fill: 'forwards',
+              duration: fadeDuration * 1000
+            }
+          );
+          dynamic_text.animate(
+            [
+              { opacity: 1},
+              { opacity: 0}
+            ], {
+              fill: 'forwards',
+              duration: fadeDuration * 1000,
+              delay: animDelay * 1000
+            }
+          );
+        }
+      });
+    }
+  }
+
   // always start unpaused
   paused = false;
+  let e = document.querySelector('div.reveal');
+  e.classList.remove("movement-paused");
 } );
 
 
@@ -216,6 +270,17 @@ function pause() {
   if (video && video.is_playing) video.pause();
 
   pause_background(background_video);
+
+  // dynamic text
+  let slide = deck.getCurrentSlide();
+  let dynamic_text = slide.querySelector('.dynamic-text');
+  if (dynamic_text) {
+    dynamic_text.getAnimations().forEach( (animation) => {
+      if (animation.playState == 'running') {
+        animation.pause();
+      }
+    });
+  }
 }
 
 function play() {
@@ -229,6 +294,17 @@ function play() {
   if (video && !video.is_playing) video.play();
 
   play_background(background_video);
+
+  // dynamic text
+  let slide = deck.getCurrentSlide();
+  let dynamic_text = slide.querySelector('.dynamic-text');
+  if (dynamic_text) {
+    dynamic_text.getAnimations().forEach( (animation) => {
+      if (animation.playState == 'paused') {
+        animation.play();
+      }
+    });
+  }
 }
 
 

@@ -111,7 +111,7 @@ Artists like Hans Brouwer use similar techniques to solve the problem of buildin
 * https://wavefunk.xyz/blog/rhodops
 
 
-<!-- .slide: data-background-video="../video/Hans_Lakspe_interp.mp4"  data-background-color="white" -->
+<!-- .slide: data-background-video="../video/Hans_Lakspe_interp-Discovery.mp4"  data-background-color="white" -->
 Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_Lakspe_ development images - Hans Brower](https://wavefunk.xyz/blog/lakspe)
@@ -659,13 +659,40 @@ Let's explain this with an example dataset of collected and new photos of cultur
 
 <!-- .slide: data-audio-src="../audio/data/38-seg1.ogg" data-background-image="../images/Suzanne_Kite.webp" data-background-size="contain" data-background-color="black" -->
 Notes:
-Following Suzanne Kite's _How to Build Anything Ethically_ questions, we  can start a data project by identifying and connecting with elders and knowledge keepers of the community. They will help to identify other stakeholders, both human and non-human, past and present.
+Following Suzanne Kite's _How to Build Anything Ethically_ questions, we can start a data project by identifying and connecting with elders and knowledge keepers of the community. They will help to identify other stakeholders, both human and non-human, past and present.
 
 ### Credits <!-- .element: class="attribution" -->
 * [Image by Kari Noe, 2019](https://kitekitekitekite.com/portfolio/items/indigenous-protocols-and-artificial-intelligence-position-paper/)
 
 
-<!-- .slide: class="zoomout" data-audio-src="../audio/data/38-seg2.ogg" data-background-image="../images/an_archeology_of_datasets.webp" -->
+<!-- .slide: class="zoomout" data-audio-src="../audio/data/38-seg2.ogg" data-background-image="../images/an_archeology_of_datasets.webp" data-background-opacity="0.7"-->
+<h3 class="dynamic-text"></h3>
+<script type="text/vtt">
+00:00.500 --> 00:03.000
+coalition of stakeholders
+00:04.500 --> 00:06.500
+inviting participation & feedback
+00:10.300 --> 00:14.500
+respect, reciprocity, trust & mutual understanding
+00:20.200 --> 00:22.000
+open & collaborative
+00:24.000 --> 00:29.000
+mockups
+00:30.750 --> 00:33.500
+imagine the future together
+00:36.000 --> 00:37.500
+consent
+00:38.300 --> 00:39.600
+accessibilty
+00:40.000 --> 00:42.000
+intentions
+00:44.700 --> 00:47.000
+participation
+00:48.200 --> 00:53.000
+contribution
+00:58.850 --> 01:02.000
+GIDA C.A.R.E.
+</script>
 Notes:
 Building a coalition of stakeholders involves explaining the goals of the project and inviting participation and feedback. This is the opportunity to build relationships founded on respect, reciprocity, trust and mutual understanding. You can use open source practices developing the roadmap and documentation of the process in an open, collaborative way. As soon as possible you should have mock-ups of the final work and descriptions or mock-ups of how access to the dataset would work for the community to help everyone imagine the future you are working towards together. 
 
@@ -675,6 +702,23 @@ If the data is coming from Indigenous sources, like in this example, you'll want
 
 
 <!-- .slide: data-audio-src="../audio/data/38-seg3.ogg" data-background-video="../video/fade_to_black_seasons_small.mp4" data-background-size="contain" data-background-color="black" -->
+<h3 class="dynamic-text"></h3>
+<script type="text/vtt">
+00:12.500 --> 00:20.200
+seasonality
+00:27.000 --> 00:31.200
+track everything
+00:33.900 --> 00:40.800
+recordings
+00:50.200 --> 00:56.700
+metadata
+00:58.100 --> 01:02.200
+Local Contexts
+01:03.750 --> 01:06.800
+OpenRefine
+01:12.100 --> 01:15.500
+free & open
+</script>
 Notes:
 In this example, timelines for getting access to existing art and cultural works to photograph them as well as guided tours of the geography would be necessary. It may be necessary to photograph 3-4 times at different times of the year to incorporate all seasonal changes, and certain cultural artifacts may only be available seasonally. Visits to various community and personal dwellings will likely need to be coordinated, compensated and acknowledged. Keep track of everything, detailed notes will save you countless hours later! You can, with consent, also record audio and/or video of the data collection process, which can be consulted later to confirm the notes or catch mistakes.
 
@@ -738,6 +782,23 @@ A parent takes care of a child, so that that child can grow and be healthy and f
 
 
 <!-- .slide: data-audio-src="../audio/data/41-seg2.ogg" data-background-video="../video/ElectricSheep.org-27688359-background.mp4" data-background-video-loop -->
+<h3 class="dynamic-text"></h3>
+<script type="text/vtt">
+00:01.500 --> 00:03.500
+for its own sake
+00:05.750 --> 00:10.400
+art = play = freedom
+00:13.400 --> 00:15.500
+open & ethical
+00:16.800 --> 00:21.500
+care creates freedom
+00:24.700 --> 00:28.200
+maintenance maximizes freedom
+00:29.000 --> 00:42.000
+sustainable care
+00:46.000 --> 00:49.300
+freedom through maintenance
+</script>
 Notes:
 Art too is for its own sake. Thus your dataset when used for art is about creating freedom, first for yourself and then for everyone else who has access to it. That is why it is critical to make it in an open and ethical way. This concept of care work as freedom generating is also important to Indigenous feminism.
 
@@ -750,7 +811,18 @@ Sadly there are few tools and even fewer sources of funding for maintenance work
 
 
 <!-- .slide: class="pandown" data-audio-src="../audio/data/43.ogg" data-background-image="../images/DisCo.jpg" -->
-### DisCo
+### DisCo <!-- .element: class="hidden" -->
+<h3 class="dynamic-text"></h3>
+<script type="text/vtt">
+00:03.600 --> 00:05.900
+distributed cooperative organization
+00:06.100 --> 00:08.200
+Guerrilla Media Collective
+00:13.100 --> 00:15.500
+Transnational Institute
+00:16.300 --> 00:20.000
+DisCos
+</script>
 Notes:
 One of the best examples of a successful care-first model is the [distributed cooperative organization](https://disco.coop/), the [Guerrilla Media Collective](https://disco.coop/labs/guerrilla-media-collective/). They have documented their practice and created a wonderful manifesto in collaboration with the [Transnational Institute](https://www.tni.org/), to help others learn about distributed cooperative organizations or DisCos.
 
@@ -760,10 +832,12 @@ Their documents detail a number of important principles, but there are three tha
 * Image by [Felipe Duarte](https://disco.coop/felipe-duarte/)
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/data/44.ogg" data-background-image="../images/DisCo-carework-at-the-core.jpg" data-background-opacity="0.4" -->
-* **Care work is the core**: organizations and collaborations are living entities on two scales: the entity and the members that constitute it. Both need care work to maintain their health and well-being.
-* **Put your effort where your heart is**: use values-based accountability. Production is guided not by profit but by social and environmental priorities.
-* **Building whole-community governance**: extend decision-making and stewardship to all contributors and those affected by your organization's actions.
+<!-- .slide: class="pandown" data-audio-src="../audio/data/44-seg1.ogg" data-background-image="../images/DisCo-carework-at-the-core.jpg" data-background-opacity="0.4" -->
+<ul>
+<li><strong>Care work is the core</strong>: organizations and collaborations are living entities on two scales: the entity and the members that constitute it. Both need care work to maintain their health and well-being.</li>
+<li class="fragment" data-audio-src="../audio/data/44-seg2.ogg"><strong>Put your effort where your heart is</strong>: use values-based accountability. Production is guided not by profit but by social and environmental priorities.
+<li class="fragment" data-audio-src="../audio/data/44-seg3.ogg"><strong>Building whole-community governance</strong>: extend decision-making and stewardship to all contributors and those affected by your organization's actions.
+</ul>
 
 Notes:
 **Care work is the core**: organizations and collaborations are living entities on two scales: the entity and the members that constitute it. Both need care work to maintain their health and well-being.
@@ -772,9 +846,7 @@ Notes:
 
 **Building whole-community governance**: extend decision-making and stewardship to all contributors and those affected by your organization's actions.
 
-These principles reflect the similar ideals we have seen in other feminist economic movements. Care work at the core makes clear that every collaboration requires maintenance and sustenance of both the collaboration and all the contributors to the collaboration, both human and non-human, animate and inanimate. 
-
-These DisCo principles work well in dataset collaborations with diverse sets of contributors with different needs. Put care work at the core, guided by your shared values, for all contributors and those affected by your decisions and actions.
+These principles reflect the similar ideals we have seen in other feminist economic movements. 
 
 ### Credits <!-- .element: class="attribution" -->
 * Image by [Felipe Duarte](https://disco.coop/felipe-duarte/)
@@ -787,14 +859,25 @@ These DisCo principles work well in dataset collaborations with diverse sets of 
 * https://www.tni.org/
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/data/45.ogg" data-background-image="../images/DisCo-reimagine-flows.jpg" data-background-opacity="0.33" -->
-### Tools
-1. Clock/timer to track work (punch clock)
-2. Synchronous group and individual communication (cafeteria or desk chat)
-3. Asynchronous communication / decision-making (boardroom)
-4. Task and project management (whiteboard and planner)
-5. Collaborative writing and file-storage (file cabinet)
-6. Wiki documentation (public report)
+<!-- .slide: class="panup" data-audio-src="../audio/data/44-seg4.ogg" data-background-image="../images/DisCo-carework-at-the-core.jpg" data-background-opacity="0.8" -->
+### Care work at the core <!-- .element: class="fadeout" -->
+Notes:
+Care work at the core makes clear that every collaboration requires maintenance and sustenance of both the collaboration and all the contributors to the collaboration, both human and non-human, animate and inanimate. 
+
+These DisCo principles work well in dataset collaborations with diverse sets of contributors with different needs. Put care work at the core, guided by your shared values, for all contributors and those affected by your decisions and actions.
+
+### Credits <!-- .element: class="attribution" -->
+* Image by [Felipe Duarte](https://disco.coop/felipe-duarte/)
+
+
+<!-- .slide: class="pandown" data-background-image="../images/DisCo-reimagine-flows.jpg" data-background-opacity="0.33" -->
+### Tools <!-- .element: class="fragment" data-audio-src="../audio/data/45-seg1.ogg" -->
+1. Clock/timer to track work (punch clock) <!-- .element: class="fragment" data-audio-src="../audio/data/45-seg2.ogg" -->
+2. Synchronous group and individual communication (cafeteria or desk chat) <!-- .element: class="fragment" data-audio-src="../audio/data/45-seg3.ogg"-->
+3. Asynchronous communication / decision-making (boardroom) <!-- .element: class="fragment" data-audio-src="../audio/data/45-seg4.ogg" -->
+4. Task and project management (whiteboard and planner) <!-- .element: class="fragment" data-audio-src="../audio/data/45-seg5.ogg" -->
+5. Collaborative writing and file-storage (file cabinet) <!-- .element: class="fragment" data-audio-src="../audio/data/45-seg6.ogg" -->
+6. Wiki documentation (public report) <!-- .element: class="fragment" data-audio-src="../audio/data/45-seg7.ogg" -->
 
 Notes:
 What sort of tools are needed to manage maintenance and care work?
