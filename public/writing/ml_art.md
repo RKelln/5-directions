@@ -34,7 +34,7 @@ Other issues are more practical - how best to communicate to audiences when your
 This state of being is filled with potential, including deadly harms, and it is art and artists of all kinds that will help us navigate it more safely and justly.
 
 ---
-<!-- .slide: id="types-of-ml-art" class="panup" data-auto-animate data-audio-src="../audio/ml_art/03.ogg" data-background-image="../images/artists_intent_flowing_through_their_tools_ML_art.webp" data-background-opacity="0.8" -->
+<!-- .slide: id="types-of-ml-art" class="panup" data-auto-animate data-audio-src="../audio/ml_art/03.ogg" data-background-image="../images/1111101000 Robots_0170.webp" data-background-opacity="0.8" data-background-size="contain" -->
 # Types of Machine Art <!-- .element: class="hidden" -->
 
 <div class="small lighten backdrop column-list">
@@ -54,6 +54,9 @@ This state of being is filled with potential, including deadly harms, and it is 
 </div>
 
 Notes: There are many ways machine learning can be used to make art. I'll quickly go over some of the categories identified by Derrick Schultz and Sofian Audry. These categories aren't definitive, and many works overlap multiple categories, but can offer a way to journey through the ML art environment. I'll go into greater depth into each category and offer more examples later in the tutorial.
+
+### Credits <!-- .element: class="attribution" -->
+* [_1111101000 Robots_ - Ben Barry](https://archive.org/details/1111101000-robots/)
 
 ### Credits
 * [_A Selection of Machine Learning Art Inspiration_ by Derrick Schultz](https://www.youtube.com/watch?v=HNwXrHiHW7Q)
@@ -83,7 +86,7 @@ The first category, realism, is actually uncommon in fine art practice but more 
 * [Enhancing Photorealism Enhancement](https://www.youtube.com/watch?v=P1IcaBn3ej0)
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/05.ogg" data-background-image="../images/psych_sureal_cusist_collage.webp" data-background-size="contain" -->
+<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/05.ogg" data-background-image="../images/DALLE2-robots.webp" data-background-size="contain" -->
 <div class="small lighten backdrop column-list highlighted">
 
   * [Realism](#realism)
@@ -101,6 +104,9 @@ The first category, realism, is actually uncommon in fine art practice but more 
 </div>
 Notes:
 The other non-realistic techniques are roughly related: psychedelic, surrealist, cubist, and collage works all use the machine to generate art that requires interpretation because the machine has an inability to understand or generate realistic images. Psychedelic imagery focuses on bright colors, patterns and movement and usually lacks an easily defined subject. Surrealist imagery often focuses on the liquid nature of machine interpolation between generated images. Cubist works have a flattening or deconstructing of the imagery with a focus on the essence of the concept portrayed. Collage combines found or generated images to highlight or create interesting relationships.
+
+### Credits <!-- .element: class="attribution" -->
+* [_1111101000 Robots_ - Ben Barry](https://archive.org/details/1111101000-robots/)
 
 
 <!-- .slide: class="zoomout" data-auto-animate data-audio-src="../audio/ml_art/06.ogg" data-background-image="../images/absurdist_critique.webp" -->
