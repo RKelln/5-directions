@@ -103,46 +103,32 @@ deck.addKeyBinding( { keyCode: 32, key: ' ', description: 'Pause/resume' }, (eve
 } )
 
 
-deck.on( 'slidechanged', event => {
-  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
-  let slide = event.currentSlide;
-  let credits = slide.querySelector(".notes .attribution + ul");
-  let vp = deck.getRevealElement();
-  //let vp = document.body;
-  if (credits) {
-    let attribution = vp.querySelector("#attribution");
-    if (!attribution) {
-      attribution = document.createElement('div');
-      attribution.setAttribute("id", "attribution");
-    }
-    attribution.style.display = "block";
-    attribution.innerHTML = credits.outerHTML;
-    vp.appendChild(attribution);
-  } else {
-    let attribution = vp.querySelector("#attribution");
-    if (attribution) {
-      attribution.style.display = "none";
-      attribution.innerHTML = "";
-    }
+function handleVTT(slide) {
+  if (!slide) {
+    console.warn("No slide passed to handleVTT");
+    return;
   }
-
-  // vtt
   let vtt = slide.querySelector('script[type="text/vtt"]');
   if (vtt) {
     const [_bgvideo, _video, audio] = getMedia(); 
     //console.log("vtt", vtt, audio);
-    if (audio) {
+
+    // get or create dynamic-text element
+    let dynamic_text = slide.querySelector('.dynamic-text');
+    if (!dynamic_text) {
+      dynamic_text = document.createElement('div');
+      dynamic_text.classList.add('dynamic-text');
+      slide.appendChild(dynamic_text);
+    }
+    dynamic_text.style.opacity = 0;
+
+    if (audio && (!audio.textTracks || audio.textTracks.length == 0)) {
       var track = audio.addTextTrack('captions', "English", "en");
-      track.mode = "showing"; //doesn't show with audio, argh
+      track.mode = "showing"; // doesn't show with audio, argh
       vtt_parser(vtt.innerHTML).map( (cue) => {
         track.addCue(cue);
       });
-      let dynamic_text = slide.querySelector('.dynamic-text');
-      if (!dynamic_text) {
-        dynamic_text = document.createElement('div');
-        dynamic_text.classList.add('dynamic-text');
-        slide.appendChild(dynamic_text);
-      }
+
       track.addEventListener('cuechange', event => {
         let cues = event.target.activeCues;
         if (cues.length == 1) {
@@ -174,6 +160,53 @@ deck.on( 'slidechanged', event => {
         }
       });
     }
+  }
+}
+
+function handleAttribution(slide) {
+  if (!slide) {
+    console.warn("No slide passed to handleAttribution");
+    return;
+  }
+  let credits = slide.querySelector(".notes .attribution + ul");
+  let vp = deck.getRevealElement();
+  //let vp = document.body;
+  if (credits) {
+    let attribution = vp.querySelector("#attribution");
+    if (!attribution) {
+      attribution = document.createElement('div');
+      attribution.setAttribute("id", "attribution");
+    }
+    attribution.style.display = "block";
+    attribution.innerHTML = credits.outerHTML;
+    vp.appendChild(attribution);
+  } else {
+    let attribution = vp.querySelector("#attribution");
+    if (attribution) {
+      attribution.style.display = "none";
+      attribution.innerHTML = "";
+    }
+  }
+}
+
+
+deck.on( 'slidechanged', event => {
+  //console.log("reveal slidechanged", event);
+  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+  handleAttribution(event.currentSlide);
+
+  // FIXME: there is a bug where the audio element is not loaded yet when this is called
+  // so the VTT isn't set up properly
+  handleVTT(event.currentSlide);
+
+  const [background_video, video, audio] = getMedia();
+  // restart video
+  if (background_video) background_video.currentTime = 0;
+  if (video) video.currentTime = 0;
+  if (audio) {
+    // start video paused, let audio start it
+    if (background_video) background_video.pause();
+    if (video) video.pause();
   }
 
   // always start unpaused
@@ -216,7 +249,9 @@ function getMedia() {
   let audio_id = "audioplayer-" + indices.h + '.' + indices.v;
   if ( indices.f != undefined && indices.f >= 0 ) audio_id = audio_id + '.' + indices.f;
   let audio = document.getElementById( audio_id );
-  //console.log(audio, audio.duration, !audio.duration);
+  if (audio) {
+    //console.log(audio_id, audio, audio.duration, !audio.duration);
+  }
   
   let slide = deck.getCurrentSlide();
   let background_video = null;

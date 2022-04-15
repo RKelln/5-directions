@@ -25,6 +25,7 @@ export default defineConfig({
         neural_nets: resolve(__dirname, 'neural_nets/index.html'),
         data_in_practice: resolve(__dirname, 'data_in_practice/index.html'),
         data_companion: resolve(__dirname, 'data_in_practice/companion.html'),
+        ml_art: resolve(__dirname, 'ml_art/index.html'),
       }
     }
   },

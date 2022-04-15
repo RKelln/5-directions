@@ -19,13 +19,13 @@ Notes:
 <!-- .slide: data-audio-src="../audio/intro/01.ogg" data-background-video="../video/SunsetWavesMediumH264_Beachfront-B-roll.mp4" data-audio-advance="1500"-->
 # Five Directions Tutorials <!-- .element: class="r-fit-text" -->
 
-<div class="backdrop">
+<div class="backdrop lighten">
 
-1. [**Foundations**](../foundations/) <!-- .element: class="lighten" -->
-2. [**Past Present Future**](../past_present_future/) <!-- .element: class="lighten" -->
-3. [**Neural Nets**](../neural_nets/) <!-- .element: class="lighten" -->
-4. [**Data in Practice**](../data_in_practice/) <!-- .element: class="lighten" -->
-5. **Machine Learning Art** <!-- .element: class="low-vis" -->
+1. [**Foundations**](../foundations/) 
+2. [**Past Present Future**](../past_present_future/) 
+3. [**Neural Nets**](../neural_nets/) 
+4. [**Data in Practice**](../data_in_practice/)
+5. [**Machine Learning Art**](../ml_art/)
 
 </div>
 
