@@ -187,7 +187,7 @@ section.has-light-background h6 {
   left: auto;
   z-index: 11;
   margin: 0.4em;
-  font-size: 0.4em;
+  font-size: 1rem;
   animation: 3s linear fadeIn;
 }
 

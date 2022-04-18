@@ -192,6 +192,25 @@ function handleAttribution(slide) {
 
 deck.on( 'slidechanged', event => {
   //console.log("reveal slidechanged", event);
+
+  // handle fadeout animations
+  const items = event.currentSlide.querySelectorAll('.fadeout');
+  items.forEach( (item) => {
+    void item.offsetWidth; // force reflow
+  });
+
+  // handle video restart and pause on start of slide
+  const [background_video, video, audio] = getMedia();
+  // restart video
+  if (background_video) {
+    background_video.currentTime = 0;
+    if (audio) { background_video.pause(); }
+  }
+  if (video) {
+    video.currentTime = 0;
+    if (audio) { video.pause(); }
+  }
+
   // event.previousSlide, event.currentSlide, event.indexh, event.indexv
   handleAttribution(event.currentSlide);
 
@@ -199,19 +218,9 @@ deck.on( 'slidechanged', event => {
   // so the VTT isn't set up properly
   handleVTT(event.currentSlide);
 
-  const [background_video, video, audio] = getMedia();
-  // restart video
-  if (background_video) background_video.currentTime = 0;
-  if (video) video.currentTime = 0;
-  if (audio) {
-    // start video paused, let audio start it
-    if (background_video) background_video.pause();
-    if (video) video.pause();
-  }
-
   // always start unpaused
   paused = false;
-  let e = document.querySelector('div.reveal');
+  const e = document.querySelector('div.reveal');
   e.classList.remove("movement-paused");
 } );
 
@@ -288,7 +297,9 @@ function play_background(background_video = false) {
     const [bg_video, video, audio] = getMedia();
     background_video = bg_video;
   }
-  if (background_video && !background_video.is_playing) background_video.play();
+  if (background_video && !background_video.is_playing) {
+    background_video.play();
+  }
 
   let e = document.querySelector('div.reveal');
   e.classList.remove("movement-paused");
