@@ -885,6 +885,7 @@ Notes:
 ### Credits
 * [6-05](https://vimeo.com/451284388)
 
+---
 
 <!-- .slide: id="cubist" data-auto-ainimate data-audio-src="../audio/ml_art/22-seg1.ogg" data-background-image="../images/cubist.webp" data-background-opacity="0.45" -->
 ## Cubist
@@ -953,6 +954,7 @@ Notes:
 * _[Eyecode](http://www.flong.com/archive/projects/eyecode/index.html)_, 2007
 * _[Reface](http://www.flong.com/archive/projects/reface/index.html)_, 2007
 
+---
 
 <!-- .slide: id="collage" data-auto-animate data-audio-src="../audio/ml_art/23-seg1.ogg" data-background-video="../video/Mosaic-Virus-detail-338726032.mp4" data-background-video-loop data-background-opacity="0.5" -->
 ## Collage
@@ -1030,6 +1032,7 @@ Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [Selection of work by Helena Sarin](https://vimeo.com/354276365)
 
+---
 
 <!-- .slide: id="absurdist" data-audio-src="../audio/ml_art/24.ogg" data-background-image="../images/AI_Weirdness.webp" data-background-size="contain" data-background-color="white" -->
 ## Absurdist
@@ -1062,6 +1065,7 @@ Notes:
 ### Credits <!-- .element: class="attribution" -->
 * _[AI is based on math so it is correct](https://www.aiweirdness.com/clip-backpropagation/)_, 2021
 
+---
 
 <!-- .slide: id="critique" data-auto-animate data-audio-src="../audio/ml_art/25-seg1.ogg"  data-background-video="../video/Hito Steyerl - This is the Future - Venice Art Biennale 2019-720-mMLHMA-dumY.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.35" -->
 ## Critique
@@ -1188,6 +1192,7 @@ Notes:
 ### Credits
 * https://vimeo.com/600807458
 
+---
 
 <!-- .slide: id="toolchain" data-audio-src="../audio/ml_art/26.ogg" data-background-image="../images/everything_that_happens_will_happen_today.webp" data-background-opacity="0.33" -->
 ## Toolchain
@@ -1236,6 +1241,7 @@ Toolchain art can be used to highlight the strengths or weakness of digital tool
 ### Credits <!-- .element: class="attribution" -->
 * https://www.robinsloan.com/notes/flip-flop/
 
+---
 
 <!-- .slide: id="research" class="zoomin" data-auto-animate data-audio-src="../audio/ml_art/28-seg1.ogg" data-background-image="../images/basic_art.webp" -->
 ## Art as Research
@@ -1247,6 +1253,9 @@ There is a need for “basic art” that fills a roll similar to “basic resear
 <!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/28-seg2.ogg" data-background-video="../video/They.Live.1988.mp4" data-background-video-loop data-background-video-muted -->
 Notes:
 As a cultural practice rather than a science, these dangers are more likely memetic than physical, but identifying dangerous mind viruses and inoculating the public against them is part of successful art research. There is no easy or straightforward approach to provide protection from mind viruses without inadvertently making it easier to create a dangerous, potentially derivative meme. The history of co-opted art practice for marketing and propaganda illustrates the danger. Here be dragons indeed.
+
+### Credits <!-- .element: class="attribution" -->
+* _They Live_ - John Carpenter, 1988
 
 
 <!-- .slide: data-auto-animate class="panup" data-audio-src="../audio/ml_art/28-seg3.ogg" data-background-image="../images/explore_intelligence.webp" data-background-size="contain" -->
@@ -1319,6 +1328,7 @@ Notes:
 ### Credits
 * _[Chromatographic Ballads](https://vimeo.com/71008106)_, 2013
 
+---
 
 <!-- .slide: id="instrumentation" data-auto-animate data-audio-src="../audio/ml_art/30-seg1.ogg"  data-background-video="../video/Nebyu_sunrise_concert_example-background.mp4" data-background-opacity="0.6" data-background-video-loop -->
 ## Instrumentation
@@ -1448,6 +1458,7 @@ Notes:
 ### Credits
 * _[Listener](https://www.youtube.com/watch?v=ny-DebRZdV0)_, 2018
 
+---
 
 <!-- .slide: id="non-human" data-audio-src="../audio/ml_art/32-seg1.ogg" data-background-video="../video/Vessels _ by Sofian Audry 2015-137104837.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.4"-->
 ## Non-human Art
@@ -1597,6 +1608,7 @@ Notes:
 ### Credits <!-- .element: class="attribution" -->
 [Botto](https://botto.com/), 2021-ongoing
 
+---
 
 <!-- .slide: id="environmental" data-auto-animate data-audio-src="../audio/ml_art/34-seg1.ogg" data-background-video="../video/Transition_Toronto_small.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5" -->
 ## Environmental
