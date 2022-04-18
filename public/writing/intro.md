@@ -42,6 +42,14 @@ What is this?
 
 ![](../images/reveal-white-text.svg)
 
+<div class="small">
+
+Designed for **desktop** browsers:
+* [Firefox](https://www.mozilla.org/firefox/new/) (recommended)
+* [Chrome](https://www.google.com/chrome/)
+
+</div>
+
 Notes:
 This tutorial is technically a web-based slideshow presentation using the Reveal.js framework, but I've tried to make it feel more like watching a video - except that it's a webpage and under your control. If you do nothing it will just autoplay. At least until we get to a part that is interactive in some way, then you'll need to click on something to continue, but I'll let you know when we get there.
 

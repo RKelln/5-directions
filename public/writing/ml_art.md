@@ -200,7 +200,7 @@ Finally, non-human art focuses on art from the alien mind, often the machine min
 
 ---
 
-<!-- .slide: id="autonomy" data-audio-src="../audio/ml_art/10-seg1.ogg" data-background-image="../images/an_alien_machine_in_8k.webp" data-background-size="contain" data-background-color="black" -->
+<!-- .slide: id="autonomy" class="zoomin" data-audio-src="../audio/ml_art/10-seg1.ogg" data-background-image="../images/an_alien_machine_in_8k.webp" data-background-size="contain" data-background-color="black" -->
 # Autonomy <!-- .element: class="fadeout" -->
 
 Notes:
@@ -444,6 +444,9 @@ Comprehending the behaviour of a complex system requires careful observation and
 Notes:
 Behaviour needs to be felt, as you might in the contemplation of a sunset, or as the heightened feelings in dangerous situation, or the intuition of the right time to make a decisive move in a game. Eliciting these sorts of feelings provides fantastic artistic possibilities, but can be elusive in a gallery setting.
 
+### Credits <!-- .element: class="attribution" -->
+* [_Bird Brained_ - Jackson Welchner, Ryan Kelln ](https://www.youtube.com/watch?v=aPC61OEgDic)
+
 
 <!-- .slide: data-audio-src="../audio/ml_art/13-seg5.ogg" data-background-video="../video/Super Mario Bros NES Level 1-1--avspZlbOWU.mp4"-->
 Notes:
@@ -471,7 +474,7 @@ Similar to video games, work that is intended to be felt has the most impact whe
 
 ---
 
-<!-- .slide: id="data-aesthetic" data-audio-src="../audio/ml_art/14-seg1.ogg" data-background-video="../video/do_not_exist.mp4" -->
+<!-- .slide: id="data-aesthetic" data-audio-src="../audio/ml_art/14-seg1.ogg" data-background-video="../video/do_not_exist.mp4" data-background-video-loop -->
 # Data Aesthetic <!-- .element: class="fadeout" -->
 
 The intelligence of AI is not spontaneous, but socialized. It is uncanny not because it acts as if it were human, but because it is humans, plural. <!-- .element: data-audio-src="../audio/ml_art/14-seg2.ogg" class="quote fragment" -->
@@ -547,7 +550,7 @@ While there may not be much you can do about limited opportunities, you can be a
 * https://dev.to/danielshow/an-easy-approach-to-contribute-to-open-source-1d6i
 
 
-<!-- .slide: data-audio-src="../audio/ml_art/15-seg2.ogg" data-background-image="../images/open_source.jpg" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/ml_art/15-seg2.ogg" data-background-image="../images/open_source.jpg" data-background-size="contain" data-audio-advance="1000" data-background-color="white" -->
 Notes:
 I also encourage the same sort of care taken for reproducibility in scientific studies to be applied to your art. The easier it is for other people to recreate your art from the documentation and open source code, the longer lasting it will be.
 
@@ -669,7 +672,7 @@ Derrick Schultz also considers some of his work to be in the psychedelic space. 
 * https://artincontext.org/psychedelic-art/
 
 
-<!-- .slide: data-background-video="../video/Audio-reactive Latent Interpolations with StyleGAN 720 -2LxHRGppdpA.mp4" data-background-size="contain" data-background-video-loop data-audio-advance="-1" data-background-color="black" -->
+<!-- .slide: data-background-video="../video/Audio-reactive Latent Interpolations with StyleGAN 720 -2LxHRGppdpA.mp4" data-background-size="contain" data-background-video-loop data-audio-advance="-1"  -->
 <div class="r-stretch artist">
 
 * ### Hans Brouwer
@@ -685,7 +688,7 @@ Notes:
 * _[Audio-reactive Latent Interpolations with StyleGAN](https://wavefunk.xyz/audio-reactive-stylegan)_, 2020
 
 
-<!-- .slide: data-background-video="../video/Linnaeus+Pip_2503499567.mp4" data-background-size="contain" data-background-video-loop data-audio-advance="-1" data-background-color="black" -->
+<!-- .slide: data-background-video="../video/Linnaeus+Pip_2503499567.mp4" data-background-size="contain" data-background-video-loop data-audio-advance="-1"  -->
 <div class="r-stretch artist">
 
 * ### Derrick Schultz
