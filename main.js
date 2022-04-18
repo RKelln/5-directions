@@ -282,27 +282,32 @@ Object.defineProperty(HTMLMediaElement.prototype, 'is_playing', {
 })
 
 function pause_background(background_video = false) {
+  // handle zooms and pans
+  let e = document.querySelector('div.reveal');
+  e.classList.add("movement-paused");
+
   if (background_video === false) {
     const [bg_video, video, audio] = getMedia();
     background_video = bg_video;
   }
-  if (background_video && background_video.is_playing) background_video.pause();
-
-  let e = document.querySelector('div.reveal');
-  e.classList.add("movement-paused");
+  if (background_video && background_video.is_playing) {
+    background_video.pause();
+  }
 }
 
-function play_background(background_video = false) {
+async function play_background(background_video = false) {
+  // handle zooms and pans
+  let e = document.querySelector('div.reveal');
+  e.classList.remove("movement-paused");
+
   if (background_video === false) {
     const [bg_video, video, audio] = getMedia();
     background_video = bg_video;
   }
   if (background_video && !background_video.is_playing) {
-    background_video.play();
+    await background_video.play();
   }
 
-  let e = document.querySelector('div.reveal');
-  e.classList.remove("movement-paused");
 }
 
 
@@ -329,17 +334,9 @@ function pause() {
   }
 }
 
-function play() {
+async function play() {
   if (!paused) return;
   paused = false;
-
-  const [background_video, video, audio] = getMedia(); 
-
-  // NOTE: order matters because audio also tries to play video
-  if (audio && !audio.is_playing) audio.play();
-  if (video && !video.is_playing) video.play();
-
-  play_background(background_video);
 
   // dynamic text
   let slide = deck.getCurrentSlide();
@@ -351,6 +348,14 @@ function play() {
       }
     });
   }
+
+  const [background_video, video, audio] = getMedia(); 
+
+  // NOTE: order matters because audio also tries to play video
+  if (audio && !audio.is_playing) { await audio.play(); }
+  if (video && !video.is_playing) { await video.play(); }
+
+  play_background(background_video);
 }
 
 
