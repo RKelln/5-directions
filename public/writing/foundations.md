@@ -1,4 +1,4 @@
-<!-- .slide: data-audio-src="../audio/foundations/01.ogg" data-background-video="../video/2020-10-10_LakeErie_beach+waves+close_2.mp4" data-background-video-muted data-audio-advance="1500" -->
+<!-- .slide: id="welcome" data-audio-src="../audio/foundations/01.ogg" data-background-video="../video/2020-10-10_LakeErie_beach+waves+close_2.mp4" data-background-video-muted data-audio-advance="1500" -->
 Welcome to
 # Foundations
 
@@ -8,7 +8,7 @@ Welcome to Foundations, the first of five tutorials in the series.
 In less than an hour we will cover some important material that will help you understand machine learning and artificial intelligence, the technologies they are built on, and why I think they are important.
 
 ---
-<!-- .slide: data-audio-src="../audio/foundations/02.ogg" data-background-video="../video/erie - co_ai_existence.mp4" data-background-video-muted data-audio-advance="1500" -->
+<!-- .slide: id="overview" data-audio-src="../audio/foundations/02.ogg" data-background-video="../video/erie - co_ai_existence.mp4" data-background-video-muted data-audio-advance="1500" -->
 # Foundations
 
 * Digital
@@ -28,7 +28,7 @@ Let's begin!
 
 ---
 # Digital
-<!-- .slide: data-audio-src="../audio/foundations/03a.ogg" data-background-video="../video/digital - analog - 720.mp4" data-background-video-muted -->
+<!-- .slide: id="digital" data-audio-src="../audio/foundations/03a.ogg" data-background-video="../video/digital - analog - 720.mp4" data-background-video-muted -->
 Notes:
 We are told we live a digital world. And we've gotten used to living there, and in many ways, we've forgotten how strange it is.
 
@@ -98,7 +98,7 @@ Notes:
 * [_Hello World!_ - Iamus Computer](https://www.youtube.com/watch?v=bD7l4Kg1Rt8) (2012)
 
 ---
-<!-- .slide: data-audio-src="../audio/foundations/06a.ogg" data-background-image="../images/George_Boole_color.jpg" data-background-size="contain" data-auto-animate -->
+<!-- .slide: id="boolean-algebra" data-audio-src="../audio/foundations/06a.ogg" data-background-image="../images/George_Boole_color.jpg" data-background-size="contain" data-auto-animate -->
 # Boolean Algebra <!-- .element: class="r-fit-text" -->
 
 Notes:
@@ -170,7 +170,7 @@ There are few other more complex operators that are important, but for now we ju
 * https://simplycoding.in/boolean-algebra/
 
 ---
-<!-- .slide: data-audio-src="../audio/foundations/07a.ogg" data-background-video="../video/Al-Khwarizmi - Father of Algebra-CaLOYlvbF9s.mp4" -->
+<!-- .slide: id="algorithm" data-audio-src="../audio/foundations/07a.ogg" data-background-video="../video/Al-Khwarizmi - Father of Algebra-CaLOYlvbF9s.mp4" -->
 # Algorithm
 
 Notes:
@@ -248,7 +248,7 @@ This creates a simple, universal algorithm for computation. And if sensing, acti
 * [_Turing Machines Explained_ - Computerphile](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/09a.ogg" data-background-image="../images/computation_theory_of_mind_RealESRGAN-pbaylies-hr-paintings.webp" -->
+<!-- .slide: id="rule-110" data-audio-src="../audio/foundations/09a.ogg" data-background-image="../images/computation_theory_of_mind_RealESRGAN-pbaylies-hr-paintings.webp" -->
 Computation and Rule 110
 
 Notes:
@@ -315,7 +315,7 @@ Thus abstraction isn't just something we do because of complexity, it arises fro
 * https://openai.com/blog/multimodal-neurons/
 * https://www.youtube.com/watch?v=dNRDvLACg5Q
 ---
-<!-- .slide: data-audio-src="../audio/foundations/11.ogg" data-background-video="../video/15 Sorting Algorithms in 6 Minutes-kPRA0W1kECg.mp4" data-background-opacity="0.2" data-audio-advance="1500" -->
+<!-- .slide: id="software" data-audio-src="../audio/foundations/11.ogg" data-background-video="../video/15 Sorting Algorithms in 6 Minutes-kPRA0W1kECg.mp4" data-background-opacity="0.2" data-audio-advance="1500" -->
 # Software
 
 Notes:
@@ -334,7 +334,7 @@ Notes:
 * [_Cambiantes_ - Analivia Cordeiro](https://www.youtube.com/watch?v=XYY7oMiWxaw) (1976)
 * [_Life in Life_ - Phillip Bradbury](https://www.youtube.com/watch?v=xP5-iIeKXE8) (2012) 
 ---
-<!-- .slide: data-audio-src="../audio/foundations/12.ogg" data-background-video="../video/4_types_of_software.mp4" data-background-video-loop data-background-opacity="0.4" -->
+<!-- .slide: id="software-categories" data-audio-src="../audio/foundations/12.ogg" data-background-video="../video/4_types_of_software.mp4" data-background-video-loop data-background-opacity="0.4" -->
 1. **Recording**: no input after initial recording
 2. **Mapping**: takes input, produces output, but stateless
 3. **Stateful**: has variables / internal state (Turing machine)
@@ -360,7 +360,7 @@ Notes:
 As an aside, one of the things I love about software-based art is the interactivity. When people spend time with art, it is often just a few minutes with a piece in a gallery, an hour or two with film, tens of hours for novels, etc. Software with enough depth can provide ten or hundreds of hours of interactivity. Games are the best example of that.
 
 
-<!-- .slide: data-audio-src="../audio/foundations/13b.ogg" data-background-image="../images/play.jpg"-->
+<!-- .slide: id="play" data-audio-src="../audio/foundations/13b.ogg" data-background-image="../images/play.jpg"-->
 ## Play
 
 Notes:
@@ -398,7 +398,7 @@ If you're an artist who wants to help their audiences make profound positive cha
 * https://en.wikipedia.org/wiki/Zone_of_proximal_development
   
 ---
-<!-- .slide: data-audio-src="../audio/foundations/14a.ogg" data-background-video="../video/American1958.mp4" data-background-opacity="0.4"-->
+<!-- .slide: id="digital-ethics" data-audio-src="../audio/foundations/14a.ogg" data-background-video="../video/American1958.mp4" data-background-opacity="0.4"-->
 # Digital ethics
 
 1. Who decides what, and how, things get made? <!-- .element: class="fragment" data-audio-src="../audio/foundations/14b.ogg" -->
@@ -493,8 +493,9 @@ Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_February: In the style of Frank Sinatra_ - OpenAI Jukebox](https://soundcloud.com/openai_audio/frank-sinatra) (2019)
 * [_Patterns of Life_ excerpt - Julien Prévieux](https://vimeo.com/141794173) (2015)
+
 ---
-<!-- .slide: data-audio-src="../audio/foundations/16.ogg" data-background-video="../video/Karl Sims Evolved Virtual Creatures compilation-mA8z0GndiYI.mp4" data-audio-advance="2000" -->
+<!-- .slide: id="artificial-life" data-audio-src="../audio/foundations/16.ogg" data-background-video="../video/Karl Sims Evolved Virtual Creatures compilation-mA8z0GndiYI.mp4" data-audio-advance="2000" -->
 Notes:
 Alongside the development of digital computers was the development of evolving and self-organizing machines. Machines or software that didn't just have preprogrammed states they could be in, but adapted or learned what states were needed to more effectively interact with their environment. Machines that evolved.
 
@@ -525,7 +526,7 @@ For example, if you take data on policing, which may be targeted based on existi
 * https://geolitica.com/public-safety/#accountability
 
 
-<!-- .slide:  data-audio-src="../audio/foundations/17d.ogg"  data-background-video="../video/network-propagation.mp4" data-background-size="contain" --data-background-video-loop data-audio-advance="1500" -->
+<!-- .slide: id="neural-networks" data-audio-src="../audio/foundations/17d.ogg"  data-background-video="../video/network-propagation.mp4" data-background-size="contain" --data-background-video-loop data-audio-advance="1500" -->
 Notes:
 The most popular current ML technique is deep learning using artificial neural networks. These networks mimic the connectivity of biological brains - taking raw input and passing it through many layers of connections. The information flows through the network being transformed into the final output. These networks, called models, are made up many layers of neurons connected together. The first layer is the input, then there are what is called the "hidden" layers of neurons that process the input, and finally an output layer. How the input signal flows through the hidden layers and gets transformed until reaching the output is the computation of the neural net. We'll cover this in detail in Part 3: Neural Nets and Data.
 
@@ -605,7 +606,7 @@ Notes:
 * [_Learning to see - We are made of star dust_ - Memo Akten](https://vimeo.com/242498070) (2018)
 
 ---
-<!-- .slide: data-audio-src="../audio/foundations/20a.ogg" data-background-video="../video/Zebrafish Brain-YLVdRPVj-XM.mp4" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: id="intelligence" data-audio-src="../audio/foundations/20a.ogg" data-background-video="../video/Zebrafish Brain-YLVdRPVj-XM.mp4" data-background-size="contain" data-audio-advance="1000" -->
 # Intelligence
 
 Notes:
@@ -683,7 +684,7 @@ As we saw with Rule 110, simple rules that lead to complex patterns allow for co
 * [_Cosmic Eye — Zoom through the Universe!_](https://www.youtube.com/watch?v=8Are9dDbW24)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/21.ogg" data-background-image="../images/narrow_vs_general_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1500" -->
+<!-- .slide: id="narrow-vs-general" data-audio-src="../audio/foundations/21.ogg" data-background-image="../images/narrow_vs_general_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1500" -->
 ### Narrow vs General
 
 Notes:
@@ -692,7 +693,7 @@ Computer science describes intelligence as narrow or weak versus general or stro
 There is broad consensus that we haven't yet found any narrow intelligence that is considered conscious, but at what point does a nonconscious cognitive process transition to conscious general intelligence, and are those two always linked?
 
 
-<!-- .slide: data-audio-src="../audio/foundations/22a1.ogg" data-background-image="../images/no_self_without_others_RealESRGAN-pbaylies-hr-paintings.webp" -->
+<!-- .slide: id="consciousness" data-audio-src="../audio/foundations/22a1.ogg" data-background-image="../images/no_self_without_others_RealESRGAN-pbaylies-hr-paintings.webp" -->
 ### So what is consciousness?
 
 There is no self without awareness of, and engagement with, others.<!-- .element: class="quote fragment" data-audio-src="../audio/foundations/22a2.ogg" data-audio-advance="500" -->
@@ -790,7 +791,7 @@ Another way to conceive of the "information attack" of the door switcheroo, is t
 * [_Selective attention test_ - Daniel Simons and Daniel Levin](https://www.youtube.com/watch?v=vJG698U2Mvo)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/26.ogg" data-background-image="../images/brian_cantwell-smith_big.jpg" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: id="judgment" data-audio-src="../audio/foundations/26.ogg" data-background-image="../images/brian_cantwell-smith_big.jpg" data-background-size="contain" data-audio-advance="1000" -->
 ### Brian Cantwell Smith
 
 #### Judgment
@@ -809,14 +810,14 @@ The reason we hold human adults accountable for their actions, even if they do n
 Judgment is not restricted to humans. Perhaps it is a mark of the humane. Computers do not need to try to be computers. Humans are different: we must strive to be human."
 
 
-<!-- .slide: data-audio-src="../audio/foundations/27a.ogg" data-background-image="../images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" -->
+<!-- .slide: id="decisions" data-audio-src="../audio/foundations/27a.ogg" data-background-image="../images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" -->
 ### Decisions?
 
 Notes:
 Where I feel I disagree with Brian is that judgment, while beautiful, seems to imply some sort of decision making or freewill. I like the idea that we do not exercise judgment for most thinking, but can call upon it when the consequences of lack of judgment are high. I like that the capacity for judgment makes you accountable, but I don't know if it makes you responsible in the way that we talk about people _deciding_ to hurt others and being responsible for that decision.
 
 
-<!-- .slide: data-audio-src="../audio/foundations/27b.ogg" data-background-video="../video/Monty Python Philosophy Football-LfduUFF_i1A.mp4" data-audio-advance="1200" -->
+<!-- .slide: id="freewill" data-audio-src="../audio/foundations/27b.ogg" data-background-video="../video/Monty Python Philosophy Football-LfduUFF_i1A.mp4" data-audio-advance="1200" -->
 Freewill
 
 Notes:
@@ -862,7 +863,7 @@ Notes:
 * [_Frankenstein_](https://www.youtube.com/watch?v=MowmXsMDkY) (1910)
 * [_Computer Ballet_ ](https://www.youtube.com/watch?v=dXQIUEwEGQ) (1965)
 ---
-<!-- .slide: data-audio-src="../audio/foundations/28aa.ogg" data-background-image="../images/digital_intelligence_rudalle_1_latent-diffusion.webp" data-background-opacity="0.5" data-audio-advance="800" -->
+<!-- .slide: id="digital-intelligence" data-audio-src="../audio/foundations/28aa.ogg" data-background-image="../images/digital_intelligence_rudalle_1_latent-diffusion.webp" data-background-opacity="0.5" data-audio-advance="800" -->
 # Digital intelligence <!-- .element: class="r-fit-text" -->
 
 Notes:
@@ -877,7 +878,7 @@ There is a great deal of discussion and worry around testing, inspection and int
 How would we know when an AI system reaches general intelligence? How do we test for consciousness? On a more mundane level how do we test or know how _any_ of the output is derived from the input? I would pose the same question about humans and other animals. 
 
 
-<!-- .slide: data-audio-src="../audio/foundations/28b.ogg" data-background-video="../video/Memories of Passersby I by Mario Klingemann-298000366.mp4" data-audio-advance="800" -->
+<!-- .slide: id="imitation-game" data-audio-src="../audio/foundations/28b.ogg" data-background-video="../video/Memories of Passersby I by Mario Klingemann-298000366.mp4" data-audio-advance="800" -->
 The Imitation Game <!-- .element: class="backdrop" -->
 
 Notes:
@@ -938,16 +939,16 @@ It is precisely the amount of control we have over our digital minds that likely
 * [_Frankenstein_](https://www.youtube.com/watch?v=MowmXsMDkY) (1910)
 
 ---
-<!-- .slide: data-audio-src="../audio/foundations/29.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
+<!-- .slide: id="thank-you" data-audio-src="../audio/foundations/29.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
-<div class="backdrop">
+<div class="backdrop lighten">
 
 1. **Foundations**
-2. [**Past, Present, Future**](../past_present_future/) <!-- .element: class="lighten" -->
-3. [Neural Nets](../neural_nets/) <!-- .element: class="lighten" -->
-4. Data in Practice <!-- .element: class="low-vis" -->
-5. Machine Learning Art <!-- .element: class="low-vis" -->
+2. [**Past, Present, Future**](../past_present_future/) 
+3. [Neural Nets](../neural_nets/) 
+4. [Data in Practice](../data_in_practice/)
+5. [Machine Learning Art](../ml_art/)
 
 </div>
    

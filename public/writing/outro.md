@@ -1,4 +1,4 @@
-<!-- .slide: class="small" data-audio-src="../audio/intro/01_outro.ogg" data-background-video="../video/Algonquin Park Stars Timelapse-1gwwgR7oNb4.mp4"   data-background-opacity="0.7"-->
+<!-- .slide: id="sources" class="small" data-audio-src="../audio/intro/01_outro.ogg" data-background-video="../video/Algonquin Park Stars Timelapse-1gwwgR7oNb4.mp4"   data-background-opacity="0.7"-->
 ### Sources
 
 **https://github.com/RKelln/5-directions**

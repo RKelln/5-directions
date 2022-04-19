@@ -1,12 +1,12 @@
-<!-- .slide: data-audio-src="../audio/neural_nets/01.ogg" data-background-video="../video/2020-10-17_Presquille_marsh+clouds+reeds_720.mp4" data-background-video-loop -->
+<!-- .slide: id="welcome" data-audio-src="../audio/neural_nets/01.ogg" data-background-video="../video/2020-10-17_Presquille_marsh+clouds+reeds_720.mp4" data-background-video-loop -->
 Welcome to
 # Neural Nets and Data
 
 Notes: 
 In previous tutorials we've covered the basic foundations of mathematics, statistics, computer science and information theory, and briefly touched on neural nets and their history. We're ready to take a deeper look at how neural nets are constructed and why and how they function. This isn't a hands-on tutorial to get you building them yourself, but by the end you'll have some insight into how this critical piece of technology "thinks", what sort of data it learns from, and how it and its training data can be created ethically, or as Suzanne Kite puts it, created "in a Good Way".
 
-
-<!-- .slide: data-audio-src="../audio/neural_nets/02.ogg" data-background-video="../video/2020-10-17_Presquille_reeds+marsh_720-13s.mp4" data-background-video-loop data-background-opacity="0.7" -->
+---
+<!-- .slide: id="overview" data-audio-src="../audio/neural_nets/02.ogg" data-background-video="../video/2020-10-17_Presquille_reeds+marsh_720-13s.mp4" data-background-video-loop data-background-opacity="0.7" -->
 # Neural Nets and Data
 
 <div class="small">
@@ -32,7 +32,7 @@ Then we'll investigate the current challenges with deep learning techniques and 
 Finally, we'll discuss the ethics around data collection and the concept of data appropriation and how that applies to training data.
 
 ---
-<!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/03.ogg" data-background-image="../images/Rosenblatt_perceptron.webp"  -->
+<!-- .slide: id="perceptrons" class="zoomin" data-audio-src="../audio/neural_nets/03.ogg" data-background-image="../images/Rosenblatt_perceptron.webp"  -->
 # Perceptron
 
 Notes:
@@ -139,15 +139,15 @@ Notes:
 There are three main components to neural net based machine learning: data, model and training. The data or dataset is used to train the network, or model. Once a model has been trained, a slow process taking hours or even weeks, then it can be used on new data, which is called inference. Inference times are usually measured in milliseconds to minutes. So training is slow, but once trained, networks output answers quickly.
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/14.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-data_collection.mp4" data-background-opacity="0.8" data-background-color="black" -->
+<!-- .slide: id="data" data-audio-src="../audio/neural_nets/14.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-data_collection.mp4" data-background-opacity="0.8" data-background-color="black" -->
 # Data
 
 Notes:
 The data used for a model is the only thing the network can use to be effective at its goal. The hope is that eventually the network will learn to generalize from this data such that when it is given new data that it has never seen before it will be as effective as it was with the data it was trained on.
 
 
-<!-- .slide: data-visibility="hidden" data-audio-src="../audio/neural_nets/15.ogg" -->
-### Data set splits:
+<!-- .slide: id="dataset-splits" data-visibility="hidden" data-audio-src="../audio/neural_nets/15.ogg" -->
+### Dataset splits:
 * Training
 * Validation
 * Test
@@ -164,7 +164,7 @@ Test data is used after the model is finished training to give it another set of
 We'll go into practical details on collecting, cleaning and curating datasets in the next tutorial.
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/16.ogg"  data-background-video="../video/Neural Network 3D Simulation-MLP-3JQ3hYko51Y.mp4" data-background-video-loop data-background-size="contain" data-background-color="black" -->
+<!-- .slide: id="model" data-audio-src="../audio/neural_nets/16.ogg"  data-background-video="../video/Neural Network 3D Simulation-MLP-3JQ3hYko51Y.mp4" data-background-video-loop data-background-size="contain" data-background-color="black" -->
 # Model <!-- .element: class="hidden" -->
 Notes:
 As in the Perceptron, neural networks are described by a model made of layers of neurons with connections, with an input layer and an output layer. The interior layers between input and output are sometimes refer red to as "hidden layers" inside the "black box" of the outer layers. The construction of the model is done using traditional software programming. The design of model is often the area of research being investigated to see what structure and flows of information between the input and output gets closest to the goals of the researchers.
@@ -201,7 +201,7 @@ What's truly amazing is that you can find faces of people who were never in the 
 * [_Latent Space Exploration with StyleGAN2_ - Amar Saini](https://amarsaini.github.io/Epoching-Blog/jupyter/2020/08/10/Latent-Space-Exploration-with-StyleGAN2.html)
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/20.ogg" data-background-video="../video/What is backpropagation really doing _ Chapter 3 Deep learning-Ilg3gGewQ5U.mp4" data-background-opacity="0.7" data-background-size="contain" data-background-video-loop data-background-color="black" -->
+<!-- .slide: id="training" data-audio-src="../audio/neural_nets/20.ogg" data-background-video="../video/What is backpropagation really doing _ Chapter 3 Deep learning-Ilg3gGewQ5U.mp4" data-background-opacity="0.7" data-background-size="contain" data-background-video-loop data-background-color="black" -->
 # Training <!-- .element: class="hidden" -->
 
 Notes:
@@ -221,7 +221,7 @@ Notes:
 The optimizer function is modified by a learning rate which controls how much the weights are adjusted and thus how quickly the model can learn. At first it would seem like increasing the learning rate would be a good idea, however large adjustments can overshoot the most effective weight. Each step of the training needs to adjust the weights as much as possible (to speed up learning) without overcompensating.
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/22.ogg"  data-background-video="../video/Chemotaxis - Bacteria attracted by a sugar crystal-F6QMU3KD7zw.mp4" data-background-video-muted data-background-video-loop -->
+<!-- .slide: id="gradient-descent" data-audio-src="../audio/neural_nets/22.ogg"  data-background-video="../video/Chemotaxis - Bacteria attracted by a sugar crystal-F6QMU3KD7zw.mp4" data-background-video-muted data-background-video-loop -->
 ## Gradient descent <!-- .element: class="fadeout" -->
 Notes:
 You'll hear researchers talk about stochastic gradient descent (SGD), the de facto standard algorithm used in training. A simple version of this algorithm is used in nature too. Many small organisms follow concentration gradients of the surrounding molecules, swimming towards higher local concentration of food and away from toxins. 
@@ -230,7 +230,7 @@ You'll hear researchers talk about stochastic gradient descent (SGD), the de fac
 * [Chemotaxis: Bacteria attracted by a sugar crystal](https://www.youtube.com/watch?v=F6QMU3KD7zw)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/23.ogg" data-background-image="../images/Extrema_example.svg" data-background-color="#EEE" data-background-size="contain" -->
+<!-- .slide: id="local-minima" data-audio-src="../audio/neural_nets/23.ogg" data-background-image="../images/Extrema_example.svg" data-background-color="#EEE" data-background-size="contain" -->
 ## Local minima <!-- .element: class="hidden" -->
 Notes:
 Imagine this curve described a single connection weight and its error. Our goal is to adjust the weight to get the lowest error. You can see that the "landscape" has hills and valleys, peaks and troughs. Starting from a random weight we can use gradient descent to find the lowest error by taking small steps and seeing if the error is lower or greater. You descend down the slope of the hill (the gradient) to the lowest amount of error. It's possible however to get trapped in local minima if you're at the bottom of a small valley. In both directions the error increases unless you take a much larger step out of the valley.
@@ -259,10 +259,10 @@ One last property of neural nets is a bit surprising at first: there isn't a sin
 This to me is one of the beautiful aspects of neural nets. Each model of the same design starts out with random weights, producing indistinguishable noise, and from that random starting point takes a unique journey to one of a vast number of solutions to the same problem. Like us, astonishingly unique and similar at the same time.
 
 ### Credits 
-* The Master Algorithm by Pedro Domingos 
+* _The Master Algorithm_ by Pedro Domingos 
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/26.ogg" data-background-image="../images/under and overfitting.webp" data-background-size="contain" data-background-color="#343f4b" -->
+<!-- .slide: id="underfitting-overfitting" data-audio-src="../audio/neural_nets/26.ogg" data-background-image="../images/under and overfitting.webp" data-background-size="contain" data-background-color="#343f4b" -->
 ### Underfitting and Overfitting <!-- .element: class="hidden" -->
 Notes: 
 When a model doesn't have the capacity to capture the underlying structure of the training data it is said to be underfitted to the data. 
@@ -287,7 +287,7 @@ This last idea, called dropout, is illustrative of the power of simplicity. Duri
 * https://en.wikipedia.org/wiki/Overfitting
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/27v2.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-training.mp4" data-background-size="contain" data-background-video-loop data-background-opacity="0.8" -->
+<!-- .slide: id="hyperparameters" data-audio-src="../audio/neural_nets/27v2.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-training.mp4" data-background-size="contain" data-background-video-loop data-background-opacity="0.8" -->
 ### Hyperparameters <!-- .element: class="fadeout" -->
 
 Notes:
@@ -297,7 +297,7 @@ Training iterations, one full cycle through the training data, are called epochs
 * [_VGG16 Neural Network Visualization_ by Denis Dmitriev](https://www.youtube.com/watch?v=RNnKtNrsrmg)
 
 ---
-<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/28.ogg" data-background-image="../images/neuro-symbolic_AI_3.webp" data-background-opacity="0.8" -->
+<!-- .slide: id="learning-algorithm" class="zoomout" data-audio-src="../audio/neural_nets/28.ogg" data-background-image="../images/neuro-symbolic_AI_3.webp" data-background-opacity="0.8" -->
 # Learning Algorithm
 
 1. Construct
@@ -327,7 +327,7 @@ CUT: Models also suffer from some amount of forgetting, so it is currently hard 
 * https://www.youtube.com/watch?v=A2ozujt3vdE
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/28-2.ogg" data-background-image="../images/Task-guidance.png" data-background-size="contain" -->
+<!-- .slide: id="learning" data-audio-src="../audio/neural_nets/28-2.ogg" data-background-image="../images/Task-guidance.png" data-background-size="contain" -->
 # Learning <!-- .element: class="hidden" -->
 
 Notes:
@@ -355,7 +355,7 @@ Training methods can be combined. OpenAI's newest GPT model is trained on unsupe
 * [Turing Award Lecture "The Deep Learning Revolution" - ACM](https://www.youtube.com/watch?v=VsnQf7exv5I)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/30.ogg" data-background-image="../images/unsupervised learning.png" data-background-size="contain" data-background-color="white"-->
+<!-- .slide: id="unsupervised-learning" data-audio-src="../audio/neural_nets/30.ogg" data-background-image="../images/unsupervised learning.png" data-background-size="contain" data-background-color="white"-->
 ## Unsupervised learning <!-- .element: class="hidden" -->
 
 Notes:
@@ -389,7 +389,7 @@ An example of unsupervised learning in art is the Self-Organized Map (SOM) used 
 * [_Robot's Rock_ - The Three Sirens by Nicolas Baginsky](https://www.youtube.com/watch?v=RcxuXYE9UeY) 
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/33.ogg" data-background-image="../images/supervised learning.png" data-background-size="contain" data-background-color="white"-->
+<!-- .slide: id="supervised-learning" data-audio-src="../audio/neural_nets/33.ogg" data-background-image="../images/supervised learning.png" data-background-size="contain" data-background-color="white"-->
 ## Supervised learning <!-- .element: class="hidden" -->
 
 Notes:
@@ -406,7 +406,7 @@ There also exists semi-supervised learning where only a subset of the data is la
 * https://en.wikipedia.org/wiki/Supervised_learning
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/34.ogg" data-background-video="../video/Multi-Agent Hide and Seek-kopoLzvh5jY-720.mp4" data-background-video-loop -->
+<!-- .slide: id="reinforcement-learning" data-audio-src="../audio/neural_nets/34.ogg" data-background-video="../video/Multi-Agent Hide and Seek-kopoLzvh5jY-720.mp4" data-background-video-loop -->
 ## Reinforcement learning <!-- .element: class="fadeout" -->
 
 Notes:
@@ -420,7 +420,7 @@ This style of learning is used in agents interacting with an environment, either
 * https://openai.com/blog/emergent-tool-use/
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/35.ogg" data-background-color="white" -->
+<!-- .slide: id="features" data-audio-src="../audio/neural_nets/35.ogg" data-background-color="white" -->
 # Features
 <img data-src="../images/features_lecun.png">
 
@@ -437,7 +437,7 @@ Sets of extracted features can be compared. A facial recognition system might co
 * https://distill.pub/2020/circuits/zoom-in/
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/36.ogg" data-background-image="../images/latent_space_exploration.gif" -->
+<!-- .slide: id="latent-spaces" data-audio-src="../audio/neural_nets/36.ogg" data-background-image="../images/latent_space_exploration.gif" -->
 ## Latent spaces <!-- .element: class="fadeout" -->
 Notes:
 The entire set of features learned after training, the model's representation of the training data, can be organized into a latent space. Each point in the space represents a different set of feature values and points closer together are more similar. Generative images models commonly used by artists can create animations by displaying the image at each point in a latent space while moving through the space. Part of the art and fun of generative models is exploring and then moving through the latent space in a performative way.
@@ -457,14 +457,14 @@ Notes:
 * [_Hot Bod_ - Ryan Kelln & Sarah Thawer](http://www.ryankelln.com/project/sound-escapes/#hot-bod)
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/37.ogg" data-background-image="../images/types_of_networks.webp" data-background-color="white" -->
+<!-- .slide: id="types-of-networks" data-audio-src="../audio/neural_nets/37.ogg" data-background-image="../images/types_of_networks.webp" data-background-color="white" -->
 # Types of networks <!-- .element: class="fadeout" -->
 
 Notes:
 There is constant innovation of different types of models paired with different types of learning. Each approach to learning has various strengths and weakness and there is yet to be a general approach for all types of problems. As with the human nervous system, which has various areas with different structures and cell types specialized to different tasks, it is likely that different models will also be needed. Let's take a quick look at some of the most successful models created to date.
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/38.ogg" data-background-image="../images/blood_quantum_if_I_had_my_time_again.webp"  -->
+<!-- .slide: id="recurrent" class="pandown" data-audio-src="../audio/neural_nets/38.ogg" data-background-image="../images/blood_quantum_if_I_had_my_time_again.webp"  -->
 ## Recurrent networks <!-- .element: class="fadeout" -->
 
 Notes:
@@ -490,7 +490,7 @@ More complicated loops add learnable forgetting so that neurons can learn to ret
 * https://en.wikipedia.org/wiki/Long_short-term_memory
 
 ---
-<!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/41.ogg" data-background-image="../images/Google cat neuron.webp" data-background-size="contain" -->
+<!-- .slide: id="convolutional" class="zoomin" data-audio-src="../audio/neural_nets/41.ogg" data-background-image="../images/Google cat neuron.webp" data-background-size="contain" -->
 ## Convolutional neural nets
 
 Notes:
@@ -534,7 +534,7 @@ CNNs provide a good opportunity to demonstrate some important properties of neur
 * https://fabianfuchsml.github.io/equivariance1of2/
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/44.ogg" data-background-video="../video/trusses_rotating-silent.mp4" data-background-video-muted -->
+<!-- .slide: id="gans" data-audio-src="../audio/neural_nets/44.ogg" data-background-video="../video/trusses_rotating-silent.mp4" data-background-video-muted -->
 ## GANs <!-- .element: class="fadeout" -->
 Generative Adversarial Networks <!-- .element: class="fadeout" -->
 Notes:
@@ -564,7 +564,7 @@ Notes:
 * [_Audio-reactive Latent Interpolations with StyleGAN_ - Hans Brouwer](https://wavefunk.xyz/audio-reactive-stylegan)
 
 ---
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/46.ogg" data-background-image="../images/calling_a_robot_with_your_phone.webp" data-background-opacity="0.5" -->
+<!-- .slide: id="deep-learning-challenges" class="pandown" data-audio-src="../audio/neural_nets/46.ogg" data-background-image="../images/calling_a_robot_with_your_phone.webp" data-background-opacity="0.5" -->
 # Deep learning challenges <!-- .element: class="r-fit-text" -->
 
 * Large datasets
@@ -582,7 +582,7 @@ Neural networks have many limitations, quirks and drawbacks. Some of these are l
 Many of these limitations are the subject of active research, and even just in the process of writing this tutorial the landscape of what is possible has changed.
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/47.ogg" data-background-image="../images/ImageNet_example.jpg" data-background-opacity="0.7"  -->
+<!-- .slide: id="large-datasets" class="pandown" data-audio-src="../audio/neural_nets/47.ogg" data-background-image="../images/ImageNet_example.jpg" data-background-opacity="0.7"  -->
 ## Large datasets
 
 Notes:
@@ -598,7 +598,7 @@ It is estimated that the human eye transmits roughly 10 million (10^6) bits per 
 The most successful large language models use the MassiveText dataset taken from the web, books from 1500-2008, news, software code from GitHub, and wikipedia with a total size of 10.55 TB (8.4 * 10^13 bits). (All of Wikipedia is just 0.001 TB.)
 
 
-<!-- .slide: class="panup" data-audio-src="../audio/neural_nets/48.ogg" data-background-image="../images/explainable_AI_WEIRD.webp" -->
+<!-- .slide: id="weird" class="panup" data-audio-src="../audio/neural_nets/48.ogg" data-background-image="../images/explainable_AI_WEIRD.webp" -->
 ### The WEIRD Internet
 (Western, educated, industrialized, rich and democratic)
 
@@ -617,7 +617,7 @@ Carefully curated smaller datasets, something that single artists can create, ar
 * [Rhododendron photography by Andrew Drown](https://drown.photography/)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/50.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-data_collection.mp4" data-background-video-loop -->
+<!-- .slide: id="world-models" data-audio-src="../audio/neural_nets/50.ogg" data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-data_collection.mp4" data-background-video-loop -->
 ### World models
 Notes:
 Why is so much data needed? Adult humans can often learn from a few examples. This is because they have slowly, over many years, learned a good basic understanding of the world. Machines lack this basic understanding, instead they compensate by having far more data but in a very narrow range or domain of information. For example, thousands of images of fruit and vegetables. 
@@ -668,7 +668,7 @@ Large cloud datacenter providers are working towards carbon-free energy 24/7 and
 * https://arxiv.org/abs/2104.10350
 
 
-<!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/54.ogg" data-background-image="../images/too_much_video_data.webp"  -->
+<!-- .slide: id="input-data" class="zoomin" data-audio-src="../audio/neural_nets/54.ogg" data-background-image="../images/too_much_video_data.webp"  -->
 ## Large amounts of input data
 
 Notes:
@@ -677,7 +677,7 @@ Deep learning currently has a problem with large inputs. This is separate from t
 For the next few years expect to work around resolution limits on images and video, especially for independent artists using consumer graphics cards.
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/55.ogg" data-background-video="../video/Tesla Autopilot Stop and Go Traffic-5TjbqVartjM.mp4" data-background-color="#AAA" data-background-opacity="0.5" data-background-video-loop -->
+<!-- .slide: id="long-tail-data" data-audio-src="../audio/neural_nets/55.ogg" data-background-video="../video/Tesla Autopilot Stop and Go Traffic-5TjbqVartjM.mp4" data-background-color="#AAA" data-background-opacity="0.5" data-background-video-loop -->
 <div class="r-stack">
 
 ## Long tail data
@@ -716,7 +716,7 @@ There is common wisdom that neural nets tend to be greedy learners - they like t
 * https://christophm.github.io/interpretable-ml-book/adversarial.html
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/58.ogg" data-background-image="../images/explainable_AI.webp" -->
+<!-- .slide: id="explainability" class="pandown" data-audio-src="../audio/neural_nets/58.ogg" data-background-image="../images/explainable_AI.webp" -->
 ## Explainability
 
 Notes:
@@ -776,7 +776,7 @@ For example, OpenAI's microscope project documents each neuron in some of their 
 
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/64.ogg" data-background-image="../images/office_tower_board_room_of_smiling_men.webp" -->
+<!-- .slide: id="rigid-models" class="pandown" data-audio-src="../audio/neural_nets/64.ogg" data-background-image="../images/office_tower_board_room_of_smiling_men.webp" -->
 ## Rigid models
 
 Notes:
@@ -798,7 +798,7 @@ Another way to think of this is in relation to our brains. We have a genetic cod
 * [_See-through brains_ - nature video](https://www.youtube.com/watch?v=c-NMfp13Uug)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/66.ogg" data-background-image="../images/Complete_neuron_cell_diagram_en.webp" data-background-size="contain" data-background-color="#DDD" -->
+<!-- .slide: id="simple-neurons" data-audio-src="../audio/neural_nets/66.ogg" data-background-image="../images/Complete_neuron_cell_diagram_en.webp" data-background-size="contain" data-background-color="#DDD" -->
 ## Simple neurons <!-- .element: class="hidden" -->
 
 Notes:
@@ -830,7 +830,7 @@ Whether any of these differences make a difference to learning is a subject of f
 * https://en.wikipedia.org/wiki/Neuromodulation 
 
 
-<!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/67.ogg" data-background-image="../images/a_black_box_inside_a_mans_head_2.webp"  -->
+<!-- .slide: id="reasoning" class="zoomin" data-audio-src="../audio/neural_nets/67.ogg" data-background-image="../images/a_black_box_inside_a_mans_head_2.webp"  -->
 ## No common sense or reasoning <!-- .element: class="r-fit-text" -->
 
 Notes:
@@ -869,7 +869,7 @@ Nonetheless, current neural nets are terrible at reasoning, but exploring how to
 * https://ai.googleblog.com/2022/01/controlling-neural-networks-with-rule.html
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/70.ogg" data-background-image="../images/Abraham_the_autonomous_AI_artist_stochastic_parrots.webp" -->
+<!-- .slide: id="stochastic-parrots" data-audio-src="../audio/neural_nets/70.ogg" data-background-image="../images/Abraham_the_autonomous_AI_artist_stochastic_parrots.webp" -->
 ## Stochastic Parrots <!-- .element: class="fadeout" -->
 
 Notes:
@@ -901,7 +901,7 @@ Notes:
 * [_Early January: Generation following 12 seconds of priming on Shape Of You_ - OpenAI Jukebox](https://soundcloud.com/openai_audio/shape-of-you)
 
 ---
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/73.ogg" data-background-image="../images/an_archeology_of_datasets.webp" data-background-opacity="0.8" -->
+<!-- .slide: id="data-ethics-overview" class="pandown" data-audio-src="../audio/neural_nets/73.ogg" data-background-image="../images/an_archeology_of_datasets.webp" data-background-opacity="0.8" -->
 # Data Ethics
 
 * The politics of images
@@ -933,7 +933,7 @@ Notes:
 3. Who gets access to the data that has been collected?
 
 
-<!-- .slide: class="panup" data-audio-src="../audio/neural_nets/75.ogg" data-background-image="../images/transparency_interpretability_explainability.webp" -->
+<!-- .slide: id="politics-of-images" class="panup" data-audio-src="../audio/neural_nets/75.ogg" data-background-image="../images/transparency_interpretability_explainability.webp" -->
 ## The politics of images <!-- .element: class="fadeout" -->
 https://excavating.ai/ <!-- .element: class="backdrop" -->
 
@@ -999,7 +999,7 @@ The good news is that researchers are working on these issues. Recently ImageNet
 * https://www.image-net.org/update-sep-17-2019.php
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/81.ogg" data-background-image="../images/GOFAIR_logo.png" data-background-size="contain" data-background-opacity="0.6" -->
+<!-- .slide: id="open-data" data-audio-src="../audio/neural_nets/81.ogg" data-background-image="../images/GOFAIR_logo.png" data-background-size="contain" data-background-opacity="0.6" -->
 ## Open data: FAIR
 
 * Findable
@@ -1037,14 +1037,14 @@ FAIR principles are technically oriented, but are essential to the practical cha
 * https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/83v2.ogg" data-background-image="../images/blood_quantum.webp" data-background-size="contain"-->
+<!-- .slide: id="data-ethics" class="pandown" data-audio-src="../audio/neural_nets/83v2.ogg" data-background-image="../images/blood_quantum.webp" data-background-size="contain"-->
 ## Data ethics <!-- .element: class="fadeout" -->
   
 Notes:
 Once the basic technical requirements of openness are in place we can focus on the ethics of data use and sharing. Marginalized communities are uniquely placed to understand the systems they operate in. They have often been subject to the contradictions in those systems that have been used against them both ways. In turn, they are able to identify the tensions and contradictions in those systems that can be leveraged to bring about change. An infamous example is the "blood quantum" and "Indian register" practices of the US and Canada, where Indigenous peoples were forced to register with the settler government. Qualifying for the register could depend on their ancestry as well as who they married. Inclusion on the register was used to disenfranchise voting rights and civic participation and exclusion was used to deny land and other treaty rights.
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/83-2.ogg" data-background-image="../images/GIDA_FAIR_CARE.webp" data-background-size="contain" data-background-color="#5eb2b2" -->
+<!-- .slide: id="care" data-audio-src="../audio/neural_nets/83-2.ogg" data-background-image="../images/GIDA_FAIR_CARE.webp" data-background-size="contain" data-background-color="#5eb2b2" -->
 Notes:
 The Global Indigenous Data Alliance (GIDA) sets out some principles, called CARE, to guide data governance, which I have paraphrased inspired by concepts from [Indigenous feminism](https://en.wikipedia.org/wiki/Indigenous_feminism) and extended to all communities:
 
@@ -1057,7 +1057,7 @@ The Global Indigenous Data Alliance (GIDA) sets out some principles, called CARE
 * [GIDA CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/83-3.ogg" data-background-image="../images/Suzanne_Kite.webp" data-background-size="contain" data-background-opacity="0.8" data-background-color="black" -->
+<!-- .slide: id="build-ethically" data-audio-src="../audio/neural_nets/83-3.ogg" data-background-image="../images/Suzanne_Kite.webp" data-background-size="contain" data-background-opacity="0.8" data-background-color="black" -->
 ## How to Build Anything Ethically <!-- .element: class="fadeout" -->
 Notes:
 The notion of a data ecosystem and life cycle I think are strong concepts to convey some subtle details. Suzanne Kite's _How to Build Anything Ethically_ article in the 2020 Indigenous Protocol and Artificial Intelligence position paper lays this out beautifully, 
@@ -1103,7 +1103,7 @@ This notion of taking responsibility for and developing caring relationships to 
 * https://en.wikipedia.org/wiki/Indigenous_feminism
 
 
-<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/87.ogg" data-background-image="../images/participation.webp" data-background-opacity="0.7" -->
+<!-- .slide: id="participation" class="zoomout" data-audio-src="../audio/neural_nets/87.ogg" data-background-image="../images/participation.webp" data-background-opacity="0.7" -->
 ## Participation without permission
 
 Notes:
@@ -1121,7 +1121,7 @@ These concepts haven't yet been widely adopted in machine learning or data colle
 * https://theodi.org/article/le-guin-and-data-subversions/ 
 
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/88.ogg" data-background-video="../video/Gene Kogan - Why is a Raven Like a Writing Desk HD-8PfiH1DozOI-style_transfer.mp4" -->
+<!-- .slide: id="appropriation-overview" data-audio-src="../audio/neural_nets/88.ogg" data-background-video="../video/Gene Kogan - Why is a Raven Like a Writing Desk HD-8PfiH1DozOI-style_transfer.mp4" -->
 # Data appropriation
 
 * Ownership vs authorship
@@ -1136,7 +1136,7 @@ If participation is permissionless, what about issues of cultural appropriation?
 * http://pkmital.com/home/2021/09/01/ucla-course-on-cultural-appropriation-with-machine-learning/
 
 
-<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/89.ogg" data-background-image="../images/ownership_vs_authorship_game_of_authors.webp" -->
+<!-- .slide: id="ownership" class="zoomout" data-audio-src="../audio/neural_nets/89.ogg" data-background-image="../images/ownership_vs_authorship_game_of_authors.webp" -->
 ## Ownership vs authorship <!-- .element: class="fadeout" -->
 
 Notes:
@@ -1151,7 +1151,7 @@ Even more importantly, open source communities have been promoting a broadening 
 * This image was created by [Scriberia](http://www.scriberia.co.uk/) for The Turing Way community and is used under a CC-BY licence.
 
 
-<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/91.ogg" data-background-image="../images/a_lightbulb_wearing_a_crown.webp"  -->
+<!-- .slide: id="property" class="zoomout" data-audio-src="../audio/neural_nets/91.ogg" data-background-image="../images/a_lightbulb_wearing_a_crown.webp"  -->
 ## Intellectual property
 
 The phrase 'intellectual property' is, at root, a dangerous euphemism that leads us to all sorts of faulty reasoning about knowledge.
@@ -1174,7 +1174,7 @@ Notes:
 This sort of ownership thinking contradicts participation without permission, even though the benefactors of monopoly might insist that anyone can have great ideas, it ignores the result that control of an idea creates the mechanisms to control related ideas.
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/93.ogg" data-background-image="../images/Local_Contexts.webp" data-background-size="contain" data-background-color="white" -->
+<!-- .slide: id="local-contexts" data-audio-src="../audio/neural_nets/93.ogg" data-background-image="../images/Local_Contexts.webp" data-background-size="contain" data-background-color="white" -->
 Notes:
 So let us reject appropriation related to ownership and intellectual property and instead look at it from other contexts. The Local Contexts project founded by Jane Anderson and Kim Christen in 2010, aims to enhance and legitimize frameworks for culturally appropriate access to cultural heritage and Indigenous data. They provide a system of labels, tested within different Indigenous communities, that express local and specific conditions for participating in relationships with communities and their data. These labels are intended as templates to be customized by each community.
 
@@ -1226,7 +1226,7 @@ The Local Contexts project acknowledges existing cultural contexts around the sh
 Here we can see a clear tension between open data and existing cultural practices. Is there a reasonable distinction between intellectual property and other limits to information sharing? How can you offer participation with specific exclusions? I don't have easy answers to this, but encourage an exploration rooted in principles of relational ethics and responsibility.
 
 
-<!-- .slide: class="pandown" data-audio-src="../audio/neural_nets/95v2.ogg" data-background-image="../images/explainable_AI_BLM.webp" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: id="falling-in-love" class="pandown" data-audio-src="../audio/neural_nets/95v2.ogg" data-background-image="../images/explainable_AI_BLM.webp" data-background-size="contain" data-audio-advance="1000" -->
 ## Falling in love <!-- .element: class="fadeout" -->
 
 Notes:
@@ -1237,17 +1237,18 @@ Part of the beauty of machine learning art is a sense of diverse contribution an
 If we were to outlaw falling in love under the guise of inappropriate cultural appropriation we would be supporting a regime where cultural purity trumps diversity and inclusion.
 
 Let's create greater freedoms together based on establishing strong relationships and responsibility to each other to best achieve consensual participation without permission.
+
 ---
-<!-- .slide: data-audio-src="../audio/neural_nets/96.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
+<!-- .slide: id="thank-you" data-audio-src="../audio/neural_nets/96.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
-<div class="backdrop">
+<div class="backdrop lighten">
 
-1. [Foundations](../foundations/) <!-- .element: class="lighten" -->
-2. [Past, Present, Future](../past_present_future/) <!-- .element: class="lighten" -->
+1. [Foundations](../foundations/)
+2. [Past, Present, Future](../past_present_future/) 
 3. **Neural Nets**
-4. ***Data in Practice***
-5. Machine Learning Art <!-- .element: class="low-vis" -->
+4. **[Data in Practice](../data_in_practice/)**
+5. [Machine Learning Art](../ml_art/)
 
 </div>
 

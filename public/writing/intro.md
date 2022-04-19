@@ -1,4 +1,4 @@
-<!-- .slide: data-audio-src="../audio/intro/acknowledgement.ogg" data-background-image="../images/Toronto.jpg" data-background-opacity="0.6" data-audio-advance="1000" -->
+<!-- .slide: id="land-acknowledgement" data-audio-src="../audio/intro/acknowledgement.ogg" data-background-image="../images/Toronto.jpg" data-background-opacity="0.6" data-audio-advance="1000" -->
 <div class="small tall">
 
 I acknowledge the land I live on is the traditional territory of many nations
@@ -16,7 +16,7 @@ Notes:
 * Image by Ryan Kelln.
 
 
-<!-- .slide: data-audio-src="../audio/intro/01.ogg" data-background-video="../video/SunsetWavesMediumH264_Beachfront-B-roll.mp4" data-audio-advance="1500"-->
+<!-- .slide: id="all-tutorials" data-audio-src="../audio/intro/01.ogg" data-background-video="../video/SunsetWavesMediumH264_Beachfront-B-roll.mp4" data-audio-advance="1500"-->
 # Five Directions Tutorials <!-- .element: class="r-fit-text" -->
 
 <div class="backdrop lighten">
@@ -54,7 +54,7 @@ Notes:
 This tutorial is technically a web-based slideshow presentation using the Reveal.js framework, but I've tried to make it feel more like watching a video - except that it's a webpage and under your control. If you do nothing it will just autoplay. At least until we get to a part that is interactive in some way, then you'll need to click on something to continue, but I'll let you know when we get there.
 
 
-<!-- .slide: data-audio-src="../audio/intro/03.ogg" -->
+<!-- .slide: id="controls" data-audio-src="../audio/intro/03.ogg" -->
 Basic controls
 
 <div class="small">

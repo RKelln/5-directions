@@ -887,7 +887,7 @@ Notes:
 
 ---
 
-<!-- .slide: id="cubist" data-auto-ainimate data-audio-src="../audio/ml_art/22-seg1.ogg" data-background-image="../images/cubist.webp" data-background-opacity="0.45" -->
+<!-- .slide: id="cubist" data-auto-animate data-audio-src="../audio/ml_art/22-seg1.ogg" data-background-image="../images/cubist.webp" data-background-opacity="0.45" -->
 ## Cubist
 
 <div class="artist lighten highlighted">
@@ -904,7 +904,7 @@ A plural perspective combined or flatten into a single image has many of the sam
 * https://artincontext.org/cubism-art-movement/
 
 
-<!-- .slide: id="cubist" data-auto-ainimate data-audio-src="../audio/ml_art/22-seg2.ogg" data-background-image="../images/Irene-Sofia-Comi_Three-Thousand-Tigers.webp" data-background-opacity="0.5" -->
+<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/22-seg2.ogg" data-background-image="../images/Irene-Sofia-Comi_Three-Thousand-Tigers.webp" data-background-opacity="0.5" -->
 <div class="artist lighten highlighted">
 
 * **Irene Sofia Comi _[Three Thousand Tigers](https://www.irenefenara.com/three-thousand-tigers)_, 2020**
@@ -916,7 +916,7 @@ Notes:
 As mentioned in our previous tutorials, one of the consistent issues with ML art is the large size of the training dataset needed for good results. Irene Sofia Comi embraced and highlighted a small dataset, using the 3000 or so living tigers in the wild as the count for her dataset of tigers used to train the generative model.
 
 
-<!-- .slide: id="cubist" data-auto-ainimate data-audio-src="../audio/ml_art/22-seg3.ogg" data-background-image="../images/Golan_Levin.webp" data-background-opacity="0.5" -->
+<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/22-seg3.ogg" data-background-image="../images/Golan_Levin.webp" data-background-opacity="0.5" -->
 <div class="artist lighten highlighted">
 
 * Irene Sofia Comi _[Three Thousand Tigers](https://www.irenefenara.com/three-thousand-tigers)_, 2020
@@ -1749,21 +1749,21 @@ There are many more resources for ML art beyond this tutorial, a few of which I 
 
 I will also suggest a few tools that may be good places to start as they do not require any programming experience.
 
-To quickly get started with GAN produced art I suggest ArtBreeder. For instrumentation work you'll want to check out Wekinator, but you'll need sensors, recordings of sensors or some other time series data. To play with generating images from text  prompts try Pixray or one of the many alternatives. Pixray is powered by the Replicate platform, and I encourage you to check out Replicate for other models that people have created that allow for free experimentation.
+To quickly get started with GAN produced art I suggest ArtBreeder. For instrumentation work you'll want to check out Wekinator, but you'll need sensors, recordings of sensors or some other time series data. To play with generating images from text prompts try Pixray or one of the many alternatives. Pixray is powered by the Replicate platform, and I encourage you to check out Replicate for other models that people have created that allow for free experimentation.
 
 Play with these no-code tools, and if this delights you as it does me, then you'll want to find technical collaborators and/or learn how to customize and build these tools yourself using open source software. But, as this tutorial series itself demonstrates, machine learning art does not need to involve complicated programming. Regardless of its form, I look forward to seeing the art you make!
 
 ---
 
-<!-- .slide: data-audio-src="../audio/ml_art/37.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
+<!-- .slide: id="thank-you" data-audio-src="../audio/ml_art/37.ogg" data-background-image="../images/Five_Directions_dark.webp" data-background-opacity="0.9" data-audio-advance="800" -->
 # Thank you
 
-<div class="backdrop">
+<div class="backdrop lighten">
 
-1. [Foundations](../foundations/) <!-- .element: class="lighten" -->
-2. [Past, Present, Future](../past_present_future/) <!-- .element: class="lighten" -->
-3. [Neural Nets](../neural_nets/) <!-- .element: class="lighten" -->
-4. [Data in Practice](../datat_in_practice/) <!-- .element: class="lighten" -->
+1. [Foundations](../foundations/)
+2. [Past, Present, Future](../past_present_future/) 
+3. [Neural Nets](../neural_nets/) 
+4. [Data in Practice](../data_in_practice/)
 5. **Machine Learning Art**
 
 </div>
