@@ -229,34 +229,42 @@ deck.on( 'slidechanged', event => {
 // restarting the video when starting an audio fragent we watch the stopplayback event
 // and pause the background video if it exists
 document.addEventListener('stopplayback', function(e) {
-  //console.log("stopplayback", paused, e);
+  //console.log("stopplayback", paused, e.detail, e);
   let slide = deck.getCurrentSlide();
   if (!slide) return;
-  // event e has custom attribute .paused which will be true when main pause
+
+  if (e.detail.id != getAudioPlayerId()) return;
+
+  // event e has attribute pause which will be true when main pause
   // should be called (i.e. in the case where the play button was pressed)
-  if (e.paused === true) {
+  if (e.detail.pause === true) {
     pause();
   }
 } );
 
 document.addEventListener('startplayback', function(e) {
-  //console.log("startplayback", paused, e);
+  //console.log("startplayback", paused, e.detail, e);
   let slide = deck.getCurrentSlide();
   if (!slide) return;
-  // event e has custom attribute .paused which will be true when main pause
+  // event e has attribute resume which will be true when main play
   // should be called (i.e. in the case where the play button was pressed)
-  if (e.paused === false) {
+  if (e.detail.resume === true) {
     play();
   }
 } );
 
 
+function getAudioPlayerId() {
+  const indices = deck.getIndices();
+  let audio_id = "audioplayer-" + indices.h + '.' + indices.v;
+  if ( indices.f != undefined && indices.f >= 0 ) audio_id = audio_id + '.' + indices.f;
+  return audio_id;
+}
+
 // const [background_video, video, audio] = getMedia();
 function getMedia() {
   // audio
-  let indices = deck.getIndices();
-  let audio_id = "audioplayer-" + indices.h + '.' + indices.v;
-  if ( indices.f != undefined && indices.f >= 0 ) audio_id = audio_id + '.' + indices.f;
+  const audio_id = getAudioPlayerId();
   let audio = document.getElementById( audio_id );
   if (audio) {
     //console.log(audio_id, audio, audio.duration, !audio.duration);
@@ -313,6 +321,7 @@ async function play_background(background_video = false) {
 
 function pause() {
   if (paused) return;
+  //console.log("pause");
   paused = true;
   const [background_video, video, audio] = getMedia(); 
 
