@@ -57,16 +57,17 @@ This tutorial is technically a web-based slideshow presentation using the Reveal
 <!-- .slide: id="controls" data-audio-src="../audio/intro/03.ogg" -->
 Basic controls
 
-<div class="small">
+<div class="small instructions">
 
-* **[`spacebar`]** to pause / resume
-* **[`left`]** & **[`up`]** arrows to go back
-* **[`right`]** & **[`down`]** arrows to go forward
-* **[`esc`]** to bring up a map to navigate
-* **[`F`]** to go to fullscreen (**[`esc`]** to exit)
+* _spacebar_ to pause / resume
+* _left_ & _up_ arrows to go back
+* _right_ & _down_ arrows to go forward
+* _esc_ to bring up a map to navigate
+* _F_ to go to fullscreen ( _esc_ to exit )
 * The red arrows in the bottom right also control movement
 * The playback bar at the bottom controls the narration
-* Text in [**red**](#) denotes clickable links 
+* [**Text in red**](#) denotes clickable links
+* _S_ to bring up speaker notes for accessible text
 </div>
 
 Press spacebar to continue <!-- .element: class="fragment glow" data-audio-advance="-1" -->
