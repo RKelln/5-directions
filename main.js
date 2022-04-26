@@ -200,16 +200,16 @@ deck.on( 'slidechanged', event => {
   });
 
   // handle video restart and pause on start of slide
-  const [background_video, video, audio] = getMedia();
+  //const [background_video, video, audio] = getMedia();
   // restart video
-  if (background_video) {
-    background_video.currentTime = 0;
-    if (audio) { background_video.pause(); }
-  }
-  if (video) {
-    video.currentTime = 0;
-    if (audio) { video.pause(); }
-  }
+  // if (background_video) {
+  //   background_video.currentTime = 0;
+  //   if (audio) { background_video.pause(); }
+  // }
+  // if (video) {
+  //   video.currentTime = 0;
+  //   if (audio) { video.pause(); }
+  // }
 
   // event.previousSlide, event.currentSlide, event.indexh, event.indexv
   handleAttribution(event.currentSlide);
