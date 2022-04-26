@@ -23,16 +23,6 @@
   text-transform: capitalize;
 }
 
-/* section.has-light-background, 
-section.has-light-background h1, 
-section.has-light-background h2, 
-section.has-light-background h3, 
-section.has-light-background h4, 
-section.has-light-background h5, 
-section.has-light-background h6 {
-  mix-blend-mode: hue;
-} */
-
 .reveal .hidden {
   display: none;
 }
@@ -154,7 +144,6 @@ section.has-light-background h6 {
   min-width: 26em;
   position: relative;
   margin: auto;
-  /*font-style: italic;*/
 }
 
 .reveal .quote .attribution {
@@ -169,14 +158,6 @@ section.has-light-background h6 {
   margin-right: 0.3em;
   font-weight: normal;
 }
-
-/*
-.reveal div.attribution {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-*/
 
 .reveal div#attribution ul {
   list-style-type: none;
@@ -234,26 +215,11 @@ section.has-light-background h6 {
   font-size: 8pt;
 }
 
-.reveal .highlighted li {
-
-}
-
 .reveal .highlighted li strong {
   font-weight: normal;
   text-decoration: underline;
   text-decoration-thickness: from-font;
   filter: brightness(150%);
-  /*
-  background-color:rgba(0, 0, 0, 0.5);;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  padding: 0.2em;
-  border-radius: 0.2em;
-  border: #fff;
-  */
-  /*
-  filter: drop-shadow(0px 0px 3px rgba(255,250,250, 0.7));
-  */
-
 }
 
 .reveal .license p, .reveal .license img {
@@ -384,26 +350,6 @@ section.has-light-background h6 {
   border: 4px double rgba(210,180,180, 0.9);
   padding: 1em 1.5em;
 }
-
-div.artist > ul, div.artist > h3 {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-div.artist > ul > li {
-  padding: 0.25rem 0;
-}
-
-div.artist.r-stretch > ul, div.artist.r-stretch > h3 {
-  padding: 0.5rem 0.9rem;
-  text-transform: unset;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  font-size: 60%;
-}
-
 
 .reveal .dates ul, .reveal ul.dates {
   list-style: none;
@@ -575,3 +521,54 @@ div.artist.r-stretch > ul, div.artist.r-stretch > h3 {
   to { background-position: 0% 50%; }
 }
 
+/* ML Art */
+
+div.artist > ul, div.artist > h3 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div.artist > ul > li {
+  padding: 0.25rem 0;
+}
+
+div.artist.r-stretch > ul, div.artist.r-stretch > h3 {
+  padding: 0.5rem 0.9rem;
+  text-transform: unset;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 60%;
+}
+
+.reveal .art-category {
+  max-width: none;
+	max-height: none;
+  height: 100%;
+}
+
+.reveal .art-category h2, .reveal .art-category h3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.reveal .art-category .artist {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.reveal .art-category .artist ul {
+  width: 100%;
+}
+
+.reveal .art-category .highlighted li strong {
+  background-color: rgba(10,0,0,0.66);
+  padding: 0.2em;
+  margin: -0.2em;
+  border-radius: 0.2em;
+  backdrop-filter: blur(2px);
+}

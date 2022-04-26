@@ -595,12 +595,12 @@ For each category I'll present an overview and then let you explore some of the 
 
 ---
 
-<!-- .slide: id="realism" data-audio-src="../audio/ml_art/17-seg1.ogg" data-background-video="../video/Temporally Coherent GANs for Video Super-Resolution TecoGAN-pZXFXtfd-Ak_crop.mp4" data-background-loop data-background-size="contain" data-background-color="black" data-background-opacity="0.9" data-background-video-loop -->
+<!-- .slide: id="realism" class="art-category" data-audio-src="../audio/ml_art/17-seg1.ogg" data-background-video="../video/Temporally Coherent GANs for Video Super-Resolution TecoGAN-pZXFXtfd-Ak_crop.mp4" data-background-loop data-background-size="contain" data-background-color="black" data-background-opacity="0.9" data-background-video-loop -->
 ## Realism
 
-<div class="artist lighten">
+<div class="artist lighten highlighted">
 
-* Super resolution: _[TecoGAN](https://ge.in.tum.de/publications/2019-tecogan-chu/)_, 2018
+* **Super resolution: _[TecoGAN](https://ge.in.tum.de/publications/2019-tecogan-chu/)_, 2018**
 * Neural rendering & radiosity & physics simulations
 * Material synthesis
 
@@ -626,7 +626,7 @@ This technique can run into the uncanny valley effect, where humans become more 
 
 ---
 
-<!-- .slide: id="psychedelic" data-auto-animate data-audio-src="../audio/ml_art/18-seg1.ogg" data-background-video="../video/The Gate to a Deep Dream 720-Acst11cFmxE.mp4" data-background-video-loop data-background-opacity="0.6" -->
+<!-- .slide: id="psychedelic" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/18-seg1.ogg" data-background-video="../video/The Gate to a Deep Dream 720-Acst11cFmxE.mp4" data-background-video-loop data-background-opacity="0.9" -->
 ## Psychedelic
 
 <div class="artist lighten highlighted">
@@ -641,7 +641,7 @@ Notes:
 Psychedelic imagery usually focuses on bright colors, patterns and movement and may lack an easily defined subject. Google's Deepdream is prototypical and its influence on ML art is considerable. Generative software artists also had a strong psychedelic influences, owing to a strong association between mathematics and generated imagery with repeated patterns. Deepdream opened a door to the hallucinations of a machine mind.
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/18-seg2.ogg" data-background-video="../video/Audio-reactive Latent Interpolations with StyleGAN 720 -2LxHRGppdpA.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.6" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/18-seg2.ogg" data-background-video="../video/Audio-reactive Latent Interpolations with StyleGAN 720 -2LxHRGppdpA.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.9" -->
 <div class="artist lighten highlighted">
 
 * Mordvintsev, Tyka & Olah: [Deepdream](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
@@ -653,7 +653,7 @@ Notes:
 Psychedelic imagery has always had a strong connection to music. Artists like Hans Brouwer represent the latest attempt to synchronize music to abstract visuals. His work uses ML to generate the visuals but also to coordinate changes in the audio signal to changes in the visuals - creating audio-reactive imagery. Like Hans, I am also entranced by deeply connected audio and visual experiences that are more than the sum of their parts. ML offers automation of prohibitively expensive techniques and my hope is that it leads to an ability for artists to easily combine music and video that seamlessly support each other, much like a carefully crafted animation.
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/18-seg3.ogg" data-background-video="../video/Linnaeus+Pip_2503499567.mp4" data-background-video-loop data-background-opacity="0.6" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/18-seg3.ogg" data-background-video="../video/Linnaeus+Pip_2503499567.mp4" data-background-video-loop data-background-opacity="0.9" -->
 <div class="artist lighten highlighted">
 
 * Mordvintsev, Tyka & Olah: [Deepdream](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
@@ -703,12 +703,12 @@ Notes:
 
 ---
 
-<!-- .slide: id="surrealist" data-auto-animate data-audio-src="../audio/ml_art/19-seg1.ogg"  data-background-video="../video/artbreeder_landscape_example.mp4" data-background-video-loop data-background-opacity="0.8" -->
+<!-- .slide: id="surrealist" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/19-seg1.ogg"  data-background-video="../video/artbreeder_landscape_example.mp4" data-background-video-loop data-background-opacity="0.8" -->
 ## Surrealist
 
 <div class="artist lighten highlighted">
 
-* [ArtBreeder.com](https://www.artbreeder.com/)
+* **[ArtBreeder.com](https://www.artbreeder.com/)**
 * Sofia Crespo: _[Beneath the Neural Waves](https://beneaththeneuralwaves.com/)_, 2020
 * Mario Klingemann: _[Memories of Passersby I](https://underdestruction.com/2018/12/29/memories-of-passersby-i/)_, 2018
 * Katherine Crowson: [@RiversHaveWings](https://twitter.com/RiversHaveWings)
@@ -726,7 +726,7 @@ One of the most popular websites for no-code surrealist ML art is ArtBreeder.com
 Sofia Crespo, Mario Klingemann and Katherine Crowson are some of the best known ML artists that make surrealist works. 
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/19-seg2.ogg"  data-background-video="../video/beneath_the_neural_waves_04_web-Crespo-short.mp4" data-background-video-loop data-background-opacity="0.5" -->
+<!-- .slide: data-auto-animate class="art-category" data-audio-src="../audio/ml_art/19-seg2.ogg"  data-background-video="../video/beneath_the_neural_waves_04_web-Crespo-short.mp4" data-background-video-loop data-background-opacity="1.0" -->
 <div class="artist lighten highlighted">
 
 * [ArtBreeder.com](https://www.artbreeder.com/)
@@ -739,7 +739,7 @@ Notes:
 Crespo's _Beneath the Neural Waves_ combines sculpture, text, images and video to explore biodiversity through the creation of a fictional digital aquatic ecosystem.
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/19-seg3.ogg"  data-background-video="../video/Memories of Passersby I by Mario Klingemann-298000366.mp4" data-background-video-loop data-background-opacity="0.7" -->
+<!-- .slide: data-auto-animate class="art-category" data-audio-src="../audio/ml_art/19-seg3.ogg"  data-background-video="../video/Memories of Passersby I by Mario Klingemann-298000366.mp4" data-background-video-loop data-background-opacity="0.9" -->
 <div class="artist lighten highlighted">
 
 * [ArtBreeder.com](https://www.artbreeder.com/)
@@ -752,7 +752,7 @@ Notes:
 Klingemann's _Memories of Passersby I_ was one of the first portrait GANs to be done in high resolution as an installation. The faces are generated in real-time, so unlike a recording the video sequence never repeats. This is one of the benefits of ML generation - it can stay within a particular style and infinitely generate without exact repetition. Similar to real-time video of a particular landscape these works can be meditative: unique and never quite the same but still repetitive to viewers after a short time.
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/19-seg4.ogg"  data-background-image="../images/Crowson_Control_the_soul.webp" data-background-opacity="0.5" -->
+<!-- .slide: data-auto-animate class="art-category" data-audio-src="../audio/ml_art/19-seg4.ogg"  data-background-image="../images/Crowson_Control_the_soul.webp" data-background-opacity="0.9" -->
 <div class="artist lighten highlighted">
 
 * [ArtBreeder.com](https://www.artbreeder.com/)
@@ -824,7 +824,7 @@ Crowson is a good example of one of the peculiar aspects of current ML art pract
 
 ---
 
-<!-- .slide: id="body-horror" data-auto-animate data-audio-src="../audio/ml_art/21-seg1.ogg" data-background-video="../video/Entangled_II_3minCut.mp4-379416724-720.mp4" data-background-video-loop data-background-opacity="0.6" -->
+<!-- .slide: id="body-horror" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/21-seg1.ogg" data-background-video="../video/Entangled_II_3minCut.mp4-379416724-720.mp4" data-background-video-loop data-background-opacity="0.8" -->
 ### Body Horror
 
 <div class="artist lighten highlighted">
@@ -842,7 +842,7 @@ Scott Eaton, an accomplished figure artist and sculptor, trains models to interp
 * Scott Eaton, _[Entangled II](https://vimeo.com/379416724)_, 2020
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/21-seg2.ogg" data-background-video="../video/Pinkney_Ukiyo-e_6-05-451284388-excerpt.mp4" data-background-video-loop data-background-opacity="0.6" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/21-seg2.ogg" data-background-video="../video/Pinkney_Ukiyo-e_6-05-451284388-excerpt.mp4" data-background-video-loop data-background-opacity="0.8" -->
 <div class="artist lighten highlighted">
 
 * Scott Eaton: _[Entangled II](https://vimeo.com/379416724)_, 2020
@@ -887,7 +887,7 @@ Notes:
 
 ---
 
-<!-- .slide: id="cubist" data-auto-animate data-audio-src="../audio/ml_art/22-seg1.ogg" data-background-image="../images/cubist.webp" data-background-opacity="0.45" -->
+<!-- .slide: id="cubist" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/22-seg1.ogg" data-background-image="../images/cubist.webp" data-background-opacity="0.8" -->
 ## Cubist
 
 <div class="artist lighten highlighted">
@@ -904,7 +904,7 @@ A plural perspective combined or flatten into a single image has many of the sam
 * https://artincontext.org/cubism-art-movement/
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/22-seg2.ogg" data-background-image="../images/Irene-Sofia-Comi_Three-Thousand-Tigers.webp" data-background-opacity="0.5" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/22-seg2.ogg" data-background-image="../images/Irene-Sofia-Comi_Three-Thousand-Tigers.webp" data-background-opacity="0.7" -->
 <div class="artist lighten highlighted">
 
 * **Irene Sofia Comi _[Three Thousand Tigers](https://www.irenefenara.com/three-thousand-tigers)_, 2020**
@@ -916,7 +916,7 @@ Notes:
 As mentioned in our previous tutorials, one of the consistent issues with ML art is the large size of the training dataset needed for good results. Irene Sofia Comi embraced and highlighted a small dataset, using the 3000 or so living tigers in the wild as the count for her dataset of tigers used to train the generative model.
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/22-seg3.ogg" data-background-image="../images/Golan_Levin.webp" data-background-opacity="0.5" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/22-seg3.ogg" data-background-image="../images/Golan_Levin.webp" data-background-opacity="0.7" -->
 <div class="artist lighten highlighted">
 
 * Irene Sofia Comi _[Three Thousand Tigers](https://www.irenefenara.com/three-thousand-tigers)_, 2020
@@ -956,7 +956,7 @@ Notes:
 
 ---
 
-<!-- .slide: id="collage" data-auto-animate data-audio-src="../audio/ml_art/23-seg1.ogg" data-background-video="../video/Mosaic-Virus-detail-338726032.mp4" data-background-video-loop data-background-opacity="0.5" -->
+<!-- .slide: id="collage" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/23-seg1.ogg" data-background-video="../video/Mosaic-Virus-detail-338726032.mp4" data-background-video-loop data-background-opacity="0.9" -->
 ## Collage
 
 <div class="artist lighten highlighted">
@@ -976,14 +976,7 @@ Anna Ridler's _Mosaic Virus_ work is an interesting form of collage that creates
 * [_Mosaic Virus (detail)_ - Anna Ridler](https://vimeo.com/338726032)
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/23-seg2.ogg" data-background-video="../video/Helena_Sarin.mp4" data-background-video-loop data-background-opacity="0.5" -->
-<div class="artist lighten highlighted">
-
-* Anna Ridler: _[Mosaic Virus](http://annaridler.com/mosaic-virus)_, 2018
-* **Helena Sarin**
-
-</div>
-
+<!-- .slide: data-auto-animate class="art-category" data-audio-src="../audio/ml_art/23-seg2.ogg" data-background-video="../video/Helena_Sarin.mp4" data-background-video-loop data-background-opacity="0.9" -->
 <div class="quote">
 
 The instructions for training a GAN:
@@ -992,6 +985,13 @@ The instructions for training a GAN:
 * Tell about it.
 
 Helena Sarin <!-- .element: class="attribution" -->
+
+</div>
+
+<div class="artist lighten highlighted">
+
+* Anna Ridler: _[Mosaic Virus](http://annaridler.com/mosaic-virus)_, 2018
+* **Helena Sarin**
 
 </div>
 
@@ -1067,7 +1067,7 @@ Notes:
 
 ---
 
-<!-- .slide: id="critique" data-auto-animate data-audio-src="../audio/ml_art/25-seg1.ogg"  data-background-video="../video/Hito Steyerl - This is the Future - Venice Art Biennale 2019-720-mMLHMA-dumY.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.35" -->
+<!-- .slide: id="critique" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/25-seg1.ogg"  data-background-video="../video/Hito Steyerl - This is the Future - Venice Art Biennale 2019-720-mMLHMA-dumY.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.6" -->
 ## Critique
 
 <div class="artist lighten highlighted">
@@ -1088,7 +1088,7 @@ Hito Steyerl's work is often darkly absurd and sharply political. My guess is sh
 * _[This is the Future](https://www.youtube.com/watch?v=mMLHMA-dumY)_, 2019
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/25-seg2.ogg"  data-background-image="../images/excavating.ai.webp" data-background-opacity="0.35" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/25-seg2.ogg"  data-background-image="../images/excavating.ai.webp" data-background-opacity="0.5" -->
 <div class="artist lighten highlighted">
 
 * Hito Steyerl: _[This is the Future](https://www.youtube.com/watch?v=mMLHMA-dumY)_, 2019
@@ -1102,7 +1102,7 @@ Notes:
 As mentioned in previous tutorials, Kate Crawford and Trevor Paglen's Excavating AI site has challenged the norms around dataset creation leading to significant changes in the research community. Michael J. Lyons, an ML researcher, has pointed out that their work, by making public some images from the datasets they investigated, is guilty of the same lack of informed consent that they critique. When doing critique work, practices from journalism, such as thinking carefully about the consequences of publication, soliciting feedback from those you are critiquing before publishing, and being accountable for what you publish, is important to reduce further harm.
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/25-seg3.ogg"  data-background-video="../video/moments_in_time_dark-background.mp4" data-background-video-loop data-background-opacity="0.5" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/25-seg3.ogg"  data-background-video="../video/moments_in_time_dark-background.mp4" data-background-video-loop data-background-opacity="0.9" -->
 <div class="artist lighten highlighted">
 
 * Hito Steyerl: _[This is the Future](https://www.youtube.com/watch?v=mMLHMA-dumY)_, 2019
@@ -1116,7 +1116,7 @@ Notes:
 Everest Pipkin's _Lacework_ is a feat of artistic devotion, touching on the labour involved in creating datasets and the nature of large datasets. He watched the entire Moments In Time dataset of 1 million 3-second low resolution video clips labelled with one of 339 'doing' verbs. This is approximately 830 hours in total or the equivalent of 5 months worth of full-time work. He selected his favourite clips that were then slowed down and had super resolution applied to them. Sadly, the authors of the dataset still had not learned the lessons from excavating.ai and the dataset construction was done by searching the internet and then labelled by online workers who had no way to exclude toxic material or materials with questionable consent. Pipkin is the only person who has seen the entire dataset. 
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/25-seg4.ogg"  data-background-image="../images/what-to-say-16x9.png" data-background-opacity="0.3" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/25-seg4.ogg"  data-background-image="../images/what-to-say-16x9.png" data-background-opacity="0.7" -->
 <div class="artist lighten highlighted">
 
 * Hito Steyerl: _[This is the Future](https://www.youtube.com/watch?v=mMLHMA-dumY)_, 2019
@@ -1194,12 +1194,12 @@ Notes:
 
 ---
 
-<!-- .slide: id="toolchain" data-audio-src="../audio/ml_art/26.ogg" data-background-image="../images/everything_that_happens_will_happen_today.webp" data-background-opacity="0.33" -->
+<!-- .slide: id="toolchain" class="art-category" data-audio-src="../audio/ml_art/26.ogg" data-background-image="../images/everything_that_happens_will_happen_today.webp" data-background-opacity="0.9" -->
 ## Toolchain
 
-<div class="artist lighten">
+<div class="artist lighten highlighted">
 
-* Brian House: _[Everything that Happens Will Happen Today](https://brianhouse.net/works/everything_that_happens_will_happen_today/)_, 2017
+* **Brian House: _[Everything that Happens Will Happen Today](https://brianhouse.net/works/everything_that_happens_will_happen_today/)_, 2017**
 
 </div>
 
@@ -1266,7 +1266,7 @@ ML art as research can also explore intelligence; our own, other biological inte
 * https://pxhere.com/en/photo/1126352
 
 
-<!-- .slide: id="research" data-auto-animate data-audio-src="../audio/ml_art/28-seg4.ogg" data-background-video="../video/Through_the_haze-213741599-excerpt.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5" -->
+<!-- .slide: id="research" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/28-seg4.ogg" data-background-video="../video/Through_the_haze-213741599-excerpt.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5" -->
 ## Art as Research
 
 <div class="artist lighten highlighted">
@@ -1282,7 +1282,7 @@ Ben Bogart's work with video reorganizes the pixels and audio samples according 
 * _[Through the haze of a machine's mind we may glimpse our collective imaginations (Blade Runner)](https://vimeo.com/213741599)_, 2017
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/29.ogg" data-background-video="../video/chromatographic ballads-71008106-background.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.4" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/29.ogg" data-background-video="../video/chromatographic ballads-71008106-background.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.4" -->
 <div class="artist lighten highlighted">
 
 * Ben Bogart: _[Through the haze of a machine's mind we may glimpse our collective imaginations (Blade Runner)](https://www.ekran.org/ben/portfolio/2017/04/through-the-haze-of-a-machines-mind-we-may-glimpse-our-collective-imaginations-blade-runner-2017/)_, 2017
@@ -1330,7 +1330,7 @@ Notes:
 
 ---
 
-<!-- .slide: id="instrumentation" data-auto-animate data-audio-src="../audio/ml_art/30-seg1.ogg"  data-background-video="../video/Nebyu_sunrise_concert_example-background.mp4" data-background-opacity="0.6" data-background-video-loop -->
+<!-- .slide: id="instrumentation" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/30-seg1.ogg"  data-background-video="../video/Nebyu_sunrise_concert_example-background.mp4" data-background-opacity="0.9" data-background-video-loop -->
 ## Instrumentation
 
 <div class="artist lighten">
@@ -1346,7 +1346,7 @@ Notes:
 Instrumentation art relies heavily on sensors, usually in real-time, and machine learning is used to map or translate the sensor data into other audio or visual modes. 
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/30-seg2.ogg" data-background-video="../video/Michelle_Nagai_MARtLET-19980514-excerpt.mp4" data-background-opacity="0.5" data-background-video-loop data-background-video-muted -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/30-seg2.ogg" data-background-video="../video/Michelle_Nagai_MARtLET-19980514-excerpt.mp4" data-background-opacity="0.8" data-background-video-loop data-background-video-muted -->
 <div class="artist lighten highlighted">
 
 * **Michelle Nagai: _[MARtLET](https://vimeo.com/19980514)_, 2011**
@@ -1360,7 +1360,7 @@ Notes:
 Michelle Nagai's _MARtLET_ instrument uses the Wekinator software developed by Dr. Rebecca Fiebrink, to translate shadow and light into audio tones to create music. Wekinator allows artists to more easily associate sensor signals with particular outputs.
 
 
-<!-- .slide: data-visibility="hidden" data-auto-animate data-audio-src="../audio/ml_art/30-seg3.ogg" data-background-video="../video/B-612-118238511-excerpts.mp4" data-background-opacity="0.5" data-background-video-loop data-background-video-muted -->
+<!-- .slide: data-visibility="hidden" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/30-seg3.ogg" data-background-video="../video/B-612-118238511-excerpts.mp4" data-background-opacity="0.9" data-background-video-loop data-background-video-muted -->
 <div class="artist lighten highlighted">
 
 * Michelle Nagai: _[MARtLET](https://vimeo.com/19980514)_, 2011
@@ -1374,7 +1374,7 @@ Notes:
 In Natalia Balska's _B-612_ installation, a plant is watered by a machine that needs to learn how to care for the plant while also maximizing the amount of water it retains for itself. 
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/30-seg4.ogg" data-background-video="../video/Memo_learning2see-720.mp4" data-background-opacity="1.0" data-background-video-loop data-background-video-muted -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/30-seg4.ogg" data-background-video="../video/Memo_learning2see-720.mp4" data-background-opacity="1.0" data-background-video-loop data-background-video-muted -->
 <div class="artist lighten highlighted">
 
 * Michelle Nagai: _[MARtLET](https://vimeo.com/19980514)_, 2011
@@ -1388,7 +1388,7 @@ Notes:
 Memo Akten uses image-to-image translation to turn video of one banal subject into video of landscapes and other more dramatic imagery. I've used the same technique to generate visuals to live music, and the choice of subject isn't entirely arbitrary, there can be an interesting challenge of finding the right objects to manipulate to generate the visuals you are looking for. 
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/30-seg5.ogg" data-background-video="../video/Suzanne-Kite-Listener-ny-DebRZdV0.mp4" data-background-opacity="0.5" data-background-video-loop data-background-video-muted data-background-color="black" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/30-seg5.ogg" data-background-video="../video/Suzanne-Kite-Listener-ny-DebRZdV0.mp4" data-background-opacity="1.0" data-background-video-loop data-background-video-muted data-background-color="black" -->
 <div class="artist lighten highlighted">
 
 * Michelle Nagai: _[MARtLET](https://vimeo.com/19980514)_, 2011
@@ -1460,17 +1460,8 @@ Notes:
 
 ---
 
-<!-- .slide: id="non-human" data-audio-src="../audio/ml_art/32-seg1.ogg" data-background-video="../video/Vessels _ by Sofian Audry 2015-137104837.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.4"-->
+<!-- .slide: id="non-human" data-audio-src="../audio/ml_art/32-seg1.ogg" data-background-video="../video/Vessels _ by Sofian Audry 2015-137104837.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.8"-->
 ## Non-human Art
-
-<div class="artist lighten highlighted">
-
-* Soungwen Chung: _[Drawing Operations Unit: Generation 2](https://sougwen.com/project/drawingoperations-memory)_, 2017
-* Justine Emard & Mirai Moriyama: _[Co(AI)xistence](https://justineemard.com/coaixistence-2/)_, 2017
-* Justine Emard: [_Supraorganism_](https://justineemard.com/supraorganism/), 2020
-* Botto & Mario Klingemann: _[Botto](https://botto.com/)_, 2021-ongoing
-
-</div>
 
 ...Knowing that non-humans have spirits that do not come from us or our imaginings but from elsewhere, from a place we cannot understand, a Great Mystery, wakȟáŋ: that which cannot be understood. <!-- .element: class="quote" -->
 _Lewis, Arista, Pechawis, & Kite_ <!-- .element: class="attribution" -->
@@ -1479,7 +1470,7 @@ Notes:
 In a sense all ML art tools involve some aspect of non-human art, but this aspect can be the focus of the work. This can involve the artist or audience making sense of the non-human, collaborating, competing or otherwise developing a new relationship with it. Often this involves some redefinition of a relationship or redrawing boundaries.
 
 
-<!-- .slide: data-audio-src="../audio/ml_art/32-seg2.ogg" data-background-video="../video/Sougwen Chung - Drawing Operations Unit - 2 - 2017-zd4WXSNLuzE.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.4"-->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/32-seg2.ogg" data-background-video="../video/Sougwen Chung - Drawing Operations Unit - 2 - 2017-zd4WXSNLuzE.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.9"-->
 <div class="artist lighten highlighted">
 
 * **Soungwen Chung: _[Drawing Operations Unit: Generation 2](https://sougwen.com/project/drawingoperations-memory)_, 2017**
@@ -1492,7 +1483,7 @@ Notes:
 Soungwen Chung builds robots that are trained on her art style and explores collaborative art making with these rough facsimiles of herself. The fantasy of working with clones of yourself is both a dream and nightmare, and certainly a new reality for all artists as ML tools become more successful at recreating their style.
 
 
-<!-- .slide: data-audio-src="../audio/ml_art/32-seg3.ogg" data-background-video="../video/Co-AI-xistence_Justine-Emard_excerpt-vcdUTEpSV1s.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5"-->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/32-seg3.ogg" data-background-video="../video/Co-AI-xistence_Justine-Emard_excerpt-vcdUTEpSV1s.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.9"-->
 <div class="artist lighten highlighted">
 
 * Soungwen Chung: _[Drawing Operations Unit: Generation 2](https://sougwen.com/project/drawingoperations-memory)_, 2017
@@ -1505,7 +1496,7 @@ Notes:
 Justine Emard's work explores the non-human from many directions. In collaboration with Mirai Moriyama and the robot named Alter, the two collaborators interact through unstructured communication - light, motion and body language. These attempts at communication are currently awkward and limited, but document an ongoing process of human and machine meeting and collaboration.
 
 
-<!-- .slide: data-audio-src="../audio/ml_art/32-seg4.ogg" data-background-video="../video/Supraorganism_Justine-Emard_2020-syA6uD0qkHY.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5"-->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/32-seg4.ogg" data-background-video="../video/Supraorganism_Justine-Emard_2020-syA6uD0qkHY.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.9"-->
 <div class="artist lighten highlighted">
 
 * Soungwen Chung: _[Drawing Operations Unit: Generation 2](https://sougwen.com/project/drawingoperations-memory)_, 2017
@@ -1610,7 +1601,7 @@ Notes:
 
 ---
 
-<!-- .slide: id="environmental" data-auto-animate data-audio-src="../audio/ml_art/34-seg1.ogg" data-background-video="../video/Transition_Toronto_small.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5" -->
+<!-- .slide: id="environmental" class="art-category" data-auto-animate data-audio-src="../audio/ml_art/34-seg1.ogg" data-background-video="../video/Transition_Toronto_small.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.9" -->
 ## Environmental
 
 <div class="artist lighten">
@@ -1625,7 +1616,7 @@ Notes:
 Many of the previous works have environmental motifs, but I'd like to go into more detail on a type of non-human environmentally focused art that often combines aspects of cubism, collage, research, and instrumentation. These works generally focus on one or two-way communication between humans and non-humans, animate and inanimate.
 
 
-<!-- .slide: data-auto-animate class="zoomin" data-audio-src="../audio/ml_art/34-seg2.ogg" data-background-image="../images/Terra0.webp"  data-background-opacity="0.4" -->
+<!-- .slide: class="art-category zoomin" data-auto-animate data-audio-src="../audio/ml_art/34-seg2.ogg" data-background-image="../images/Terra0.webp"  data-background-opacity="0.8" -->
 <div class="artist lighten highlighted">
 
 * **Paul Seidler & Max Hampshire & Paul Kolling: _[Terra0](https://terra0.org/)_, 2016**
@@ -1650,7 +1641,7 @@ Part of the trouble with these sorts of systems is that a forest cannot give con
 * [Karl Schroeder @ IoT Waterloo - May03 2018](https://www.youtube.com/watch?v=NNuv7V8atIA)
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/34-seg3.ogg"  data-background-video="../video/Foresta-Inclusive-Work-in-progress-424351312-excerpt.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/34-seg3.ogg"  data-background-video="../video/Foresta-Inclusive-Work-in-progress-424351312-excerpt.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.8" -->
 <div class="artist lighten highlighted">
 
 * Paul Seidler & Max Hampshire & Paul Kolling: _[Terra0](https://terra0.org/)_, 2016
@@ -1663,7 +1654,7 @@ Notes:
 Jane Tingley explores this question of how to understand trees in _Foresta-Inclusive_. Using sculptural sensor hubs she links gallery spaces to forest ecosystems. The sensors measure the environment experienced by the trees and convert the measurements into audio and visual experiences for the audience. This style of work tries to bridge the gulf between the different perceptual and temporal realities of living beings. There is a danger creating a false sense of understanding, but such is the case with all attempts at communication. 
 
 
-<!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/34-seg4.ogg"  data-background-video="../video/Herald_Harbinger_2018-275334922-excerpt.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.4" -->
+<!-- .slide: class="art-category" data-auto-animate data-audio-src="../audio/ml_art/34-seg4.ogg"  data-background-video="../video/Herald_Harbinger_2018-275334922-excerpt.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.8" -->
 <div class="artist lighten highlighted">
 
 * Paul Seidler & Max Hampshire & Paul Kolling: _[Terra0](https://terra0.org/)_, 2016
