@@ -11,11 +11,15 @@ In less than an hour we will cover some important material that will help you un
 <!-- .slide: id="overview" data-audio-src="../audio/foundations/02.ogg" data-background-video="../video/erie - co_ai_existence.mp4" data-background-video-muted data-audio-advance="1500" -->
 # Foundations
 
-* Digital
-* Boolean logic & Algorithms
-* Software
-* Intelligence
-* Digital Intelligence
+<div class="lighten">
+
+* [Digital](#/digital)
+* [Boolean logic](#/boolean-algebra) & [Algorithms](#/algorithm)
+* [Software](#/software)
+* [Intelligence](#/intelligence)
+* [Digital Intelligence](#/digital-intelligence)
+
+</div>
 
 Notes:
 We'll start this tutorial by challenging our assumptions and looking at the fundamental principles of digital technologies, leading us to a better conception of what software systems, like artificial intelligence are capable of and what makes them so strange and powerful.
@@ -160,6 +164,7 @@ NOT 0 = 1
 
 Notes:
 The only values in Boolean algebra are true and false, which map to binary values 1 and 0. Instead of addition and multiplication the main operations are AND, OR and NOT. AND and OR combine values in logical ways. 
+
 ANDing two values is only true if both are true. 
 ORing two values is true if either of the values is true.
 NOT allows for the inversion of a value: NOT true is false, and NOT false is true.
@@ -196,7 +201,7 @@ Notes:
 * [Three Thousand Years of Algorithmic Rituals: The Emergence of AI from the Computation of Space](http://matteopasquinelli.com/3000-years-of-algorithmic-rituals/)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/07c.ogg" data-background-image="../images/Ramon Llull manuscript 2.jpg"-->
+<!-- .slide: class="zoomin" data-audio-src="../audio/foundations/07c.ogg" data-background-image="../images/Ramon Llull manuscript 2.jpg"-->
 Notes:
 Algorithms are ancient technology, that emerged from ritual practices and the organization of social life. They are emergent processes that materialize out of a previous and spontaneous division of space, time and labour. Cultures speak of recipes, rules, techniques, processes, procedures, methods, and strategies. 
 
@@ -232,7 +237,8 @@ Our society is now inundated by software algorithms. Software programmers, like 
 </td><tr></table>
 
 Notes:
-In 1937, Alan Turing introduced the idea of the Universal Computing Machine. His thought experiment involved a simple machine that could read, write, and compare symbols on a length of paper or tape with no understanding of the symbols being read and written other than changing the "state" of the machine. You could also think of these three actions in less mechanical terms: sensing, acting, and feeling. 
+In 1937, Alan Turing introduced the idea of the Universal Computing Machine. His thought experiment involved a simple machine that could read, write, and compare symbols on a length of paper or tape with no understanding of the symbols being read and written other than changing the "state" of the machine. You could also think of these three actions in less mechanical terms: sensing, acting, and feeling.
+
 ### Credits
 * https://www.reddit.com/r/ColorizedHistory/comments/e6ugox/alan_turing_the_father_artificial_intelligence/
 
@@ -249,7 +255,7 @@ This creates a simple, universal algorithm for computation. And if sensing, acti
 
 
 <!-- .slide: id="rule-110" data-audio-src="../audio/foundations/09a.ogg" data-background-image="../images/computation_theory_of_mind_RealESRGAN-pbaylies-hr-paintings.webp" -->
-Computation and Rule 110
+## Computation <!-- .element: class="fadeout" -->
 
 Notes:
 And what is it to compute? The transformation of inputs to outputs that follows an algorithm. There are competing theories about the physical phenomenon of computation, and an ongoing debate on the computational theory of mind, or computationalism, that holds that the human mind is an information processing system.
@@ -270,6 +276,12 @@ There are 88 possible unique cellular automata, which are one-dimensional patter
 
 
 <!-- .slide: data-audio-src="../audio/foundations/09c.ogg" data-background-video="../video/Rule 110 Simple Implementation Visual-RaZinCdrwRg 720.mp4" data-background-video-muted data-background-opacity="0.4" -->
+<p class="dynamic-text"></p>
+<script type="text/vtt">
+00:17.000 --> 00:18.700
+"spaceships"
+</script>
+
 Notes:
 The patterns of 1s and 0s created by this evolution are neither completely stable nor completely chaotic. Structures appear and interact with each other in complex ways. Cook was able to prove that Rule 110 could emulate another known universal computation by use of "spaceships" and other structures. What the heck do spaceships have anything to do with this? Spaceships are just the common name for a self-contained structure that can move through the environment. In this case, the environment is a repeating stable pattern and the spaceship is a structure that can move amongst it. Once you have spaceships then you can start transmitting information. Once you can transmit then you can build read, write and compare... and universal computation.
 
@@ -288,7 +300,7 @@ Rule 110 is arguably the simplest known Turing complete system. The essential ta
 <!-- .slide: data-audio-src="../audio/foundations/10a.ogg" data-background-video="../video/zoom-out-brain-chip.mp4" data-audio-advance="1000" -->
 
 Notes:
-How could something as simple as a Turing machine calculate something as complex as a modern video game or simulations of The Big Bang? The reason this is possible is that simple algorithms can be combined and built on each other. Digital algorithms inherit digital properties: perfect replication and execution thus you can start to build infinitely long chains of algorithms. Like with the Turning machine, the infinitely long nature of the tape becomes critical, as does the speed at which you manipulate it. Today's pocket sized computers perform tens of billion operations per second and store hundreds of billions of bits. They have access to essentially infinite bits through the internet.
+How could something as simple as a Turing machine calculate something as complex as a modern video game or simulations of The Big Bang? The reason this is possible is that simple algorithms can be combined and built on each other. Digital algorithms inherit digital properties: perfect replication and execution. Thus, you can start to build infinitely long chains of algorithms. Like with the Turning machine, the infinitely long nature of the tape becomes critical, as does the speed at which you manipulate it. Today's pocket sized computers perform tens of billion operations per second and store hundreds of billions of bits. They have access to essentially infinite bits through the internet.
 
 As the length and complexity of each algorithm grows, human understanding of it fades, until we add a layer of abstraction to hide all the underlying complexity. No human has, nor ever will have, a complete understanding of the full details and interactions of the hardware and software running on a typical phone. We are similarly ignorant of the human brain and even a single neuron in the brain.
 
@@ -417,7 +429,7 @@ Those questions have had, and will continue to have, a profound effect on my lif
 * https://archive.org/details/American1958_2
 
 
-<!-- .slide: data-audio-src="../audio/foundations/15a.ogg" data-background-image="../images/Sacred_Library_Ryan_Moulton_latent-diffusion.webp" data-background-size="contain" -->
+<!-- .slide: class="zoomin" data-audio-src="../audio/foundations/15a.ogg" data-background-image="../images/Sacred_Library_Ryan_Moulton_latent-diffusion.webp" data-background-size="contain" data-background-repeat="repeat-x"-->
 # Digital Libraries
 
 Notes:
@@ -432,7 +444,7 @@ Notes:
 We have had the technology, since at least the origin of The Pirate Bay in 2003, to distribute all the world's digital information at a cost much less than we spend on the world's libraries. But we have decided to not do this. We could make every person with access to the internet into a digital billionaire, with access to everything forever - the largest anti-poverty action in history, likely for the entirety of history, but we choose not to. 
 
 
-<!-- .slide: data-audio-src="../audio/foundations/15c.ogg" data-background-image="../images/Forbes_bilionaires_headshots_2021.jpg" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: class="zoom" data-audio-src="../audio/foundations/15c.ogg" data-background-image="../images/Forbes_bilionaires_headshots_2021.jpg" data-background-size="contain" data-background-repeat="repeat-x" data-audio-advance="1000" -->
 Notes:
 We'd rather have only [2755 billionaires](https://en.wikipedia.org/wiki/The_World%27s_Billionaires). 
 
@@ -528,7 +540,7 @@ For example, if you take data on policing, which may be targeted based on existi
 
 <!-- .slide: id="neural-networks" data-audio-src="../audio/foundations/17d.ogg"  data-background-video="../video/network-propagation.mp4" data-background-size="contain" --data-background-video-loop data-audio-advance="1500" -->
 Notes:
-The most popular current ML technique is deep learning using artificial neural networks. These networks mimic the connectivity of biological brains - taking raw input and passing it through many layers of connections. The information flows through the network being transformed into the final output. These networks, called models, are made up many layers of neurons connected together. The first layer is the input, then there are what is called the "hidden" layers of neurons that process the input, and finally an output layer. How the input signal flows through the hidden layers and gets transformed until reaching the output is the computation of the neural net. We'll cover this in detail in Part 3: Neural Nets and Data.
+The most popular current ML technique is deep learning using artificial neural networks. These networks mimic the connectivity of biological brains - taking raw input and passing it through many layers of connections. The information flows through the network being transformed into the final output. These networks, called models, are made up many layers of neurons connected together. The first layer is the input, then there are what is called the "hidden" layers of neurons that process the input, and finally an output layer. How the input signal flows through the hidden layers and gets transformed until reaching the output is the computation of the neural net. We'll cover this in detail in [Part 3: Neural Nets and Data](../neural_nets/).
 
 That this works so well is quite remarkable, but currently training requires a vast amount of data, something that only became feasible with the Internet and the rise of Big Data.
 
@@ -558,7 +570,7 @@ As we will see, the process of creating machines that learn is dramatically diff
 There are many analogies, but a consensus suggests that machine learning processes are more exploratory and some aspects require less technical proficiency. While many parts of the full machine learning development lifecycle still require tradition software programming, the curation of datasets and the training phases are more similar to teaching and gardening - certainly difficult to master but considerably easier for novices to achieve success. Hours and days rather than weeks or months of education. At least, for the sake of this tutorial I'll pretend that is the case.
 
 
-<!-- .slide: data-audio-src="../audio/foundations/19a.ogg" data-background-image="../images/feature_visualization.png" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: data-audio-src="../audio/foundations/19a.ogg" data-background-image="../images/feature_visualization.png" data-background-size="contain" data-background-color="white" data-audio-advance="1000" -->
 Notes:
 Machine learning excels at pattern recognition and prediction. Input to software is almost always noisy and filled with extraneous or non-useful data. Detecting the signal or useful information is difficult. Unlike traditional software where humans study patterns in the data, then create equations that try to detect or isolate those patterns, modern ML systems accept all the input and are trained to find the needed information. It is hard for humans, with our own sophisticated perceptual system that we're not very conscious of, to understand how to filter the input usefully. Indeed, after training, ML systems can have structures resembling our perceptual system at the start of their layered network.
 
@@ -606,7 +618,7 @@ Notes:
 * [_Learning to see - We are made of star dust_ - Memo Akten](https://vimeo.com/242498070) (2018)
 
 ---
-<!-- .slide: id="intelligence" data-audio-src="../audio/foundations/20a.ogg" data-background-video="../video/Zebrafish Brain-YLVdRPVj-XM.mp4" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: id="intelligence" data-audio-src="../audio/foundations/20a.ogg" data-background-video="../video/Zebrafish Brain-YLVdRPVj-XM.mp4" data-background-size="contain" data-background-color="black" data-audio-advance="1000" -->
 # Intelligence
 
 Notes:
@@ -633,7 +645,7 @@ To see the range of intelligence let's explore a few examples of intelligence ve
 * [_Animated projection of the dark matter density distribution_ - Illustris](https://www.illustris-project.org/media/)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/20c.ogg" data-background-video="../video/Experienced bumblebee pulling string to solve the coiled-string task-4skDs7y_nVU.mp4" data-background-size="contain" data-audio-advance="700" -->
+<!-- .slide: data-audio-src="../audio/foundations/20c.ogg" data-background-video="../video/Experienced bumblebee pulling string to solve the coiled-string task-4skDs7y_nVU.mp4" data-background-size="contain" data-background-color="#094b13"  data-audio-advance="700" -->
 Notes:
 Honey bees have a hivemind, and approximately a million nerve cells each. They can count up to 5, choose the smaller or larger number from a group, and even choose "zero" when choosing "less than 1", but they do this without numerical concepts, and researchers were able to create a 4 neuron artificial neural net to replicate this. Bees dance to convey direction and distance to sources of flowers to each other and can solve simple object manipulation problems and learn to solve those problems by watching each other.
 
@@ -675,6 +687,14 @@ _"My position is that all lifeforms, even those lacking brains, such as plants a
 
 
 <!-- .slide: data-audio-src="../audio/foundations/20f.ogg" data-background-video="../video/cosmic_zoom_out 720.mp4" data-background-video-muted data-audio-advance="1500" -->
+<p class="dynamic-text"></p>
+<script type="text/vtt">
+00:19.400 --> 00:22.000
+self-organized criticality
+00:24.000 --> 00:28.900
+from simple rules to complex patterns or behaviours
+</script>
+
 Notes:
 Intelligence, or what Hayles calls cognition, is not restricted to a single organ, not even a single organism, but is distributed throughout the body, relationships, tools, institutions, markets, and culture. It emerges from evolutionary dynamics, adaptation, complexity, and what is sometimes called "self-organized criticality" or as studied in artificial life, “from simple rules to complex patterns or behaviours.”
 
@@ -719,8 +739,8 @@ We base these models of the world on our experiences, but what we think of as ou
 * [The Neuroscience of Consciousness – with Anil Seth](https://www.youtube.com/watch?v=xRel1JKOEbI)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/23a.ogg" data-background-image="../images/Retinal_Image.webp" -->
-### How we see
+<!-- .slide: class="zoomin" data-audio-src="../audio/foundations/23a.ogg" data-background-image="../images/Retinal_Image.webp" data-background-size="contain" data-background-color="black" -->
+### How we see <!-- .element: class="fadeout" -->
 
 Notes:
 Our eyes mainly have good detail in a very small area, but more shockingly they are often in motion, and while moving our visual sensitivity is strongly impaired. This is not anyone's perception of how they view the world. Rather than a constant stream of visual input, our eye takes visual samples of the world and combines them with motion and orientation signals in a rich image processing circuitry of its own. This information is used to build the world we perceive in the brain which feels coherent and constant.
@@ -783,7 +803,7 @@ This doesn't show that half of us are clueless, rather that the primacy of a coh
 
 
 <!-- .slide: data-audio-src="../audio/foundations/24b.ogg" data-background-video="../video/selective attention test-vJG698U2Mvo.mp4" data-background-video-loop data-audio-advance="1200" -->
-How many passes do you count?
+How many passes do you count? <!-- .element: class="fadeout" -->
 Notes:
 Another way to conceive of the "information attack" of the door switcheroo, is that our thinking isn't just inside our brain and body, it extends into to the world around us. This is more obvious in acts of memory amplification, for example, if you write down a note to yourself, but we are constantly letting the world compute or hold information for us until we need it. It could be in the case of the switcheroo the brain let the world "hold" the information of the identity of the lost person to focus on how to help them, at least until the identity of person was somehow needed to direct them. Our attention mechanisms in general can be characterized as a shift in what information is being actively, or at least consciously, processed. 
 
@@ -791,7 +811,7 @@ Another way to conceive of the "information attack" of the door switcheroo, is t
 * [_Selective attention test_ - Daniel Simons and Daniel Levin](https://www.youtube.com/watch?v=vJG698U2Mvo)
 
 
-<!-- .slide: id="judgment" data-audio-src="../audio/foundations/26.ogg" data-background-image="../images/brian_cantwell-smith_big.jpg" data-background-size="contain" data-audio-advance="1000" -->
+<!-- .slide: id="judgment" data-audio-src="../audio/foundations/26.ogg" data-background-image="../images/brian_cantwell-smith_big.jpg" data-background-size="contain" data-background-color="#433e3c" data-audio-advance="1000" -->
 ### Brian Cantwell Smith
 
 #### Judgment
@@ -811,14 +831,14 @@ Judgment is not restricted to humans. Perhaps it is a mark of the humane. Comput
 
 
 <!-- .slide: id="decisions" data-audio-src="../audio/foundations/27a.ogg" data-background-image="../images/freewill_is_a_figment_of_our_imagination_latent-diffusion.webp" -->
-### Decisions?
+### Decisions? <!-- .element: class="fadeout" -->
 
 Notes:
 Where I feel I disagree with Brian is that judgment, while beautiful, seems to imply some sort of decision making or freewill. I like the idea that we do not exercise judgment for most thinking, but can call upon it when the consequences of lack of judgment are high. I like that the capacity for judgment makes you accountable, but I don't know if it makes you responsible in the way that we talk about people _deciding_ to hurt others and being responsible for that decision.
 
 
 <!-- .slide: id="freewill" data-audio-src="../audio/foundations/27b.ogg" data-background-video="../video/Monty Python Philosophy Football-LfduUFF_i1A.mp4" data-audio-advance="1200" -->
-Freewill
+Freewill <!-- .element: class="fadeout" -->
 
 Notes:
 While the debate on freewill has been a long and nuanced one, and of which I'm no expert, I am excited by how machine learning is opening new doors for my understanding of it. The more I learn, the more certain I become that freewill, as popularly thought of, doesn't exist. This is despite my own and everyone I know's overwhelming subjective experience of feeling like they have freewill.
@@ -827,9 +847,9 @@ While the debate on freewill has been a long and nuanced one, and of which I'm n
 * [Monty Python's _Philosohpy Football_](https://www.youtube.com/watch?v=LfduUFF_i1A)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/27c.ogg" data-background-image="../images/reinforcement_world_model.gif" data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/foundations/27c.ogg" data-background-image="../images/reinforcement_world_model.gif" data-background-size="contain" data-background-color="white" -->
 Notes:
-A recent study sheds some light on this - in machine reinforcement learning the system learns better when it has a model of the world and can plan its actions, imagining how the world might change as it interacts with it. Importantly this learning procedure relies on counterfactual learning, or the ability imagine alternate reality with different facts, the learner must be able to simulate or imagine having made choices they did not in fact make.
+A recent study sheds some light on this - in machine reinforcement learning the system learns better when it has a model of the world and can plan its actions, imagining how the world might change as it interacts with it. Importantly this learning procedure relies on counterfactual learning, or the ability imagine an alternate reality with different facts, the learner must be able to simulate or imagine having made choices they did not in fact make.
 
 ### Credits
 * https://bair.berkeley.edu/blog/2020/10/05/plan2explore/
@@ -862,6 +882,7 @@ Notes:
 ### Credits <!-- .element: class="attribution" -->
 * [_Frankenstein_](https://www.youtube.com/watch?v=MowmXsMDkY) (1910)
 * [_Computer Ballet_ ](https://www.youtube.com/watch?v=dXQIUEwEGQ) (1965)
+
 ---
 <!-- .slide: id="digital-intelligence" data-audio-src="../audio/foundations/28aa.ogg" data-background-image="../images/digital_intelligence_rudalle_1_latent-diffusion.webp" data-background-opacity="0.5" data-audio-advance="800" -->
 # Digital intelligence <!-- .element: class="r-fit-text" -->
@@ -871,15 +892,15 @@ OK, I think we're ready to talk about digital intelligence.
 
 
 <!-- .slide: data-audio-src="../audio/foundations/28a.ogg" data-background-image="../images/trust_the_machine_big.webp" data-audio-advance="1000" -->
-Testing, inspection and interpretability <!-- .element: class="backdrop" -->
+Testing, inspection and interpretability <!-- .element: class="backdrop fadeout" -->
 Notes:
 There is a great deal of discussion and worry around testing, inspection and interpretability of machine learning systems. Can we trust the machine? How? 
 
 How would we know when an AI system reaches general intelligence? How do we test for consciousness? On a more mundane level how do we test or know how _any_ of the output is derived from the input? I would pose the same question about humans and other animals. 
 
 
-<!-- .slide: id="imitation-game" data-audio-src="../audio/foundations/28b.ogg" data-background-video="../video/Memories of Passersby I by Mario Klingemann-298000366.mp4" data-audio-advance="800" -->
-The Imitation Game <!-- .element: class="backdrop" -->
+<!-- .slide: id="imitation-game" data-audio-src="../audio/foundations/28b.ogg" data-background-video="../video/Memories of Passersby I by Mario Klingemann-298000366.mp4" data-background-opacity="0.8" data-audio-advance="800" -->
+The Imitation Game
 
 Notes:
 In 1950 Alan Turing devised a famous test called the Imitation Game, now called the Turing Test, a three-person game in which an interrogator asks questions of a man and a woman in another room in order to determine the correct sex of the two players, who, in turn, are trying to fool the interrogator. If an AI is substituted for the man, could it succeed in pretending to be a woman better than the man could?
@@ -888,21 +909,25 @@ In 1950 Alan Turing devised a famous test called the Imitation Game, now called 
 * [_Memories of Passersby I_ - Mario Klingemann](https://vimeo.com/298000366) (2018)
 
 
-<!-- .slide: data-audio-src="../audio/foundations/28c.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_cfg_diffusion_1_latent-diffusion.webp" data-audio-advance="800" -->
-Where is the judgment? <!-- .element: class="backdrop" -->
+<!-- .slide: class="zoomout" data-audio-src="../audio/foundations/28c.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_cfg_diffusion_1_latent-diffusion.webp" data-background-opacity="0.8" data-audio-advance="800" -->
+Where is the judgment?
 
 Notes:
 The Turing test may be more geared towards good simulations of human communication rather than general intelligence, and an AI that could pass the test would have to mimic human failings realistically as well. Importantly, it doesn't test for Cantwell-Smith's concept of judgment. 
 
 
-<!-- .slide: data-audio-src="../audio/foundations/28d.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_0_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1500" -->
-A polite convention that everyone thinks <!-- .element: class="backdrop" -->
+<!-- .slide: class="zoomin" data-audio-src="../audio/foundations/28d.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_0_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1500" -->
+<p class="dynamic-text backdrop"></p>
+<script type="text/vtt">
+00:20.200 --> 00:24.000
+a polite convention that everyone thinks
+</script>
 
 Notes:
 The Turing Test isn't used in institutional AI research, as the goal of a human-passing general intelligence is only a tiny subset of the possible general intelligences, but it does highlight that it is difficult to decide if, and especially how, anyone possesses general intelligence. Turing wrote, "it is usual to have a polite convention that everyone thinks."
 
 
-<!-- .slide: data-audio-src="../audio/foundations/28e.ogg" data-background-image="../images/1024px-Saltatory_Conduction.gif" data-background-size="contain" data-background-color="black" data-audio-advance="1200" -->
+<!-- .slide: class="zoomin" data-audio-src="../audio/foundations/28e.ogg" data-background-image="../images/1024px-Saltatory_Conduction.gif" data-background-size="contain" data-background-color="black"  data-background-repeat="repeat-x" data-audio-advance="1200" -->
 Brain to neural net and back again
 
 Notes:
@@ -915,15 +940,15 @@ Science has often proceeded from evidence that a thing is possible, to a theory 
   * Dr. Jana, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons
 
 
-<!-- .slide: data-audio-src="../audio/foundations/28f.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_1_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1000" -->
-Copying frozen digital minds <!-- .element: class="backdrop" -->
+<!-- .slide: class="panup" data-audio-src="../audio/foundations/28f.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_1_RealESRGAN-pbaylies-hr-paintings.webp" data-audio-advance="1000" -->
+Copying frozen digital minds
 
 Notes:
 The digitalness of machine minds provides much of their promise and strangeness. Only digital minds can be frozen in time - only changing when we want them to, but otherwise responding the same way to repeated testing. Only digital minds are so easy to copy and share between researchers and artists. The perfect copies dramatically improving their use as scientific tools. Researchers regularly share the intelligences they have built with the world, including all the software details and data sets with which they were constructed.
 
 
-<!-- .slide: data-audio-src="../audio/foundations/28g.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_3_RealESRGAN-pbaylies-hr-paintings.webp" -->
-Secret keeper <!-- .element: class="backdrop" -->
+<!-- .slide: class="pandown" data-audio-src="../audio/foundations/28g.ogg" data-background-image="../images/a_woman_whispering_into_one_ear_of_robot_with_blackness_on_the_other_side_v_diffusion_3_RealESRGAN-pbaylies-hr-paintings.webp" -->
+Secret keeper
 Notes:
 Given open source AI that is completely inspectable and run on your own hardware, we can explore very strange and potentially powerful opportunities. These sorts of AI can be trusted more than humans, providing absolute privacy, up to and including forgetting all of your interactions with them.
 
@@ -946,9 +971,9 @@ It is precisely the amount of control we have over our digital minds that likely
 
 1. **Foundations**
 2. [**Past, Present, Future**](../past_present_future/) 
-3. [Neural Nets](../neural_nets/) 
-4. [Data in Practice](../data_in_practice/)
-5. [Machine Learning Art](../ml_art/)
+3. [Neural Nets](../neural_nets/) <!-- .element: class="low-vis" -->
+4. [Data in Practice](../data_in_practice/) <!-- .element: class="low-vis" -->
+5. [Machine Learning Art](../ml_art/) <!-- .element: class="low-vis" -->
 
 </div>
    

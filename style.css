@@ -55,6 +55,10 @@
   filter: brightness(140%);
 }
 
+.reveal .lighten a, .reveal a.lighten {
+  font-weight: bold;
+}
+
 @keyframes reveal {
   0% {
     opacity: 0;
@@ -190,11 +194,20 @@
 .reveal .past .fadeout, .reveal .future .fadeout {
   animation-play-state: paused;
   opacity: 0;
+  animation: none;
 }
 
 .reveal .present .fadeout {
   animation-play-state: running;
   animation:  12s linear forwards titleSplash;
+}
+
+.reveal.movement-paused .present .fadeout {
+  animation-play-state: paused !important;
+}
+
+.reveal .past .dynamic-text, .reveal .future .dynamic-text {
+  opacity: 0;
 }
 
 .reveal .pushright {
@@ -208,7 +221,7 @@
 }
 
 .reveal .low-vis {
-  opacity: 0.5;
+  opacity: 0.65;
 }
 
 .reveal .small-print {

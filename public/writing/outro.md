@@ -1,15 +1,15 @@
 <!-- .slide: id="sources" class="small" data-audio-src="../audio/intro/01_outro.ogg" data-background-video="../video/Algonquin Park Stars Timelapse-1gwwgR7oNb4.mp4"   data-background-opacity="0.7"-->
 ### Sources
 
-**https://github.com/RKelln/5-directions**
+**https://github.com/RKelln/5-directions** <!-- .element: class="lighten" -->
 
 #### Special thanks
 <div class="nobullet center lighten">
 
-* Laura, Jason, Kristy, Liz, and the Harbour Collective
-* InterAccess, OCADU, and the Canada Council for the Arts
+* Laura, Jason, Kristy, Liz, and the [Harbour Collective](https://harbourcollective.ca/)
+* [InterAccess](interaccess.org/), OCADU, and the Canada Council for the Arts
 * The Diagonal AI Reading group
-* All the <a title="Thank you Laura, Lucas, Giuliana, Eric, Dallas, Rinat, Rod, Jason, Liz, Graham, and Cameron">beta testers</a>
+* All the <a title="Thank you Laura, Giuliana, Lucas, Cameron, Eric, Liz, Dallas, Rinat, Rod, Graham and Jason">beta testers</a>
 
 </div>
 <div class="nobullet name lighten">
@@ -42,6 +42,6 @@ All the code and writing for this series is available online at the clickable fi
 
 My deepest thanks to all the researchers, creators, artists and coders whose work as been incorporated into this project and the wonderful people who have supported me through the process.
 
-### Credits
+### Credits <!-- .element: class="attribution" -->
 * [Algonquin Park Stars Timelapse](https://www.youtube.com/watch?v=1gwwgR7oNb4) by 
 Paul Yip

@@ -24,7 +24,7 @@ In this tutorial we'll add more practical details about finding, making and cura
 * [Making things ethically](#/ethics)
   * [FAIR, CARE & Local Contexts](#/fair-care-contexts)
   * [Maintenance & care work](#/maintenance)
-* [Companion Data in Practice details document](./companion.html)
+* [Data in Practice companion document](./companion.html)
 
 </div>
 
@@ -51,7 +51,7 @@ This tutorial has a companion document that includes extra details that are easi
 Notes:
 How much data do you need? There is no hard guide to this, but typically there is a sweet spot where performance gains dramatically but levels off after that. That point in real world datasets can be difficult to determine, but people have suggested the "rule of 10": that you want roughly 10 times as many examples as there are parameters (i.e. neurons) in your model. (Most modern ML frameworks will be able to give you a parameter count of your model.) However, text, image, and video data which is very common in generative models usually requires more than this because of the noise in the data.
 
-For classification, you want enough data per "class" and roughly balanced data per classes, with recommendations for image classification at around 1000 images per class.
+For classification, you want enough data per "class" and roughly balanced data per class, with recommendations for image classification at around 1000 images per class.
 
 If you don't have enough data there are some options, we'll get into specifics for the different types of datasets but the basic options are:
 
@@ -212,7 +212,15 @@ There aren't hard rules about when to use or not use types of feature scaling, b
 
 <!-- .slide: id="data-splitting" data-audio-src="../audio/data/13-seg1.ogg" data-background-video="../video/train-validation-test.mp4" data-background-size="contain" data-background-color="white" data-background-video-loop -->
 ## Data Splitting <!-- .element: class="fadeout" -->
-
+<p class="dynamic-text" style="font-weight: bold"></p>
+<script type="text/vtt">
+00:10.500 --> 00:18.100
+Training data ➡ learning
+00:18.600 --> 00:39.200
+Validation data ➡ test generalization
+00:43.600 --> 01:01.400
+Test data ➡ final test
+</script>
 Notes:
 To examine how effective the network is at generalization you can partition or split the data you collect into three groups: training, validation and test. 
 
@@ -268,11 +276,11 @@ I've also included Mimi Onuoha's project, _Library of Missing Datasets_ to give 
 <div class="fragment backdrop" data-audio-src="../audio/data/15-seg2.ogg">
 
 1. Using real-time sensor data
-   * The main issue is handling sensor failure and other outliers in real time
+   * The main issue is handling sensor failure and other outliers in real time <!-- .element: class="small" -->
 2. Replaying recorded sensor data
-   * The benefit here is that you can clean the data, otherwise similar to above
+   * The benefit here is that you can clean the data, otherwise similar to above <!-- .element: class="small" -->
 3. Predicting future data
-   * Why is the prediction necessary vs recorded output?
+   * Why is the prediction necessary vs recorded output? <!-- .element: class="small" -->
 
 </div>
 
@@ -369,7 +377,7 @@ There are also numerous space, environmental and atmospheric datasets available 
 
 
 <!-- .slide: id="sensors" data-audio-src="../audio/data/20-seg1.ogg" data-background-image="../images/fieldkit-device.webp" data-background-size="contain" data-background-color="#efefef" -->
-## Sensors <!-- .element: class="fadeout" -->
+## Sensors <!-- .element: class="fadeout backdrop" -->
 
 Notes:
 If you want to collect data yourself, then you'll want to look into FieldKit, which includes an opensource platform for research grade hardware, a software platform for handling that data and community to help with the process.
@@ -467,15 +475,16 @@ For video datasets you may be required to export the video into individual image
 <!-- .slide: id="existing-image-datasets" class="zoomin" data-audio-src="../audio/data/26.ogg" data-background-image="../images/ImageNet_example.jpg" data-background-opacity="0.15" -->
 <div class="small lighten">
 
-* [ImageNet](http://image-net.org/) the original labelled image dataset
-* [Open Images](https://storage.googleapis.com/openimages/web/index.html) Google's labelled, segmented image dataset
-* [COCO](https://cocodataset.org/) Microsoft's segmented, captioned, mostly labelled images
-* [LHQ](https://github.com/universome/alis) high quality landscape photos
-* [XView Dataset](http://xviewdataset.org/#dataset) annotated overhead imagery
-* [Cityscapes](https://www.cityscapes-dataset.com/) labelled, segmented cityscape images
-* [Wiki Art dataset](https://www.kaggle.com/c/painter-by-numbers/data) based on [WikiArt](https://www.wikiart.org/) both public domain and copyrighted images of art
-* [YouTube-8M](https://research.google.com/youtube8m/) labelled video dataset
-* [Kinetics](https://deepmind.com/research/open-source/kinetics) video clips that cover human action classes
+* [ImageNet](http://image-net.org/): the original labelled image dataset
+* [Open Images](https://storage.googleapis.com/openimages/web/index.html): Google's labelled, segmented image dataset
+* [COCO](https://cocodataset.org/): Microsoft's segmented, captioned, mostly labelled images
+* [LAION](https://laion.ai/): non-profit open source image-text pairs
+* [LHQ](https://github.com/universome/alis): high quality landscape photos
+* [XView Dataset](http://xviewdataset.org/#dataset): annotated overhead imagery
+* [Cityscapes](https://www.cityscapes-dataset.com/): labelled, segmented cityscape images
+* [Wiki Art dataset](https://www.kaggle.com/c/painter-by-numbers/data): based on [WikiArt](https://www.wikiart.org/) both public domain and copyrighted images of art
+* [YouTube-8M](https://research.google.com/youtube8m/): labelled video dataset
+* [Kinetics](https://deepmind.com/research/open-source/kinetics): video clips that cover human action classes
 
 </div>
 
@@ -566,12 +575,12 @@ Hugging Face offers a number of pretrained large language models, but using them
 
 <div class="lighten">
 
-* [Common Voice](https://voice.mozilla.org/en/datasets) open source multi-language dataset of voices
-* [Open Speech and Language Resources](http://www.openslr.org/resources.php) particularly the [LibriSpeech](http://www.openslr.org/12/) a 1000 hour dataset of read English
-* [The Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/) hundreds of hours of aligned audio to text in multiple languages
-* [AudioSet](https://research.google/tools/datasets/audioset/) labelled 10 second sound clips from YouTube videos
-* [NSynth](https://magenta.tensorflow.org/datasets/nsynth) musical notes from a thousand synthesized instruments
-* [Free Music Archive](https://freemusicarchive.org/) free music search engine (no dataset)
+* [Common Voice](https://voice.mozilla.org/en/datasets): open source multi-language dataset of voices
+* [Open Speech and Language Resources](http://www.openslr.org/resources.php): particularly the [LibriSpeech](http://www.openslr.org/12/) a 1000 hour dataset of read English
+* [The Spoken Wikipedia Corpora](https://nats.gitlab.io/swc/): hundreds of hours of aligned audio to text in multiple languages
+* [AudioSet](https://research.google/tools/datasets/audioset/): labelled 10 second sound clips from YouTube videos
+* [NSynth](https://magenta.tensorflow.org/datasets/nsynth): musical notes from a thousand synthesized instruments
+* [Free Music Archive](https://freemusicarchive.org/): free music search engine (no dataset)
 
 </div>
 
@@ -903,7 +912,7 @@ I would recommend all open source software for these choices and the companion d
 
 ---
 <!-- .slide: data-audio-src="../audio/data/46.ogg" data-background-image="../images/a_black_box_that_no_one_can_see_inside_3.webp" data-audio-advance="2000" -->
-[**Data in Practice companion document**](./companion.html)
+**[Data in Practice companion document](./companion.html)**
 
 Notes:
 I've put together a document that goes into further details on all the information we've covered in this tutorial. You can find it at this link.
@@ -914,10 +923,10 @@ I've put together a document that goes into further details on all the informati
 
 <div class="backdrop lighten">
 
-1. [Foundations](../foundations/)
-2. [Past, Present, Future](../past_present_future/) 
-3. [Neural Nets](../neural_nets/) 
-4. **Data in Practice**](../data_in_practice/)**
+1. [Foundations](../foundations/) <!-- .element: class="low-vis" -->
+2. [Past, Present, Future](../past_present_future/) <!-- .element: class="low-vis" -->
+3. [Neural Nets](../neural_nets/) <!-- .element: class="low-vis" -->
+4. **Data in Practice**
 5. **[Machine Learning Art](../ml_art/)**
 
 </div>

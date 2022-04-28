@@ -9,14 +9,14 @@ In previous tutorials we've covered the basic foundations of mathematics, statis
 <!-- .slide: id="overview" data-audio-src="../audio/neural_nets/02.ogg" data-background-video="../video/2020-10-17_Presquille_reeds+marsh_720-13s.mp4" data-background-video-loop data-background-opacity="0.7" -->
 # Neural Nets and Data
 
-<div class="small">
+<div class="small backdrop lighten">
 
-* Perceptrons
-* Components of a network: Data, model, training
-* Learning algorithms: Unsupervised, Supervised, Reinforcement
-* Common networks: RNNs, CNNs, GANs
-* Deep learning challenges
-* Data ethics and appropriation
+* [Perceptrons](#/perceptrons)
+* Components of a network: [data](#/data), [model](#/model), [training](#/training)
+* Learning algorithms: [unsupervised](#/unsupervised-learning), [supervised](#/supervised-learning), [reinforcement](#/reinforcement-learning)
+* Common networks: [RNNs](#/rnn), [CNNs](#/cnn), [GANs](#/gan)
+* [Deep learning challenges](#/challenges)
+* [Data ethics](#/ethics) and [appropriation](#/appropriation)
 
 </div>
 
@@ -341,18 +341,33 @@ Reinforcement learning is most associated with robotics and games where there is
 * https://commons.wikimedia.org/wiki/File:Task-guidance.png
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/29.ogg" data-background-image="../images/machine learning cake.png" data-background-size="contain" data-background-opacity="0.6" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/29-seg1.ogg" data-background-image="../images/machine learning cake.png" data-background-size="contain" data-background-opacity="0.6" -->
 If intelligence is a cake, the bulk of the cake is unsupervised learning,
 the icing on the cake is supervised learning and the cherry on the cake is reinforcement learning. <!-- .element: class="quote" -->
 _Yann LeCun_ <!-- .element: class="attribution" -->
 
 Notes:
-Yann LeCun has described the relationship between the three as a cake: unsupervised learning is the cake, supervised is the icing and reinforcement is the cherry on top. Consider the amount of data in the training samples - unsupervised data may have millions of bits per sample (the entire image), supervised has 10-10000 bits (the label), and reinforcement as a few bits (you won or lost, gained a point or lost a point). The more bits of data the more the model can learn from each sample.
-
-Training methods can be combined. OpenAI's newest GPT model is trained on unsupervised text and then is fine-tuned using reinforcement learning using human feedback of whether its output is useful or toxic.
+Yann LeCun has described the relationship between the three as a cake: unsupervised learning is the cake, supervised is the icing and reinforcement is the cherry on top.
 
 ### Credits <!-- .element: class="attribution" -->
 * [Turing Award Lecture "The Deep Learning Revolution" - ACM](https://www.youtube.com/watch?v=VsnQf7exv5I)
+
+
+<!-- .slide: data-audio-src="../audio/neural_nets/29-seg2.ogg" data-background-image="../images/machine learning cake.png" data-background-size="contain" -->
+Notes:
+Consider the amount of data in the training samples - unsupervised data may have millions of bits per sample (the entire image), supervised has 10-10000 bits (the label), and reinforcement as a few bits (you won or lost, gained a point or lost a point). The more bits of data the more the model can learn from each sample.
+
+### Credits <!-- .element: class="attribution" -->
+* [Turing Award Lecture "The Deep Learning Revolution" - ACM](https://www.youtube.com/watch?v=VsnQf7exv5I)
+
+
+<!-- .slide: data-audio-src="../audio/neural_nets/29-seg3.ogg" data-background-color="white" -->
+<img data-src="../images/GPT-Instruct-methods.svg">
+Notes:
+Training methods can be combined. OpenAI's newest GPT model is trained on unsupervised text and then is fine-tuned using reinforcement learning using human feedback of whether its output is useful or toxic.
+
+### Credits <!-- .element: class="attribution" -->
+* [_Aligning Language Models to Follow Instructions_ - OpenAI](https://openai.com/blog/instruction-following/)
 
 
 <!-- .slide: id="unsupervised-learning" data-audio-src="../audio/neural_nets/30.ogg" data-background-image="../images/unsupervised learning.png" data-background-size="contain" data-background-color="white"-->
@@ -464,7 +479,7 @@ Notes:
 There is constant innovation of different types of models paired with different types of learning. Each approach to learning has various strengths and weakness and there is yet to be a general approach for all types of problems. As with the human nervous system, which has various areas with different structures and cell types specialized to different tasks, it is likely that different models will also be needed. Let's take a quick look at some of the most successful models created to date.
 
 
-<!-- .slide: id="recurrent" class="pandown" data-audio-src="../audio/neural_nets/38.ogg" data-background-image="../images/blood_quantum_if_I_had_my_time_again.webp"  -->
+<!-- .slide: id="rnn" class="pandown" data-audio-src="../audio/neural_nets/38.ogg" data-background-image="../images/blood_quantum_if_I_had_my_time_again.webp"  -->
 ## Recurrent networks <!-- .element: class="fadeout" -->
 
 Notes:
@@ -490,7 +505,7 @@ More complicated loops add learnable forgetting so that neurons can learn to ret
 * https://en.wikipedia.org/wiki/Long_short-term_memory
 
 ---
-<!-- .slide: id="convolutional" class="zoomin" data-audio-src="../audio/neural_nets/41.ogg" data-background-image="../images/Google cat neuron.webp" data-background-size="contain" -->
+<!-- .slide: id="cnn" class="zoomin" data-audio-src="../audio/neural_nets/41.ogg" data-background-image="../images/Google cat neuron.webp" data-background-size="contain" -->
 ## Convolutional neural nets
 
 Notes:
@@ -503,7 +518,7 @@ Notes:
 Individual cortical neurons only respond to stimuli in a small region of the visual field and the fields of different neurons partially overlap. CNNs use the same strategy. In a CNN each neuron receives input from a restricted area of the previous layer. Typically, for grid-based data like pixel images this is a square area, often 3x3, 5x5 or 7x7. In contrast, in a full-connected layer the input is from every neuron in the previous layer. Layering multiple convolutional layers means then that each neuron takes input from a larger area in the input than the previous layer. After the pixel data has been transformed by the CNN it is often fed into a fully connected network for further processing, such as classification.
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/43.ogg" data-background-image="../images/CNN_pixel_to_feature.webp" data-background-size="contain" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/43.ogg" data-background-image="../images/CNN_pixel_to_feature.webp" data-background-size="contain" data-background-color="white" -->
 Notes:
 Images have a lot of data to process if each channel (red, green, blue) of each pixel is represented by a neuron. A 1000x1000 RGB image would have 3 million weights, making it difficult to process in a fully connected network. A CNN converts overwhelming pixel image data into a form that is easier to process - a feature map, also called an activation map. This operation extracts features such as edges, colours, and gradient orientation from the pixel data. 
 
@@ -534,7 +549,7 @@ CNNs provide a good opportunity to demonstrate some important properties of neur
 * https://fabianfuchsml.github.io/equivariance1of2/
 
 ---
-<!-- .slide: id="gans" data-audio-src="../audio/neural_nets/44.ogg" data-background-video="../video/trusses_rotating-silent.mp4" data-background-video-muted -->
+<!-- .slide: id="gan" data-audio-src="../audio/neural_nets/44.ogg" data-background-video="../video/trusses_rotating-silent.mp4" data-background-video-muted -->
 ## GANs <!-- .element: class="fadeout" -->
 Generative Adversarial Networks <!-- .element: class="fadeout" -->
 Notes:
@@ -564,7 +579,7 @@ Notes:
 * [_Audio-reactive Latent Interpolations with StyleGAN_ - Hans Brouwer](https://wavefunk.xyz/audio-reactive-stylegan)
 
 ---
-<!-- .slide: id="deep-learning-challenges" class="pandown" data-audio-src="../audio/neural_nets/46.ogg" data-background-image="../images/calling_a_robot_with_your_phone.webp" data-background-opacity="0.5" -->
+<!-- .slide: id="challenges" class="pandown" data-audio-src="../audio/neural_nets/46.ogg" data-background-image="../images/calling_a_robot_with_your_phone.webp" data-background-opacity="0.5" -->
 # Deep learning challenges <!-- .element: class="r-fit-text" -->
 
 * Large datasets
@@ -598,9 +613,15 @@ It is estimated that the human eye transmits roughly 10 million (10^6) bits per 
 The most successful large language models use the MassiveText dataset taken from the web, books from 1500-2008, news, software code from GitHub, and wikipedia with a total size of 10.55 TB (8.4 * 10^13 bits). (All of Wikipedia is just 0.001 TB.)
 
 
-<!-- .slide: id="weird" class="panup" data-audio-src="../audio/neural_nets/48.ogg" data-background-image="../images/explainable_AI_WEIRD.webp" -->
+<!-- .slide: id="weird" class="panup" data-audio-src="../audio/neural_nets/48.ogg" data-background-image="../images/explainable_A I_WEIRD.webp" -->
 ### The WEIRD Internet
+<p class="dynamic-text"></p>
+<script type="text/vtt">
+00:23.700 --> 00:29.000
 (Western, educated, industrialized, rich and democratic)
+00:34.800 --> 00:37.300
+white, male, and heterosexual
+</script>
 
 Notes:
 Gigantic datasets sourced from the Internet cannot be easily curated leading to a host of problems: toxic language, incorrectly labelled images, and generally low quality data that lowers the model's usefulness. Data gathered from the public Internet has many more subtle problems: a lack of diversity and over-representation of certain viewpoints, particularly, younger and WEIRD (Western, educated, industrialized, rich and democratic). Existing over-representation of content creation amongst the young WEIRD group stand out as well: white, male, and heterosexual. Those most comfortable to speak publicly and comfortable using publishing tools (such as Wikipedia and Reddit) are the easiest to include in the dataset. 
@@ -752,7 +773,7 @@ One of the most confounding aspects of neural nets is that they can be sensitive
 
 <!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/61.ogg" data-background-image="../images/Abraham_the_autonomous_AI_artist.webp" -->
 Notes:
-There is no easy explanation for outputs based on millions of weighted connections. Models don't understand themselves either, and can't explain their reasoning to us. Being able to explain themselves to humans would require something much closer to general intelligence and at minimum an ability to understand its own thinking and the ability to communicate that so that a human could understand. Considering how poorly humans fair at both of those tasks you can see the scope of this challenge. However, I would say that part of the joy of making art is exactly tackling this problem - how to understand yourself and communicate it to others. Perhaps explainable AI is the process of making AI artists - making Gene Kogan's dream of the autonomous AI artist the future of explainability.
+There is no easy explanation for outputs based on millions of weighted connections. Models don't understand themselves either, and can't explain their reasoning to us. Being able to explain themselves to humans would require something much closer to general intelligence and at minimum an ability to understand its own thinking and the ability to communicate that so that a human could understand. Considering how poorly humans fair at both of these tasks you can see the scope of this challenge. However, I would say that part of the joy of making art is exactly tackling this problem - how to understand yourself and communicate it to others. Perhaps explainable AI is the process of making AI artists - making Gene Kogan's dream of the autonomous AI artist the future of explainability.
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/62.ogg" data-background-image="../images/feature_visualization.png" data-background-size="contain" data-background-color="white" -->
@@ -763,9 +784,9 @@ One thing the machines have going for them is much more transparency and easier 
 * [_VGG16 Neural Network Visualization_ by Denis Dmitriev](https://www.youtube.com/watch?v=RNnKtNrsrmg)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/63.ogg" data-background-image="../images/poverty_neuron.webp" data-background-size="contain" data-background-color="white" -->
+<!-- .slide: data-audio-src="../audio/neural_nets/63v2.ogg" data-background-image="../images/poverty_neuron.webp" data-background-size="contain" data-background-color="white" data-audio-advance="1000" -->
 Notes:
-For example, OpenAI's microscope project documents each neuron in some of their models. You can explore their site by clicking on the link in the top right. I've started you at a bizarre and disturbing multi-modal neuron in the CLIP model that responds strongly to a machine learned concept combining wanting, unemployment, poverty and homelessness. (But from whose perspective?) On the left are feature visualizations using a deepdream technique to show optimal images to activate the neuron, the smaller images are from ImageNet that most activate the neuron, and similarly for the text prompts. Peering at the details of any mind will be fascinating, confusing and disturbing with an uneasy sense of violation as the most deeply private becomes inspectable.
+For example, OpenAI's Microscope project documents each neuron in some of their models. You can explore their site by clicking on the link in the top right. I've started you at a bizarre and disturbing multi-modal neuron in the CLIP model that responds strongly to a machine learned concept combining wanting, unemployment, poverty and homelessness. (But from whose perspective?) On the left are feature visualizations using a deepdream technique to show optimal images to activate the neuron, the smaller images are from ImageNet that most activate the neuron, and similarly for the text prompts. Peering at the details of any mind will be fascinating, confusing and disturbing with an uneasy sense of violation as the most deeply private becomes inspectable.
 
 ### Credits <!-- .element: class="attribution" -->
 * [OpenAI Microscope of Neuron #237](https://microscope.openai.com/models/contrastive_4x/image_block_4_4_Add_6_0/237)
@@ -775,14 +796,11 @@ For example, OpenAI's microscope project documents each neuron in some of their 
 * https://microscope.openai.com/models
 
 
-
 <!-- .slide: id="rigid-models" class="pandown" data-audio-src="../audio/neural_nets/64.ogg" data-background-image="../images/office_tower_board_room_of_smiling_men.webp" -->
 ## Rigid models
 
 Notes:
-Another subtle, but I think important to understand limitation of current models is their "rigidity". The structure of the model is engineered or constructed rather than learned. Structure is fixed, not modular and engineered through trial and error instead of learned from data. This means that any sharing or reuse of computation is rigid or fixed, rather than adapting to the nature of the input. Instead of directing data to the parts of a model that can best interpret it, all data flows through the same path. This rigidity makes it hard to adapt to long tail data and multitask learning and is catastrophic to performance if the real data distribution shifts after the model has been trained. 
-
-CUT: For example a pandemic dramatically changes hospitalization rates. Too soon?
+Another subtle, but I think important to understand limitation of current models is their "rigidity". The structure of the model is engineered or constructed rather than learned. Structure is fixed, not modular and engineered through trial and error instead of learned from data. This means that any sharing or reuse of computation is rigid or fixed, rather than adapting to the nature of the input. Instead of directing data to the parts of a model that can best interpret it, all data flows through the same path. This rigidity makes it hard to adapt to long tail data and multitask learning and is catastrophic to performance if the real data distribution shifts after the model has been trained.
 
 
 <!-- .slide: data-visibility="hidden" data-audio-src="../audio/neural_nets/65.ogg" data-background-video="../video/See-through brains-c-NMfp13Uug.mp4" data-background-size="contain" data-background-video-loop -->
@@ -904,11 +922,15 @@ Notes:
 <!-- .slide: id="data-ethics-overview" class="pandown" data-audio-src="../audio/neural_nets/73.ogg" data-background-image="../images/an_archeology_of_datasets.webp" data-background-opacity="0.8" -->
 # Data Ethics
 
-* The politics of images
-* Open data: FAIR
-* CARE Indigenous Principles
-* Participation without permission
-  
+<div class="backdrop lighten">
+
+* [The politics of images](#/politics-of-images)
+* [Open data: FAIR](#/open-data)
+* [CARE Indigenous Principles](#/care)
+* [Participation without permission](#/participation)
+
+</div>
+
 Notes:
 Data is critical to machine learning, and the act of recording, measuring or capturing data has ethical implications. The first of which is what is deemed data and what is not. I will leave that to you to investigate and instead focus on the ethical challenges specific to types of data, how data is collected, and who benefits from the data. 
 
@@ -932,7 +954,7 @@ Notes:
 2. Who collects, creates and/or curates it?
 3. Who gets access to the data that has been collected?
 
-
+---
 <!-- .slide: id="politics-of-images" class="panup" data-audio-src="../audio/neural_nets/75.ogg" data-background-image="../images/transparency_interpretability_explainability.webp" -->
 ## The politics of images <!-- .element: class="fadeout" -->
 https://excavating.ai/ <!-- .element: class="backdrop" -->
@@ -998,7 +1020,7 @@ The good news is that researchers are working on these issues. Recently ImageNet
 * The Limits of Global Inclusion in AI Development by Alan Chan, Chinasa T. Okolo, Zachary Terner, Angelina Wang : https://arxiv.org/pdf/2102.01265.pdf
 * https://www.image-net.org/update-sep-17-2019.php
 
-
+---
 <!-- .slide: id="open-data" data-audio-src="../audio/neural_nets/81.ogg" data-background-image="../images/GOFAIR_logo.png" data-background-size="contain" data-background-opacity="0.6" -->
 ## Open data: FAIR
 
@@ -1036,14 +1058,14 @@ FAIR principles are technically oriented, but are essential to the practical cha
 * https://theodi.org/article/le-guin-and-data-subversions/
 * https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html
 
-
+---
 <!-- .slide: id="data-ethics" class="pandown" data-audio-src="../audio/neural_nets/83v2.ogg" data-background-image="../images/blood_quantum.webp" data-background-size="contain"-->
 ## Data ethics <!-- .element: class="fadeout" -->
   
 Notes:
 Once the basic technical requirements of openness are in place we can focus on the ethics of data use and sharing. Marginalized communities are uniquely placed to understand the systems they operate in. They have often been subject to the contradictions in those systems that have been used against them both ways. In turn, they are able to identify the tensions and contradictions in those systems that can be leveraged to bring about change. An infamous example is the "blood quantum" and "Indian register" practices of the US and Canada, where Indigenous peoples were forced to register with the settler government. Qualifying for the register could depend on their ancestry as well as who they married. Inclusion on the register was used to disenfranchise voting rights and civic participation and exclusion was used to deny land and other treaty rights.
 
-
+---
 <!-- .slide: id="care" data-audio-src="../audio/neural_nets/83-2.ogg" data-background-image="../images/GIDA_FAIR_CARE.webp" data-background-size="contain" data-background-color="#5eb2b2" -->
 Notes:
 The Global Indigenous Data Alliance (GIDA) sets out some principles, called CARE, to guide data governance, which I have paraphrased inspired by concepts from [Indigenous feminism](https://en.wikipedia.org/wiki/Indigenous_feminism) and extended to all communities:
@@ -1056,7 +1078,7 @@ The Global Indigenous Data Alliance (GIDA) sets out some principles, called CARE
 ### Credits <!-- .element: class="attribution" -->
 * [GIDA CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care)
 
-
+---
 <!-- .slide: id="build-ethically" data-audio-src="../audio/neural_nets/83-3.ogg" data-background-image="../images/Suzanne_Kite.webp" data-background-size="contain" data-background-opacity="0.8" data-background-color="black" -->
 ## How to Build Anything Ethically <!-- .element: class="fadeout" -->
 Notes:
@@ -1066,7 +1088,7 @@ The notion of a data ecosystem and life cycle I think are strong concepts to con
 * [Image by Kari Noe, 2019](https://kitekitekitekite.com/portfolio/items/indigenous-protocols-and-artificial-intelligence-position-paper/)
 
 
-<!-- .slide: data-audio-src="../audio/neural_nets/84.ogg" data-background-image="../images/Suzanne_Kite_quote_background.webp" data-background-size="contain" data-background-color="black" -->
+<!-- .slide: data-transition="concave" data-audio-src="../audio/neural_nets/84.ogg" data-background-image="../images/Suzanne_Kite_quote_background.webp" data-background-size="contain" data-background-color="black" -->
 A physical computing device, created in a Good Way, must be designed for the Right to Repair, as well as to recycle, transform, and reuse. The creators of any object are responsible for the effects of its creation, use, and its afterlife, caring for this physical computing device in life and in death. <!-- .element: class="quote" -->
 _Suzanne Kite_ <!-- .element: class="attribution" -->
 
@@ -1079,7 +1101,7 @@ I would extend similar principles to digital things, but keeping the different i
 * [Image by Kari Noe, 2019](https://kitekitekitekite.com/portfolio/items/indigenous-protocols-and-artificial-intelligence-position-paper/)
 
 
-<!-- .slide: class="zoomout" data-audio-src="../audio/neural_nets/85.ogg" data-background-image="../images/How_to_Build_Anything_Ethically-Confuence_of_Protocols-Kari_Noe.jpg" -->
+<!-- .slide: class="zoomout" data-transition="concave" data-audio-src="../audio/neural_nets/85.ogg" data-background-image="../images/How_to_Build_Anything_Ethically-Confuence_of_Protocols-Kari_Noe.jpg" -->
 It is necessary to build our technologies, and all things, in a ‘Good Way’, a way which takes into account all beings, animate and inanimate... and to take responsibility for those it affects. Each component individually and jointly must be designed in a Good Way in order for the parts to be combined into an ethical whole. <!-- .element: class="quote" -->
 _Suzanne Kite_ <!-- .element: class="attribution" -->
 
@@ -1102,9 +1124,28 @@ This notion of taking responsibility for and developing caring relationships to 
 * https://slideslive.com/38923838/invited-talk-track-3-sacred-waveforms-an-indigenous-perspective-on-the-ethics-of-collecting-and-usage-of-spiritual-data-for-machine-learning
 * https://en.wikipedia.org/wiki/Indigenous_feminism
 
-
-<!-- .slide: id="participation" class="zoomout" data-audio-src="../audio/neural_nets/87.ogg" data-background-image="../images/participation.webp" data-background-opacity="0.7" -->
-## Participation without permission
+---
+<!-- .slide: id="participation" class="zoomout" data-audio-src="../audio/neural_nets/87.ogg" data-background-image="../images/participation_dark.webp" -->
+## Participation without permission <!-- .element: class="fadeout r-fit-text" -->
+<p class="dynamic-text" style="font-weight: bold"></p>
+<script type="text/vtt">
+00:00.010 --> 00:03.000
+Jenna Burrell
+00:14.700 --> 00:23.100
+additional responsibility
+00:25.900 --> 00:35.900
+highly permissioned participation
+00:36.600 --> 00:49.500
+open source practices
+01:01.700 --> 01:11.000
+codes of conduct
+01:23.100 --> 01:26.600
+responsibility by all
+01:37.200 --> 01:40.000
+obtain their consent
+01:40.100 --> 01:44.100
+established public consent
+</script>
 
 Notes:
 Jenna Burrell uses the phrase "participation without permission" to describe an important aspect of open data ethics.
@@ -1121,14 +1162,18 @@ These concepts haven't yet been widely adopted in machine learning or data colle
 * https://theodi.org/article/le-guin-and-data-subversions/ 
 
 ---
-<!-- .slide: id="appropriation-overview" data-audio-src="../audio/neural_nets/88.ogg" data-background-video="../video/Gene Kogan - Why is a Raven Like a Writing Desk HD-8PfiH1DozOI-style_transfer.mp4" -->
+<!-- .slide: id="appropriation" data-audio-src="../audio/neural_nets/88.ogg" data-background-video="../video/Gene Kogan - Why is a Raven Like a Writing Desk HD-8PfiH1DozOI-style_transfer.mp4" -->
 # Data appropriation
+
+<div class="backdrop">
 
 * Ownership vs authorship
 * Intellectual property
 * Local Contexts
 * Falling in love
   
+</div>
+
 Notes:
 If participation is permissionless, what about issues of cultural appropriation? Is there an equivalent data appropriation? Parag Kumar Mital suggests we need to consider this. Does the requirement for large amounts of data, especially for generative models that create images, sounds or video, models that are adept at mimicry and can be used by anyone, create a problematic appropriation?
 
@@ -1169,9 +1214,9 @@ As Cory Doctorow writes, "the phrase 'intellectual property' is, at root, a dang
 * https://freesouls.cc/essays/05-cory-doctorow-you-cant-own-knowledge.html
 
 
-<!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/92.ogg" data-background-image="../images/a_lightbulb_wearing_a_crown.webp"  data-background-size="contain" data-background-color="#281c04" -->
+<!-- .slide: class="zoomin" data-audio-src="../audio/neural_nets/92.ogg" data-background-image="../images/a_lightbulb_wearing_a_crown.webp" data-background-size="contain" data-background-color="#281c04" -->
 Notes:
-This sort of ownership thinking contradicts participation without permission, even though the benefactors of monopoly might insist that anyone can have great ideas, it ignores the result that control of an idea creates the mechanisms to control related ideas.
+This sort of ownership thinking contradicts participation without permission, even though the benefactors of monopoly might insist that anyone can have great ideas, it ignores the result that control of an idea creates the mechanisms to control related ideas. 
 
 
 <!-- .slide: id="local-contexts" data-audio-src="../audio/neural_nets/93.ogg" data-background-image="../images/Local_Contexts.webp" data-background-size="contain" data-background-color="white" -->
@@ -1244,11 +1289,11 @@ Let's create greater freedoms together based on establishing strong relationship
 
 <div class="backdrop lighten">
 
-1. [Foundations](../foundations/)
-2. [Past, Present, Future](../past_present_future/) 
+1. [Foundations](../foundations/) <!-- .element: class="low-vis" -->
+2. [Past, Present, Future](../past_present_future/) <!-- .element: class="low-vis" -->
 3. **Neural Nets**
 4. **[Data in Practice](../data_in_practice/)**
-5. [Machine Learning Art](../ml_art/)
+5. [Machine Learning Art](../ml_art/) <!-- .element: class="low-vis" -->
 
 </div>
 

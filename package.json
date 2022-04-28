@@ -1,6 +1,16 @@
 {
-  "name": "reveal-vite",
-  "version": "0.1.0",
+  "name": "five-directions-tutorials",
+  "version": "1.0.0",
+  "description": "Reveal.js + vite.js machine learning art tutorials",
+  "author": {
+    "name": "Ryan Kelln",
+    "email": "hello@ryankelln.com",
+    "url": "http://ryankelln.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RKelln/5-directions.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

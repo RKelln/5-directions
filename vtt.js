@@ -31,6 +31,7 @@ export function vtt_parser(vtt) {
 	var end = null;
 	var payload = null;
     //console.log(lines);
+	
 	for (var i = 0; i < lines.length; i++) {
 		if (lines[i].indexOf('-->') >= 0) {
             // allow for no new lines

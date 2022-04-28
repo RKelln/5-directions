@@ -401,7 +401,7 @@ For video datasets you may be required to export the video into individual image
 
 ## Existing Image datasets
 
-There are wealth of existing image datasets. Beyond [ImageNet](http://image-net.org/), the grandmother of labelled image datasets (which is currently undergoing improvements) there are Google's [Open Images](https://storage.googleapis.com/openimages/web/index.html) and Microsoft's [COCO](https://cocodataset.org/) dataset. 
+There are wealth of existing image datasets. Beyond [ImageNet](http://image-net.org/), the grandmother of labelled image datasets (which is currently undergoing improvements) there are Google's [Open Images](https://storage.googleapis.com/openimages/web/index.html) and Microsoft's [COCO](https://cocodataset.org/) dataset. The [LAION](https://laion.ai/) image-text pair datasets are recent open source (non-profit) community-led efforts.
 
 For landscape and aerial photography the [LHQ](https://github.com/universome/alis) and [XView Dataset](http://xviewdataset.org/#dataset) datasets are available, respectively, as well as the [Cityscapes](https://www.cityscapes-dataset.com/) dataset for urban scenes.
 
@@ -416,6 +416,7 @@ Many of these datasets are hundreds of gigabytes in size, so be prepared for lon
 * [ImageNet](http://image-net.org/): the original labelled image dataset.
 * [Open Images](https://storage.googleapis.com/openimages/web/index.html): Google's labelled, segmented image dataset.
 * [COCO](https://cocodataset.org/): Microsoft's segmented, captioned, mostly labelled images.
+* [LAION](https://laion.ai/): non-profit open source image-text pairs
 * [PASS](https://www.robots.ox.ac.uk/~vgg/data/pass/): no humans and geographically diverse ImageNet-like dataset.
 
 #### Class specific:

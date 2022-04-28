@@ -23,11 +23,11 @@ Notes:
 
 * Exponential technological development
 * [**Past**](#/past) <!-- .element: class="lighten" -->
-  * Math, computers, neural networks, artificial intelligence and life, generative art
+  * Math, computers, neural networks, artificial intelligence and life, generative art <!-- .element: class="small" -->
 * [**Present**](#/present) <!-- .element: class="lighten" -->
-  * Surveillance, the AI race, current tools
+  * Surveillance, the AI race, current tools <!-- .element: class="small" -->
 * [**Future**](#/future) <!-- .element: class="lighten" -->
-  * Video generation, automation and autonomous artists, non-human rights
+  * Video generation, automation and autonomous artists, non-human rights <!-- .element: class="small" -->
 
 Notes:
 We'll begin with a look at what exponential development, in this case technological development, looks like because it is hard for humans to conceptualize. To really get a handle on how things change over time it is important to wrestle with this.
@@ -48,7 +48,44 @@ Red text indicates hyperlinks, many to Wikipedia for more information, but the o
 
 ---
 <!-- .slide: id="exponential" data-audio-src="../audio/ppf/03.ogg" data-background-video="../video/technology_3min_q25_anim.mp4" -->
-# Exponential <!-- .element: class="fadeout" -->
+<p class="dynamic-text" style="font-weight: bold;"></p>
+<script type="text/vtt">
+00:03.000 --> 00:18.300
+exponential growth
+00:20.900 --> 00:26.200
+every 5 years a computer is about 10 times better
+00:35.800 --> 00:38.400
+speed of development
+00:39.800 --> 00:44.700
+every few hundred years
+00:49.000 --> 00:50.900
+years
+00:52.300 --> 00:56.300
+months
+00:57.100 --> 01:01.500
+days
+01:02.300 --> 01:06.000
+Ray Kurzweil
+01:07.800 --> 01:11.700
+20000 years progress in the 21st century
+01:13.000 --> 01:34.000
+2000
+01:51.600 --> 01:53.500
+cultural changes
+01:54.800 --> 02:01.700
+exclusion
+02:02.100 --> 02:12.000
+investment
+02:16.350 --> 02:21.700
+better living standards + greater diversity, accessibility and inclusivity
+02:24.100 --> 02:36.300
+acceleration
+02:42.700 --> 02:46.800
+plan for exponential technological development
+02:56.200 --> 03:01.200
+1 minute = 100 years
+</script>
+
 Notes:
 Humans tend to think linearly, so our intuition gets exponential growth wrong. We can overcome this using math, a technology that allows us to transcend our natural biases. 
 
@@ -84,7 +121,11 @@ Notes:
 ---
 <!-- .slide: id="past" class="pandown" data-audio-src="../audio/ppf/04-seg1.ogg" data-background-image="../images/software_made_by_a_thousand_people.webp" -->
 # Past <!-- .element: class="fadeout" -->
-
+<p class="dynamic-text"></p>
+<script type="text/vtt">
+00:45.400 --> 00:51.100
+Alvy Ray Smith's "A Biography of the Pixel"
+</script>
 Notes:
 I'm not a historian, and the following subset of historical events is not meant to be exhaustive, but rather illustrative of the role that science, mathematics, mechanical and digital computers played in the development of machine learning and art. There were countless developments in basic math and technology before the 20th century, but I am focusing mainly on the 20th century.
 
@@ -867,13 +908,13 @@ Practically, building an expert system was difficult. Recording expert knowledge
 
 <div class="small backdrop"> 
 
-* 1948: John von Neumann: cellular automata
-* 1969: Alvy Ray Smith: _Cellular Automata Theory_: proof of universal computation
-* 1970: John Conway: _Game of Life_: cellular automaton 
-* 1975: John Holland: _Adaptation in Natural and Artificial Systems_: establishes genetic software algorithms
-* 1984: Christopher Langton: _Langton’s Loops_: first self-replicating computer organism with “genetic” code
-* 1987: Craig Reynolds: _Boids_ flocking behaviour
-* 2002: Stephen Wolfram: _A New Kind of Science_: Rule 110, etc
+* 1948: **John von Neumann**: cellular automata
+* 1969: **Alvy Ray Smith**: _Cellular Automata Theory_: proof of universal computation
+* 1970: **John Conway**: _Game of Life_: cellular automaton 
+* 1975: **John Holland**: _Adaptation in Natural and Artificial Systems_: establishes genetic software algorithms
+* 1984: **Christopher Langton**: _Langton’s Loops_: first self-replicating computer organism with “genetic” code
+* 1987: **Craig Reynolds**: _Boids_ flocking behaviour
+* 2002: **Stephen Wolfram**: _A New Kind of Science_: Rule 110, etc
 
 </div>
 
@@ -975,7 +1016,7 @@ Notes:
 * 1952: **Grace Hopper**: first conception of programming using English language
 * 1963: **Ted Nelson**: coins hypertext and imagines _Project Xanadu_ a repository for the world's knowledge
 * 1963: **Ivan Sutherland**: interactive display graphics program _Sketchpad_
-* 1968: D**ouglas Engelbart**: _"The Mother of All Demos":_ mouse, bitmapped screens, hypertext, screensharing
+* 1968: **Douglas Engelbart**: _"The Mother of All Demos":_ mouse, bitmapped screens, hypertext, screensharing
 * 1969: _ARPANET_: technical foundation for the internet
 * 1990: **Tim Berners-Lee**: first web browser and World Wide Web
 * 2001: Wikipedia: used for training most text-based neural nets
@@ -1433,8 +1474,7 @@ Notes:
 
 <div class="dates small backdrop">
 
-* 1970: **Seppo Linnainmaa**: backpropagation
-* 1974: **Paul Werbos**: thesis on backpropagation, but not used by anyone until 1982
+* 1970, 1974: **Seppo Linnainmaa**, **Paul Werbos**: backpropagation
 * 1976: **Stevo Bozinovski** &  **Ante Fulgosi**: first paper explicitly addressing transfer learning
 * 1979: **Kunihiko Fukushima**: _Neocognitron:_ hierarchical, multilayered net unaffected by shift in position
 * 1985: **David Parker** & **Yann LeCun**: backpropagation rediscovered
@@ -2016,7 +2056,18 @@ Notes:
 Automation of bank tellers is instructive. Automated bank tellers could reduce the number of human bank tellers at each bank. Savings from automation allowed for more physical locations to be opened, increasing the total number bank tellers. However, the number seems to have peaked in 2010 and further automation, particularly online banking and electronic transactions, are reducing numbers. 
 
 
-<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/33-seg3.ogg" data-background-image="../images/labour.webp" data-background-size="contain" data-background-color="#ccc3b4" -->
+<!-- .slide: class="zoomin" data-audio-src="../audio/ppf/33-seg3.ogg" data-background-image="../images/labour.webp" data-background-size="contain" -->
+<p class="dynamic-text backdrop" style="font-weight: bold;"></p>
+<script type="text/vtt">
+00:02.700 --> 00:06.500
+more digital = more automated
+00:08.300 --> 00:12.300
+many doing physical labour
+00:12.700 --> 00:18.700
+a few doing knowledge labour
+00:24.600 --> 00:31.200
+300,000 employees vs 4600
+</script>
 Notes:
 This is a good rule-of-thumb, the more an activity can be made digital, the easier it is to automate. As work is made digital it shifts large numbers of humans doing physical labour in particular spaces to a few humans doing knowledge work with digital tools with no specific location necessary. Consider that in 2012 General Electric, a traditional tech-based conglomerate, had 300000+ employees while Facebook had just 4600 employees at the time of its IPO and its first billion users. The quality and satisfaction of the jobs may be improving, but there are fewer jobs with higher training required. Have bank tellers' job prospects benefited from automation?
 
@@ -2024,7 +2075,7 @@ This is a good rule-of-thumb, the more an activity can be made digital, the easi
 <!-- .slide: id="Robotics" class="panup" data-audio-src="../audio/ppf/33-seg4.ogg" data-background-image="../images/a_detective_looking_for_a_computer_inside_a_mans_head.webp" data-background-size="contain" -->
 ### Robotics <!-- .element: class="fadeout" -->
 Notes:
-It is important to point out that interacting with the physical world and robotics in general is extremely difficult, so the common perception of the ease of constructing science fiction robots, including self-driving cars, is misleading. Remember that evolution has spent much more time optimizing physical interactions with the world, perception, energy conservation, self-healing, self-preservation, and other basic or embodied thinking than that which is involved in knowledge labour. The newest part of the human brain, the neocortex, may also be the easiest for machines to emulate. 
+It is important to point out that interacting with the physical world and robotics in general is extremely difficult, so the common perception of the ease of constructing science fiction robots, including self-driving cars, is misleading. Remember that evolution has spent much more time optimizing physical interactions with the world; perception, energy conservation, self-healing, self-preservation, and other basic or embodied thinking than that which is involved in knowledge labour. The newest part of the human brain, the neocortex, may also be the easiest for machines to emulate. 
 
 
 <!-- .slide: id="Digital-images" class="zoomout" data-audio-src="../audio/ppf/33-seg5.ogg" data-background-image="../images/social_media_surveillance_dystopia_3.webp" data-background-size="contain" -->
@@ -2062,6 +2113,7 @@ Some, if not most, of the time-consuming aspects of programming will be automate
 
 
 <!-- .slide: class="zoomout" data-audio-src="../audio/ppf/34-seg3.ogg" data-background-image="../images/cyberpunk_centaur_human_and_machine_combined.webp" data-background-size="contain" data-background-color="#b19e95" -->
+### Centaurs <!-- .element: class="backdrop fadeout" -->
 Notes:
 This is a common hybridization approach, often called a centaur - human and machine combined - where the human chooses goals and problems and the machine solves them. Lacking any will of its own it remains a tool, a magic wand to be waved in the general direction of the problematic dragon. 
 
@@ -2077,7 +2129,7 @@ Another good example of current language model issues is _AI Dungeon_, which use
 Notes:
 It wasn't long before players were crafting stories depicting sexual encounters with children, and the company began filtering and monitoring all the games. The moderation worked poorly and exposed explicit but not exploitative content to human scrutiny. There is no easy escape from these sorts of messes. Language models are trained from massive amounts text from the public internet and have no built-in sense of which of that language is toxic. Furthermore, the datasets include euphemisms and other filter avoiding language so simple word filters aren't effective.
 
-Moderation is an open area of research, and may require models able to learn their own intent and agency, an even larger problem. However, progress is being made on reducing toxic and biased language by using better datasets and training improvements. OpenAI's  GTP-3 Instruct model uses humans in the training process to help learn what language is toxic.
+Moderation is an open area of research, and may require models able to learn their own intent and agency, an even larger problem. However, progress is being made on reducing toxic and biased language by using better datasets and training improvements. OpenAI's GTP-3 Instruct model uses humans in the training process to help learn what language is toxic.
 
 ### Credits
 * https://openai.com/blog/instruction-following/
@@ -2118,7 +2170,11 @@ Notes:
 ---
 <!-- .slide: id="future" class="pandown" data-audio-src="../audio/ppf/35-seg1.ogg" data-background-image="../images/digital_to_analog_waves_of_infinity.webp" data-background-size="contain" -->
 # Future <!-- .element: class="fadeout" -->
-
+<p class="dynamic-text" style="font-weight: bold;"></p>
+<script type="text/vtt">
+00:27.200 --> 00:30.800
+building of digital alien minds
+</script>
 Notes:
 I expect the next 20 years of machine learning to dramatically improve our understanding of intelligence. How _that_ knowledge affects our day-to-day lives is hard to imagine, so I'm going to stick to the much easier imaging of the use of advanced forms of today's tools.
 
@@ -2140,10 +2196,6 @@ But think of the real predicament we're in - who do we trust to deal with the al
 
 Obviously the metaphor isn't quite correct because we're building these alien intelligences as we speak. But, like Dr. Frankenstein, at some point we're going to have to deal with the consquences of building digital alien minds.
 
-TODO:
-* Separation of data and service
-* Understanding intelligence
-
 
 <!-- .slide: id="Neuro-symbolic-AI" class="zoomout" data-audio-src="../audio/ppf/36-seg1.ogg" data-background-image="../images/neuro-symbolic_AI.webp" -->
 ## Neuro-symbolic AI <!-- .element: class="fadeout" -->
@@ -2154,6 +2206,13 @@ Over the course of the last 80 years there has been a battle of minds of sorts -
 
 <!-- .slide: id="System-1-2" data-audio-src="../audio/ppf/36-seg2.ogg" data-background-video="../video/System1and2.mp4" data-background-size="contain" -->
 ### System 1 & 2 <!-- .element: class="fadeout" -->
+<p class="dynamic-text"></p>
+<script type="text/vtt">
+00:04.300 --> 00:07.100
+Daniel Kahneman
+00:09.100 --> 00:11.500
+Thinking Fast and Slow
+</script>
 Notes:
 To better explain this viewpoint, proponents suggest that a hybrid might match Daniel Kahneman's system 1 and system 2 of the human mind that was described in _Thinking Fast and Slow_. System 1, responsible for heuristics, gut feelings and quick responses would be modelled by deep learning, while system 2 would use symbolic reasoning and symbol manipulation, for example generating mathematical equations from input data. 
 
@@ -2203,8 +2262,13 @@ Notes:
 Much to my disappointment the ability to generate interesting or realistic video is currently very limited in resolution and duration of the video. Fortunately, many groups are working on this problem, as it could help with action planning using video prediction in robotics applications.
 
 
-<!-- .slide: id="Single-authors" data-audio-src="../audio/ppf/38-seg2.ogg" data-background-video="../video/Audio-reactive Latent Interpolations with StyleGAN 720 -2LxHRGppdpA.mp4" -->
+<!-- .slide: id="Single-authors" data-audio-src="../audio/ppf/38-seg2.ogg" data-background-video="../video/Audio-reactive Latent Interpolations with StyleGAN 720 -2LxHRGppdpA.mp4" data-background-video-muted data-background-video-loop -->
 ## Single authors  <!-- .element: class="fadeout" -->
+<p class="dynamic-text" style="font-weight: bold;"></p>
+<script type="text/vtt">
+00:19.000 --> 00:29.500
+curation vs creation
+</script>
 Notes:
 For my own purposes I'm excited by the artistic possibilities of high resolution video generation of any subject entirely directed by a single author. Visual storytelling has been dramatically limited by the sheer amount of effort required to produce it. Artistic practice may shift to focus more on curation of machine generated output than the creation of that output directly. Many artists will move up a level of abstraction and become directors and curators. Remixing will be easier and more interesting than ever as generative models are shared and combined.
 
@@ -2252,10 +2316,10 @@ Machine learning could create art that lives with you all your life, adapting to
 <!-- .slide: id="Goals" class="zoomin" data-audio-src="../audio/ppf/39-seg4.ogg"  data-background-image="../images/Woman_listening_to_music_created_by_an_AI.webp" data-background-size="contain"-->
 ### Goals <!-- .element: class="fadeout" -->
 Notes:
-Systems like this are why open source is a requirement, so that the systems are owned and controlled by the users. Even if that is the case, how do ensure that the goals you have align with the actions carried out by the system? Now imagine that same system had its own alien goals for you. This why adding intent and agency to machine learning systems is ethically fraught. 
+Systems like this are why open source is a requirement, so that the systems are owned and controlled by their users. Even if that is the case, how do ensure that the goals you have align with the actions carried out by the system? Now imagine that same system had its own alien goals for you. This why adding intent and agency to machine learning systems is ethically fraught. 
 
 
-<!-- .slide: id="Intent" data-audio-src="../audio/ppf/39-seg5.ogg"  data-background-video="../video/generative.mp4" data-background-size="contain"-->
+<!-- .slide: id="Intent" data-audio-src="../audio/ppf/39-seg5.ogg"  data-background-video="../video/generative.mp4" data-background-size="contain" -->
 ### Intent <!-- .element: class="fadeout" -->
 Notes:
 Current artistic tools, both dumb and smart, let the artists intent flow through them. Smart tools that adapt to the artist can assume an artist's intent as their own, and future tools will be able to better understand or mimic this intent: imagine feeding all your research plus descriptions of what is important to you to an AI assistant. It could help find other relevant research, existing art and collaborators, and draw connections between all that material to help you investigate _why_ it is important to you and how others have expressed similar feelings. Imagine it being able to generate controllable variations on existing work and quickly prototype or sketch out concepts synthesized from all the material. In a feedback loop, it could incorporate your annotations, sketches and feedback for that iteration of output for further refining and exploration. These sorts of generative tools would act as a research, technical and production assistant as well as muse and collaborator and in general replicate any of the functions that human assistants are paid to do by the wealthiest of current artists. Being opensource software, this could be freely available to all.
@@ -2282,13 +2346,33 @@ Human labour in complicated physical environments may be cheaper than robot labo
 
 
 <!-- .slide: id="Autonomous-AI-artists" class="zoomin" data-audio-src="../audio/ppf/41-seg1.ogg" data-background-image="../images/Abraham_the_autonomous_AI_artist.webp" data-background-size="contain" data-background-color="#cfb58e" -->
-### Autonomous AI artists <!-- .element: class="fadeout" -->
+### Autonomous AI artists <!-- .element: class="hidden" -->
+
+<p class="dynamic-text backdrop"></p>
+<script type="text/vtt">
+00:01.000 --> 00:04.000
+Gene Kogan's "Abraham" project
+00:04.100 --> 00:09.800
+"an autonomous artificial artist, a crowd-sourced AI that generates unique and original art."
+00:21.200 --> 00:23.400
+slave artist
+</script>
+
 Notes:
 Artist and programmer Gene Kogan's Abraham project envisions "an autonomous artificial artist, a crowd-sourced AI that generates unique and original art." It would have its own agency / will / intent, independent from its creators. I question the sort of agency he imagines, if truly possible then it is the creation of a slave artist. If independent agency is impossible then the intent of the machine becomes more of an average or mix of the data it is provided. It did not choose the data it was trained on, which seems important to me. Agency for me implies some personal reason to seek out knowledge and change in a particular direction. That "personal reason", in a human at least, is a function of genetics and life experiences - things happening to the agent and in response to the agent's actions. 
 
 
 <!-- .slide: id="Scarcity" class="panup" data-audio-src="../audio/ppf/41-seg2.ogg" data-background-image="../images/Abraham_the_autonomous_AI_artist_2.webp" data-background-size="contain" data-background-color="#cfb58e" -->
-### Scarcity <!-- .element: class="fadeout" -->
+### Scarcity <!-- .element: class="hidden" -->
+
+<p class="dynamic-text backdrop"></p>
+<script type="text/vtt">
+00:02.600 --> 00:12.300
+inability to clone or retrain
+00:18.900 --> 00:25.900
+artificial scarcity
+</script>
+
 Notes:
 Kogan's description also includes an inability to clone or retrain the same model, which are good ethical constraints for conscious digital minds, but terrible for interesting tools. I suspect that the irreproducibility that Kogan is interested in is more due to a desire for artificial scarcity, and resulting financial exploitation, and seems counter to a fully digital autonomous artist.
 
@@ -2317,6 +2401,11 @@ Rats make most of their squeaks in frequencies beyond the range of human hearing
 
 
 <!-- .slide: data-audio-src="../audio/ppf/42-seg3.ogg" data-background-video="../video/dolphins.mp4" -->
+<p class="dynamic-text backdrop"></p>
+<script type="text/vtt">
+00:08.200 --> 00:19.800
+CHAT (Cetacean Hearing and Telemetry)
+</script>
 Notes:
 Researchers are working with dolphins as well. Simple whistle and chirp translators were introduced in 2011, and the 2014 CHAT (Cetacean Hearing and Telemetry) system provides a simple human/dolphin interface through an acoustic keyboard that has a small set of preprogrammed sounds it can recognize and produce.
 
@@ -2355,11 +2444,11 @@ There is a future filled with these miracles. It requires good judgment to creat
 
 <div class="backdrop lighten">
 
-1. [Foundations](../foundations/)
+1. [Foundations](../foundations/) <!-- .element: class="low-vis" -->
 2. **Past, Present, Future**
 3. **[Neural Nets](../neural_nets/)**
-4. [Data in Practice](../data_in_practice/)
-5. [Machine Learning Art](../ml_art/)
+4. [Data in Practice](../data_in_practice/) <!-- .element: class="low-vis" -->
+5. [Machine Learning Art](../ml_art/) <!-- .element: class="low-vis" -->
 
 </div>
 

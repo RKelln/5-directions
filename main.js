@@ -120,7 +120,9 @@ function handleVTT(slide) {
       dynamic_text.classList.add('dynamic-text');
       slide.appendChild(dynamic_text);
     }
+    dynamic_text.style.visibility = 'hidden';
     dynamic_text.style.opacity = 0;
+    dynamic_text.innerText = "";
 
     if (audio && (!audio.textTracks || audio.textTracks.length == 0)) {
       var track = audio.addTextTrack('captions', "English", "en");
@@ -132,6 +134,7 @@ function handleVTT(slide) {
       track.addEventListener('cuechange', event => {
         let cues = event.target.activeCues;
         if (cues.length == 1) {
+          dynamic_text.style.visibility = 'visible';
           dynamic_text.innerText = cues[0].text;
           let fadeDuration = 0.2;
           let animDelay = cues[0].endTime - cues[0].startTime - fadeDuration;
@@ -193,10 +196,13 @@ function handleAttribution(slide) {
 deck.on( 'slidechanged', event => {
   //console.log("reveal slidechanged", event);
 
-  // handle fadeout animations
+  // HACK: handle fadeout animations
+  // (no good way to reset css animations)
   const items = event.currentSlide.querySelectorAll('.fadeout');
   items.forEach( (item) => {
+    item.style.animation = 'none';
     void item.offsetWidth; // force reflow
+    item.style.animation = '12s linear forwards titleSplash';
   });
 
   // handle video restart and pause on start of slide
