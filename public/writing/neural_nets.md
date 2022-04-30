@@ -16,7 +16,7 @@ In previous tutorials we've covered the basic foundations of mathematics, statis
 * Learning algorithms: [unsupervised](#/unsupervised-learning), [supervised](#/supervised-learning), [reinforcement](#/reinforcement-learning)
 * Common networks: [RNNs](#/rnn), [CNNs](#/cnn), [GANs](#/gan)
 * [Deep learning challenges](#/challenges)
-* [Data ethics](#/ethics) and [appropriation](#/appropriation)
+* [Data ethics](#/data-ethics-overview) and [appropriation](#/appropriation)
 
 </div>
 
