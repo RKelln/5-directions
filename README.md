@@ -21,7 +21,7 @@ The presentation will run locally at http://localhost:3000. You can edit the `in
 
 I have dramatically altered the `audio-slideshow` component of the [reveal.js-plugins](https://github.com/rajgoel/reveal.js-plugins) plugin pack. You can find my changes at [my repo](https://github.com/RKelln/reveal.js-plugins/tree/master/audio-slideshow).
 
-Some tutorials use [wikipedia-preview](https://github.com/wikimedia/wikipedia-preview), but it is roughly hacked in, and the `version()` call in `init.js` needs to commented out for it not to complain about missing global environment variables `APP_VERSION` and `GIT_HASH`. Sorry about that!
+Some tutorials use [wikipedia-preview](https://github.com/wikimedia/wikipedia-preview) to automatically turn links to wikipedia into rollover pop-up previews.
 
 
 # Building static site

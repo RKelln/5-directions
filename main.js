@@ -14,6 +14,8 @@ import AudioSlideshow from 'reveal.js-plugins/audio-slideshow/plugin.js';
 //import AudioRecorder from 'reveal.js-plugins/audio-slideshow/recorder.js'
 
 // non-reveal plugins and libraries
+
+// https://github.com/wikimedia/wikipedia-preview
 import {init as wikiInit} from 'wikipedia-preview/src/index.js'; // wikipedia link popups
 
 import {vtt_parser} from './vtt.js';

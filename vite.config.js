@@ -30,4 +30,9 @@ export default defineConfig({
     }
   },
   assetsInclude: ['writing/*.md'],
+  define: {
+    // required by wikipedia-preview (see wikipedia-preview/webpack.config.js)
+    APP_VERSION: 1,
+    GIT_HASH: null,
+  }
 })
