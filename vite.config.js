@@ -13,7 +13,7 @@ export default defineConfig({
       markdownIt: {
         html: true,
         linkify: true,
-        typographer: true
+        typographer: true,
       }})
   ],
   build: {
@@ -26,6 +26,7 @@ export default defineConfig({
         data_in_practice: resolve(__dirname, 'data_in_practice/index.html'),
         data_companion: resolve(__dirname, 'data_in_practice/companion.html'),
         ml_art: resolve(__dirname, 'ml_art/index.html'),
+        tldr: resolve(__dirname, 'tldr/index.html'),
       }
     }
   },
