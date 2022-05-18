@@ -399,6 +399,13 @@ Most models train on square images, but most images aren't square. This means im
 For video datasets you may be required to export the video into individual images and then process those.
 
 
+### Cleaning Labels
+
+If your project involves labelled images, then, even when using existing datasets, you'll run into problems with improperly labelled images.
+
+[CleanLab](https://github.com/cleanlab/cleanlab) is opensource software designed to help find and correct bad labels, but requires some experience installing and running Python software.
+
+
 ## Existing Image datasets
 
 There are wealth of existing image datasets. Beyond [ImageNet](http://image-net.org/), the grandmother of labelled image datasets (which is currently undergoing improvements) there are Google's [Open Images](https://storage.googleapis.com/openimages/web/index.html) and Microsoft's [COCO](https://cocodataset.org/) dataset. The [LAION](https://laion.ai/) image-text pair datasets are recent open source (non-profit) community-led efforts.
