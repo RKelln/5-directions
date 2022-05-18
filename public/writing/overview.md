@@ -27,12 +27,18 @@ We will be focusing the workshop on the most accessible tools so that you can st
 * [_1111101000 Robots_ - Ben Barry](https://archive.org/details/1111101000-robots/)
 
 ---
-<!-- .slide: data-background-video="../video/tools_of_being_720q22.mp4" data-background-video-muted data-background-video-loop data-background-opacity="1.0" -->
+<div class="r-stack r-stretch">
+<img data-src="../images/animal-domestication.jpg" class="fragment fade-in-then-out">
+<img data-src="../images/farming.jpg" class="fragment fade-in-then-out">
+<img data-src="../images/aliens.jpg" class="fragment fade-in-then-out">
+<div>
 
 Notes:
-Unlike NFTs, machine learning is probably one of the most important developments in the history of our species. It is in the same league as the domestication of animals for agriculture, the development of large gas-powered machines (that also transformed agriculture but also urban areas and global commerce), and the arrival of aliens as depicted in science fiction films. Machine intelligence is something of a combination of all three. And we are the people who are going to shepherd this transformation and be most strongly affected by its changes.
+Machine learning is probably one of the most important developments in the history of our species. 
 
-It is critical that a more diverse set of thinkers and makers deeply interact and engage with these technologies. It would be best if everyone could, but least a critical engagement by artists and scientists is an achievable goal.
+It is in the same league as the domestication of animals for agriculture, the development of large fossil fuel-powered machines (that also transformed agriculture but also urban areas and global commerce), and the arrival of aliens as depicted in science fiction films. Machine intelligence is something of a combination of all three. And we are the generations who are going to shepherd this transformation and be most strongly affected by its changes.
+
+It is critical that a more diverse set of thinkers and makers deeply interact and engage with these technologies. Full inclusivity would be best, but least a critical engagement by a large number of artists and scientists from around the world is an achievable goal.
 
 ---
 
@@ -40,7 +46,7 @@ It is critical that a more diverse set of thinkers and makers deeply interact an
 # What are AI and ML? <!-- .element: class="hidden" -->
 
 Notes:
-Artificial intelligence and machine learning are related but not exactly the same, but most people use the terms interchangeably. That's fine, we don't need to be too exact, the general concept is that the machine appears intelligent, or more generally, capable of "cognition". 
+Artificial intelligence and machine learning are related but not exactly the same, but most people use the terms interchangeably. That's fine, we don't need to be too exact, the general concept is that the machine uses intelligence to solve problems, or more generally, is capable of "cognition". 
 
 
 <!-- .slide: data-background-image="../images/AI_venn.png" data-background-size="contain" data-background-opacity="0.5" -->
@@ -58,27 +64,26 @@ The history of AI is a history of trying to avoid unnecessary biological detail 
 _Peter Robin Hiesinger_ <!-- .element: class="attribution" -->
 
 Notes:
-Artificial intelligence is informed by and is an approximation of biological intelligence. As some have described it, "the history of AI is a history of trying to avoid unnecessary biological detail in something that so far only exists in biology." We are trying to find the fundamental essence of what it means to be intelligent. What is learning? What does it mean to understand or to know? What is good judgment and sound reasoning?
+Artificial intelligence is informed by and is an approximation of biological intelligence. As some have described it, "the history of AI is a history of trying to avoid unnecessary biological detail in something that so far only exists in biology." We are trying to find the fundamental essence of what it means to be intelligent. What is learning? What does it mean to understand or to know? What does it mean to have good judgment and sound reasoning?
 
 ---
 
-<!-- .slide: data-background-video="../video/digital - analog - 720.mp4" data-background-opacity="1.0" data-background-video-loop -->
+<!-- .slide: data-background-image="../images/digital_intelligence.jpg" data-background-opacity="0.7" -->
 ## Digital intelligence
 
 Notes:
-These are profound, ancient and eternal questions and the creation of digital intelligences helps to answer them. Unlike biological intelligences made from neurons, artificial neural networks are relatively easy to copy, test and experiment with and that process is more ethical because it is done on a machine rather than a living being. Unlike the living, artificial neural networks only change or learn when we _allow them to_ and otherwise give the exact same responses to the same stimuli.
+These are profound, ancient and eternal questions and the creation of digital intelligences may provide new answers. Unlike biological intelligences made from neurons, artificial neural networks are relatively easy to copy, test and experiment with and that process is vastly more ethical because it is done on a machine rather than a living being. Intelligence without consciousness, purposely made to be a tool - with no agency, no desire to live nor feelings of pain or suffering. Unlike the living, artificial neural networks only change or learn when we _allow them to_ and otherwise give the exact same responses to the same stimuli. For all these reasons, digital intelligences present us with profound ethical questions, especially as their intelligence and autonomy increase. 
 
 ---
 
-<!-- .slide: data-background-video="../video/network-propagation.mp4" data-background-opacity="0.8" data-background-video-loop -->
+<!-- .slide: data-background-image="../images/neural_net.png" data-background-size="contain" -->
 ## Algorithms
 
 Notes:
 Artificial neural networks are currently mainly made of many layers of artificial neurons, and each layer is linked together such that data flows through the network. Input data flows into the first layer where it is transformed and sent to the next layer, and so on until the final layer is the output of the network, and can be interpreted in some, hopefully useful, way.
 
 
-<!-- .slide: data-background-video="../video/15 Sorting Algorithms in 6 Minutes-kPRA0W1kECg.mp4" data-background-opacity="0.4" data-background-video-loop -->
-
+<!-- .slide: data-background-image="../images/Lull-Leibniz.webp" data-background-size="contain" -->
 Notes:
 All algorithms have this basic set up, they take input, and then apply a set of rules to transform that input into an output, step by step. A neural network uses its structure to define its rules of transformation, rather than explicit rules written by humans.
 
@@ -90,24 +95,27 @@ _Jean-Luc Chabert_ <!-- .element: class="attribution" -->
 Notes:
 "Algorithms have been around since the beginning of time and existed well before a special word had been coined to describe them. Algorithms are not confined to mathematics. The Babylonians used them for deciding points of law, ...and they have been used in all cultures for predicting the future, for deciding medical treatment, or for preparing food."
 
+
+<!-- .slide: data-background-image="../images/paley-software.jpg" -->
+Notes:
 So algorithms are not new, but digital algorithms, like all things digital, are far more easily replicated and automated. Software is machine automated algorithms, and the goal of machine learning is to learn as much of those algorithms as possible directly from the data.
 
 ---
 
-<!-- .slide: data-background-video="../video/Neural Network 3D Simulation-MLP-3JQ3hYko51Y.mp4" data-background-opacity="0.7" data-background-video-loop -->
+<!-- .slide: data-background-image="../images/Google cat neuron.webp" data-background-opacity="0.8" -->
 # ML vs Software
 
 Notes:
 Current machine learning techniques are centered around deep learning - many layers of artificial neural networks connected together, all defined in software. How the input flows through these connections from start to end is updatable. The network is fed training data, say an image of a cat, and the output is compared to an expected answer, whether or not the image actually contains a cat, and the connections between the layers are slightly altered based on the correctness of the answer, slowly training the network to produce the correct output. A neural network is called a model.
 
 
-<!-- .slide: data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-training.mp4" data-background-opacity="1.0" data-background-video-loop -->
+<!-- .slide: data-background-image="../images/ImageNet_example.jpg" -->
 Notes:
 In practice, what this looks and feels like, is writing software to define the structure of the neural net, collecting and curating a huge amount of training data, and then doing the training: creating a new randomized network, then feeding it training data and updated it according to its responses. Gradually, over millions of examples of training data it begins to provide more useful output.
 
 ---
 
-<!-- .slide: class="panup" data-background-image="../images/DisCo-reimagine-flows.jpg" data-background-opacity="0.33" -->
+<!-- .slide: data-background-image="../images/DisCo-reimagine-flows.jpg" data-background-opacity="0.4" data-background-position="bottom"-->
 # What can AI do?
 
 * Pattern finding
@@ -123,12 +131,16 @@ Like humans, machine intelligence excels at recognizing, classifying and generat
 
 ---
 
-<!-- .slide: data-background-video="../video/VGG16 Neural Network Visualization-RNnKtNrsrmg-overview.mp4" data-background-opacity="1.0" data-background-video-loop -->
+<!-- .slide: data-background-image="../images/too_much_video_data.webp" -->
 # Datasets
 
 Notes:
 These capabilities all stem from training datasets. The use of digital tools, sensors and digital data has made it easy to create data that can be used for training. Typically images and video from the internet are used for training, although for art, the creation of your own dataset can be far more interesting. 
 
+
+<!-- .slide: data-background-image="../images/ImageNet_example.jpg" -->
+## ImageNet <!-- .element class="backdrop" -->
+Notes:
 To give an example of the scope of typical datasets, [ImageNet](https://www.image-net.org/), one of the most used image datasets consists of 15 million images and a new dataset created his year has 5 billion images. The MassiveText dataset, used to train large language models, is over 10 terabytes and contains the entirety of Wikipedia, Reddit, and Github code, plus news, digitized books and terabytes of text scraped from the web.
 
 ---
@@ -160,13 +172,12 @@ Notes:
 <div class="r-stretch artist">
 
 * ### Sofia Crespo
-* [sofiacrespo.com](https://sofiacrespo.com/)
-* [Artist Talk with Sofia Crespo](https://www.youtube.com/watch?v=_mGs3tR-3HM), 2021
+* _Beneath the Neural Waves_, 2020
 
 </div>
 
 Notes:
-Here is an exmaple of a video 
+Here is an example by Sofia Crespo of a video created using a technique called a GAN (Generative Adversarial Network) that can learn to generate images like the training data. It learns the feel of the images, or the patterns in those images, and you can generate them in a way that they are similar to the previous allowing for this style of fluid morphing from one image to the next.
 ### Credits <!-- .element: class="attribution" -->
 * _[Beneath the Neural Waves](https://beneaththeneuralwaves.com/)_, 2020
 
@@ -175,13 +186,12 @@ Here is an exmaple of a video
 <div class="r-stretch artist">
 
 * ### Memo Akten
-* [memo.tv](https://www.memo.tv/)
-* [4 minute overview of his work](https://vimeo.com/500024622), 2020
+* _Learning to See: Gloomy Sunday_, 2018
 
 </div>
 
 Notes:
-
+Memo Akten is usually a few years ahead of most ML artists. His work here is based off a technique called pix2pix where a model learns how to transform one image into another. If you do this in real-time you have a very fun instrument to play with.
 ### Credits <!-- .element: class="attribution" -->
 * _[Learning to see: Gloomy Sunday](https://www.memo.tv/works/learning-to-see/)_, 2017
 
