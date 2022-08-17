@@ -621,3 +621,84 @@ div.artist.r-stretch > ul, div.artist.r-stretch > h3 {
   border-radius: 0.2em;
   backdrop-filter: blur(2px);
 }
+
+/* PDF styles */
+
+html.print-pdf .reveal .speaker-notes::before {
+  display: none;
+}
+
+/*
+html.print-pdf .reveal .slide-background {
+  transform-origin: center left;
+  transform: scale(0.68);
+}
+*/
+
+/*
+html.print-pdf .reveal .slides section {
+  width: 870px;
+}
+*/
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+html.print-pdf .reveal .speaker-notes-pdf {
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 30%;
+  height: 100%;
+
+  padding: 14px 18px 14px 18px;
+  font-size: 15px;
+  
+  flex-direction: column;
+  justify-content : center;
+}
+
+.html.print-pdf .reveal .slide-background {
+  transform-origin: center left;
+}
+
+/* r-fit-text is broken on PDF content scaling */
+html.print-pdf .reveal .r-fit-text {
+  white-space: normal;
+}
+
+html.print-pdf .reveal .speaker-notes-pdf * {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  text-shadow: none !important;
+  color: black !important;
+}
+
+html.print-pdf .reveal .speaker-notes-pdf p {
+  margin-bottom: 0; /* save some space */
+}
+
+html.print-pdf .reveal .speaker-notes-pdf a {
+  text-decoration: underline;
+}
+
+html.print-pdf .reveal .speaker-notes-pdf h3 {
+  font-size: 1.1em;
+  margin: 0.8em 0 0.2em 0;
+}
+
+/* disable animations in print */
+
+html.print-pdf .reveal .fadeout, html.print-pdf .reveal .deblur {
+  opacity: 1 !important;
+  animation: none !important;
+}
+
+html.print-pdf .deblur div.slide-background-content {
+  filter: none !important;
+  animation: none !important;
+}
+
+html.print-pdf .deblur.darker div.slide-background-content {
+  filter: saturate(80%) brightness(50%) !important;
+  animation: none !important;
+}

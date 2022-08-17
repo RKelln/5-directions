@@ -5,7 +5,6 @@ import 'reveal.js/dist/reveal.css';
 import 'reveal.js/dist/theme/blood.css';
 import './style.css';
 
-
 import Reveal from 'reveal.js';
 import Markdown from 'reveal.js/plugin/markdown/markdown.esm.js';
 import Notes from 'reveal.js/plugin/notes/notes.esm.js';
@@ -66,7 +65,8 @@ deck.initialize({
     playerOpacity: 0.05,	// opacity value of audio player if unfocused
     playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
     startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
-  }
+  },
+
 }).then( () => {
 
   // init wikipedia popups
@@ -74,8 +74,126 @@ deck.initialize({
     detectLinks: true, // auto detect wikipedia links
     //debug: true
   });
+}).then( () => {
+  // change options if in pdf-export mode
+
+  if (isPrintLayout()) {
+    deck.configure({
+        viewDistance: 100000, // preload everything
+
+        // PDF export configuration
+        showNotes: true, //'separate-page', // print notes on a separate page, after the slide
+        pdfMaxPagesPerSlide: 1,
+        pdfSeparateFragments: false,
+        showSlideNumber: 'print',
+
+        // HACK: need space for notes:
+        margin: 0.33,
+    });
+
+    // advance videos (avoid starting with black, etc)
+    document.querySelectorAll( 'video' ).forEach( video => {
+      video.addEventListener('loadeddata', () => {
+        if (video.readyState >= 2) {
+          if (video.duration && video.duration > 0) {
+            // HACK: most interesting part is 1/4 way in???
+            video.currentTime = video.duration * 0.25;
+          } else {
+            console.log("no duration for video", video);
+            video.currentTime = 1; // second
+          }
+        }
+      });
+    });
+
+    // HACK: there is currently no way to remove styles of the pdf speaker notes
+    // events are fired at wrong time, need everything to be finished layout
+    setTimeout( () => {
+      // remove the built-in element style (sigh)
+      document.querySelectorAll('.reveal .speaker-notes-pdf').forEach(element => {
+        element.removeAttribute('style');
+      });
+
+      // Unfortunately not all of the scaling transforms can be done through CSS because 
+      // individual elements have styles set on them from js. So we go through
+      // some ugly machinations here to get something the scales down the content
+      // and moves it to the left to make room for the speaker notes.
+      let scale = 0.7;
+      // Note the scaling transform is done to an origin of center left (done in CSS)
+
+      document.querySelectorAll('.reveal .pdf-page').forEach(page => {
+        let background = page.querySelector('.slide-background');
+        let content = page.querySelector('section');
+        let notes = page.querySelector('.speaker-notes');
+
+        if (notes == null) return;
+
+        let top = (page.getBoundingClientRect().height - (page.getBoundingClientRect().height * scale)) / 2.0;
+
+        background.style.transform = "scale("+scale+")";
+        background.style.transformOrigin = "center left";
+
+        if (content.style.top == '') {
+          content.style.top = top + 'px';
+        } else {
+          content.style.top = top + parseFloat(content.style.top) * scale + 'px'; //120
+        }
+        content.style.left = '0px';
+        content.style.width = page.getBoundingClientRect().width * scale + 'px';
+        content.style.fontSize = 100 * scale + '%';
+
+        content.querySelectorAll( 'video, img' ).forEach( element => {
+          if (parseFloat(element.style.height) > 0) {
+            element.style.height = parseFloat(element.style.height) * scale + 'px';
+            element.style.width = parseFloat(element.style.width) * scale + 'px';;
+          } else {
+            element.style.transform = "scale("+scale+")";
+          }
+        });
+
+        // remove r-fit-text (FIXME: needs to be recalculated, but doesn't work)
+        content.querySelectorAll( '.r-fit-text' ).forEach( element => {
+          element.style.nowrap = "";
+          element.style.whiteSpace = "";
+          element.style.fontSize = "";
+        });
+
+        // recalc r-stretch (FIXME: needs to be recalculated, but doesn't work)
+        content.querySelectorAll( '.r-stretch' ).forEach( element => {
+          if (parseFloat(element.style.height) > 0) {
+            element.style.height = parseFloat(element.style.height) * scale + 'px';
+            element.style.width = parseFloat(element.style.width) * scale + 'px';;
+          }
+        });
+
+        // resize notes to remove scrolling
+        resizeToFit(notes);
+
+      }); // each pdf page
+      
+    }, 250 ); // delay
+  }
 });
 
+const resizeToFit = (element) => {
+  let fontSize = parseFloat(window.getComputedStyle(element).fontSize);
+  if (fontSize >= 9 && element.scrollHeight > element.clientHeight) {
+    element.style.fontSize = (fontSize - 0.5) + 'px';
+    resizeToFit(element);
+  }
+}
+
+// deck.on('slidetransitionend', event => {
+//   console.log("on slidetransitionend");
+//   if (isPrintLayout()) {
+//     console.log("ready print");
+//     // remove the built-in element style (sigh)
+//     document.querySelectorAll('.reveal .speaker-notes-pdf').forEach( (element) => {
+//       element.removeAttribute('style');
+//       console.log("removed style from", element);
+//     });
+//   }
+// });
 
 deck.addKeyBinding( { keyCode: 32, key: ' ', description: 'Pause/resume' }, (event) => {
   // two functionalities: if no audio playing then advance the slide
@@ -263,6 +381,12 @@ document.addEventListener('startplayback', function(e) {
   }
 } );
 
+
+function isPrintLayout() {
+  let params = new URLSearchParams(document.location.search);
+  let print_pdf = params.get("print-pdf"); 
+  return print_pdf != null;
+}
 
 function getAudioPlayerId() {
   const indices = deck.getIndices();
