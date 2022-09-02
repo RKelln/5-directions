@@ -13,6 +13,7 @@ public/audio
 # utils and notes
 deploy.sh
 NOTES.md
+TODO.md
 
 # vscode
 *.code-workspace
