@@ -9,13 +9,22 @@ This projects code and structure is based off [Gleb Bahmutov's reveal-vite proje
 # Install
 
     $ npm install
+
+    or alternatively use `pnpm` (my preference):
+
+    $ pnpm install
     
 
 # Development
 
     $ npm run dev
 
+    or
+
+    $ pnpm run dev
+
 The presentation will run locally at http://localhost:3000. You can edit the `index.html`, `main.js`, or `style.css` to see it auto-reload, but will need to manually reload the browser page when making edits to the markdown files. If you make local edits to node modules you will need to delete `npm run dev -- --force` to recompile the javascript.
+
 
 ## Notes on dependencies
 
@@ -80,6 +89,20 @@ The red bar at the bottom of the screen shows how far along you are in the prese
 # Static files
 
 The videos and images for the tutorials are not included in this repo, they may be released at a later date.
+
+
+# Making PDFs of slides
+
+You can export the talks as PDFs (currently best using Chrome/Chromium) by opening the slideshow and adding `?print-pdf` to the end of the url. Its usually best to scroll through the entire presentation to make sure everything is loaded. 
+
+1. Open your presentation with `print-pdf` included in the query string, for example: `http://localhost:3000/?print-pdf`.
+2. Open the in-browser print dialog (CTRL/CMD+P).
+3. Change the **Destination** setting to **Save as PDF**.
+4. Change the **Layout** to **Landscape**.
+5. Change the **Margins** to **None**.
+6. Enable the **Background graphics** option.
+
+See https://revealjs.com/pdf-export/ for more details.
 
 
 # Making your own presentation
