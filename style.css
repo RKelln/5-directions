@@ -256,6 +256,10 @@
   padding: 0;
 }
 
+.reveal table.centered td {
+  text-align: center;
+}
+
 .reveal table.text td {
   vertical-align: top;
   text-align: left;
