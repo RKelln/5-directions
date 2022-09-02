@@ -228,6 +228,10 @@
   font-size: 8pt;
 }
 
+.reveal .light-text {
+  color: #fff !important;
+}
+
 .reveal .highlighted li strong {
   font-weight: normal;
   text-decoration: underline;
@@ -536,6 +540,34 @@
 @keyframes panright {
   from { background-position: 100% 50%; }
   to { background-position: 0% 50%; }
+}
+
+.slide-background.present.deblur div.slide-background-content {
+  filter: blur(10px) saturate(60%);
+  animation: 3s linear 4s forwards deblur;
+}
+
+@keyframes deblur {
+  from { filter: blur(10px) saturate(60%); }
+  to { filter: blur(0) saturate(100%); }
+}
+
+.slide-background.present.blur div.slide-background-content {
+  filter: blur(3px) saturate(80%);
+}
+
+.slide-background.present.darker div.slide-background-content {
+  filter: brightness(50%);
+}
+
+.slide-background.present.deblur.darker div.slide-background-content {
+  filter: blur(10px) saturate(80%) brightness(50%);
+  animation: 3s linear 4s forwards deblurdarker;
+}
+
+@keyframes deblurdarker {
+  from { filter: blur(10px) brightness(50%) saturate(60%); }
+  to { filter: blur(0) brightness(50%) saturate(100%); }
 }
 
 /* ML Art */
