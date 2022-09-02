@@ -68,12 +68,13 @@ deck.initialize({
   },
 
 }).then( () => {
-
-  // init wikipedia popups
-  wikiInit({
-    detectLinks: true, // auto detect wikipedia links
-    //debug: true
-  });
+  if (!isPrintLayout()) {
+    // init wikipedia popups
+    wikiInit({
+      detectLinks: true, // auto detect wikipedia links
+      //debug: true
+    });
+  }
 }).then( () => {
   // change options if in pdf-export mode
 
