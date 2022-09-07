@@ -228,9 +228,9 @@ This viewpoint, partially inspired from Confucian philosophy and English sculpto
 <!-- .slide: id="Early-automatons" data-state="history" data-audio-src="../audio/ppf/07.ogg" data-background-image="../images/1920px-Racknitz_-_The_Turk_3.webp" -->
 ## 1769 <!-- .element: class="year" -->
 ## Early automatons
-Complex mechanical devices have a long history, the earliest known analog computer is the _Antikythera mechanism_ now over 2000 thousand years old. There are even old accounts from China of a realistic human-shaped automaton that could walk and sing.
+Complex mechanical devices have a long history, the earliest known analog computer is the _Antikythera mechanism_ now over 2000 thousand years old. There are even old accounts from China of a realistic human-shaped automaton that could walk and sing.<!-- .element: class="no-print" -->
 
-Mechanical marvels pop up repeatedly in many cultures, but at least one is actually a fraud: Wolfgang von Kempelen's 1769 chess playing Turk automaton which secretly incorporated a human inside to control the machine. 245 years later a new online "crowdworking" business was created that that hired workers to perform online tasks that were often used to compensate for machine failings or generate machine training data - Amazon's Mechanical Turk service. 
+Mechanical marvels pop up repeatedly in many cultures, but at least one is actually a fraud: Wolfgang von Kempelen's 1769 chess playing Turk automaton which secretly incorporated a human inside to control the machine. 245 years later a new online "crowdworking" business was created that that hired workers to perform online tasks that were often used to compensate for machine failings or generate machine training data - Amazon's Mechanical Turk service.<!-- .element: class="no-print" --> 
 
 Notes:
 Complex mechanical devices have a long history, the earliest known analog computer being the _Antikythera mechanism_ now over 2000 thousand years old. There are even old accounts from China of a realistic human-shaped automaton that could walk and sing.
@@ -248,10 +248,12 @@ Mechanical marvels pop up repeatedly in many cultures, but one that I'd like to 
 ### Joseph Marie Jacquard
 In 1804 [Joseph Marie Jacquard](https://en.wikipedia.org/wiki/Joseph_Marie_Jacquard) invented the Jacquard machine, a punch card controlled device fitted to a loom that simplified the manufacturing of complex textile patterns. This demonstrated the utility of programmable machinery, inspiring Charles Babbage to image a mechanical computer. At the time computing was done entirely by "unskilled" human labour, who were taught only addition and subtraction, and followed recipes to calculate tables of logarithms and such, which Babbage complained were full of mistakes.
 
-Normally you'll find quotes here. Right now, though, this is the start of the self-directed history, without narration. <!-- .element: class="quote" -->
-_Proceed using the arrow keys at your own pace._ <!-- .element: class="attribution glow" -->
+Normally you'll find quotes here. Right now, though, this is the start of the self-directed history, without narration. <!-- .element: class="quote no-print" -->
+_Proceed using the arrow keys at your own pace._ <!-- .element: class="attribution glow no-print" -->
 
 Notes:
+In 1804 [Joseph Marie Jacquard](https://en.wikipedia.org/wiki/Joseph_Marie_Jacquard) invented the Jacquard machine, a punch card controlled device fitted to a loom that simplified the manufacturing of complex textile patterns. This demonstrated the utility of programmable machinery, inspiring Charles Babbage to image a mechanical computer. At the time computing was done entirely by "unskilled" human labour, who were taught only addition and subtraction, and followed recipes to calculate tables of logarithms and such, which Babbage complained were full of mistakes.
+
 ### Credits <!-- .element: class="attribution" -->
 * [modern Jaquard Loom at Busatti Mill](https://www.youtube.com/watch?v=2ypE4ZJF7qY)
 
@@ -263,6 +265,8 @@ Notes:
 [Mary Shelley](https://en.wikipedia.org/wiki/Mary_Shelley) was an English novelist who wrote Frankenstein. Victor Frankenstein's failure as a "parent" in the novel has been read as an expression of the anxieties which accompany pregnancy, giving birth, and particularly maternity. She feared that the irresponsible exercise of power would lead to chaos. For example, the creature in Frankenstein, reads books associated with radical ideals but the education he gains from them is ultimately useless.
 
 Notes:
+[Mary Shelley](https://en.wikipedia.org/wiki/Mary_Shelley) was an English novelist who wrote Frankenstein. Victor Frankenstein's failure as a "parent" in the novel has been read as an expression of the anxieties which accompany pregnancy, giving birth, and particularly maternity. She feared that the irresponsible exercise of power would lead to chaos. For example, the creature in Frankenstein, reads books associated with radical ideals but the education he gains from them is ultimately useless.
+
 ### Credits
 * https://en.wikipedia.org/wiki/Mary_Shelley
 
@@ -274,6 +278,8 @@ Notes:
 In 1822 [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) began to build [_The Difference Engine_](https://en.wikipedia.org/wiki/Difference_engine) which could compute polynomial functions without using multiplication or division. Despite being well funded, Babbage never finished. He then designed a more complex machine called [The Analytical Engine](https://en.wikipedia.org/wiki/Analytical_Engine), programmed with punch cards and could do general purpose calculation. It was never built but would have been the first mechanical device to be a universal Turing machine.
 
 Notes:
+In 1822 [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) began to build [_The Difference Engine_](https://en.wikipedia.org/wiki/Difference_engine) which could compute polynomial functions without using multiplication or division. Despite being well funded, Babbage never finished. He then designed a more complex machine called [The Analytical Engine](https://en.wikipedia.org/wiki/Analytical_Engine), programmed with punch cards and could do general purpose calculation. It was never built but would have been the first mechanical device to be a universal Turing machine.
+
 ### Credits <!-- .element: class="attribution" -->
 * [The Babbage Difference Engine #2 at CHM](https://www.youtube.com/watch?v=be1EM3gQkAY)
 
@@ -284,10 +290,12 @@ Notes:
 ### Ada Lovelace
 In 1842, English mathematician and writer [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) was helping [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) with the first algorithms to be carried out by his Analytical Engine. Yet Lovelace saw opportunities beyond the math. She envisioned a computer where numbers could represent entities other than quantity.  At the time it was revolutionary that computing could be used for creative pursuits. She called the idea Poetical Science.
 
-It might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. <!-- .element: class="quote" -->
+It might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations, and which should be also susceptible of adaptations to the action of the operating notation and mechanism of the engine...Supposing, for instance, that the fundamental relations of pitched sounds in the science of harmony and of musical composition were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. <!-- .element: class="quote no-print" -->
 _Ada Lovelace_ <!-- .element: class="attribution" -->
 
 Notes:
+In 1842, English mathematician and writer [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) was helping [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) with the first algorithms to be carried out by his Analytical Engine. Yet Lovelace saw opportunities beyond the math. She envisioned a computer where numbers could represent entities other than quantity.  At the time it was revolutionary that computing could be used for creative pursuits. She called the idea Poetical Science.
+
 ### Credits
 * https://aiartists.org/ai-timeline-art
 * https://en.wikipedia.org/wiki/Ada_Lovelace
@@ -297,6 +305,9 @@ Notes:
 ## 1822 <!-- .element: class="year" -->
 ## Fourier transform
 ### Joseph Fourier
+[Joseph Fourier](https://en.wikipedia.org/wiki/Joseph_Fourier) was a french mathematician and physicist who barely survived the revolution _and_ Napoleon. Among other subjects, Fourier studied mathematical waves, particularly sine waves, which trace the position along the circumference of a circle - basically an unfurled circle.
+
+Notes:
 [Joseph Fourier](https://en.wikipedia.org/wiki/Joseph_Fourier) was a french mathematician and physicist who barely survived the revolution _and_ Napoleon. Among other subjects, Fourier studied mathematical waves, particularly sine waves, which trace the position along the circumference of a circle - basically an unfurled circle.
 
 
@@ -380,9 +391,11 @@ Important contributions to number theory and logic were also critical for the de
 
 [Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes) was an English statistician, philosopher and Presbyterian minister who dramatically improved the framework for reasoning about the probability of events - allowing the probability to update as more information becomes available. Bayes never published what would become his most famous accomplishment; his notes were edited and published posthumously.
 
-Press right arrow to continue <!-- .element: class="quote glow" -->
+Press right arrow to continue <!-- .element: class="quote glow no-print" -->
 
 Notes:
+[Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes) was an English statistician, philosopher and Presbyterian minister who dramatically improved the framework for reasoning about the probability of events - allowing the probability to update as more information becomes available. Bayes never published what would become his most famous accomplishment; his notes were edited and published posthumously.
+
 ### Credits
 * https://en.wikipedia.org/wiki/Thomas_Bayes
 * https://aiartists.org/ai-timeline-art
@@ -395,6 +408,8 @@ Notes:
 [Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss) was a German mathematician and physicist ranked among history's most influential. Among numerous other contributions, he created a statistical technique that used 19 observations (less than 1% of the orbit) of the planetoid Ceres to help relocate it after it disappeared in the glare of the Sun.
 
 Notes:
+[Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss) was a German mathematician and physicist ranked among history's most influential. Among numerous other contributions, he created a statistical technique that used 19 observations (less than 1% of the orbit) of the planetoid Ceres to help relocate it after it disappeared in the glare of the Sun.
+
 ### Credits
 * https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss
 * https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)
@@ -408,7 +423,7 @@ Notes:
 [George Boole](https://en.wikipedia.org/wiki/George_Boole) publishes [_Mathematical Analysis of Logic and An Investigation of the Laws of Thought on Which are Founded the Mathematical Theories of Logic and Probabilities_](https://en.wikipedia.org/wiki/The_Laws_of_Thought) and introduces Boolean logic or “algebra of logic”. He showed that logical operations could be represented using mathematical symbols, and his work laid the [foundation](/../foundations#/9) for the development of computers.
 
 Notes:
-TODO: Link to Foundations
+[George Boole](https://en.wikipedia.org/wiki/George_Boole) publishes [_Mathematical Analysis of Logic and An Investigation of the Laws of Thought on Which are Founded the Mathematical Theories of Logic and Probabilities_](https://en.wikipedia.org/wiki/The_Laws_of_Thought) and introduces Boolean logic or “algebra of logic”. He showed that logical operations could be represented using mathematical symbols, and his work laid the [foundation](/../foundations#/9) for the development of computers.
 
 ### Credits
 * https://en.wikipedia.org/wiki/George_Boole
@@ -425,7 +440,11 @@ TODO: Link to Foundations
 A Markov chain uses states and transitions to model a random (stochastic) process where each value/event appears to vary randomly but is dependent on the previous outcome. Thus it is capable of "remembering" one previous value, but values before that do not affect the next. Each state may be connected to itself or other states and have a probability of moving to the next state.
 
 Notes:
-### Credits
+[Andrey Markov](https://en.wikipedia.org/wiki/Andrey_Markov) was a Russian mathematician best known for his work on [stochastic processes](https://en.wikipedia.org/wiki/Stochastic_process). A primary subject of his research later became known as [Markov chains](https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/markov_chains).
+
+A Markov chain uses states and transitions to model a random (stochastic) process where each value/event appears to vary randomly but is dependent on the previous outcome. Thus it is capable of "remembering" one previous value, but values before that do not affect the next. Each state may be connected to itself or other states and have a probability of moving to the next state.
+
+### References
 * https://en.wikipedia.org/wiki/Andrey_Markov
 * https://en.wikipedia.org/wiki/Markov_chain
 * https://en.wikipedia.org/wiki/Stochastic_process
@@ -539,7 +558,11 @@ This ties into a further concept where something may not be predictable, but can
 
 [Ralph Hartley's](https://en.wikipedia.org/wiki/Ralph_Hartley) 1928 paper, _Transmission of Information_, uses the word information as a measurable quantity, reflecting the receiver's ability to distinguish one sequence of symbols from any other.
 
-Press right arrow to continue <!-- .element: class="quote glow" -->
+Press right arrow to continue <!-- .element: class="quote glow no-print" -->
+Notes:
+[Harry Nyquist's](https://en.wikipedia.org/wiki/Harry_Nyquist) 1924 paper, _Certain Factors Affecting Telegraph Speed_, contains a theoretical section quantifying "intelligence" and the "line speed" at which it can be transmitted by a communication system.
+
+[Ralph Hartley's](https://en.wikipedia.org/wiki/Ralph_Hartley) 1928 paper, _Transmission of Information_, uses the word information as a measurable quantity, reflecting the receiver's ability to distinguish one sequence of symbols from any other.
 
 
 <!-- .slide: id="Game-theory" data-state="history" data-background-image="../images/JohnvonNeumann.webp" data-background-position="right" data-background-size="contain" data-audio-advance="-1" -->
@@ -552,6 +575,10 @@ Press right arrow to continue <!-- .element: class="quote glow" -->
 The [minimax decision](https://en.wikipedia.org/wiki/Minimax#Minimax_theorem) rule he came up with is still used for minimizing the possible loss for the worst case (i.e. maximum loss) scenario.
 
 Notes:
+[John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), a Hungarian-American polymath, made contributions to many fields, including being a key figure in cellular automata and the digital computer. His paper _On the Theory of Parlor Games_, one of thirty-two published before he was 26 years old, began the field of games theory and eventually his research would lead to revolutionizing the mathematics of economics. 
+
+The [minimax decision](https://en.wikipedia.org/wiki/Minimax#Minimax_theorem) rule he came up with is still used for minimizing the possible loss for the worst case (i.e. maximum loss) scenario.
+
 ### Credits
 * https://en.wikipedia.org/wiki/John_von_Neumann
 * https://en.wikipedia.org/wiki/Minimax#Minimax_theorem
@@ -567,6 +594,9 @@ Notes:
 Kurt Gödel's achievement in modern logic is singular and monumental—indeed it is more than a monument, it is a landmark which will remain visible far in space and time. ...The subject of logic has certainly completely changed its nature and possibilities with Gödel's achievement. <!-- .element: class="quote" -->
 _John von Neumann_ <!-- .element: class="attribution" -->
 
+Notes:
+[Kurt Friedrich Gödel](https://en.wikipedia.org/wiki/Kurt_G%C3%B6del) was a logician, mathematician, and philosopher. He developed the [incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems) that created a paradox in formal systems: there will always be at least one true but unprovable statement.
+
 
 <!-- .slide: id="Sampling-theorem" data-state="history" data-background-image="../images/Kotelnikov.webp" data-background-position="right" data-background-opacity="0.7" data-audio-advance="-1" -->
 ## 1933 <!-- .element: class="year" -->
@@ -578,12 +608,16 @@ _John von Neumann_ <!-- .element: class="attribution" -->
 This forms the basis of digital encoding of audio, music, and light (i.e. pixels) and digital compression in general.
 
 Notes:
+[Vladimir Kotelnikov](https://en.wikipedia.org/wiki/Vladimir_Kotelnikov) (Владимир  Котельников), an information theory and radar astronomy pioneer from the Soviet Union discovered the sampling theorem that allows digital samples to precisely reconstruct analog waves as long as the sampling rate is twice the highest wave frequency. 
+
+This forms the basis of digital encoding of audio, music, and light (i.e. pixels) and digital compression in general.
+
 ### Credits
 * A Biography of the Pixel by Alvy Ray Smith (2021)
 
 
 <!-- .slide: data-audio-src="../audio/ppf/11-seg1.ogg" data-background-color="white" -->
-<img data-src="../images/sampling_theory.webp">
+<img data-src="../images/sampling_theory.webp" width="667" height="751">
 
 Notes:
 I think it will be helpful to take a moment and talk about just how important the combination of Fourier and Kotelnikov's ideas are and what they say about the nature of digital and analog.
@@ -600,6 +634,9 @@ _Alvy Ray Smith_ <!-- .element: class="attribution" -->
 Notes:
 Digital is not somehow less than analog. Taking samples seems to imply that the infinite amount of information between samples is lost — that digital is only an approximation — but it’s not so. The Sampling Theorem, if correctly applied, proves that digital discards nothing. Instead, it’s an extremely clever repackaging of infinity.
 
+### Credits
+* A Biography of the Pixel by Alvy Ray Smith (2021)
+
 
 <!-- .slide: id="Universal-Computing-Machine" data-state="history" data-background-video="../video/turing_machine.mp4" data-background-size="contain" data-background-video-loop data-audio-advance="-1" data-background-position="right" -->
 ## 1937 <!-- .element: class="year" -->
@@ -611,6 +648,10 @@ Digital is not somehow less than analog. Taking samples seems to imply that the 
 Given an infinitely long tape Turing proved that this machine could compute anything. 
 
 Notes:
+[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing), an English mathematician and computer scientist, introduced the idea of the Universal Computing Machine. His thought experiment involved a simple machine that could read, write, and compare symbols on a length of paper or tape with no understanding of the symbols being read and written other than changing the "state" of the machine. Each state has a rule for how to read, write, compare, move the tape and change to another state.
+
+Given an infinitely long tape Turing proved that this machine could compute anything. 
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Turing Machines Explained_ - Computerphile](https://www.youtube.com/watch?v=dNRDvLACg5Q)
 
@@ -625,6 +666,10 @@ Notes:
 His _A Mathematical Theory of Communication_ article tackled how to best encode a message a sender wants to transmit. Using Norbert Weiner's probability tools he developed information entropy to measure the information content (based on the amount of uncertainty) of a message.
 
 Notes:
+[Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon), an American mathematician and engineer, his 1937 master's thesis demonstrated how Boolean algebra could be used to build digital computers.
+
+His _A Mathematical Theory of Communication_ article tackled how to best encode a message a sender wants to transmit. Using Norbert Weiner's probability tools he developed information entropy to measure the information content (based on the amount of uncertainty) of a message.
+
 ### Credits
 * https://en.wikipedia.org/wiki/Claude_Shannon
 * https://www.quantamagazine.org/how-claude-shannons-information-theory-invented-the-future-20201222/
@@ -683,9 +728,13 @@ Although they were almost a generation apart and had dissimilar scientific backg
 
 A neuron that sums binary inputs and then outputs a 1 if the sum exceeds a certain threshold value, and otherwise outputs a 0, can model the basic OR/AND/NOT functions.
 
-Press right arrow to continue <!-- .element: class="quote glow" -->
+Press right arrow to continue <!-- .element: class="quote glow no-print" -->
 
 Notes:
+Although they were almost a generation apart and had dissimilar scientific backgrounds, neuropsychiatrist [Warren McCulloch](https://en.wikipedia.org/wiki/Warren_McCulloch) and mathematician [Walter Pitts](https://en.wikipedia.org/wiki/Walter_Pitts) had similar intellectual concerns, simultaneously motivated by issues in philosophy, neurology, and mathematics. This lead to their landmark publication _Logical Calculus of Ideas Immanent in Nervous Activity_ which described a neuron model that could perform Boolean algebra.
+
+A neuron that sums binary inputs and then outputs a 1 if the sum exceeds a certain threshold value, and otherwise outputs a 0, can model the basic OR/AND/NOT functions.
+
 ### Credits
 * https://onlinelibrary.wiley.com/doi/epdf/10.1002/jhbs.1094
 
@@ -700,6 +749,10 @@ Notes:
 The core concept is circular causality or feedback where the observed outcomes of actions are taken as inputs for further action, generally towards self-organization or homeostasis.
 
 Notes:
+[Norbert Wiener](https://en.wikipedia.org/wiki/Norbert_Wiener) was an American mathematician and philosopher. His _Cybernetics: Or Control and Communication in the Animal and the Machine_ was the beginning [cybernetics](https://en.wikipedia.org/wiki/Cybernetics).
+
+The core concept is circular causality or feedback where the observed outcomes of actions are taken as inputs for further action, generally towards self-organization or homeostasis.
+
 ### Credits
 * https://www.privatdozent.co/p/the-absent-minded-father-of-cybernetics-db9
 
@@ -712,6 +765,8 @@ Notes:
 [Donald Hebb](https://en.wikipedia.org/wiki/Donald_O._Hebb) was a Canadian psychologist who sought to understand the process of learning. In _The Organization of Behavior_ he introduced Hebbian learning, paraphrased as, "neurons that fire together wire together".
 
 Notes:
+[Donald Hebb](https://en.wikipedia.org/wiki/Donald_O._Hebb) was a Canadian psychologist who sought to understand the process of learning. In _The Organization of Behavior_ he introduced Hebbian learning, paraphrased as, "neurons that fire together wire together".
+
 ### Credits
 * https://labelyourdata.com/articles/history-of-machine-learning-how-did-it-all-start
 
@@ -726,6 +781,10 @@ Notes:
 Walter's _Machina Speculatrix_ tortoises were built with a light sensor, touch sensor, propulsion motor, steering motor, and a two vacuum tube analogue computer. 
 
 Notes:
+[William Grey Walter](https://en.wikipedia.org/wiki/William_Grey_Walter) was an American-born British neurophysiologist, cybernetician and robotician.
+
+Walter's _Machina Speculatrix_ tortoises were built with a light sensor, touch sensor, propulsion motor, steering motor, and a two vacuum tube analogue computer.
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Machina Speculatrix_ : William Grey Walter](https://www.youtube.com/watch?v=lLULRlmXkKo)
 
@@ -739,6 +798,11 @@ In 1950 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) devised a famou
 
 Turing believed the question ‘Can machines think?’ was ambiguous, and instead was interested in what happens if a machine replaces a human player in the game. 
 
+Notes:
+In 1950 [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) devised a famous test called the Imitation Game, now called the Turing Test, a three-person game in which an interrogator asks questions of a man and a woman in another room in order to determine the correct sex of the two players, who, in turn, are trying to fool the interrogator.
+
+Turing believed the question ‘Can machines think?’ was ambiguous, and instead was interested in what happens if a machine replaces a human player in the game. 
+
 
 <!-- .slide: id="SNARC" data-state="history" data-background-image="../images/neuron-SNARC-GJLoan2011-x640_RealESRGAN-x4plus.webp" data-background-opacity="0.7" data-audio-advance="-1" -->
 ## 1951 <!-- .element: class="year" -->
@@ -748,7 +812,7 @@ Turing believed the question ‘Can machines think?’ was ambiguous, and instea
 Inspired by McCulloch and Pitts, [Marvin Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky), who was American computer and cognitive scientist, built the [SNARC](https://en.wikipedia.org/wiki/Stochastic_neural_analog_reinforcement_calculator) (Stochastic Neural Analog Reinforcement Calculator), a device with 40 randomly connected Hebb synapses made from vacuum tubes, which simulated a rat finding its way through a maze.
 
 Notes:
-TODO:_Neural Nets and the Brain Model Problem_ in 1954
+Inspired by McCulloch and Pitts, [Marvin Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky), who was American computer and cognitive scientist, built the [SNARC](https://en.wikipedia.org/wiki/Stochastic_neural_analog_reinforcement_calculator) (Stochastic Neural Analog Reinforcement Calculator), a device with 40 randomly connected Hebb synapses made from vacuum tubes, which simulated a rat finding its way through a maze.
 
 
 <!-- .slide: id="Connectionist-theory-of-mind" data-state="history" data-background-image="../images/Friedrich_Hayek_portrait_SwinIR-L-DFOWMFC-GAN.webp" data-background-opacity="0.7" data-audio-advance="-1" data-background-position="right" -->
@@ -761,6 +825,10 @@ TODO:_Neural Nets and the Brain Model Problem_ in 1954
 The mind, like other complex phenomenon, could only be understood by "explanations of the principle" or "pattern predictions" and could not be fully predicted. This mirrors his distaste for planned economies.
 
 Notes:
+[Friedrich Hayek](https://en.wikipedia.org/wiki/Friedrich_Hayek) was an Austrian-British economist and philosopher best known for his contributions to economic theory. His book _The Sensory Order_ was an early connectionist theory of mind that challenged behaviorisms focus on stimuli and response, suggesting instead that principles by which thinking operated should be studied and that a reductionist approach was insufficient. For Hayek interpretation was part of every step in sensation. 
+
+The mind, like other complex phenomenon, could only be understood by "explanations of the principle" or "pattern predictions" and could not be fully predicted. This mirrors his distaste for planned economies.
+
 ### Credits
 * http://public.econ.duke.edu/~bjc18/docs/Reflections%20on%20Hayek%27s%20Sensory%20Order.pdf
 
@@ -775,6 +843,10 @@ Nicolas Schöffer was a Hungarian-born French cybernetic artist. His _CYSP 1_ ro
 Schöffer also belived art is a cultural asset that should be available equally to everyone without any limitation.
 
 Notes:
+Nicolas Schöffer was a Hungarian-born French cybernetic artist. His _CYSP 1_ robot was the first artwork to explicitly employ cybernetic principles. Phototubes and a microphone detected changes in color, light and sound intensity and elicited reactions by the robot.
+
+Schöffer also belived art is a cultural asset that should be available equally to everyone without any limitation.
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Cyspe 1_ - Nicolas Schöffer](https://www.youtube.com/watch?v=gJD27tJLoaQ)
 
@@ -787,6 +859,8 @@ Notes:
 [Jasia Reichardt](https://en.wikipedia.org/wiki/Jasia_Reichardt) is a British art critic, writer, and curator who is a specialist in the emergence of computer art. _Cybernetic Serendipity_ was the first widely attended exhibition of computer and cybernetic art in the UK.
 
 Notes:
+[Jasia Reichardt](https://en.wikipedia.org/wiki/Jasia_Reichardt) is a British art critic, writer, and curator who is a specialist in the emergence of computer art. _Cybernetic Serendipity_ was the first widely attended exhibition of computer and cybernetic art in the UK.
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Cybernetic Serendipity_ - Jasia Reichardt](https://www.youtube.com/watch?v=n8TJx8n9UsA)
 
@@ -841,11 +915,14 @@ An infamous event in AI history is the book _Perceptrons_ Marvin Minsky and Seym
 
 <!-- .slide: id="Dartmouth" data-state="history" data-background-image="../images/Dartmouth.webp" data-background-position="right" data-background-size="contain" data-audio-advance="-1" -->
 ## 1956 <!-- .element: class="year" -->
-## Dartmouth Workshop on Artificial Intelligence
+## Dartmouth Workshop on Artificial Intelligence <!-- .element: class="no-print" -->
 
 The Dartmouth Summer Research Project on Artificial Intelligence is noted as the founding event of artificial intelligence as a field. In attendance were Minsky and Shannon, as well as others in the cybernetics, automata and information theory fields.
 
-Press right arrow to continue <!-- .element: class="quote glow" -->
+Press right arrow to continue <!-- .element: class="quote glow no-print" -->
+
+Notes:
+The Dartmouth Summer Research Project on Artificial Intelligence is noted as the founding event of artificial intelligence as a field. In attendance were Minsky and Shannon, as well as others in the cybernetics, automata and information theory fields.
 
 
 <!-- .slide: id="Perceptron" data-state="history" data-background-video="../video/Perceptron Research-cNxadbrN_aI.mp4" data-background-video-muted data-background-video-loop data-audio-advance="-1" -->
@@ -858,6 +935,10 @@ Press right arrow to continue <!-- .element: class="quote glow" -->
 A [percepton](https://en.wikipedia.org/wiki/Perceptron) has an input, a single layer of artificial neurons and an output and was able to classify a small number of patterns.
 
 Notes:
+[Frank Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt) was an American psychologist who helped developed the _Mark I Perceptron_, the first computer that could learn by trial and error.
+
+A [percepton](https://en.wikipedia.org/wiki/Perceptron) has an input, a single layer of artificial neurons and an output and was able to classify a small number of patterns.
+
 ### Credits <!-- .element: class="attribution" -->
 * [Perceptron Research from the 50's & 60's, clip](https://www.youtube.com/watch?v=cNxadbrN_aI)
 
@@ -869,12 +950,20 @@ Notes:
 
 [Bernard Widrow](https://en.wikipedia.org/wiki/Bernard_Widrow) an American professor of electrical engineering and his grad student [Tedd Hoff](https://en.wikipedia.org/wiki/Marcian_Hoff), later one of the inventors of the microprocessor, created the [MADALINE](https://en.wikipedia.org/wiki/ADALINE) system a 1000-weight trainable multi-layered neural networks using memistors. Initially not capable of training the middle layers, it was improved in 1988 to do so.
 
+Notes:
+[Bernard Widrow](https://en.wikipedia.org/wiki/Bernard_Widrow) an American professor of electrical engineering and his grad student [Tedd Hoff](https://en.wikipedia.org/wiki/Marcian_Hoff), later one of the inventors of the microprocessor, created the [MADALINE](https://en.wikipedia.org/wiki/ADALINE) system a 1000-weight trainable multi-layered neural networks using memistors. Initially not capable of training the middle layers, it was improved in 1988 to do so.
+
 
 <!-- .slide: id="Perceptrons" data-state="history" data-background-image="../images/Perceptrons_book.jpg" data-background-position="right" data-background-size="contain" data-audio-advance="-1" -->
 ## 1969 <!-- .element: class="year" -->
 ## _Perceptrons_ book
 ### Marvin Minsky and Seymour Papert
 
+In 1969 [Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky) and [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) published [_Perceptrons_](https://en.wikipedia.org/wiki/Perceptrons_(book)). 
+
+The book was critical of neural net research and potential and was considered the cause of a switch to symbolic expert systems.
+
+Notes:
 In 1969 [Minsky](https://en.wikipedia.org/wiki/Marvin_Minsky) and [Seymour Papert](https://en.wikipedia.org/wiki/Seymour_Papert) published [_Perceptrons_](https://en.wikipedia.org/wiki/Perceptrons_(book)). 
 
 The book was critical of neural net research and potential and was considered the cause of a switch to symbolic expert systems.
@@ -953,9 +1042,19 @@ This software is a "zero player" game, its evolution determined entirely from it
 
 Play with the game and learn more at [conwaylife.com](https://conwaylife.com/).
 
-Press right arrow to continue <!-- .element: class="quote glow" -->
+Press right arrow to continue <!-- .element: class="quote glow no-print" -->
 
 Notes:
+[John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) was an English mathematician who contributed to cellular automata theory particular in creating [_The Game of Life_](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+
+This software is a "zero player" game, its evolution determined entirely from its starting configuration, with no further input. It is Turing complete and follows three rules:
+
+1. Any live cell with 2 or 3 live neighbours survives.
+2. Any dead cell with 3 live neighbours becomes alive.
+3. All other live cells die in the next generation.
+
+Play with the game and learn more at [conwaylife.com](https://conwaylife.com/).
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Life in life_ - Phillip Bradbury](https://www.youtube.com/watch?v=xP5-iIeKXE8)
 
@@ -970,6 +1069,10 @@ Notes:
 [_Langton's Loops_](https://en.wikipedia.org/wiki/Langton%27s_loops) was the first self-replicating computer organism with “genetic” code.
 
 Notes:
+[Christopher Langton](https://en.wikipedia.org/wiki/Christopher_Langton) an American computer scientist who studied cellular automata and artificial life.
+
+[_Langton's Loops_](https://en.wikipedia.org/wiki/Langton%27s_loops) was the first self-replicating computer organism with “genetic” code.
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Langton Loops_ - Phillip Compeau](https://www.youtube.com/watch?v=BxAfsacJFuw)
 
@@ -986,6 +1089,12 @@ Notes:
 * **Cohesion**: fly towards largest group of nearby boids
 
 Notes:
+[Craig Reynolds](https://en.wikipedia.org/wiki/Craig_Reynolds_(computer_graphics)) is an artificial life and computer graphics expert who created the [_Boids_](https://en.wikipedia.org/wiki/Boids) artificial life simulation. Boids obey three rules: 
+
+* **Separation**: avoid crowding nearby boids
+* **Alignment**: fly in same direction as nearby boids
+* **Cohesion**: fly towards largest group of nearby boids
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Bird Brained_ - Ryan Kelln & Jackson Welchner](https://www.youtube.com/watch?v=aPC61OEgDic)
 
@@ -999,9 +1108,16 @@ Notes:
 
 For example, [Rule 110](https://en.wikipedia.org/wiki/Rule_110), is a pattern that is unpredictable, on the boundary of stability and chaos and proven to be a Turing machine.
 
+Notes:
+[Stephen Wolfram](https://en.wikipedia.org/wiki/Stephen_Wolfram) is a British-American computer scientist, physicist, and businessman who was the designer of the [Mathematica](https://en.wikipedia.org/wiki/Mathematica) software. His _A new Kind of Science_ book presented an empirical study of simple computational systems: cellular automata and argued they were needed to model and understand complexity in nature.
+
+For example, [Rule 110](https://en.wikipedia.org/wiki/Rule_110), is a pattern that is unpredictable, on the boundary of stability and chaos and proven to be a Turing machine.
+
 ---
 <!-- .slide: data-background-video="../video/The Mother of All Demos-JQ8ZiT1sn88.mp4"  data-audio-advance="1000" data-background-size="contain" -->
 Notes:
+On Dec. 9, 1968, Doug Engelbart of the Stanford Research Institute (now SRI International) performed the “Mother of All Demos” — the world debut of personal and interactive computing. It was the realization of a vision he’d developed as a graduate student in electrical engineering: that we’d one day be able to “fly” through information spaces, and that the computer would become an extension of human communication capabilities and an augmentation of intellect. 
+
 ### Credits <!-- .element: class="attribution" -->
 * [_The Mother of All Demos_ - Doug Engelbart](https://www.youtube.com/watch?v=JQ8ZiT1sn88) (1968)
 * Courtesy of Stanford & SRI International
@@ -1046,12 +1162,18 @@ The growth of all forms of digital tools, from digital photography, to GPS satel
 
 [Vannevar Bush](https://en.wikipedia.org/wiki/Vannevar_Bush), who founded the company that became Raytheon Technologies and initiated the Manhattan Project, also inspired generations of computer scientists in his 1945 essay [_As We May Think_](https://en.wikipedia.org/wiki/As_We_May_Think) that described the [_memex_](https://en.wikipedia.org/wiki/Memex), an electromechanical device in which individuals would compress and store all of their books, records, and communications, record new information such as photos, make comments and create and follow links between all the documents.
 
+Notes:
+[Vannevar Bush](https://en.wikipedia.org/wiki/Vannevar_Bush), who founded the company that became Raytheon Technologies and initiated the Manhattan Project, also inspired generations of computer scientists in his 1945 essay [_As We May Think_](https://en.wikipedia.org/wiki/As_We_May_Think) that described the [_memex_](https://en.wikipedia.org/wiki/Memex), an electromechanical device in which individuals would compress and store all of their books, records, and communications, record new information such as photos, make comments and create and follow links between all the documents.
+
 
 <!-- .slide: id="High-level-programming-languages" data-state="history" data-background-image="../images/Grace_Hopper.webp" data-background-position="right" data-background-size="contain" data-background-opacity="0.8" data-audio-advance="-1" -->
 ## 1952 <!-- .element: class="year" -->
 ## High level programming languages
 ### Grace Hopper
 
+[Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) was an American computer scientist and US Navy rear admiral. She was the first to conceive of programming using english language and compiling to machine language.
+
+Notes:
 [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) was an American computer scientist and US Navy rear admiral. She was the first to conceive of programming using english language and compiling to machine language.
 
 
@@ -1063,6 +1185,8 @@ The growth of all forms of digital tools, from digital photography, to GPS satel
 [Ted Nelson](https://en.wikipedia.org/wiki/Ted_Nelson) is an American philosopher and sociologist. He coined the terms hypertext and hypermedia in 1963 and founded [_Project Xanadu_](https://en.wikipedia.org/wiki/Project_Xanadu) in 1960 to be a repository for the world's knowledge where data was connected by two-way (rather than the current web's one-way) links. _Xanadu_ was under development until at least 2016, but hasn't published its code and file formats, dooming it to obscurity.
 
 Notes:
+[Ted Nelson](https://en.wikipedia.org/wiki/Ted_Nelson) is an American philosopher and sociologist. He coined the terms hypertext and hypermedia in 1963 and founded [_Project Xanadu_](https://en.wikipedia.org/wiki/Project_Xanadu) in 1960 to be a repository for the world's knowledge where data was connected by two-way (rather than the current web's one-way) links. _Xanadu_ was under development until at least 2016, but hasn't published its code and file formats, dooming it to obscurity.
+
 ### Credits <!-- .element: class="attribution" -->
 * [Ted Nelson in Werner Herzog's "Lo and Behold"](https://www.youtube.com/watch?v=Bqx6li5dbEY)
 
@@ -1075,6 +1199,8 @@ Notes:
 [Ivan Sutherland](https://en.wikipedia.org/wiki/Ivan_Sutherland) is an American computer scientist. His interactive display graphics program [_Sketchpad_](https://en.wikipedia.org/wiki/Sketchpad) was among the first graphical user interfaces (GUIs) and demonstrated its use for both artistic and technical work.
 
 Notes:
+[Ivan Sutherland](https://en.wikipedia.org/wiki/Ivan_Sutherland) is an American computer scientist. His interactive display graphics program [_Sketchpad_](https://en.wikipedia.org/wiki/Sketchpad) was among the first graphical user interfaces (GUIs) and demonstrated its use for both artistic and technical work.
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Computer Sketchpad_ - Ivan Sutherland](https://www.youtube.com/watch?v=Yb66RzGj8TI)
 
@@ -1091,10 +1217,13 @@ The key is to accelerate the natural co-evolution of our Tool and Human Systems 
 https://dougengelbart.org/
 
 Notes:
+[Douglas Engelbart](https://en.wikipedia.org/wiki/Douglas_Engelbart) was an American engineer and inventor. He was part of a group at [SRI International](https://en.wikipedia.org/wiki/SRI_International) that developed the mouse, bitmapped screens, hypertext, and screensharing.
+
 ### Credits <!-- .element: class="attribution" -->
 * [Goals of the Program - from Doug's 1968 Demo Highlights](https://www.youtube.com/watch?v=hrCBHxC5FEk)
 
 ### Credits
+* https://dougengelbart.org/
 * https://dougengelbart.org/content/view/194/
 
 
@@ -1106,6 +1235,8 @@ Notes:
 [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) is an English computer scientist. In 1989, while working at [CERN](https://en.wikipedia.org/wiki/CERN), he proposed and implemented the first web browser (and [HTML](https://en.wikipedia.org/wiki/HTML) editor) and web server and helped establish the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web). This connection of hypermedia to the early Internet shaped the next 30 years.
 
 Notes:
+[Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) is an English computer scientist. In 1989, while working at [CERN](https://en.wikipedia.org/wiki/CERN), he proposed and implemented the first web browser (and [HTML](https://en.wikipedia.org/wiki/HTML) editor) and web server and helped establish the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web). This connection of hypermedia to the early Internet shaped the next 30 years.
+
 ### Credits
 * https://webfoundation.org/about/vision/history-of-the-web/
 * https://cds.cern.ch/record/369245/files/dd-89-001.pdf
@@ -1121,6 +1252,12 @@ Notes:
 _ImageNet_ is still growing and changing (recently dealing with issues of privacy and bias) but currently contains 14 millions images in 20000 categories.
 
 https://www.image-net.org/
+
+Notes:
+[Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li) (李飞飞) is a Chinese-American computer scientist who studies vision. Her lab created the [_ImageNet_](https://en.wikipedia.org/wiki/ImageNet) dataset of images collected from the Internet, using queries and searches and then used [Amazon Mechanical Turk](https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk) to clean the dataset. 
+
+_ImageNet_ is still growing and changing (recently dealing with issues of privacy and bias) but currently contains 14 millions images in 20000 categories.
+
 ---
 <!-- .slide: id="" data-background-video="../video/Computer Orchestra (1968)-gw-8lyZROIo.mp4" data-audio-advance="1000" -->
 Notes:
@@ -1216,6 +1353,10 @@ TODO:
 His _Partita for Unattended Computer_ was the first ever unaccompanied performance of live computer music, with no human performer involved, and the piece read from paper tape. Later that year, as part of _Cybernetic Serendipity_ exhibition, he used a PDP-8 to analyze a tune whistled by a visitor to the show and improvise upon it.
 
 Notes:
+[Peter Zinovieff](https://en.wikipedia.org/wiki/Peter_Zinovieff) was a British engineer and composer, son of Russian aristrocrats who fled the Russian Revolution. He bought his first computer (he claimed "the first computer in a private house") by auctioning his first wife's tiara. 
+
+His _Partita for Unattended Computer_ was the first ever unaccompanied performance of live computer music, with no human performer involved, and the piece read from paper tape. Later that year, as part of _Cybernetic Serendipity_ exhibition, he used a PDP-8 to analyze a tune whistled by a visitor to the show and improvise upon it.
+
 ### Credits
 * https://120years.net/wordpress/ems-synthesisers-peter-zinovief-united-kingdom-1969/
 
@@ -1230,6 +1371,8 @@ Notes:
 There it was, the great temptation for me, for once not to represent something technical with this machine but rather something ‘useless’ – geometrical patterns. <!-- .element: class="quote" -->
 
 Notes:
+[Georg Nees](https://en.wikipedia.org/wiki/Georg_Nees) was a German academic who studied  mathematics, physics and philosophy. In 1965, Nees showed the world's first computer graphics art works created with a digital computer. He worked with random numbers fed into math equations to have flatbed plotters or milling machines create physical output.
+
 ### Credits
 * https://en.wikipedia.org/wiki/Georg_Nees
 
@@ -1244,6 +1387,10 @@ Notes:
 _Senster_ was the first robotic sculpture to be controlled by a computer. It was a large hydraulically actuated robot that followed the sound and motion of the people around it, giving the impression of being alive. It used an array of four microphones to detect the direction of the sound around it and two Doppler radar arrays to measure the motion of people. 
 
 Notes:
+[Edward Ihnatowicz](https://en.wikipedia.org/wiki/Edward_Ihnatowicz) was a Polish cybernetic art sculptor who fled during the war and eventually immigrated to Britain.
+
+_Senster_ was the first robotic sculpture to be controlled by a computer. It was a large hydraulically actuated robot that followed the sound and motion of the people around it, giving the impression of being alive. It used an array of four microphones to detect the direction of the sound around it and two Doppler radar arrays to measure the motion of people. 
+
 ### Credits <!-- .element: class="attribution" -->
 * [Art-ificial Intelligence - Lost Art](https://www.youtube.com/watch?v=hoZb5MTKzQc)
 
@@ -1258,6 +1405,8 @@ Notes:
 [lillian.com](http://lillian.com/)
 
 Notes:
+[Lillian F. Schwartz](https://en.wikipedia.org/wiki/Lillian_Schwartz) is an American artist who studied to be a nurse and was stationed in postwar Japan. She started working with Bell Labs engineers and [Ken Knowlton](https://en.wikipedia.org/wiki/Ken_Knowlton) to produce a series of computer animated films.
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Mutations_ - Lillian F. Schwartz](https://www.youtube.com/watch?v=QCthSns4U4s)
 
@@ -1275,6 +1424,10 @@ If what AARON is making is not art, what is it exactly, and in what ways, other 
 _Harold Cohen_ <!-- .element: class="attribution" -->
 
 Notes:
+[Harold Cohen](https://en.wikipedia.org/wiki/Harold_Cohen_(artist)) was a British-born artist who created the _AARON_ expert system software that could create line drawings that Cohen would colour after printing.
+
+Started in 1973 in the C programming language but converted later to Lisp, _AARON_ created abstract line drawings. Representational imagery was then added; first rocks, then plants, then people, and interior scenes. _AARON_ cannot learn new styles or imagery on its own; each new capability must be hand-coded.
+
 ### Credits <!-- .element: class="attribution" -->
 * [Harold Cohen - The Age of Intelligent Machines - 1987 (Clip)](https://www.youtube.com/watch?v=IPczQgCuOOc)
 
@@ -1292,6 +1445,10 @@ Notes:
 [veramolnar.com](http://www.veramolnar.com/)
 
 Notes:
+[Vera Molnár](https://en.wikipedia.org/wiki/Vera_Molnár) is a Hungarian media artist living and working in France. Molnar learned the early programming languages of Fortran and Basic, and gained access to a computer at a research lab in Paris where she began to make computer graphic drawings on a plotter. 
+
+[veramolnar.com](http://www.veramolnar.com/)
+
 ### Credits
 * http://www.veramolnar.com/
 
@@ -1308,6 +1465,12 @@ Using the Fortran programming language to program positions of body limbs at 45 
 [analivia.com.br](https://www.analivia.com.br/)
 
 Notes:
+[Analivia Cordeiro](https://www.analivia.com.br/) a Brazilian dancer, choreographer and architect was one of the first artists to use software for dance. 
+
+Using the Fortran programming language to program positions of body limbs at 45 degree and right angles, Cordeiro wanted to make a geometrical dance. This is reinforced by the costumes and sets.
+
+[analivia.com.br](https://www.analivia.com.br/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Cambiantes_ - Analivia Cordeiro](https://www.youtube.com/watch?v=XYY7oMiWxaw)
 
@@ -1327,6 +1490,12 @@ In 1992 they released a book _Evolutionary Art and Computers_ and have continued
 [mutatorvr.co.uk](https://mutatorvr.co.uk/)
 
 Notes:
+[William Latham](https://en.wikipedia.org/wiki/William_Latham_(computer_scientist)) and Stephen Todd worked at IBM together and used genetic algorithm techniques to generate and animate 3-d models. Latham, an artist, and Todd, a mathematician and programmer, were interested in psychedelic evolving organic art.
+
+In 1992 they released a book _Evolutionary Art and Computers_ and have continued to develop Mutator into a VR experience.
+
+[mutatorvr.co.uk](https://mutatorvr.co.uk/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Mutations_ - William Latham & Stephen Todd](https://www.youtube.com/watch?v=7sadS5wuOjU)
 
@@ -1345,6 +1514,10 @@ Notes:
 [karlsims.com](http://www.karlsims.com/)
 
 Notes:
+[Karl Sims](https://en.wikipedia.org/wiki/Karl_Sims) is an American computer graphics artist. His paper _Artificial Evolution for Computer Graphics_ described how he generated abstract 2D images from mathematical formulae, evolved under the guidance of a human, and used in _Primordial Dance_.
+
+[karlsims.com](http://www.karlsims.com/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Primordial Dance_ - Karl Sims](https://www.youtube.com/watch?v=tT1CIQIfses)
 
@@ -1359,6 +1532,10 @@ Notes:
 [the-three-sirens.info](http://www.the-three-sirens.info/)
 
 Notes:
+[Nicolas Baginsky](http://www.baginsky.de/) a German artist created _Aglaopheme_ in 1992, a robotic electric slide guitar that used machine learning (Self Organizing Maps) to learn from audio feedback from the environment. He has added additional robot/instruments subsequently to create _The Three Sirens_ band.
+
+[the-three-sirens.info](http://www.the-three-sirens.info/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Robot's Rock_ - The Three Sirens by Nicolas Baginsky](https://www.youtube.com/watch?v=RcxuXYE9UeY) 
 
@@ -1373,6 +1550,10 @@ Notes:
 [scottdraves.com](http://www.scottdraves.com/)
 
 Notes:
+[Scott Draves](https://en.wikipedia.org/wiki/Scott_Draves) is an American artist and computer scientist who created the _Fractal Flames_ and [_Electic Sheep_](https://en.wikipedia.org/wiki/Electric_Sheep) software. The latter is an ongoing project distributed computing project where users computers render the "sheep" - a genetic language for describing visuals, and can customize or breed their own. Sheep compete to survive based on participants voting.
+
+[scottdraves.com](http://www.scottdraves.com/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Electric Sheep_ - Scott Draves](https://vimeo.com/27688359)
 
@@ -1389,6 +1570,10 @@ Notes:
 I seek geometric evidence of our existence and the purest visualization of such truths. <!-- .element: class="quote" -->
 
 Notes:
+[Jared Tarbell](https://www.infinite.center/) is an American artist and coder that has done extensive work with generative geometric structures and is interested in the life-like emergent qualities of these systems. [Live code version](https://bl.ocks.org/dribnet/c2d4a99516752eefa120b6b3689843f1)
+
+[infinite.center](https://www.infinite.center/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Substrate_ - Jared Tarbell](https://vimeo.com/208903786)
 
@@ -1406,6 +1591,10 @@ Jon McCormack is an Australian electronic media artist and researcher in Artific
 [jonmccormack.info](https://jonmccormack.info/)
 
 Notes:
+Jon McCormack is an Australian electronic media artist and researcher in Artificial Life and Evolutionary Music and Art. _Eden_ is an evolutionary sonic ecosystem where agents react to each other and a virtual environment using a set of rules encoded in binary chromosomes which can evolve.
+
+[jonmccormack.info](https://jonmccormack.info/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Eden, 'Evolutionary Sonic Ecosystem'_ - Jon McCormack](https://www.youtube.com/watch?v=Yrww68pnqqM)
 
@@ -1420,6 +1609,10 @@ Notes:
 [flong.com](http://www.flong.com/)
 
 Notes:
+[Golan Levin](https://en.wikipedia.org/wiki/Golan_Levin) is an American new media artist  and created a real-time animated subtitle system to accompany [Jaap Blonk's](https://en.wikipedia.org/wiki/Jaap_Blonk) performance of [Kurt Schwitters'](https://en.wikipedia.org/wiki/Kurt_Schwitters) _Ursonate_. Using speech recognition and score-following technologies, the subtitles are sync'd to the timing and timbre of Blonk's voice.
+
+[flong.com](http://www.flong.com/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Ursonography_ - Jaap Blonk & Golan Levin](https://vimeo.com/2365557)
 
@@ -1435,6 +1628,11 @@ Notes:
 [alainlioret.fr](http://alainlioret.fr/)
 
 Notes:
+[Alain Lioret](http://alainlioret.fr/bio) is a French professor of digital art who focuses on generative art and artificial life. His 
+[_Painting Beings_](http://alainlioret.fr/research/painting-beings) fuses cellular automata, genetic programming and neural networks. The artificial bodies of paint simulated here become entangled and contact each other in "ballets of autonomous movement" to create a "full of life" painting.
+
+[alainlioret.fr](http://alainlioret.fr/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Painting Beings_ - Alain Lioret](https://www.youtube.com/watch?v=yrsB5wAxdaE)
 
@@ -1451,6 +1649,12 @@ Notes:
 [davidrokeby.com](http://www.davidrokeby.com/)
 
 Notes:
+[David Rokeby](https://en.wikipedia.org/wiki/David_Rokeby) is a Canadian artist working with machine learning and video. His [_Very Nervous System_](http://www.davidrokeby.com/vns.html) in 1986 was a pioneering work translating physical gestures into interactive soundscapes. 
+
+[_Plot Against Time_](http://www.davidrokeby.com/PlotAgainstTime.html) is an ongoing series of video works where the movements of certain elements remain visible, "stretching the viewer's eye across time to offer a perceptual experience of duration".
+
+[davidrokeby.com](http://www.davidrokeby.com/)
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Plot Against Time #4 "Atlantic Baroque"_ - David Rokeby](https://vimeo.com/30043630)
 
@@ -1465,6 +1669,10 @@ Notes:
 [decontextualize.com](https://www.decontextualize.com/)
 
 Notes:
+[Allison Parrish](https://en.wikipedia.org/wiki/Allison_Parrish) is an American poet and software artist that does some of the most extensive investigation of machine learning and creative text. In her book _Articulations_ she starts from a random line in the language space of all lines of poetry from [_Project Gutenberg_](https://www.gutenberg.org/) (books out of copyright) then finds the next closest based on phonetics.
+
+[decontextualize.com](https://www.decontextualize.com/)
+
 ### Credits <!-- .element: class="attribution" -->
 * ["Experimental Creative Writing with the Vectorized Word" by Allison Parrish](https://www.youtube.com/watch?v=L3D0JEA1Jdc)
 
@@ -1523,6 +1731,8 @@ TODO:
 [Kunihiko Fukushima](https://en.wikipedia.org/wiki/Kunihiko_Fukushima) is a Japanese computer scientist. _Neocognitron_ was the original deep convolutional neural network (CNN) architecture. CNNs are unaffected by shifts in images making them good for character recognition.
 
 Notes:
+[Kunihiko Fukushima](https://en.wikipedia.org/wiki/Kunihiko_Fukushima) is a Japanese computer scientist. _Neocognitron_ was the original deep convolutional neural network (CNN) architecture. CNNs are unaffected by shifts in images making them good for character recognition.
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Neocognition_ - Kunihiko Fukushima](https://www.youtube.com/watch?v=oVYCjL54qoY)
 
@@ -1535,6 +1745,8 @@ Notes:
 [Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun) is a French computer scientist. In 1989 he helped develop the _LeNet5_ image recognition system that could do handwritten zip code recognition using convolutional neural nets.
 
 Notes:
+[Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun) is a French computer scientist. In 1989 he helped develop the _LeNet5_ image recognition system that could do handwritten zip code recognition using convolutional neural nets.
+
 ### Credits <!-- .element: class="attribution" -->
 * [_LeNet5_ - Yann LeCun](https://www.youtube.com/watch?v=FwFduRA_L6Q)
 
@@ -1547,6 +1759,8 @@ Notes:
 Peter Todd, an American cognitive scientist, was the first to use recurrent neural nets (RNNs) for algorithmic music composition using note-by-note music generation.
 
 Notes:
+Peter Todd, an American cognitive scientist, was the first to use recurrent neural nets (RNNs) for algorithmic music composition using note-by-note music generation.
+
 ### Credits
 * https://towardsdatascience.com/neural-networks-for-music-a-journey-through-its-history-91f93c3459fb
 
@@ -1613,6 +1827,13 @@ Along with Yoshua Bengio and Yann LeCun he is considered one of the "Godfathers 
 
 https://www.cs.toronto.edu/~hinton/
 
+Notes:
+[Geoffery Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton) is a British-Canadian cognitive psychologist and computer scientist. In 1986 he popularized the forgotten backpropagation algorithm for multi-layered perceptrons (MLPs). In 2012 his lab's success with _AlexNet_ on that year's _ImageNet_ challenge was a breakthrough for computer vision that sparked the current deep learning era.
+
+Along with Yoshua Bengio and Yann LeCun he is considered one of the "Godfathers of Deep Learning" and the three were awarded the 2018 Turing Award.
+
+https://www.cs.toronto.edu/~hinton/
+
 
 <!-- .slide: id="Yoshua-Bengio" data-state="history" data-background-image="../images/Yoshua_Bengio.webp" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
 ## Yoshua Bengio
@@ -1624,6 +1845,12 @@ Concerned about the social impact of AI, he actively took part in the conception
 https://yoshuabengio.org/
 
 Notes:
+[Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio) is a Canadian computer scientist. He helped Yann LeCun with CNN architecture and Jürgen Schmidhuber with [Long short-term memory (LSTM)](https://en.wikipedia.org/wiki/LSTM), an improved RNN architecture, that uses feedback loops and works well for predicting sequences. 
+
+Concerned about the social impact of AI, he actively took part in the conception of the [Montreal Declaration for the Responsible Development of Artificial Intelligence](https://www.montrealdeclaration-responsibleai.com/). His goal is to contribute to uncovering the principles giving rise to intelligence through learning while favouring the development of AI for the benefit of all.
+
+https://yoshuabengio.org/
+
 ### Credits
 * https://yoshuabengio.org/
 
@@ -1638,6 +1865,12 @@ LeCun met Hinton in 1985, then spent a post-doctoral year at his lab and collabo
 LeCun is currently VP and Chief AI Scientist at Meta.
 
 Notes:
+[Yann LeCun](https://en.wikipedia.org/wiki/Yann_LeCun) is a French computer scientist. In 1989 he helped develop the _LeNet5_ image recognition system that could do handwritten zip code recognition using convolutional neural nets. He has also done extensive work on neural net optimization.
+
+LeCun met Hinton in 1985, then spent a post-doctoral year at his lab and collaborated with Bengio at AT&T in the 1990s. In 2004 he and Hinton helped establish a program on Neural Computation and Adaptive Perception through the Canadian Institute for Advanced Research (CIFAR). Since 2014 he has co-directed it, now renamed Learning in Machines & Brains, with Yoshua Bengio.
+
+LeCun is currently VP and Chief AI Scientist at Meta.
+
 ### Credits
 * https://amturing.acm.org/award_winners/lecun_6017366.cfm
 
@@ -1645,6 +1878,13 @@ Notes:
 <!-- .slide: id="Jurgen-Schmidhuber" data-state="history" data-audio-src="../audio/ppf/Schmidhuber_blues_lstm_excerpt.mp3" data-background-image="../images/Jurgen_Schmidhuber.webp" data-background-size="contain" data-background-position="right" data-audio-advance="-1" -->
 ## Jürgen Schmidhuber
 
+[Jürgen Schmidhuber](https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber) is a German computer scientist. While not part of the "Canadian conspiracy" he is also known as a "father of modern AI". He and his students developed the first [LSTMs](https://en.wikipedia.org/wiki/LSTM) and continued to improve on them for 20 years. Schmidhuber's lab was also responsible for dramatic speedups on CNNs using GPUs in 2011, ushering in the era of GPU accelerated deep learning.
+
+In 2002 Schmidhuber and Douglas Eck were the first to use LSTMs with music, training one to do Blues improvisation.
+
+https://people.idsia.ch/~juergen/
+
+Notes:
 [Jürgen Schmidhuber](https://en.wikipedia.org/wiki/J%C3%BCrgen_Schmidhuber) is a German computer scientist. While not part of the "Canadian conspiracy" he is also known as a "father of modern AI". He and his students developed the first [LSTMs](https://en.wikipedia.org/wiki/LSTM) and continued to improve on them for 20 years. Schmidhuber's lab was also responsible for dramatic speedups on CNNs using GPUs in 2011, ushering in the era of GPU accelerated deep learning.
 
 In 2002 Schmidhuber and Douglas Eck were the first to use LSTMs with music, training one to do Blues improvisation.
@@ -1813,7 +2053,7 @@ It is estimated that only 40% or less of crimes are reported in general, so if t
 
 
 <!-- .slide: data-audio-src="../audio/ppf/25-seg2.ogg" data-background-color="white" -->
-<img data-src="../images/fair_policing.webp">
+<img data-src="../images/fair_policing.webp" width="1682" height="718">
 
 Notes:
 There was a 2018 academic study of the PredPol algorithm which acknowledged the bias, and studied the effects of a more even distribution of crime predictions. But they found the software predictions were less in line with later crime reports, making it less accurate than the original algorithm and PredPol didn't adjust its software. If the goal is only patrolling in areas of greatest street crime, this approach may be reasonable, but questionably provides any new information.
@@ -1902,29 +2142,29 @@ Other prompt engineering tricks have bizarrely strong effects:
 <table class="small text" >
 <tr height="50%">
 <td width="33%">
-<img style="margin: 0;" data-src="../images/prompt_apple_guided_diffusion_2_0.png"><br/>
+<img style="margin: 0;" data-src="../images/prompt_apple_guided_diffusion_2_0.png" width="256" height="256"><br/>
 apple
 </td>
 <td width="33%" class="fragment" data-audio-src="../audio/ppf/28-seg3.ogg" >
-<img style="margin: 0;" data-src="../images/prompt_the_golden_apple_of_my_eye_guided_diffusion_2_0.png"><br/>
+<img style="margin: 0;" data-src="../images/prompt_the_golden_apple_of_my_eye_guided_diffusion_2_0.png" width="256" height="256"><br/>
 the golden apple of my eye
 </td>
 <td width="33%" class="fragment" data-audio-src="../audio/ppf/28-seg4.ogg" >
-<img style="margin: 0;" data-src="../images/prompt_a_photo_of_an_apple_guided_diffusion_1_0.png"><br/>
+<img style="margin: 0;" data-src="../images/prompt_a_photo_of_an_apple_guided_diffusion_1_0.png" width="256" height="256"><br/>
 a photo of an apple
 </td>
 </tr>
 <tr height="50%">
 <td class="fragment" data-audio-src="../audio/ppf/28-seg5.ogg" >
-<img style="margin: 0;" data-src="../images/prompt_a_bad_photo_of_an_apple_guided_diffusion_2_0.png"><br/>
+<img style="margin: 0;" data-src="../images/prompt_a_bad_photo_of_an_apple_guided_diffusion_2_0.png" width="256" height="256"><br/>
 a bad photo of an apple
 </td>
 <td class="fragment" data-audio-src="../audio/ppf/28-seg6.ogg" >
-<img style="margin: 0;" data-src="../images/prompt_an_apple_artstation_guided_diffusion_1_0.png"><br/>
+<img style="margin: 0;" data-src="../images/prompt_an_apple_artstation_guided_diffusion_1_0.png" width="256" height="256"><br/>
 an apple #artstation
 </td>
 <td class="fragment" data-audio-src="../audio/ppf/28-seg7.ogg" >
-<img style="margin: 0;" data-src="../images/prompt_a_highly_detailed_apple_rendered_by_unreal_engine_guided_diffusion_1_0.png"><br/>
+<img style="margin: 0;" data-src="../images/prompt_a_highly_detailed_apple_rendered_by_unreal_engine_guided_diffusion_1_0.png" width="256" height="256"><br/>
 a highly detailed apple rendered by unreal engine
 </td>
 </tr>
@@ -1975,8 +2215,6 @@ Notes:
 Mostly successfully used by Memo Aktin in his Learning 2 See projects, the pix2pix algorithm was created in 2017. The GAN learns a mapping from input image to output image. This approach can colorize images, convert day to night, and other more artistic mappings such as eye to nebula or drawing of a castle to photo of a castle. This creates a model that converts everything it "sees" into what has been trained to see.
 
 This technique is particularly fun to use on modern hardware where it can be run in real-time. There is a certain magic in finding the right representation to map from. For example, it took me quite some time to find that scattered sesame and sunflower seeds made for good input to generate images of treetops.
-
-Cut: Generally in those cases you train on target images and processed versions of those images containing only edges. Then you can convert other images or video of a completely different subject to only edges and the model will convert those edges to the trained image. 
 
 ### Credits <!-- .element: class="attribution" -->
 * [_Learning to See_ - Memo Akten](http://www.memo.tv/works/learning-to-see/)
@@ -2154,7 +2392,7 @@ You've made it through the **Present**. _Way to go!_ <!-- .element: class="small
 
 Next up is the **Future**.
 
-**Press right arrow to continue** <!-- .element: class="small glow" -->
+**Press right arrow to continue** <!-- .element: class="small glow no-print" -->
 
 Notes:
 ### Credits <!-- .element: class="attribution" -->

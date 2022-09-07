@@ -74,9 +74,7 @@ Given a value x plotted horizontally, the line of the graph shows a mapping betw
 
 Lines are the output of linear functions, where the relative relationship between the variables stays constant. More complicated functions can be non-linear, they map to curves or are discontinuous - a change in one variable does not correspond to a constant change in another. 
 
-Modern neural nets use non-linear activation functions, which has been shown to be critical for learning. 
-
-CUT: You can think of this as similar to how in digital systems the two-ness allows for the easiest way to distinguish between noisy values, and as interesting properties emerge on the borders of stability and chaos, a non-linear function typically has much more defined boundaries. The large differences in the value of y occur at a small section of x. In other words, there is a "tipping" point or "phase change" at certain values of x.
+Modern neural nets use non-linear activation functions, which has been shown to be critical for learning.
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/09.ogg" data-background-image="../images/activation-functions.webp" data-background-size="contain" data-background-color="grey" -->
@@ -269,8 +267,6 @@ When a model doesn't have the capacity to capture the underlying structure of th
 
 Conversely, overfitting can happen when there is too much capacity or too much training. Overfitting can be described as memorization of the training data rather than effective generalization. Instead of compressing the data into a smaller accurate representation, the model just stores the correct answer for every training data point. So for example, instead of recognizing the class of animal, dog vs cat, the model will only know if each training data image is a cat or dog, given an image it has never seen before it is unsure.
 
-CUT: Interestingly, empirical tests have shown that some large models trained beyond the start of overfitting can sometimes improve after a period of overfitting.
-
 ### Credits <!-- .element: class="attribution" -->
 * [Images by Khush Patel](https://towardsdatascience.com/overfitting-vs-underfitting-ddc80c2fc00d)
 
@@ -362,7 +358,7 @@ Consider the amount of data in the training samples - unsupervised data may have
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/29-seg3.ogg" data-background-color="white" -->
-<img data-src="../images/GPT-Instruct-methods.svg">
+<img data-src="../images/GPT-Instruct-methods.svg" width="1280" height="720">
 Notes:
 Training methods can be combined. OpenAI's newest GPT model is trained on unsupervised text and then is fine-tuned using reinforcement learning using human feedback of whether its output is useful or toxic.
 
@@ -437,7 +433,7 @@ This style of learning is used in agents interacting with an environment, either
 ---
 <!-- .slide: id="features" data-audio-src="../audio/neural_nets/35.ogg" data-background-color="white" -->
 # Features
-<img data-src="../images/features_lecun.png">
+<img data-src="../images/features_lecun.png" width="756" height="429">
 
 Notes:
 When we talk about learning what we usually mean is learning a transformation of input data into a smaller representation that then is used to generate output. This representation consists of features. 
@@ -613,7 +609,7 @@ It is estimated that the human eye transmits roughly 10 million (10^6) bits per 
 The most successful large language models use the MassiveText dataset taken from the web, books from 1500-2008, news, software code from GitHub, and wikipedia with a total size of 10.55 TB (8.4 * 10^13 bits). (All of Wikipedia is just 0.001 TB.)
 
 
-<!-- .slide: id="weird" class="panup" data-audio-src="../audio/neural_nets/48.ogg" data-background-image="../images/explainable_A I_WEIRD.webp" -->
+<!-- .slide: id="weird" class="panup" data-audio-src="../audio/neural_nets/48.ogg" data-background-image="../images/explainable_AI_WEIRD.webp" -->
 ### The WEIRD Internet
 <p class="dynamic-text"></p>
 <script type="text/vtt">
@@ -702,7 +698,7 @@ For the next few years expect to work around resolution limits on images and vid
 <div class="r-stack">
 
 ## Long tail data
-<img data-src="../images/long_tail_data.svg">
+<img data-src="../images/long_tail_data.svg" width="1280" height="720">
 
 </div>
 
@@ -979,7 +975,7 @@ What the heck is going on? Why are the labels so bad and comprised of a list of 
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/77.ogg"  -->
-<img data-src="../images/imagenet-interface.jpg">
+<img data-src="../images/imagenet-interface.jpg" width="750" height="416">
 Notes:
 They correctly point out that, "the automated interpretation of images is an inherently social and political project, rather than a purely technical one." The labels came from humans, but it is not enough to just blame it on the humans. These were the labour of Amazon Mechanical Turk workers, that work from home, paid per label, with a median income of $2 an hour, so speed is important. The location of workers is skewed heavily towards the US and India. Even more subtle is that pay may be withheld if the answers are not deemed acceptable, so workers are incentivized to guess what the employer wants or align with other workers by defaulting to broad (but culturally specific) stereotypes. Even more subtle, the interface for ImageNet doesn't show an image and ask the worker to label it, rather workers are given a label and then select all images "that contain the object or depict the concept of". The labels themselves are 1000 selected from another dataset called WordNet which is organized in a specific (very symbolic) way that includes connecting synonyms. There are curious categories of hot lines, hot pants, hot plates, hot pots, hot rods, hot sauce, hot springs, hot toddies, hot tubs, hot-air balloons, hot fudge sauce, and hot water bottles. So the imagenet workers didn't label an image with a long set of synonyms, but the reverse, they "labelled" a set of word synonyms with images. So you see, details matter.
 
@@ -998,7 +994,7 @@ Crawford and Paglen also ask the important question: "What are computers meant t
 
 
 <!-- .slide: data-audio-src="../audio/neural_nets/79.ogg"  -->
-<img data-src="../images/second-rater.jpg">
+<img data-src="../images/second-rater.jpg" width="800" height="690">
 Notes:
 There is an abundance of politics here if you explore the excavating site.
 
@@ -1232,7 +1228,7 @@ Let's look at a few of these labels to see what sort of issues they address. I'l
 
 
 <!-- .slide: data-background-color="rgb(250,247,247)" data-audio-advance="-1" -->
-<img data-src="../images/tk_label_clan.png">
+<img data-src="../images/tk_label_clan.png" width="325" height="250">
 
 ### TK Clan
 This Label should be used when you would like external users to know that this material is subject to conditions for circulation relating to clan membership and/or is according to protocols for clan relationships. Because these conditions have not historically been recognized, this Label helps make these conditions for use and circulation clearer. Specifically, the Label asks future users to respect culturally specific rules of use and to make informed decisions about using this type of material. <!-- .element: class="small left" -->
@@ -1243,7 +1239,7 @@ Notes:
 
 
 <!-- .slide: data-background-color="rgb(250,247,247)" data-audio-advance="-1" -->
-<img data-src="../images/tk_label_v.png">
+<img data-src="../images/tk_label_v.png" width="325" height="250">
 
 ### TK Verified (TK V)
 This Label should be used when you and your community are satisfied with the way in which your traditional knowledge materials are being represented online or offline. This Label affirms that appropriate conditions for access and use are in place and that whoever has made this material accessible has made accommodations for cultural protocols associated with the knowledge. It lets users know that the right thing is being done by your community protocols and standards. <!-- .element: class="small left" -->
@@ -1254,7 +1250,7 @@ Notes:
 
 
 <!-- .slide: data-background-color="rgb(250,247,247)" data-audio-advance="-1" -->
-<img data-src="../images/tk_label_ss.png">
+<img data-src="../images/tk_label_ss.png" width="325" height="250">
 
 ### TK Secret / Sacred
 This Label should be used when you want to let external users know that the material that is openly circulating contains secret/sacred information and that it has specific conditions of access and use. These conditions potentially include restrictions upon access. Using this Label helps to alert external users that this material is special and requires respectful and careful treatment. It asks users to make different decisions about using it and, importantly, to discuss any potential use with you. <!-- .element: class="small left" -->

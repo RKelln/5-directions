@@ -254,7 +254,7 @@ Given the tension between artist and ML system, these systems fit into a hybrid 
 
 
 <!-- .slide: class="zoomin" data-auto-animate data-audio-src="../audio/ml_art/11-seg2.ogg" data-background-image="../images/hybrid.webp" data-background-size="contain"-->
-<img data-src="../images/AI-human_art_quadrants_3.svg">
+<img data-src="../images/AI-human_art_quadrants_3.svg" width="776" height="661">
 
 Notes:
 This space occupies at least two axes: representation and agency, that vary between fully machine controlled and fully human controlled. A human artist then resides in the top corner of the human representation and agency quadrant and a fully autonomous machine artist in the opposite corner. In the machine representation, human agency corner are instrument-like machines, for example a DJ or VJ's tools control most of the representational ability, but the artist has full agency. In the machine agency, human representation corner are human performers of machine created art. 
@@ -263,19 +263,19 @@ As of yet there is little art on the extremes of machine agency, since the desig
 
 
 <!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/11-seg3.ogg" data-background-video="../video/Robot's Rock-RcxuXYE9UeY.mp4" data-background-video-muted -->
-<img data-src="../images/AI-human_art_quadrants_3.svg">
+<img data-src="../images/AI-human_art_quadrants_3.svg" width="776" height="661">
 Notes:
 Even Baginsky's autonomous instruments, one of the more machine autonomous works that independently discover music, have minds structured by artist and perform at the will of their creator. When the machine controls the majority of the representation ability it is similar to musicians with an instrument of their own design.
 
 
 <!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/11-seg4.ogg" data-background-image="../images/cyberpunk_centaur_human_and_machine_combined_green.webp" data-background-size="contain" data-background-repeat="repeat-x" data-background-opacity="0.6" -->
-<img data-src="../images/AI-human_art_quadrants_3.svg">
+<img data-src="../images/AI-human_art_quadrants_3.svg" width="776" height="661">
 Notes:
 As the autonomy of the machine increases artists may become technological centaurs - human and machine combined - where the human artist chooses goals and problems and the machine solves them. A some point granting more autonomy to the machine creates a separation, breaking apart the centaur into two or more collaborators. 
 
 
 <!-- .slide: data-auto-animate data-audio-src="../audio/ml_art/11-seg5.ogg" data-background-image="../images/hybrid.webp" data-background-size="contain"-->
-<img data-src="../images/AI-human_art_quadrants_3_middle.svg">
+<img data-src="../images/AI-human_art_quadrants_3_middle.svg" width="776" height="661">
 Notes:
 This interplay is successful at different ratios depending on the artist and the context of the work. However, the middle space with a balance between machine and human representational ability and agency may be the most unique to machine learning art forms, although the equivalents of high agency machine collaborators would be human collaborators in other art forms. This middle space has the nice characteristic of creating a unique blend of machine, human and art context, not replicable by other artists, similar to musician with a custom-built instrument, but also potentially an instrument built for a specific song or performance. 
 
@@ -317,6 +317,16 @@ This sort of playful interaction with culture is how many memes originate.
 <!-- .slide: data-background-video="../video/Everything is a Remix Part 2 -2021-HhMar_eYnNY.mp4" data-background-size="contain" -->
 
 Notes:
+"Think of memes this way:
+
+Everything you do and then share with the world is a meme.
+
+The gestures you make, the dances you dance, the emojis you type, the clothes you wear, the jokes you tell, the tweets you post, the phrases you speak, the clickbait you write, the thumbnails you create, the nonsense you share. These are all things we copy and share and modify - they're all memes.
+
+It's our natural drive to copy from each other that creates memes and creates culture. We love to copy, and we love it when others copy too, just not from us.
+
+Why do we love copying?"
+
 ### Credits <!-- .element: class="attribution" -->
 * [_Everything is a Remix_ - Kirby Ferguson](https://www.youtube.com/watch?v=HhMar_eYnNY), 2021
 
@@ -345,6 +355,12 @@ _Shantell Martin_ <!-- .element: class="attribution" -->
 </div>
 
 Notes:
+The most important lesson being, the fundamental action of establishing that all collaborators, essentially, come together with a goal to answer similar questions. The collaboration is a joint effort towards a similar goal. Getting to that goal requires that your creative moral standards are in alignment and that you share similar ideals when it comes to artist rights and ownership.
+
+...Unfortunately, when all was said and done, my collaborator on this project tried to use this project as an example for the rights of AI and move the needle further away from the Artist.
+
+...These tools can be powerful, but we need to make sure that the intentions and purpose behind these tools always remain as a source of support vs a potential way in which artists and their work is further exploited.
+
 ### Credits
 * https://magazine.art21.org/2017/07/06/machine-drawing-shantell-martin-and-the-algorist/
 
@@ -681,7 +697,7 @@ Derrick Schultz also considers some of his work to be in the psychedelic space. 
 
 </div>
 
-Press right to continue when ready <!-- .element: class="reminder quote fadeout" -->
+Press right to continue when ready <!-- .element: class="reminder quote fadeout no-print" -->
 
 Notes:
 ### Credits <!-- .element: class="attribution" -->

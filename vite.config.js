@@ -27,6 +27,7 @@ export default defineConfig({
         data_companion: resolve(__dirname, 'data_in_practice/companion.html'),
         ml_art: resolve(__dirname, 'ml_art/index.html'),
         about: resolve(__dirname, 'about/index.html'),
+        text_versions: resolve(__dirname, 'text_versions/index.html'),
       }
     }
   },

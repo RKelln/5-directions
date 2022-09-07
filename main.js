@@ -22,12 +22,18 @@ import {vtt_parser} from './vtt.js';
 export const deck = new Reveal();
 let paused = false;
 
+let plugins = [Notes, Markdown];
+
+if (!isPrintLayout()) {
+  plugins = plugins.concat([ Search, AudioSlideshow ]);
+}
+
 deck.initialize({
   hash: true,
   navigationMode: 'linear', // removes up down arrows
 
   // Learn about plugins: https://revealjs.com/plugins/
-  plugins: [ Notes, Markdown, Search, AudioSlideshow ],
+  plugins: plugins,
 
   // turn off scaling and centering
   //disableLayout: true,
@@ -81,7 +87,7 @@ deck.initialize({
   if (isPrintLayout()) {
     deck.configure({
         viewDistance: 100000, // preload everything
-
+        
         // PDF export configuration
         showNotes: true, //'separate-page', // print notes on a separate page, after the slide
         pdfMaxPagesPerSlide: 1,
@@ -129,26 +135,44 @@ deck.initialize({
 
         if (notes == null) return;
 
-        let top = (page.getBoundingClientRect().height - (page.getBoundingClientRect().height * scale)) / 2.0;
-
+        let top = Math.floor((page.getBoundingClientRect().height - (page.getBoundingClientRect().height * scale)) / 2.0);
+        //console.log(page, page.getBoundingClientRect().height, top);
         background.style.transform = "scale("+scale+")";
         background.style.transformOrigin = "center left";
 
-        if (content.style.top == '') {
+        if (content.style.top == '' ) {
           content.style.top = top + 'px';
         } else {
-          content.style.top = top + parseFloat(content.style.top) * scale + 'px'; //120
+          //console.log(content, content.getBoundingClientRect().height, content.style.height, content.style.top, top);
+          /*
+          if (content.style.height) {
+            content.style.top = Math.floor((page.getBoundingClientRect().height - (content.style.height * scale)) / 2.0) + 'px';
+          } else {
+            content.style.top = Math.floor((page.getBoundingClientRect().height - (content.getBoundingClientRect().height * scale)) / 2.0) + 'px';
+            // RK: alternate with some issues
+            //content.style.top = top + Math.floor(parseFloat(content.style.top) * scale) + 'px';
+          }
+          */
+          // RK: alternate way, worked best
+          let content_top = Math.ceil((page.getBoundingClientRect().height - content.getBoundingClientRect().height) / 2.0);
+          content.style.top = top + content_top * scale + 'px';
         }
         content.style.left = '0px';
-        content.style.width = page.getBoundingClientRect().width * scale + 'px';
+        content.style.width = Math.floor(page.getBoundingClientRect().width * scale) + 'px';
+        // RK: setting height generally seemed to mak things worse
+        //content.style.height = page.getBoundingClientRect().height * scale + 'px';
         content.style.fontSize = 100 * scale + '%';
 
-        content.querySelectorAll( 'video, img' ).forEach( element => {
+        content.querySelectorAll( 'section > video, section > img' ).forEach( element => {
           if (parseFloat(element.style.height) > 0) {
-            element.style.height = parseFloat(element.style.height) * scale + 'px';
-            element.style.width = parseFloat(element.style.width) * scale + 'px';;
+            element.style.height = Math.floor(parseFloat(element.style.height) * scale) + 'px';
+            element.style.width = Math.floor(parseFloat(element.style.width) * scale) + 'px';;
           } else {
-            element.style.transform = "scale("+scale+")";
+            // RK: some image and svgs have issues, set their width and height to the original size in the markdown
+            if (element.width && element.height) {
+              element.width = Math.floor(element.width * scale);
+              element.height = Math.floor(element.height * scale);
+            }
           }
         });
 
@@ -162,8 +186,8 @@ deck.initialize({
         // recalc r-stretch (FIXME: needs to be recalculated, but doesn't work)
         content.querySelectorAll( '.r-stretch' ).forEach( element => {
           if (parseFloat(element.style.height) > 0) {
-            element.style.height = parseFloat(element.style.height) * scale + 'px';
-            element.style.width = parseFloat(element.style.width) * scale + 'px';;
+            element.style.height = Math.floor(parseFloat(element.style.height) * scale) + 'px';
+            element.style.width = Math.floor(parseFloat(element.style.width) * scale) + 'px';;
           }
         });
 
@@ -172,7 +196,7 @@ deck.initialize({
 
       }); // each pdf page
       
-    }, 250 ); // delay
+    }, 500 ); // delay
   }
 });
 
@@ -183,18 +207,6 @@ const resizeToFit = (element) => {
     resizeToFit(element);
   }
 }
-
-// deck.on('slidetransitionend', event => {
-//   console.log("on slidetransitionend");
-//   if (isPrintLayout()) {
-//     console.log("ready print");
-//     // remove the built-in element style (sigh)
-//     document.querySelectorAll('.reveal .speaker-notes-pdf').forEach( (element) => {
-//       element.removeAttribute('style');
-//       console.log("removed style from", element);
-//     });
-//   }
-// });
 
 deck.addKeyBinding( { keyCode: 32, key: ' ', description: 'Pause/resume' }, (event) => {
   // two functionalities: if no audio playing then advance the slide
@@ -326,19 +338,20 @@ deck.on( 'slidechanged', event => {
     item.style.animation = '12s linear forwards titleSplash';
   });
 
+  // RK: currently causing some issues with narrated (audio) slides:
   // handle video restart and pause on start of slide
-  const [background_video, video, audio] = getMedia();
-  // restart video
-  if (background_video) {
-    background_video.currentTime = 0;
-    if (audio) { background_video.pause(); }
-    else { background_video.play(); } // note: this contradicts 'autoPlayMedia: false' option
-  }
-  if (video) {
-    video.currentTime = 0;
-    if (audio) { video.pause(); }
-    else { video.play(); }
-  }
+  // const [background_video, video, audio] = getMedia();
+  // // restart video
+  // if (background_video) {
+  //   background_video.currentTime = 0;
+  //   if (audio) { background_video.pause(); }
+  //   else { background_video.play(); } // note: this contradicts 'autoPlayMedia: false' option
+  // }
+  // if (video) {
+  //   video.currentTime = 0;
+  //   if (audio) { video.pause(); }
+  //   else { video.play(); }
+  // }
 
   // event.previousSlide, event.currentSlide, event.indexh, event.indexv
   handleAttribution(event.currentSlide);
@@ -355,7 +368,7 @@ deck.on( 'slidechanged', event => {
 
 
 // HACK: FIXME: to allow for using the pause button on the audio player and not
-// restarting the video when starting an audio fragent we watch the stopplayback event
+// restarting the video when starting an audio fragment we watch the stopplayback event
 // and pause the background video if it exists
 document.addEventListener('stopplayback', function(e) {
   //console.log("stopplayback", paused, e.detail, e);

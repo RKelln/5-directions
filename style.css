@@ -236,7 +236,7 @@
 }
 
 .reveal .small-print {
-  font-size: 8pt;
+  font-size: 0.4em;
 }
 
 .reveal .light-text {
@@ -444,115 +444,117 @@
   top: 0;
 }
 
-/* Ken Burns-like effects */
-.slide-background.present.zoomout div.slide-background-content {
-  /*
-  background-attachment:fixed;
-  background-size: cover;
-  background-position:center;
-  width: 100%;
-  height: 100%;
-  background-position-x: 50%;
-  background-position-y: 0%;
-  z-index: -1;*/
-  /* animation: 50s linear 0s normal none infinite running zoomout; */
-  animation: 80s linear 0s forwards zoomout;
-}
+@media screen {
+    
+  /* Ken Burns-like effects */
+  .slide-background.present.zoomout div.slide-background-content {
+    /*
+    background-attachment:fixed;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    z-index: -1;*/
+    /* animation: 50s linear 0s normal none infinite running zoomout; */
+    animation: 80s linear 0s forwards zoomout;
+  }
 
-.slide-background.present.zoomout-left div.slide-background-content {
-  animation: 80s linear 0s forwards zoomoutleft;
-}
+  .slide-background.present.zoomout-left div.slide-background-content {
+    animation: 80s linear 0s forwards zoomoutleft;
+  }
 
-.slide-background.present.zoomout-right div.slide-background-content {
-  animation: 80s linear 0s forwards zoomoutright;
-}
+  .slide-background.present.zoomout-right div.slide-background-content {
+    animation: 80s linear 0s forwards zoomoutright;
+  }
 
-.slide-background.present.zoomin div.slide-background-content {
-  animation: 80s linear 0s forwards zoomin;
-}
+  .slide-background.present.zoomin div.slide-background-content {
+    animation: 80s linear 0s forwards zoomin;
+  }
 
-.slide-background.present.zoomin-left div.slide-background-content {
-  animation: 80s linear 0s forwards zoominleft;
-}
+  .slide-background.present.zoomin-left div.slide-background-content {
+    animation: 80s linear 0s forwards zoominleft;
+  }
 
-.slide-background.present.zoomin-right div.slide-background-content {
-  animation: 80s linear 0s forwards zoominright;
-}
+  .slide-background.present.zoomin-right div.slide-background-content {
+    animation: 80s linear 0s forwards zoominright;
+  }
 
-.slide-background.present.pandown div.slide-background-content {
-  height: 200%;
-  background-position: top;
-  animation: 80s linear 0s forwards pandown;
-}
+  .slide-background.present.pandown div.slide-background-content {
+    height: 200%;
+    background-position: top;
+    animation: 80s linear 0s forwards pandown;
+  }
 
-.slide-background.present.panup div.slide-background-content {
-  height: 200%;
-  background-position: center bottom;
-  animation: 80s linear 0s forwards panup;
-}
+  .slide-background.present.panup div.slide-background-content {
+    height: 200%;
+    background-position: center bottom;
+    animation: 80s linear 0s forwards panup;
+  }
 
-.slide-background.present.panleft div.slide-background-content {
-  animation: 80s linear 0s forwards panleft;
-}
+  .slide-background.present.panleft div.slide-background-content {
+    animation: 80s linear 0s forwards panleft;
+  }
 
-.slide-background.present.panright div.slide-background-content {
-  animation: 80s linear 0s forwards panright;
-}
+  .slide-background.present.panright div.slide-background-content {
+    animation: 80s linear 0s forwards panright;
+  }
 
-.reveal.movement-paused .slide-background.present div.slide-background-content {
-  animation-play-state: paused;
-}
+  .reveal.movement-paused .slide-background.present div.slide-background-content {
+    animation-play-state: paused;
+  }
 
-@keyframes zoomout {
-  from { transform: scale(1.33, 1.33) }
-  to { transform: scale(1, 1) }
-}
+  @keyframes zoomout {
+    from { transform: scale(1.33, 1.33) }
+    to { transform: scale(1, 1) }
+  }
 
-@keyframes zoomin {
-  from { transform: scale(1, 1) }
-  to { transform: scale(1.33, 1.33)  }
-}
+  @keyframes zoomin {
+    from { transform: scale(1, 1) }
+    to { transform: scale(1.33, 1.33)  }
+  }
 
-@keyframes zoomoutleft {
-  from { transform: scale(1.33, 1.33) translateX(10%) }
-  to { transform: scale(1, 1)  }
-}
+  @keyframes zoomoutleft {
+    from { transform: scale(1.33, 1.33) translateX(10%) }
+    to { transform: scale(1, 1)  }
+  }
 
-@keyframes zoomoutright {
-  from { transform: scale(1.33, 1.33) translateX(-10%) }
-  to { transform: scale(1, 1)  }
-}
+  @keyframes zoomoutright {
+    from { transform: scale(1.33, 1.33) translateX(-10%) }
+    to { transform: scale(1, 1)  }
+  }
 
-@keyframes zoominleft {
-  from { transform: scale(1, 1) }
-  to { transform: scale(1.33, 1.33) translateX(10%) }
-}
+  @keyframes zoominleft {
+    from { transform: scale(1, 1) }
+    to { transform: scale(1.33, 1.33) translateX(10%) }
+  }
 
-@keyframes zoominright {
-  from { transform: scale(1, 1) }
-  to { transform: scale(1.33, 1.33) translateX(-10%) }
-}
+  @keyframes zoominright {
+    from { transform: scale(1, 1) }
+    to { transform: scale(1.33, 1.33) translateX(-10%) }
+  }
 
-@keyframes pandown {
-  from { transform: translateY(0%) }
-  to { transform: translateY(-50%) }
-}
+  @keyframes pandown {
+    from { transform: translateY(0%) }
+    to { transform: translateY(-50%) }
+  }
 
-@keyframes panup {
-  from { transform: translateY(-50%) }
-  to { transform: translateY(0%) }
-}
+  @keyframes panup {
+    from { transform: translateY(-50%) }
+    to { transform: translateY(0%) }
+  }
 
-@keyframes panleft {
-  from { background-position: 0% 50%; }
-  to { background-position: 100% 50%; }
-}
+  @keyframes panleft {
+    from { background-position: 0% 50%; }
+    to { background-position: 100% 50%; }
+  }
 
-@keyframes panright {
-  from { background-position: 100% 50%; }
-  to { background-position: 0% 50%; }
+  @keyframes panright {
+    from { background-position: 100% 50%; }
+    to { background-position: 0% 50%; }
+  }
 }
-
 .slide-background.present.deblur div.slide-background-content {
   filter: blur(10px) saturate(60%);
   animation: 3s linear 4s forwards deblur;
@@ -635,22 +637,16 @@ div.artist.r-stretch > ul, div.artist.r-stretch > h3 {
 
 /* PDF styles */
 
+
+html.print-pdf {
+  --pdf-scale: 0.7; /* must be set to the same value in main.js */
+  /*--pdf-slide-height: calc(var(--pdf-scale) * 1px * var(--slide-height));*/
+  --pdf-slide-height: 522px;
+}
+
 html.print-pdf .reveal .speaker-notes::before {
   display: none;
 }
-
-/*
-html.print-pdf .reveal .slide-background {
-  transform-origin: center left;
-  transform: scale(0.68);
-}
-*/
-
-/*
-html.print-pdf .reveal .slides section {
-  width: 870px;
-}
-*/
 
 /* Display slide speaker notes when 'showNotes' is enabled */
 html.print-pdf .reveal .speaker-notes-pdf {
@@ -665,6 +661,11 @@ html.print-pdf .reveal .speaker-notes-pdf {
   
   flex-direction: column;
   justify-content : center;
+  
+
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .html.print-pdf .reveal .slide-background {
@@ -676,6 +677,96 @@ html.print-pdf .reveal .r-fit-text {
   white-space: normal;
 }
 
+html.print-pdf .reveal .no-print {
+  display: none !important;
+}
+
+html.print-pdf .reveal [data-state="history"] {
+  text-align: left;
+  margin-left: 1em;
+}
+
+html.print-pdf .reveal [data-state="history"] > * {
+  margin-left: 1rem;
+}
+
+/* past present future PDF */
+
+/* RK: ended up worse than other options
+html.print-pdf .reveal [data-state="history"] > p, 
+html.print-pdf .reveal [data-state="history"] > div,
+html.print-pdf .reveal [data-state="history"] > ol,
+html.print-pdf .reveal [data-state="history"] > li {
+  font-size: 70%;
+  display: block;
+  text-align: left;
+  border-radius: 0.2rem;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px) brightness(60%);
+  width: 36rem;
+  padding: 1rem;
+  margin: 0 0 0 1rem;
+}
+
+html.print-pdf .reveal [data-state="history"] > ol,
+html.print-pdf .reveal [data-state="history"] > li {
+  padding-left: 2rem;
+  padding-right: 0;
+}
+
+html.print-pdf .reveal [data-state="history"] > p a {
+  filter: brightness(140%);
+  font-weight: bold;
+}
+*/
+
+html.print-pdf .reveal section[data-state="history"] {
+  height: var(--pdf-slide-height);
+}
+
+html.print-pdf .reveal [data-state="history"] > p, 
+html.print-pdf .reveal [data-state="history"] > div,
+html.print-pdf .reveal [data-state="history"] > ol,
+html.print-pdf .reveal [data-state="history"] > li {
+  display: none !important;
+}
+
+
+html.print-pdf .reveal [data-state="history"] > h2 {
+  position: absolute;
+  top: -140px; /* HACK: not based anything but eye-balling */
+  right: 1rem;
+  font-size: var(--r-heading3-size);
+}
+html.print-pdf .reveal [data-state="history"] > h2:first-of-type {
+  position: absolute;
+  left: 0;
+}
+html.print-pdf .reveal [data-state="history"] > h3 {
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+}
+
+/* ML art PDF */
+
+html.print-pdf .reveal section.art-category > *  {
+  margin-left: 1rem;
+}
+
+html.print-pdf .reveal .art-category h2, .reveal .art-category h3 {
+  position: absolute;
+  text-align: left;
+  top: -1.35em;
+}
+
+html.print-pdf .reveal .art-category .artist {
+  position: initial;
+  width: 100%;
+}
+
+/* PDF speaker notes */
+
 html.print-pdf .reveal .speaker-notes-pdf * {
   margin-left: 0;
   margin-right: 0;
@@ -684,8 +775,20 @@ html.print-pdf .reveal .speaker-notes-pdf * {
   color: black !important;
 }
 
+html.print-pdf .reveal .speaker-notes-pdf ul, html.print-pdf .reveal .speaker-notes-pdf ol {
+  margin-left: 2em;
+}
+
 html.print-pdf .reveal .speaker-notes-pdf p {
   margin-bottom: 0; /* save some space */
+}
+
+html.print-pdf .reveal .speaker-notes-pdf p:first-of-type {
+  margin-top: auto;
+}
+
+html.print-pdf .reveal .speaker-notes-pdf p:last-of-type {
+  margin-bottom: auto;
 }
 
 html.print-pdf .reveal .speaker-notes-pdf a {
@@ -697,7 +800,27 @@ html.print-pdf .reveal .speaker-notes-pdf h3 {
   margin: 0.8em 0 0.2em 0;
 }
 
+html.print-pdf .reveal .speaker-notes-pdf h3:first-of-type {
+  margin-top: auto;
+}
+
 /* disable animations in print */
+
+html.print-pdf .reveal .dynamic-text {
+  display: none;
+}
+
+html.print-pdf .reveal {
+  animation: none !important;
+  /*transition: none !important; */
+}
+
+html.print-pdf .slide-background.present.pandown div.slide-background-content,
+html.print-pdf .slide-background.present.panup div.slide-background-content {
+  height: 120%;
+  background-position: center;
+  animation: none;
+}
 
 html.print-pdf .reveal .fadeout, html.print-pdf .reveal .deblur {
   opacity: 1 !important;

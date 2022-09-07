@@ -30,6 +30,9 @@ We'll wrap up with how making intelligence digital gives it the strange properti
 
 Let's begin!
 
+### Credits
+* [Co(AI)xistence, Justine Emard](https://www.youtube.com/watch?v=vcdUTEpSV1s)
+
 ---
 # Digital
 <!-- .slide: id="digital" data-audio-src="../audio/foundations/03a.ogg" data-background-video="../video/digital - analog - 720.mp4" data-background-video-muted -->
@@ -41,7 +44,8 @@ Our understanding of what digital really is has also been clouded by powerful ec
 So at its lowest level a digital signal is still analog. Being analog it is subject to noise - it has minute fluctuations - it is a messy or noisy signal.
 
 ### Credits
-* [Co(AI)xistence, Justine Emard](https://www.youtube.com/watch?v=vcdUTEpSV1s)
+* [Video by Pressmaster from Pexels](https://www.pexels.com/video/digital-calculation-of-geometrical-space-3141211/)
+* [Video by Luis Quintero from Pexels](https://www.pexels.com/video/abstract-video-4990321/)
 
 
 <!-- .slide: data-audio-src="../audio/foundations/03b.ogg" data-background-image="../images/digital-signal-noise.svg" data-audio-advance="1500" --> 
@@ -49,8 +53,7 @@ Notes:
 The blue line in the image represents this signal. You can see it alternating between a 1 and a 0, the two digital values, but it is still is affected by noise - those squiggly bits. But a digital signal is designed to overcome this noise, not to let it affect the signal. 
 
 ### Credits
-* [Video by Pressmaster from Pexels](https://www.pexels.com/video/digital-calculation-of-geometrical-space-3141211/)
-* [Video by Luis Quintero from Pexels](https://www.pexels.com/video/abstract-video-4990321/)
+* https://en.wikipedia.org/wiki/Digital_signal#/media/File:Digital-signal-noise.svg
 
 ---
 <!-- .slide: data-audio-src="../audio/foundations/04a.ogg" data-background-video="../video/zoom_microchip.mp4" data-background-video-muted data-background-opacity="0.4" -->
@@ -184,7 +187,7 @@ The other important concept to understand is that of an "algorithm". That's a fu
 ### Credits <!-- .element: class="attribution" -->
 * [Al-Khwarizmi - Father of Algebra](https://www.youtube.com/watch?v=CaLOYlvbF9s)
   
-### Credits
+### References
 * [Three Thousand Years of Algorithmic Rituals: The Emergence of AI from the Computation of Space](http://matteopasquinelli.com/3000-years-of-algorithmic-rituals/)
 * [The Weird Truth About Arabic Numerals](https://www.youtube.com/watch?v=Ar7CNsJUm58)
 
@@ -423,6 +426,7 @@ Let's take a step back, now that we understand the incredible power of digital t
 1. Who decides what, and how, things get made?
 2. Who gets to make it?
 3. Who gets access to what has been made?
+
 Those questions have had, and will continue to have, a profound effect on my life. My favourite pithy answer to all three questions is "everyone and anyone", but that is really just a guiding principle and it is actually the specific details that are important. I believe that digital things need different answers than physical things, or more correctly, "digitalness" makes it much easier to make those answers more inclusive; to make every aspect more accessible and democratic.
 
 ### Credits
