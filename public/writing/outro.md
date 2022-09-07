@@ -1,4 +1,7 @@
-<!-- .slide: id="sources" class="small" data-audio-src="../audio/intro/01_outro.ogg" data-background-video="../video/Algonquin Park Stars Timelapse-1gwwgR7oNb4.mp4"   data-background-opacity="0.7"-->
+<!-- .slide: id="sources" data-audio-src="../audio/intro/01_outro.ogg" data-background-video="../video/Algonquin Park Stars Timelapse-1gwwgR7oNb4.mp4"   data-background-opacity="0.7"-->
+
+<div class="small">
+
 ### Sources
 
 **https://github.com/RKelln/5-directions** <!-- .element: class="lighten" -->
@@ -7,7 +10,7 @@
 <div class="nobullet center lighten">
 
 * Laura, Jason, Kristy, Liz, and the [Harbour Collective](https://harbourcollective.ca/)
-* [InterAccess](interaccess.org/), OCADU, and the Canada Council for the Arts
+* [InterAccess](https://interaccess.org/), [OCADU](https://www.ocadu.ca/), and the [Canada Council for the Arts](https://canadacouncil.ca/)
 * The Diagonal AI Reading group
 * All the <a title="Thank you Laura, Giuliana, Lucas, Cameron, Eric, Liz, Dallas, Rinat, Rod, Graham and Jason">beta testers</a>
 
@@ -24,16 +27,18 @@
 </div>
 
 <div style="position: absolute; bottom: 10px; right: 0; width: 25%">
-    <img data-src="../images/Interaccess_logo.png" style="max-width: 4em; margin: 1em 2em;">
-    <img data-src="../images/OCADU_logo.png" style="max-width: 4em; margin: 1em 2em;" >
-    <img data-src="../images/CCA_RGB_white_f.png" >
+    <a href="https://interaccess.org/"><img data-src="../images/Interaccess_logo.png" style="max-width: 4em; margin: 1em 2em;"></a>
+    <a href="https://www.ocadu.ca/"><img data-src="../images/OCADU_logo.png" style="max-width: 4em; margin: 1em 2em;" ></a>
+    <a href="https://canadacouncil.ca/"><img data-src="../images/CCA_RGB_white_f.png"></a>
+</div>
+
 </div>
 
 <div class="small-print license" style="position: absolute; bottom: 10px; left: 0; width: 25%">
 
-<img data-src="../images/cc-by-sa.svg">
+<a href="https://creativecommons.org/licenses/by-sa/4.0/"><img data-src="../images/cc-by-sa.svg"></a>
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
     
 </div>
 
